@@ -50,6 +50,9 @@
       background: var(--panel); border: 1px solid var(--line);
       border-radius: 999px; padding: 6px 12px; color: var(--muted); font-size: 0.85rem;
     }
+    .filters { display: inline-flex; gap: 10px; align-items: center; }
+    .check { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+    .check input { accent-color: var(--accent); }
     table {
       width: 100%; border-collapse: collapse; background: var(--panel);
       border-radius: 14px; overflow: hidden; border: 1px solid var(--line);
@@ -86,6 +89,11 @@
     <div class="toolbar">
       <label class="pill" for="month">เดือน</label>
       <span class="month-picker"><select id="month" aria-label="เลือกเดือน"></select></span>
+      <span class="pill">Platform</span>
+      <span class="filters">
+        <label class="check"><input id="ios-filter" type="checkbox" value="ios" checked /> iOS</label>
+        <label class="check"><input id="android-filter" type="checkbox" value="android" checked /> Android</label>
+      </span>
       <input id="q" type="search" placeholder="ค้นชื่อ…" />
       <span class="pill" id="meta">loading…</span>
     </div>
@@ -122,7 +130,15 @@
       const tbody = document.getElementById("rows");
       tbody.innerHTML = "";
       const needle = filter.trim().toLowerCase();
-      const rows = (report.rows || []).filter(r => !needle || r.name.toLowerCase().includes(needle));
+      const platforms = [...document.querySelectorAll(".filters input:checked")].map(input => input.value);
+      const rows = (report.rows || []).filter(r => {
+        const matchesText = !needle || r.name.toLowerCase().includes(needle);
+        const matchesPlatform = !platforms.length || platforms.some(platform =>
+          platform === "ios" ? (r.tickets_ios || 0) + (r.prs_ios || 0) > 0 :
+          (r.tickets_android || 0) + (r.prs_android || 0) > 0
+        );
+        return matchesText && matchesPlatform;
+      });
       rows.sort((a, b) => {
         const av = sortKey === "tickets_other" ? (a.tickets_unknown || 0) + (a.tickets_both || 0) : a[sortKey];
         const bv = sortKey === "tickets_other" ? (b.tickets_unknown || 0) + (b.tickets_both || 0) : b[sortKey];
@@ -215,6 +231,7 @@
       monthSelect.innerHTML = months.map(m => `<option value="${escapeHtml(m.file)}">${escapeHtml(m.label)}</option>`).join("");
       monthSelect.addEventListener("change", e => loadReport(e.target.value));
       document.getElementById("q").addEventListener("input", e => renderRows(e.target.value));
+      document.querySelectorAll(".filters input").forEach(input => input.addEventListener("change", () => renderRows(document.getElementById("q").value)));
       await loadReport(months[0].file);
       document.querySelectorAll("th.sortable").forEach(th => th.addEventListener("click", () => {
         const key = th.dataset.key;
