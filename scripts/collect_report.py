@@ -135,15 +135,18 @@ def aggregate_tickets(
 
 def aggregate_prs(
     bb: BitbucketClient,
+    month: str,
     repos: dict[str, str],
     exclude_names: set[str],
+    board_members: set[str],
     pages_per_repo: int,
 ) -> dict[str, Counter]:
-    raw = bb.count_merged_authors(repos, pages_per_repo=pages_per_repo)
+    start, end = month_bounds(month)
+    raw = bb.count_merged_authors(repos, start=start, end=end, pages_per_repo=pages_per_repo)
     exclude_norm = {normalize_name(n) for n in exclude_names}
     out: dict[str, Counter] = defaultdict(Counter)
     for name, counter in raw.items():
-        if matches_name(name, exclude_names):
+        if matches_name(name, exclude_names) or not matches_name(name, board_members):
             continue
         out[name]["prs_ios"] = counter.get("iOS", 0)
         out[name]["prs_android"] = counter.get("Android", 0)
@@ -198,6 +201,7 @@ def main() -> int:
 
     qa_names = set(load_json(ROOT / "config" / "qa_names.json"))
     exclude_names = set(load_json(ROOT / "config" / "exclude_names.json")) | qa_names
+    board_members = set(load_json(ROOT / "config" / "board_members.json"))
     repos = load_json(ROOT / "config" / "repos.json")["repos"]
 
     ticket_counts: dict[str, Counter] = defaultdict(Counter)
@@ -217,7 +221,7 @@ def main() -> int:
             payload = load_json(args.prs_from)
             for person in payload.get("people") or []:
                 name = person.get("name") or ""
-                if matches_name(name, exclude_names):
+                if matches_name(name, exclude_names) or not matches_name(name, board_members):
                     continue
                 pr_counts[name]["prs_ios"] = int(person.get("ios_prs") or 0)
                 pr_counts[name]["prs_android"] = int(person.get("android_prs") or 0)
@@ -225,7 +229,7 @@ def main() -> int:
         else:
             print("Fetching Bitbucket merged PRs across 9 repos…")
             bb = BitbucketClient()
-            pr_counts = aggregate_prs(bb, repos, exclude_names, args.pr_pages)
+            pr_counts = aggregate_prs(bb, args.month, repos, exclude_names, board_members, args.pr_pages)
 
     rows = merge_rows(ticket_counts, pr_counts)
     report = {

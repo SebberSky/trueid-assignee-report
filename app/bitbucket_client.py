@@ -32,6 +32,8 @@ class BitbucketClient:
     def count_merged_authors(
         self,
         repos: dict[str, str],
+        start: str | None = None,
+        end: str | None = None,
         pages_per_repo: int = 40,
         pagelen: int = 50,
     ) -> dict[str, Counter]:
@@ -40,9 +42,12 @@ class BitbucketClient:
         for repo, platform in repos.items():
             page = 1
             while page <= pages_per_repo:
+                date_filter = ""
+                if start and end:
+                    date_filter = f' AND updated_on >= "{start}" AND updated_on < "{end}"'
                 q = urllib.parse.urlencode(
                     {
-                        "state": "MERGED",
+                        "q": f'state = "MERGED"{date_filter}',
                         "pagelen": pagelen,
                         "page": page,
                         "fields": "values.author.display_name,size,next",

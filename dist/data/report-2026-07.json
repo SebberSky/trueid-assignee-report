@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T09:59:21.677368+00:00",
+  "generated_at": "2026-10-22T10:22:52.866687+00:00",
   "month": "2026-07",
   "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
@@ -9,8 +9,8 @@
       "tickets_android": 4,
       "tickets_unknown": 75,
       "tickets_both": 0,
-      "prs_ios": 23,
-      "prs_android": 176,
+      "prs_ios": 0,
+      "prs_android": 33,
       "prs_mobile": 0
     },
     {
@@ -19,7 +19,7 @@
       "tickets_android": 0,
       "tickets_unknown": 36,
       "tickets_both": 0,
-      "prs_ios": 71,
+      "prs_ios": 28,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -29,7 +29,7 @@
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 161,
+      "prs_ios": 30,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -40,7 +40,7 @@
       "tickets_unknown": 11,
       "tickets_both": 0,
       "prs_ios": 0,
-      "prs_android": 52,
+      "prs_android": 11,
       "prs_mobile": 0
     },
     {
@@ -50,7 +50,7 @@
       "tickets_unknown": 15,
       "tickets_both": 0,
       "prs_ios": 0,
-      "prs_android": 71,
+      "prs_android": 12,
       "prs_mobile": 0
     },
     {
@@ -59,7 +59,7 @@
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 73,
+      "prs_ios": 14,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -69,8 +69,8 @@
       "tickets_android": 14,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 8,
-      "prs_android": 50,
+      "prs_ios": 0,
+      "prs_android": 4,
       "prs_mobile": 0
     },
     {
@@ -79,7 +79,7 @@
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 107,
+      "prs_ios": 14,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -90,17 +90,7 @@
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
-      "prs_android": 105,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Wachirawit (MossiTo) (Discovery)",
-      "tickets_ios": 0,
-      "tickets_android": 12,
-      "tickets_unknown": 1,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 115,
+      "prs_android": 15,
       "prs_mobile": 0
     },
     {
@@ -110,7 +100,17 @@
       "tickets_unknown": 7,
       "tickets_both": 0,
       "prs_ios": 0,
-      "prs_android": 71,
+      "prs_android": 14,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Wachirawit (MossiTo) (Discovery)",
+      "tickets_ios": 0,
+      "tickets_android": 12,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 13,
       "prs_mobile": 0
     },
     {
@@ -119,7 +119,7 @@
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 123,
+      "prs_ios": 13,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -129,7 +129,7 @@
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 97,
+      "prs_ios": 7,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -140,7 +140,7 @@
       "tickets_unknown": 1,
       "tickets_both": 0,
       "prs_ios": 0,
-      "prs_android": 233,
+      "prs_android": 18,
       "prs_mobile": 0
     },
     {
@@ -159,7 +159,7 @@
       "tickets_android": 0,
       "tickets_unknown": 5,
       "tickets_both": 0,
-      "prs_ios": 191,
+      "prs_ios": 14,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -169,8 +169,8 @@
       "tickets_android": 9,
       "tickets_unknown": 1,
       "tickets_both": 0,
-      "prs_ios": 42,
-      "prs_android": 137,
+      "prs_ios": 2,
+      "prs_android": 9,
       "prs_mobile": 1
     },
     {
@@ -180,7 +180,7 @@
       "tickets_unknown": 5,
       "tickets_both": 0,
       "prs_ios": 0,
-      "prs_android": 40,
+      "prs_android": 11,
       "prs_mobile": 0
     },
     {
@@ -189,7 +189,7 @@
       "tickets_android": 0,
       "tickets_unknown": 1,
       "tickets_both": 0,
-      "prs_ios": 123,
+      "prs_ios": 12,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -199,8 +199,8 @@
       "tickets_android": 7,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 2,
-      "prs_android": 127,
+      "prs_ios": 0,
+      "prs_android": 11,
       "prs_mobile": 0
     },
     {
@@ -210,7 +210,7 @@
       "tickets_unknown": 1,
       "tickets_both": 0,
       "prs_ios": 0,
-      "prs_android": 69,
+      "prs_android": 7,
       "prs_mobile": 0
     },
     {
@@ -229,8 +229,8 @@
       "tickets_android": 1,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 19,
-      "prs_android": 15,
+      "prs_ios": 4,
+      "prs_android": 1,
       "prs_mobile": 0
     },
     {
@@ -239,7 +239,7 @@
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 95,
+      "prs_ios": 10,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -250,7 +250,7 @@
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
-      "prs_android": 44,
+      "prs_android": 7,
       "prs_mobile": 0
     },
     {
@@ -259,7 +259,7 @@
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 275,
+      "prs_ios": 21,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -270,7 +270,7 @@
       "tickets_unknown": 1,
       "tickets_both": 0,
       "prs_ios": 0,
-      "prs_android": 90,
+      "prs_android": 25,
       "prs_mobile": 0
     },
     {
@@ -280,7 +280,7 @@
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
-      "prs_android": 87,
+      "prs_android": 15,
       "prs_mobile": 0
     },
     {
@@ -304,214 +304,14 @@
       "prs_mobile": 0
     },
     {
-      "name": "Pathiphon Jaiyen",
+      "name": "Kantachat Puagkajee",
       "tickets_ios": 0,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 394,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Phanat Buraphaphichit",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 310,
-      "prs_mobile": 66
-    },
-    {
-      "name": "Pratchaya Suksena",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 373,
-      "prs_android": 1,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Nevin Ruttanaboonta",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 358,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Niracha Boonyanaet",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 354
-    },
-    {
-      "name": "Nuttapon Buaban",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 329,
-      "prs_android": 5,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Akamate Chayapiwat",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 114,
-      "prs_android": 0,
-      "prs_mobile": 177
-    },
-    {
-      "name": "Nattarit",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 276,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Kanjanawit Yanggratoke",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 88,
-      "prs_android": 35,
-      "prs_mobile": 141
-    },
-    {
-      "name": "Nattapat Santiphan",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 256,
-      "prs_mobile": 3
-    },
-    {
-      "name": "Thanakorn Suttiwong",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 138,
-      "prs_mobile": 106
-    },
-    {
-      "name": "Nuttawut (Khun`O) Commerce",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 1,
-      "prs_android": 239,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Phatsawee Puttarukkul",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 229,
+      "prs_ios": 8,
       "prs_android": 0,
       "prs_mobile": 0
-    },
-    {
-      "name": "Damrongdech Haemanee",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 217,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Sakolrat Niratthisaikul",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 204,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Patipat Sahasapanan",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 184,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Jassadakorn (Tony) (Today)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 168,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Poowanat Homruen",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 135,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Chatchai Chen-Aphisart",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 127,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Panuwat (Pum) (Privilege)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 1,
-      "prs_android": 113,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Chitipat Mueanpaopong",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 102
     },
     {
       "name": "Nutthapoom (Big) (Hero)",
@@ -519,397 +319,7 @@
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 102,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "saweena.b",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 102,
-      "prs_mobile": 0
-    },
-    {
-      "name": "teerapat.c",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 89,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Pichamol Phookpun",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 84,
-      "prs_mobile": 0
-    },
-    {
-      "name": "ext.jirawat.chi",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 78,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Kritsada Kongsaming",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 46,
-      "prs_mobile": 30
-    },
-    {
-      "name": "pohnpawit buaban",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 72,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Thanapol Sopanhari",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 53,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Vissanu (NU) (Communicator)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 53,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Wattakamol L.",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 50,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Kantachat Puagkajee",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 49,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Ittipon Kankaew",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 47,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Nattapon Pattanakasetwong",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 44,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Natthanan Gumyan",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 43,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Jakkarin Thongjit",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 40,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Pitchawat Wiangnai",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 40,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Piyabute Chairiboon",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 39
-    },
-    {
-      "name": "supasit suebsunthorn",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 35,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "ext.chawapon.kia",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 32,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "ext.chotikar.pho",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 28,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Thaworn Limwattanachai",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 28
-    },
-    {
-      "name": "ext.nuttanai.sal",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 24,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Jae.Nuttapong",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 24,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Rattapong Paleegui (Ext)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 22,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Waranon Phuket",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 21
-    },
-    {
-      "name": "Nontachai Jaila",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 20,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Aekkawin Anantrakarnkit",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 18,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Merin Phunupha",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 17
-    },
-    {
-      "name": "Methas Tariya",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 15,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Shinnakrit Jirasopon",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 13
-    },
-    {
-      "name": "Rattapong Paleegui",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 8,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Tanapat(Aor)(TODAY)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 5,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Atikom Tancharoen",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 2,
-      "prs_android": 1,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Former user",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 2,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Tanet Pornsirirat",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 2,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Chaiyatat Saipin",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 1,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Peerapong (Dew) Samarnpong",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 1,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Phongsakorn Srikate",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 1,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Sitthiphong (Oat)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 1,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Yanyong (Benz) (Communicator)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 1,
+      "prs_ios": 8,
       "prs_android": 0,
       "prs_mobile": 0
     }
