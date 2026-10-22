@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T09:56:09.766048+00:00",
+  "generated_at": "2026-10-22T09:59:12.887289+00:00",
   "month": "2026-05",
   "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
@@ -201,16 +201,6 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 52,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Sirinard (Bo) Chokmongkolsatian",
-      "tickets_ios": 1,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
       "prs_mobile": 0
     },
     {
@@ -621,16 +611,6 @@
       "tickets_both": 0,
       "prs_ios": 43,
       "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Thanawut (Pek)(Social)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 42,
       "prs_mobile": 0
     },
     {
@@ -1948,7 +1928,7 @@
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Thosapol Sangkasub",
-      "counted": true
+      "counted": false
     },
     {
       "key": "LS-19425",

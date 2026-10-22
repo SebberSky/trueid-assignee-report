@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T09:56:29.781024+00:00",
+  "generated_at": "2026-10-22T09:59:31.396059+00:00",
   "month": "2026-09",
   "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
@@ -284,16 +284,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Kodchakorn (Zigzag) (Livestream/Player)",
-      "tickets_ios": 1,
-      "tickets_android": 4,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
       "name": "Chamnarn Suksai",
       "tickets_ios": 4,
       "tickets_android": 0,
@@ -315,16 +305,6 @@
     },
     {
       "name": "Nutchanon (OH) Hero",
-      "tickets_ios": 1,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Sirinard (Bo) Chokmongkolsatian",
       "tickets_ios": 1,
       "tickets_android": 0,
       "tickets_unknown": 0,
@@ -671,16 +651,6 @@
       "tickets_both": 0,
       "prs_ios": 43,
       "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Thanawut (Pek)(Social)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 42,
       "prs_mobile": 0
     },
     {
@@ -1895,8 +1865,8 @@
       "owner": "Sirinard (Bo) Chokmongkolsatian",
       "platform": "iOS",
       "method": "agree",
-      "note": "",
-      "counted": true
+      "note": "excluded",
+      "counted": false
     },
     {
       "key": "VAL-9034",
@@ -2436,7 +2406,7 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Sarawut (Kai) (Player)",
-      "counted": true
+      "counted": false
     },
     {
       "key": "LS-20163",
@@ -2760,7 +2730,7 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Alongkot Tonprasert",
-      "counted": true
+      "counted": false
     },
     {
       "key": "EXP-16439",
@@ -3012,7 +2982,7 @@
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Kantachat Puagkajee",
-      "counted": true
+      "counted": false
     },
     {
       "key": "LS-19958",
@@ -3156,7 +3126,7 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Nuttarikan Pattanaporn (Ext)",
-      "counted": true
+      "counted": false
     },
     {
       "key": "LS-20006",
@@ -3417,7 +3387,7 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Narawit",
-      "counted": true
+      "counted": false
     },
     {
       "key": "EXP-16492",

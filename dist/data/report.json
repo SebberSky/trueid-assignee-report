@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T09:56:33.175509+00:00",
+  "generated_at": "2026-10-22T09:59:34.820549+00:00",
   "month": "2026-10",
   "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
@@ -294,32 +294,12 @@
       "prs_mobile": 0
     },
     {
-      "name": "Sirinard (Bo) Chokmongkolsatian",
-      "tickets_ios": 1,
-      "tickets_android": 1,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
       "name": "ext.nuttanai.sal",
       "tickets_ios": 1,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 24,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Kodchakorn (Zigzag) (Livestream/Player)",
-      "tickets_ios": 0,
-      "tickets_android": 1,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -681,16 +661,6 @@
       "tickets_both": 0,
       "prs_ios": 43,
       "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Thanawut (Pek)(Social)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 42,
       "prs_mobile": 0
     },
     {
@@ -1626,7 +1596,7 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Suriya Alee",
-      "counted": true
+      "counted": false
     },
     {
       "key": "LS-20322",
@@ -1752,7 +1722,7 @@
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Chamnarn Suksai",
-      "counted": true
+      "counted": false
     },
     {
       "key": "LS-20440",
@@ -1914,7 +1884,7 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Suriya Alee",
-      "counted": true
+      "counted": false
     },
     {
       "key": "LS-20404",

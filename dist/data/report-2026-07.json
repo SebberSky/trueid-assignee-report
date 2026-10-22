@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T09:56:19.464076+00:00",
+  "generated_at": "2026-10-22T09:59:21.677368+00:00",
   "month": "2026-07",
   "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
@@ -281,16 +281,6 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 87,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Kodchakorn (Zigzag) (Livestream/Player)",
-      "tickets_ios": 0,
-      "tickets_android": 1,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
       "prs_mobile": 0
     },
     {
@@ -661,16 +651,6 @@
       "tickets_both": 0,
       "prs_ios": 43,
       "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Thanawut (Pek)(Social)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 42,
       "prs_mobile": 0
     },
     {
@@ -3354,7 +3334,7 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Nuttarikan Pattanaporn (Ext)",
-      "counted": true
+      "counted": false
     },
     {
       "key": "VAL-8653",

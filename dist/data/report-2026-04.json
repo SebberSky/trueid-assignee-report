@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T09:56:07.038332+00:00",
+  "generated_at": "2026-10-22T09:59:10.519275+00:00",
   "month": "2026-04",
   "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
@@ -631,16 +631,6 @@
       "tickets_both": 0,
       "prs_ios": 43,
       "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Thanawut (Pek)(Social)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 42,
       "prs_mobile": 0
     },
     {

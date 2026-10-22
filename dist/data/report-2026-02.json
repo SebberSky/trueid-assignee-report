@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T09:56:01.552713+00:00",
+  "generated_at": "2026-10-22T09:59:06.027217+00:00",
   "month": "2026-02",
   "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
@@ -171,16 +171,6 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 105,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Thanawut (Pek)(Social)",
-      "tickets_ios": 0,
-      "tickets_android": 1,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 42,
       "prs_mobile": 0
     },
     {
@@ -1155,8 +1145,8 @@
       "owner": "Thanawut (Pek)(Social)",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true
+      "note": "excluded",
+      "counted": false
     },
     {
       "key": "VAL-7922",
