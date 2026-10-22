@@ -1,0 +1,3909 @@
+{
+  "generated_at": "2026-10-22T11:13:58.686828+00:00",
+  "month": "2026-01",
+  "project": "SC,IMP,LS,EXP,VAL",
+  "rows": [
+    {
+      "name": "ext.chotikar.pho",
+      "boards": [
+        "IMP"
+      ],
+      "tickets_ios": 20,
+      "tickets_android": 1,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Panuwat Sanglert",
+      "boards": [
+        "IMP"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 20,
+      "tickets_unknown": 2,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Suriya Alee",
+      "boards": [
+        "LS"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 7,
+      "tickets_unknown": 11,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 19,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Phatsawee Puttarukkul",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 17,
+      "tickets_android": 0,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "ext.chawapon.kia",
+      "boards": [
+        "IMP"
+      ],
+      "tickets_ios": 16,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Amnad Koetpon",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 4,
+      "tickets_android": 0,
+      "tickets_unknown": 11,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Chatchai Chen-Aphisart",
+      "boards": [
+        "IMP"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 14,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kirathi Mingsakul",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 9,
+      "tickets_unknown": 4,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 11,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Nuttawut Jaiban",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 4,
+      "tickets_unknown": 9,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Nevin Ruttanaboonta",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 5,
+      "tickets_unknown": 6,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sakolrat Niratthisaikul",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 5,
+      "tickets_android": 0,
+      "tickets_unknown": 6,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Chamnarn Suksai",
+      "boards": [
+        "LS"
+      ],
+      "tickets_ios": 3,
+      "tickets_android": 0,
+      "tickets_unknown": 7,
+      "tickets_both": 0,
+      "prs_ios": 6,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Vissanu Pornsurasaksit",
+      "boards": [
+        "IMP"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 8,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jetarin Taloet (Ext)",
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 8,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 11,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Wachirawit (MossiTo) (Discovery)",
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 7,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 9,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Attapong Jakkrawantanarak",
+      "boards": [
+        "VAL"
+      ],
+      "tickets_ios": 6,
+      "tickets_android": 0,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 5,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Patipat Sahasapanan",
+      "boards": [
+        "IMP"
+      ],
+      "tickets_ios": 7,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thosapol Sangkasub",
+      "boards": [
+        "LS"
+      ],
+      "tickets_ios": 5,
+      "tickets_android": 0,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 10,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jiraporn Praneet",
+      "boards": [
+        "LS"
+      ],
+      "tickets_ios": 6,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 7,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kijja Charuchinda",
+      "boards": [
+        "VAL"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 2,
+      "tickets_unknown": 3,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 5,
+      "prs_mobile": 0
+    },
+    {
+      "name": "ext.nuttanai.sal",
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 5,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 4,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Pawanon Leangthammarat",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 1,
+      "tickets_unknown": 4,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sarawut (Kai) (Player)",
+      "boards": [
+        "LS"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 4,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 6,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thanyaporn Boonyen",
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 4,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 6,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Rattapong Paleegui",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 4,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Todsapon Sangpook",
+      "boards": [
+        "LS"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 2,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 11,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sirinard Chokmongkolsatian",
+      "boards": [
+        "LS"
+      ],
+      "tickets_ios": 2,
+      "tickets_android": 1,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "ext.wirasinee.suw",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 2,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jassadakorn Ketkaew",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 2,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Ruttanachai Auitragool",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 2,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Tanapat Phongubon",
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 2,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Nutthapoom (Big) (Hero)",
+      "boards": [
+        "LS"
+      ],
+      "tickets_ios": 1,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 3,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Nutchanon Viriyaprasart",
+      "boards": [
+        "IMP"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sunchai Pitakchonlasup",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thanawut Ruksinsut",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thotsaphon Maytheetanpongwanit",
+      "boards": [
+        "IMP"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 1,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Wachirawit Chaipuvaphat",
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 1,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Wanthida Jittayanantakul",
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 1,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    }
+  ],
+  "ticket_details": [
+    {
+      "key": "IMP-19341",
+      "board": "IMP",
+      "summary": "[iOS] expire point not show in true point page",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19506",
+      "board": "IMP",
+      "summary": "Testing: [iOS] Add the referral code when clicking merchant in the privilege detail",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "IMP-19222",
+      "board": "IMP",
+      "summary": "[iOS] Add the referral code when clicking merchant in the privilege detail",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18701",
+      "board": "LS",
+      "summary": "[Android] VOD: Top10 vertical shelf migrate api to graphql",
+      "owner": "Todsapon Sangpook",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18698",
+      "board": "LS",
+      "summary": "[iOS] Live TV: Top10 shelf migrate api to graphql",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18714",
+      "board": "LS",
+      "summary": "[Android] Live TV: Top10 shelf migrate api to graphql",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3764",
+      "board": "SC",
+      "summary": "[Android](Creator) My shop : Request shop flow",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8013",
+      "board": "VAL",
+      "summary": "[POC] [iOS E2E] Run Meastro Test on Real Device",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-7990",
+      "board": "VAL",
+      "summary": "[iOS E2E] Run Maestro Test Suite on AWS Test Farm",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-7991",
+      "board": "VAL",
+      "summary": "[Android E2E] Run Maestro Test Suite on AWS Test Farm",
+      "owner": "Kijja Charuchinda",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-7977",
+      "board": "VAL",
+      "summary": "[POC] E2E Testing on AWS Test Farm",
+      "owner": "Kijja Charuchinda",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3907",
+      "board": "SC",
+      "summary": "[Android](Creator App) Register creator flow - Displayed error full page when get API creators/status != 200",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "pre_qa_assignee",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-14813",
+      "board": "EXP",
+      "summary": "[Android] Vivo: Cosmetic",
+      "owner": "Tanapat Phongubon",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3619",
+      "board": "SC",
+      "summary": "Folk Test",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "IMP-18798",
+      "board": "IMP",
+      "summary": "[iOS][POC] Check API Response when Block & Unblock User",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-17429",
+      "board": "LS",
+      "summary": "[Watch][iOS][FA] - when user watch free tv FA tracking event: play_tv_initial, play_tv, pause_tv and unload_tv with parameter play_type = 'preview'",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "LS-18754",
+      "board": "LS",
+      "summary": "[iOS] LFV: UI Like",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19537",
+      "board": "IMP",
+      "summary": "[Android][Testing] [POC] Check API Response when Block & Unblock User",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15062",
+      "board": "EXP",
+      "summary": "[iOS][Today] Force Update - Sent FA event click (link_desc) incorrectly when user click \"update now\" on force update pop up",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-18799",
+      "board": "IMP",
+      "summary": "[Android] [POC] Check API Response when Block & Unblock User",
+      "owner": "Vissanu Pornsurasaksit",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18785",
+      "board": "LS",
+      "summary": "[iOS][RG3.54.0][LFVplayer][continue issue]เวลา back กลับมาที่หน้า LFV เรา มันไม่ resume ให้ ต้องกด play เอง อันนี้เป็นเคสที่ไม่ได้ pase ก่อนกด avatar[PO Accepable]",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-14659",
+      "board": "EXP",
+      "summary": "[Android] Game hub: Game detail > Game trailer",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3626",
+      "board": "SC",
+      "summary": "Folk Test",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "SC-3800",
+      "board": "SC",
+      "summary": "Folk Test",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "LS-18696",
+      "board": "LS",
+      "summary": "[iOS] LFV: Fast forward double tap on player",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18749",
+      "board": "LS",
+      "summary": "[Android] LFV: Fast forward double tap on player",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15056",
+      "board": "EXP",
+      "summary": "[iOS][Today] Game trailer -  The video trailer doesn't loop and the information isn't displayed below the player.",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-17762",
+      "board": "LS",
+      "summary": "[iOS] LFV: Get and Post Like content",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15058",
+      "board": "EXP",
+      "summary": "[iOS][Today] Game trailer - Fallback image not showing when video trailer fails to load.",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-14686",
+      "board": "EXP",
+      "summary": "[iOS] Game hub: Game detail > Game trailer",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3903",
+      "board": "SC",
+      "summary": "[Android](Creator) SDK Upload  - (edge to edge) Doesn't show icon back on Editing SDK while user click submit to upload",
+      "owner": "Rattapong Paleegui",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19517",
+      "board": "IMP",
+      "summary": "[Android] Game hub: Game detail > Game recommendation",
+      "owner": "Thotsaphon Maytheetanpongwanit",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Panuwat Sanglert",
+      "counted": true
+    },
+    {
+      "key": "VAL-8042",
+      "board": "VAL",
+      "summary": "[Android] Regression Test 3.54.0",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "pre_qa_assignee",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "VAL-8043",
+      "board": "VAL",
+      "summary": "[iOS] Regression Test 3.54.0",
+      "owner": "Kittisak Buaphanna",
+      "platform": "iOS",
+      "method": "pre_qa_assignee",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "SC-3577",
+      "board": "SC",
+      "summary": "[iOS](Creator) Create page : Error state",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3751",
+      "board": "SC",
+      "summary": "[iOS](Creator) Local Notification setup",
+      "owner": "Sakolrat Niratthisaikul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3585",
+      "board": "SC",
+      "summary": "[iOS](Creator) Content : Main page / Top nav / call base shelf",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Sakolrat Niratthisaikul",
+      "counted": true
+    },
+    {
+      "key": "SC-3582",
+      "board": "SC",
+      "summary": "[Android](Creator) Editing SDK",
+      "owner": "Nevin Ruttanaboonta",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3753",
+      "board": "SC",
+      "summary": "[QA][iOS](Creator) Content page L1 : API error handle",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3694",
+      "board": "SC",
+      "summary": "[Android](Creator) Create page : deeplink trueidcreator:/short/create implement and register creator flow",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3915",
+      "board": "SC",
+      "summary": "[Android](TrueID) LIVE empty : Hide CTA button",
+      "owner": "Nevin Ruttanaboonta",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3925",
+      "board": "SC",
+      "summary": "Folk Test",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "SC-3927",
+      "board": "SC",
+      "summary": "Folk Test",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "LS-18787",
+      "board": "LS",
+      "summary": "data ที่ graphQL ส่งมามีมากกว่า 10  items  แล้ว App แสดงดาต้าทั้งหมดใน Top 10 shelf",
+      "owner": "Chamnarn Suksai",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18788",
+      "board": "LS",
+      "summary": "badge New/Daily/Weekly/Monthly ที่แสดงใต้ title หายไป",
+      "owner": "Chamnarn Suksai",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18750",
+      "board": "LS",
+      "summary": "[Android] LFV: UI Like",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3796",
+      "board": "SC",
+      "summary": "[Android](Creator) Shop page : Category tab, Empty and error state handle",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3596",
+      "board": "SC",
+      "summary": "[iOS](Creator) Create : My shop page action when creator tap my shop button",
+      "owner": "Jassadakorn Ketkaew",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15073",
+      "board": "EXP",
+      "summary": "[iOS] Game hub: Game detail > Add count view to CMS",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19550",
+      "board": "IMP",
+      "summary": "[Test] [Android] Change API 4/10 (2) - SLP > Redeem TrueMoney Success (Exclude Error Case)",
+      "owner": "Chatchai Chen-Aphisart",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19400",
+      "board": "IMP",
+      "summary": "[Android] Change API 4/10 (2) - SLP > Redeem TrueMoney Success (Exclude Error Case)",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19542",
+      "board": "IMP",
+      "summary": "[TEST][Android] Change SLP 6/10 Change Field > Get Customer",
+      "owner": "Vissanu Pornsurasaksit",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19558",
+      "board": "IMP",
+      "summary": "[Testing][Android][FA Tracking] Add ref parameter on select_content event on Similar Merchant",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3908",
+      "board": "SC",
+      "summary": "[iOS](Creator App) Register creator flow - Loading screen remains stuck when user opens /short/create deeplink and closes the login page",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19544",
+      "board": "IMP",
+      "summary": "[Android] Upgrade AMAZE SDK version uat v2-1-17 for TrueID 3_55_0",
+      "owner": "Chatchai Chen-Aphisart",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19545",
+      "board": "IMP",
+      "summary": "[iOS] Upgrade AMAZE SDK version uat v1.0.5 for TrueID 3_55_0",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19495",
+      "board": "IMP",
+      "summary": "[Android] Change SLP 6/10 Change Field > Get Customer",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19479",
+      "board": "IMP",
+      "summary": "[Android][FA Tracking] Add ref parameter on select_content event on Similar Merchant",
+      "owner": "ext.chotikar.pho",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Vissanu Pornsurasaksit",
+      "counted": true
+    },
+    {
+      "key": "SC-3911",
+      "board": "SC",
+      "summary": "[iOS](Creator) My shop : Doesn't navigate user to My Shop page after successful login",
+      "owner": "Jassadakorn Ketkaew",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3928",
+      "board": "SC",
+      "summary": "Folk Test",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "LS-18786",
+      "board": "LS",
+      "summary": "graphQL ส่ง filter ไม่ครบ data ที่ได้ ไม่ตรงกับ production (On store v. 3.53.0)",
+      "owner": "Chamnarn Suksai",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-7734",
+      "board": "VAL",
+      "summary": "[Android] Upgrade Dexguard SDK",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "SC-3861",
+      "board": "SC",
+      "summary": "[iOS] Regression Test 1.8.0 (Creator App)",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "SC-3860",
+      "board": "SC",
+      "summary": "[Android] Regression Test 1.8.0 (Creator App)",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "SC-3909",
+      "board": "SC",
+      "summary": "[Android][Creator] Create login page ui",
+      "owner": "Rattapong Paleegui",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3929",
+      "board": "SC",
+      "summary": "[Android](Creator App) Content Page - Login page on Content page doesn't support Thai language when lang = TH",
+      "owner": "Nuttawut Jaiban",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-7465",
+      "board": "VAL",
+      "summary": "[NEED REFACTOR] [iOS] เปิด VOD ผ่าน Ipad หน้าจอแนวนอนแสดงเฉพาะตัวอย่าง(Trailer)",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "SC-3752",
+      "board": "SC",
+      "summary": "[iOS](Creator) Content page L1 : Check login when navigate creator to content page",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3766",
+      "board": "SC",
+      "summary": "[Android](Creator) Content page L1 : Check login when navigate creator to content page",
+      "owner": "Rattapong Paleegui",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Nuttawut Jaiban",
+      "counted": true
+    },
+    {
+      "key": "SC-3708",
+      "board": "SC",
+      "summary": "[iOS](Creator) Support both data type in Codable (String & Int) in GET /v1/creators/status",
+      "owner": "Ruttanachai Auitragool",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3675",
+      "board": "SC",
+      "summary": "[iOS](Creator) Create page : deeplink trueidcreator://short/create implement and register creator flow",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19583",
+      "board": "IMP",
+      "summary": "[Tesing][Android] Social Profile - My 1:1 Chat Inbox",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19584",
+      "board": "IMP",
+      "summary": "[Testing][Android]  UI display has improved clarity and reduce redundant information at the privilege detail screen",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19585",
+      "board": "IMP",
+      "summary": "[Testing][Android] Enhance FA Social Profile",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18841",
+      "board": "LS",
+      "summary": "ปรับเอาค่า article_category = field {shelf_slug} from setting",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18842",
+      "board": "LS",
+      "summary": "ส่ง limit = 15 ตาม flow",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19448",
+      "board": "IMP",
+      "summary": "[Android] Social Profile - My 1:1 Chat Inbox",
+      "owner": "Chatchai Chen-Aphisart",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19357",
+      "board": "IMP",
+      "summary": "[Android]  UI display has improved clarity and reduce redundant information at the privilege detail screen",
+      "owner": "Chatchai Chen-Aphisart",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19498",
+      "board": "IMP",
+      "summary": "[Android] Enhance FA Social Profile",
+      "owner": "Chatchai Chen-Aphisart",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19586",
+      "board": "IMP",
+      "summary": "[Testing]  [iOS] [Social Profile - My 1:1 Chat Inbox",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "EXP-15063",
+      "board": "EXP",
+      "summary": "[iOS] Game hub: Game detail > Sticky player",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19446",
+      "board": "IMP",
+      "summary": "[iOS] Social Profile - My 1:1 Chat Inbox",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19593",
+      "board": "IMP",
+      "summary": "[testing][iOS][Bug] Similar merchant is missing in Merchant detail page",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19597",
+      "board": "IMP",
+      "summary": "[Bug] Missing recommendation_schema_id",
+      "owner": "Panuwat Sanglert",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19596",
+      "board": "IMP",
+      "summary": "[Bug] Game item has more than 20.",
+      "owner": "Panuwat Sanglert",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19590",
+      "board": "IMP",
+      "summary": "[Test] [Android] Game hub: Game detail > Game recommendation",
+      "owner": "Chatchai Chen-Aphisart",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19337",
+      "board": "IMP",
+      "summary": "[testing][iOS] Change API 2/10 - SLP > Get Customer Info (Get Point Expireration).",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19340",
+      "board": "IMP",
+      "summary": "[iOS] Do not discard loading after get response null",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19502",
+      "board": "IMP",
+      "summary": "[iOS][SLP:GetExpirationPoint] Hide the expiration point on True Card shelf if call api get expiration error (SLP) ",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "IMP-19503",
+      "board": "IMP",
+      "summary": "[iOS][SLP:GetExpirationPoint] Hide the expiration point on True Card shelf if call api get expiration error (SLP) ",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19063",
+      "board": "IMP",
+      "summary": "[iOS] Change API 2/10 - SLP > Get Customer Info (Get Point Expireration).",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19591",
+      "board": "IMP",
+      "summary": "[testing][Bug][iOS] Wrong UI in true point page when service get point expire was done",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19492",
+      "board": "IMP",
+      "summary": "[Bug][iOS] Wrong UI in true point page when service get point expire was done",
+      "owner": "Patipat Sahasapanan",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19567",
+      "board": "IMP",
+      "summary": "[iOS][Bug] Similar merchant is missing in Merchant detail page",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19540",
+      "board": "IMP",
+      "summary": "[Android] Game hub: Game detail > Game recommendation",
+      "owner": "Chatchai Chen-Aphisart",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Panuwat Sanglert",
+      "counted": true
+    },
+    {
+      "key": "IMP-19601",
+      "board": "IMP",
+      "summary": "[testing][iOS] Change SLP 6/10 - Change Field > Get Customer",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19496",
+      "board": "IMP",
+      "summary": "[iOS] Change SLP 6/10 - Change Field > Get Customer",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=ext.chawapon.kia",
+      "counted": true
+    },
+    {
+      "key": "IMP-19573",
+      "board": "IMP",
+      "summary": "[Testing][iOS][RC12_V3.54.0][FA] App don't adding new parameter ref=privilege_detail when user tap \"Merchant bar\" icon on \"Privilege detail page\"",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "SC-3815",
+      "board": "SC",
+      "summary": "[iOS](Creator) Create Live : Change ratio and front_TH on Banner shelf",
+      "owner": "Sakolrat Niratthisaikul",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Phatsawee Puttarukkul",
+      "counted": true
+    },
+    {
+      "key": "SC-3919",
+      "board": "SC",
+      "summary": "[iOS](Creator) Content page : Badge icon is not displayed on the LIVE shelf",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3920",
+      "board": "SC",
+      "summary": "[iOS](Creator) Content page : Displayed Live room > 10 item on Live shelf",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3921",
+      "board": "SC",
+      "summary": "[iOS](Creator) Content page : Doesn't show > see more on Live Shelf",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18853",
+      "board": "LS",
+      "summary": "เพิ่ม content_rights ใน query เพื่อเอาค่ามาแสดง badge logo",
+      "owner": "Chamnarn Suksai",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18608",
+      "board": "LS",
+      "summary": "[iOS] VOD: Top10 vertical shelf migrate api to graphql",
+      "owner": "Sirinard Chokmongkolsatian",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Chamnarn Suksai",
+      "counted": true
+    },
+    {
+      "key": "IMP-19507",
+      "board": "IMP",
+      "summary": "[iOS][RC12_V3.54.0][FA] App don't adding new parameter ref=privilege_detail when user tap \"Merchant bar\" icon on \"Privilege detail page\"",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15104",
+      "board": "EXP",
+      "summary": "[Android] Game hub: Play now > Launch game -  Doesn't send FA event “game_open” with parameters",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3627",
+      "board": "SC",
+      "summary": "Folk Test",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "EXP-15072",
+      "board": "EXP",
+      "summary": "[Android] Game hub: Game detail > Add count view to CMS",
+      "owner": "Tanapat Phongubon",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18851",
+      "board": "LS",
+      "summary": "ปรับกสรเรียก API get like ให้เหมือนใน flow ",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8012",
+      "board": "VAL",
+      "summary": "[Android] Upgrade Gradle to v9.2.1",
+      "owner": "Kijja Charuchinda",
+      "platform": "Android",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19587",
+      "board": "IMP",
+      "summary": "[Testing][Android] Send the latest device info to the single profile system",
+      "owner": "Vissanu Pornsurasaksit",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-18978",
+      "board": "IMP",
+      "summary": "[Android] Send the latest device info to the single profile system",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Chatchai Chen-Aphisart",
+      "counted": true
+    },
+    {
+      "key": "IMP-19472",
+      "board": "IMP",
+      "summary": "[Android] Can't open amaze app when 2nd open from deeplink ",
+      "owner": "Chatchai Chen-Aphisart",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18870",
+      "board": "LS",
+      "summary": "กรณีที่ non login ไม่ต้อง เรียก  get like",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18755",
+      "board": "LS",
+      "summary": "[Android] LFV: Get and Post Like content",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18777",
+      "board": "LS",
+      "summary": "[Android] Game hub: Play now > Check tier",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3610",
+      "board": "SC",
+      "summary": "Folk Test",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "SC-3918",
+      "board": "SC",
+      "summary": "Refactor reuse shelf state and event UI",
+      "owner": "Nuttawut Jaiban",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3922",
+      "board": "SC",
+      "summary": "Create ShelfLoader for create and content page",
+      "owner": "Nuttawut Jaiban",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3923",
+      "board": "SC",
+      "summary": "Create mapper call api",
+      "owner": "Nuttawut Jaiban",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3930",
+      "board": "SC",
+      "summary": "Refactor UI package shelf",
+      "owner": "Nuttawut Jaiban",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3609",
+      "board": "SC",
+      "summary": "Folk Test",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "SC-3587",
+      "board": "SC",
+      "summary": "[iOS](Creator) Content page L1 : Render LIVE shelf",
+      "owner": "Sakolrat Niratthisaikul",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Phatsawee Puttarukkul",
+      "counted": true
+    },
+    {
+      "key": "SC-3591",
+      "board": "SC",
+      "summary": "[Android](Creator) Content page L1 : Render LIVE shelf",
+      "owner": "Nuttawut Jaiban",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3916",
+      "board": "SC",
+      "summary": "[Android](TrueID) LIVE empty : Hide CTA button",
+      "owner": "Nevin Ruttanaboonta",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15106",
+      "board": "EXP",
+      "summary": "Test Execution - [Android] UAT Purchase TrueIDGame  package",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "LS-18704",
+      "board": "LS",
+      "summary": "[Andriod] POC: Player SDK",
+      "owner": "Todsapon Sangpook",
+      "platform": "Unknown",
+      "method": "pull_request_author",
+      "note": "fallback_a=Todsapon Sangpook",
+      "counted": true
+    },
+    {
+      "key": "LS-18865",
+      "board": "LS",
+      "summary": "setting.shelf_slug ส่งใช้ แค่กับ type = by_category_tv_program เท่านั้น ",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18864",
+      "board": "LS",
+      "summary": "mapping filed ให้ตรงกับ flow",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18863",
+      "board": "LS",
+      "summary": "เพิ่มส่งค่า lang ตอน request ตาม ภาษาของ app",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8037",
+      "board": "VAL",
+      "summary": "[iOS] Run Maestro on AWS EC2",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8015",
+      "board": "VAL",
+      "summary": "[Android crash] SourceFile line 77 in d.ArrayIndexOutOfBoundsException.onTransact",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "LS-18753",
+      "board": "LS",
+      "summary": "[Android] Live TV: By_category_TV_program graphql api migration",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19612",
+      "board": "IMP",
+      "summary": "[iOS] Testing IMP-19409",
+      "owner": "Patipat Sahasapanan",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19409",
+      "board": "IMP",
+      "summary": "[iOS] Change API 4/10 (2) - SLP > Redeem TrueMoney Success (Exclude Error Case)",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18719",
+      "board": "LS",
+      "summary": "[iOS] Live TV: By_category_TV_program graphql api migration",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3865",
+      "board": "SC",
+      "summary": "Move and refactor ugc data layer (from TrueID)",
+      "owner": "Nevin Ruttanaboonta",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3866",
+      "board": "SC",
+      "summary": "Move and refactor ugc domain layer (from TrueID)",
+      "owner": "Nevin Ruttanaboonta",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19608",
+      "board": "IMP",
+      "summary": "[Android Crash] [Privilege] PrivilegeDetailComposeViewModel",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-14812",
+      "board": "EXP",
+      "summary": "[Android] Game hub: Play now > Launch game",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19605",
+      "board": "IMP",
+      "summary": "[Testing] [iOS] Change API 9/10 - SLP > Use New Configuration for Displaying Card Icon and Image",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "IMP-19595",
+      "board": "IMP",
+      "summary": "[Testing] [iOS] [FA Tracking] Add ref parameter on select_content event on Similar Merchant ",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "EXP-14913",
+      "board": "EXP",
+      "summary": "[Android] Game hub: Add history to SPF",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19559",
+      "board": "IMP",
+      "summary": "[Android][SLP: Blinding] App should show \"Blinding pop up\" if Non-true user tap \"Redeem\" button on \"Privilege detail page\" (normal/tmw)",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19603",
+      "board": "IMP",
+      "summary": "Testing [Android][Bug][SLP: Blinding]",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "EXP-15057",
+      "board": "EXP",
+      "summary": "[iOS] Game hub: Add history to SPF",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19602",
+      "board": "IMP",
+      "summary": "[iOS][FA: Similar merchant] App tracking FA select_content but value of ref incorrect and no filed recommendation_schema_id when user tap item on Similar merchant shelf",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19460",
+      "board": "IMP",
+      "summary": "[iOS][FA Tracking] Add ref parameter on select_content event on Similar Merchant ",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19609",
+      "board": "IMP",
+      "summary": "[iOS][TrueCard] If SLP config = true and cannot get image url or true card no match card_name in firebase then app should show TrueCard shelf with No card type",
+      "owner": "Patipat Sahasapanan",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19319",
+      "board": "IMP",
+      "summary": "[iOS] Change API 9/10 - SLP > Use New Configuration for Displaying Card Icon and Image",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Patipat Sahasapanan",
+      "counted": true
+    },
+    {
+      "key": "IMP-19560",
+      "board": "IMP",
+      "summary": "[iOS][SLP: Blinding] App should show \"Blinding pop up\" if Non-true user tap \"Redeem\" button on \"Privilege detail page\" (normal/tmw)",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19538",
+      "board": "IMP",
+      "summary": "[Testing] [iOS] Change API 3/10 (3) - SLP > Simulate Redemption for TrueMoney (Exclude Error Case)",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "EXP-14810",
+      "board": "EXP",
+      "summary": "[iOS] Game hub: Play now > Open webview",
+      "owner": "ext.nuttanai.sal",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19539",
+      "board": "IMP",
+      "summary": "[iOS][SLP: RedeemSimulate(TMW)] App don't call api redeem TMW with simulate (SLP) if turn on config but login with e-mail account ",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19314",
+      "board": "IMP",
+      "summary": "[iOS] Change API 3/10 (3) - SLP > Simulate Redemption for TrueMoney (Exclude Error Case)",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19642",
+      "board": "IMP",
+      "summary": "[Testing][Android][SLP-RedeemSimulate:TMW] App show \"Redeem\" button is disabled on \"Privilege detail page\" if Login with Non-true user and Config SLP = true",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "IMP-19610",
+      "board": "IMP",
+      "summary": "[Android] Remove dead code for jenkins build",
+      "owner": "Chatchai Chen-Aphisart",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19576",
+      "board": "IMP",
+      "summary": "[Android][SLP-RedeemSimulate:TMW] App show \"Redeem\" button is disabled on \"Privilege detail page\" if Login with Non-true user and Config SLP = true",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19604",
+      "board": "IMP",
+      "summary": "[iOS] Sent event only select_content for mParticle analytic",
+      "owner": "Patipat Sahasapanan",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8069",
+      "board": "VAL",
+      "summary": "[Android] Remove CertificateChecker from RSAP",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "IMP-19644",
+      "board": "IMP",
+      "summary": "[Testing][Android] Display Point Expiration Period",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19580",
+      "board": "IMP",
+      "summary": "[Android] Display Point Expiration Period",
+      "owner": "Chatchai Chen-Aphisart",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19641",
+      "board": "IMP",
+      "summary": "[Bug][Android] When hide app and resume widget blinking ",
+      "owner": "Vissanu Pornsurasaksit",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19640",
+      "board": "IMP",
+      "summary": "[Bug][Android] When show disable state should show grey bg",
+      "owner": "Vissanu Pornsurasaksit",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3910",
+      "board": "SC",
+      "summary": "Create Presigned Upload Repository",
+      "owner": "Nuttawut Jaiban",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3913",
+      "board": "SC",
+      "summary": "Create Presigned upload UseCase",
+      "owner": "Nuttawut Jaiban",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3984",
+      "board": "SC",
+      "summary": "Remove UgcCreatorLocalManager",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3991",
+      "board": "SC",
+      "summary": "Time Test",
+      "owner": "Amnad Koetpon",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3940",
+      "board": "SC",
+      "summary": "[iOS](Creator) Create : Add transition when creator tap 'Start LIVE' or 'Upload SFV'",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3985",
+      "board": "SC",
+      "summary": "Update getStatus API to support banned user check",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15107",
+      "board": "EXP",
+      "summary": "[Android][Today]Game hub : Doesn't  show any error code when an API call fails (e.g., 404, 500)",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3986",
+      "board": "SC",
+      "summary": "Create Ui Banned",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3951",
+      "board": "SC",
+      "summary": "[iOS](Creator) Content page : Expand (>) icon overlaps Live shelf when header title is = null",
+      "owner": "Amnad Koetpon",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Phatsawee Puttarukkul",
+      "counted": true
+    },
+    {
+      "key": "LS-18888",
+      "board": "LS",
+      "summary": "[Android] Scroll watch pageL1 app crash",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19656",
+      "board": "IMP",
+      "summary": "[Testing][Android] Toggle On/Off - Chat Feature",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19579",
+      "board": "IMP",
+      "summary": "[Android] Toggle On/Off - Chat Feature",
+      "owner": "Chatchai Chen-Aphisart",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19639",
+      "board": "IMP",
+      "summary": "[Bug][Andorid] timing disappear at TrueCard ",
+      "owner": "Vissanu Pornsurasaksit",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18883",
+      "board": "LS",
+      "summary": "[iOS] Get detail Movie/Series (Call API)",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19607",
+      "board": "IMP",
+      "summary": "[Testing][Android] Change API 9/10 - SLP > Use New Configuration for Displaying Card Icon and Image",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19499",
+      "board": "IMP",
+      "summary": "[Android] Change API 9/10 - SLP > Use New Configuration for Displaying Card Icon and Image",
+      "owner": "Vissanu Pornsurasaksit",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8059",
+      "board": "VAL",
+      "summary": "[Vivo] Setup environment only for Vivo (Pre-install)",
+      "owner": "Kijja Charuchinda",
+      "platform": "Unknown",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3992",
+      "board": "SC",
+      "summary": "[iOS](Creator) Content page : Click navigate to Home page live room list not Pull Live Content / Title name Incorrect",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3993",
+      "board": "SC",
+      "summary": "[iOS](Creator) Content page : Language : TH Display Status name incorrect",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Sakolrat Niratthisaikul",
+      "counted": true
+    },
+    {
+      "key": "VAL-8019",
+      "board": "VAL",
+      "summary": "[iOS crash] 0x000DACE0 in TrueID.app/Frameworks/Core.framework/Core",
+      "owner": "Kittisak Buaphanna",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "EXP-15108",
+      "board": "EXP",
+      "summary": "[iOS] Game hub: Rotate feature in game WebView",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-14864",
+      "board": "EXP",
+      "summary": "[iOS] Game hub: Play now > Launch game with WebView",
+      "owner": "ext.nuttanai.sal",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18776",
+      "board": "LS",
+      "summary": "[iOS] LFV: Display new view type  horizontal_list  category page (update api to graphql)",
+      "owner": "Nutthapoom (Big) (Hero)",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18736",
+      "board": "LS",
+      "summary": "[Android] LFV: Display new view type  horizontal_list  category page (update api to graphql)",
+      "owner": "Todsapon Sangpook",
+      "platform": "Android",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18871",
+      "board": "LS",
+      "summary": "[Android] Get detail Movie/Series (Call API)",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19657",
+      "board": "IMP",
+      "summary": "[Testing][Android] Improve tag, relate content",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3912",
+      "board": "SC",
+      "summary": "Upload flow integration",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19664",
+      "board": "IMP",
+      "summary": "[Testing][Android] FA Tracking -> error_show event when JSON loading fails on Home, Today, and Privilege screens",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19581",
+      "board": "IMP",
+      "summary": "[Android] FA Tracking -> error_show event when JSON loading fails on Home, Today, and Privilege screens",
+      "owner": "Vissanu Pornsurasaksit",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19566",
+      "board": "IMP",
+      "summary": "[Android] Improve tag, relate content",
+      "owner": "Chatchai Chen-Aphisart",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8017",
+      "board": "VAL",
+      "summary": "[Android crash] SourceFile line 2234 in com.truedigital.features.tuned.service.music.MusicPlayerServiceImpl.asBinder",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "VAL-8016",
+      "board": "VAL",
+      "summary": "[Android crash] SourceFile line 256 in UsbInterface$3.onTransact",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "VAL-8074",
+      "board": "VAL",
+      "summary": "[Android Crash] SourceFile line 77 in e.AutoCloseable.asInterface",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "VAL-8075",
+      "board": "VAL",
+      "summary": "[Android Crash] SourceFile line 20 in iHC.onTransact",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "VAL-8076",
+      "board": "VAL",
+      "summary": "[Android Crash] ArrayList.java line 1014 in java.util.ArrayList.subListRangeCheck",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "IMP-19659",
+      "board": "IMP",
+      "summary": "Testing [Android][RC02][SingleConsent] If user tap \"X\" icon on \"Single consent\" pop up then app show \"Redeem\" button was disabled on \"Privilege detail page\"",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "SC-3997",
+      "board": "SC",
+      "summary": "Create ShortFromVideo UploadService",
+      "owner": "Nuttawut Jaiban",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4006",
+      "board": "SC",
+      "summary": "Implement ShortFromVideo Upload domain and data",
+      "owner": "Nuttawut Jaiban",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3995",
+      "board": "SC",
+      "summary": "Time Test",
+      "owner": "Amnad Koetpon",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3972",
+      "board": "SC",
+      "summary": "[iOS](Creator) Content page : Support more shelf view type",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3782",
+      "board": "SC",
+      "summary": "P'First Test",
+      "owner": "Pawanon Leangthammarat",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3867",
+      "board": "SC",
+      "summary": "Move and refactor ugc presentation layer (from TrueID)",
+      "owner": "Nevin Ruttanaboonta",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3868",
+      "board": "SC",
+      "summary": "Integration",
+      "owner": "Nevin Ruttanaboonta",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3695",
+      "board": "SC",
+      "summary": "[Android](Creator) SFV upload : Navigate creator to Meta data page after video exported",
+      "owner": "Nevin Ruttanaboonta",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3996",
+      "board": "SC",
+      "summary": "Time Test",
+      "owner": "Amnad Koetpon",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4003",
+      "board": "SC",
+      "summary": "Time Test",
+      "owner": "Amnad Koetpon",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4004",
+      "board": "SC",
+      "summary": "Time Test",
+      "owner": "Amnad Koetpon",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3976",
+      "board": "SC",
+      "summary": "Implement AppBadge",
+      "owner": "Nevin Ruttanaboonta",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19649",
+      "board": "IMP",
+      "summary": "[Android][RC02][SingleConsent] If user tap \"X\" icon on \"Single consent\" pop up then app show \"Redeem\" button was disabled on \"Privilege detail page\"",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Chatchai Chen-Aphisart",
+      "counted": true
+    },
+    {
+      "key": "VAL-8072",
+      "board": "VAL",
+      "summary": "Refactor Signal Native Module",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "VAL-8078",
+      "board": "VAL",
+      "summary": "[iOS crash] 0x00026B6C in TrueID.app/TrueID",
+      "owner": "Kittisak Buaphanna",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "VAL-8079",
+      "board": "VAL",
+      "summary": "[iOS crash] 0x0014529C in TrueID.app/Frameworks/Core.framework/Core",
+      "owner": "Kittisak Buaphanna",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "VAL-8080",
+      "board": "VAL",
+      "summary": "[iOS crash] exceptionPreprocess",
+      "owner": "Kittisak Buaphanna",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "EXP-15111",
+      "board": "EXP",
+      "summary": "[iOS] Game hub: Play now > Check tier : Automatic redirect to package page after successful purchase.",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19650",
+      "board": "IMP",
+      "summary": "[Android][RC02][PrivilegeDetail] App show the empty page when tap link (.pdf) in \"Privilege detail page\"",
+      "owner": "Chatchai Chen-Aphisart",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-14809",
+      "board": "EXP",
+      "summary": "[iOS] Game hub: Play now > Check tier",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19611",
+      "board": "IMP",
+      "summary": "[Android] Remove mParticle event PIP from watch player",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15124",
+      "board": "EXP",
+      "summary": "[Android][Regression 3.55.0_rc3]Game recommendation - Tap \"Back\" on the Related Content screen fails to navigate back to the previous Game Hub page",
+      "owner": "Wachirawit Chaipuvaphat",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19667",
+      "board": "IMP",
+      "summary": "[Test] [Bug][Android][RC4] True Card widget should show QR code in detail",
+      "owner": "Chatchai Chen-Aphisart",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19658",
+      "board": "IMP",
+      "summary": "[Android][Bug][RC4] True Card widget should show QR code in detail",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Vissanu Pornsurasaksit",
+      "counted": true
+    },
+    {
+      "key": "VAL-8083",
+      "board": "VAL",
+      "summary": "[TrueID Lite - Crash] package:trueid_lite_flutter/main.dart - main.<fn>",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "VAL-8044",
+      "board": "VAL",
+      "summary": "[Android Crash] [DevEx] com.truedigital.core.view.extension.DialogExtensionKt.showSafe",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "IMP-19606",
+      "board": "IMP",
+      "summary": "[iOS]True user see 'Privilege redeem success page' with time counter if have time_counter_show = Y, do not show time counter",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19501",
+      "board": "IMP",
+      "summary": "[iOS][History page] True user don't see 'Privilege redeem success page' with expire time message if user  waiting until counting time expire",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=ext.chawapon.kia",
+      "counted": true
+    },
+    {
+      "key": "IMP-19500",
+      "board": "IMP",
+      "summary": "[iOS][Privilege] User don't see 'Non-true binding pop up' get mapping from Firebase when user tap Redeem button",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8020",
+      "board": "VAL",
+      "summary": "[iOS crash] Backtrace.cc line 414 in fleece::Backtrace::installTerminateHandler",
+      "owner": "Kittisak Buaphanna",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "VAL-8021",
+      "board": "VAL",
+      "summary": "[iOS crash] 0x000C5994 in /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+      "owner": "Kittisak Buaphanna",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "VAL-8050",
+      "board": "VAL",
+      "summary": "[Andriod] App Crash",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "EXP-15127",
+      "board": "EXP",
+      "summary": "[iOS][3.55.0_rc4]Game Detail - When click the save or like button and successfully log in, the system will automatically save or like.",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-14818",
+      "board": "EXP",
+      "summary": "[iOS] Game hub: Game detail > Save",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18715",
+      "board": "LS",
+      "summary": "[iOS] POC: Player SDK ",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19643",
+      "board": "IMP",
+      "summary": "[Testing] [Android][SLP:RedeemTMW] App show wrong \"Error message pop up\" if login with e-mail account and Redeem TMW privilege",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "IMP-19541",
+      "board": "IMP",
+      "summary": "[Android][SLP:RedeemTMW] App show wrong \"Error message pop up\" if login with e-mail account and Redeem TMW privilege",
+      "owner": "Panuwat Sanglert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19668",
+      "board": "IMP",
+      "summary": "Testing: [iOS][SLP:RedeemTMW] App show wrong \"Error message pop up\" if login with e-mail account and Redeem TMW privilege",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "IMP-19505",
+      "board": "IMP",
+      "summary": "[testing][iOS] Send the latest device info to the single profile system",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3586",
+      "board": "SC",
+      "summary": "[iOS](Creator) Content page L1 : Render Shorts shelf",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-18906",
+      "board": "IMP",
+      "summary": "[iOS] Send the latest device info to the single profile system",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19648",
+      "board": "IMP",
+      "summary": "[iOS][SLP:RedeemTMW] App show wrong \"Error message pop up\" if login with e-mail account and Redeem TMW privilege",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8082",
+      "board": "VAL",
+      "summary": "[TrueID Lite - Crash] package:interactive_media_ads/src/android/interactive_media_ads.g.dart - MediaPlayer.start",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "SC-3803",
+      "board": "SC",
+      "summary": "Folk Test",
+      "owner": "Pawanon Leangthammarat",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18580",
+      "board": "LS",
+      "summary": "[iOS] Pubmatic: send custom param when request ad to google ad manager",
+      "owner": "Sirinard Chokmongkolsatian",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Thosapol Sangkasub",
+      "counted": true
+    },
+    {
+      "key": "SC-4024",
+      "board": "SC",
+      "summary": "[iOS](Creator) Content page : Banned user when creator tap Submit content Display error dialog Wording TH/EN incorrect  and Sub-head not center",
+      "owner": "Sakolrat Niratthisaikul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15064",
+      "board": "EXP",
+      "summary": "[Android] Game hub: Deep link (L2)",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18697",
+      "board": "LS",
+      "summary": "[Android] Pubmatic: send custom param when request ad to google ad manager",
+      "owner": "Sirinard Chokmongkolsatian",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Suriya Alee",
+      "counted": true
+    },
+    {
+      "key": "LS-18920",
+      "board": "LS",
+      "summary": "กรณีที่ flag_tvs = true ต้องส่ง ค่า content_provider ไปด้วย ",
+      "owner": "Chamnarn Suksai",
+      "platform": "Unknown",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18939",
+      "board": "LS",
+      "summary": "แสดง error page กรณีที่ data list = 0",
+      "owner": "Chamnarn Suksai",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18892",
+      "board": "LS",
+      "summary": "Remove some field in paramaters",
+      "owner": "Thosapol Sangkasub",
+      "platform": "Unknown",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18893",
+      "board": "LS",
+      "summary": "Remove field in parameter",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18894",
+      "board": "LS",
+      "summary": "Pass empty value in some field",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3981",
+      "board": "SC",
+      "summary": "[Android] Regression Test 3.55.0 (Live Commerce)",
+      "owner": "Pawanon Leangthammarat",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3980",
+      "board": "SC",
+      "summary": "[iOS] Regression Test 3.55.0 (Live Commerce)",
+      "owner": "Amnad Koetpon",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-9644",
+      "board": "EXP",
+      "summary": "Seasonal Animation: Background type",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "LS-18970",
+      "board": "LS",
+      "summary": "[iOS][RG3.55.0 RC4][sfv] กด item จาก search result แล้วเจอ loading ค้าง ใน sfv player",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18971",
+      "board": "LS",
+      "summary": "[iOS][RG3.55.0 RC4][sfv] กด item จาก search result แล้วเจอ หน้าจอดำ ไม่มีปุ่ม back ใน sfv player",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Nutthapoom Inthanin",
+      "counted": true
+    },
+    {
+      "key": "IMP-19509",
+      "board": "IMP",
+      "summary": "Can't show truecard section",
+      "owner": "ext.chotikar.pho",
+      "platform": "Unknown",
+      "method": "in_progress_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19470",
+      "board": "IMP",
+      "summary": "Testing",
+      "owner": "Nutchanon Viriyaprasart",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19062",
+      "board": "IMP",
+      "summary": "[iOS] Change API 1/10 (2) - SLP > Get Customer Info.",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19651",
+      "board": "IMP",
+      "summary": "[iOS][RC03][CategoryMainPage] If app lang = MY and user open \"Bubble SeeMore page\" via \"Category main page\" then app show \"Bubble SeeMore page\" with the empty data",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19652",
+      "board": "IMP",
+      "summary": "[iOS][RC03][SocialProfile] If user login success with ssoid same deeplink of the social profile page then app alway show the error page before show the social profile page correctly. ",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19653",
+      "board": "IMP",
+      "summary": "[iOS][RC03][Save711] If user save favorite 711 success via \"7-Eleven detail page\" when user open \"My Library page\" and tap 711 item then app don't do anything",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8054",
+      "board": "VAL",
+      "summary": "[Android Crash] [DevEx] com.truedigital.core.view.extension.DialogExtensionKt.showSafe",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "VAL-8086",
+      "board": "VAL",
+      "summary": "[TrueID Lite] Flutter pipeline iOS failed",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4028",
+      "board": "SC",
+      "summary": "Time Test",
+      "owner": "Amnad Koetpon",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3743",
+      "board": "SC",
+      "summary": "[iOS](Content) Content page L1 : Empty state handle",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3768",
+      "board": "SC",
+      "summary": "[Android](Creator) SFV upload : Add product page",
+      "owner": "Rattapong Paleegui",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8087",
+      "board": "VAL",
+      "summary": "[iOS] Reduce App Size",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3806",
+      "board": "SC",
+      "summary": "Folk Test",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "SC-3740",
+      "board": "SC",
+      "summary": "[iOS](Creator) Content : Live list trueidcreator://live deeplink implement and navigate to the page",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3959",
+      "board": "SC",
+      "summary": "Folk Test",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "SC-3938",
+      "board": "SC",
+      "summary": " [iOS](Creator) SFV Upload : Check Banned user when creator tap Submit content",
+      "owner": "Amnad Koetpon",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Sakolrat Niratthisaikul",
+      "counted": true
+    },
+    {
+      "key": "SC-3917",
+      "board": "SC",
+      "summary": "Folk Test",
+      "owner": "Pawanon Leangthammarat",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3767",
+      "board": "SC",
+      "summary": "[Android](Creator) Content page L1 : API error handle",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Nuttawut Jaiban",
+      "counted": true
+    },
+    {
+      "key": "VAL-8088",
+      "board": "VAL",
+      "summary": "[iOS] Center Branch Build Failed",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8089",
+      "board": "VAL",
+      "summary": "[iOS] Daily Build for QA Failed",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4034",
+      "board": "SC",
+      "summary": "Time Test",
+      "owner": "Amnad Koetpon",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3804",
+      "board": "SC",
+      "summary": "Folk Test",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "SC-3657",
+      "board": "SC",
+      "summary": "[iOS](Creator) SFV upload : Post upload SFV to UGC API",
+      "owner": "Ruttanachai Auitragool",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Phatsawee Puttarukkul",
+      "counted": true
+    },
+    {
+      "key": "IMP-19661",
+      "board": "IMP",
+      "summary": "[iOS]True user see 'Privilege redeem success page' with time counter after redeem success show wrong message should be 'notify_message'",
+      "owner": "Patipat Sahasapanan",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=ext.chawapon.kia",
+      "counted": true
+    },
+    {
+      "key": "SC-3942",
+      "board": "SC",
+      "summary": "[POC](TrueID) Editing SDK : Add music list into Editing SDK",
+      "owner": "Thanawut Ruksinsut",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18890",
+      "board": "LS",
+      "summary": "[Android] API Error Alert Streamer sfv (muti id)",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18889",
+      "board": "LS",
+      "summary": "[iOS] API Error Alert Streamer sfv (muti id)",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18744",
+      "board": "LS",
+      "summary": "[iOS][Improvement] Watch domain - Firebase Performance Tracking",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15071",
+      "board": "EXP",
+      "summary": "[iOS] Game hub:  Main page > Top menu",
+      "owner": "ext.nuttanai.sal",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18975",
+      "board": "LS",
+      "summary": "กรณีที่ setting.navigate ไม่มีค่า ไม่ต้องแสดงปุ่ม see more >",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18976",
+      "board": "LS",
+      "summary": "กรณีที่ data[].epg.thumb ไม่มีค่ามา ควรเอา channel logo (data[].thumb) มาแสดงแทน",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18867",
+      "board": "LS",
+      "summary": "[Android] Live TV: graphql migration page see more >",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19660",
+      "board": "IMP",
+      "summary": "[iOS][RC04][TrueCardShelf] App show wrong format year of  the expiration point on True Card shelf (SLP= off)",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-9540",
+      "board": "EXP",
+      "summary": "[iOS] Package: Trailer ",
+      "owner": "Wanthida Jittayanantakul",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Marosdee Uma (Dan, Ext)",
+      "counted": true
+    },
+    {
+      "key": "EXP-9452",
+      "board": "EXP",
+      "summary": "[iOS] Search people sorting by top followers",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "SC-4035",
+      "board": "SC",
+      "summary": "[Android](TrueID) SFV Upload : Banned page not follow Figma & SFV sound play over Banned page",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-13144",
+      "board": "EXP",
+      "summary": "[iOS] Game hub: Deep link (L2)",
+      "owner": "ext.nuttanai.sal",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4029",
+      "board": "SC",
+      "summary": "[Android](Creator) Creator Home : Padding appears over bottom menu",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Jakkarin Thongjit",
+      "counted": true
+    },
+    {
+      "key": "SC-4036",
+      "board": "SC",
+      "summary": "[Android](Creator) SFV upload : Banned user navigated to wrong page",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4002",
+      "board": "SC",
+      "summary": "Implement deeplink navigation to Shorts list page",
+      "owner": "Sakolrat Niratthisaikul",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4015",
+      "board": "SC",
+      "summary": "implement gateway ",
+      "owner": "Sakolrat Niratthisaikul",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4019",
+      "board": "SC",
+      "summary": "Create UI ShortList",
+      "owner": "Sakolrat Niratthisaikul",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4022",
+      "board": "SC",
+      "summary": "Handle error and empty states for Shorts list",
+      "owner": "Sakolrat Niratthisaikul",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4023",
+      "board": "SC",
+      "summary": "Handle Load More",
+      "owner": "Sakolrat Niratthisaikul",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4020",
+      "board": "SC",
+      "summary": "Integrate ShortList API",
+      "owner": "Sakolrat Niratthisaikul",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3957",
+      "board": "SC",
+      "summary": "Implement sfv upload worker",
+      "owner": "Nuttawut Jaiban",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4030",
+      "board": "SC",
+      "summary": "Time Test",
+      "owner": "Amnad Koetpon",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18938",
+      "board": "LS",
+      "summary": "Thumb ที่แสดงใน see more mapping ไม่ตรงกับ flow ใหม่ ",
+      "owner": "Chamnarn Suksai",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18849",
+      "board": "LS",
+      "summary": "[iOS] Live TV: graphql migration page see more >",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3805",
+      "board": "SC",
+      "summary": "Folk Test",
+      "owner": "Pawanon Leangthammarat",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4043",
+      "board": "SC",
+      "summary": "[Android](TrueID) SFV Upload : Cancel Banned Dialog but do not close Meatdata",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4044",
+      "board": "SC",
+      "summary": "[Android](Creator)  Change Domain : Wrong change domain",
+      "owner": "Nuttawut Jaiban",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19686",
+      "board": "IMP",
+      "summary": "[iOS][RC11] Coupon code is missing button on history page",
+      "owner": "ext.chawapon.kia",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4025",
+      "board": "SC",
+      "summary": "[iOS](Creator) Content page : user when creator tap Submit content page flickering",
+      "owner": "Sakolrat Niratthisaikul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8081",
+      "board": "VAL",
+      "summary": "Remove jitpack in trueid-mirrorfly-integration",
+      "owner": "Kijja Charuchinda",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19662",
+      "board": "IMP",
+      "summary": "[testing][iOS] Display Point Expiration Period",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Patipat Sahasapanan",
+      "counted": true
+    },
+    {
+      "key": "IMP-19556",
+      "board": "IMP",
+      "summary": "[iOS] Display Point Expiration Period",
+      "owner": "Patipat Sahasapanan",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=ext.chawapon.kia",
+      "counted": true
+    },
+    {
+      "key": "EXP-14695",
+      "board": "EXP",
+      "summary": "[iOS] Game hub: Game landing page (L2)",
+      "owner": "ext.nuttanai.sal",
+      "platform": "iOS",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4053",
+      "board": "SC",
+      "summary": "Time Test",
+      "owner": "Amnad Koetpon",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3941",
+      "board": "SC",
+      "summary": "[Android] Change Domain",
+      "owner": "Nevin Ruttanaboonta",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4040",
+      "board": "SC",
+      "summary": "Time Test",
+      "owner": "Amnad Koetpon",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3939",
+      "board": "SC",
+      "summary": "[iOS](Creator) Change Domain",
+      "owner": "Phatsawee Puttarukkul",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3696",
+      "board": "SC",
+      "summary": "[Android](Creator) SFV upload : Post upload SFV to UGC API",
+      "owner": "Nuttawut Jaiban",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-128",
+      "board": "SC",
+      "summary": "Creator - Home",
+      "owner": "Sunchai Pitakchonlasup",
+      "platform": "Unknown",
+      "method": "in_progress_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-16",
+      "board": "SC",
+      "summary": "Shopify Integration",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "SC-1667",
+      "board": "SC",
+      "summary": "TrueID - New Shopping Page",
+      "owner": "ext.wirasinee.suw",
+      "platform": "Unknown",
+      "method": "in_progress_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-2815",
+      "board": "SC",
+      "summary": "TrueID : Floating menu",
+      "owner": "ext.wirasinee.suw",
+      "platform": "Unknown",
+      "method": "in_progress_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18866",
+      "board": "LS",
+      "summary": "[Android][POC] Improve SFV Feed Player via Local Caching",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18868",
+      "board": "LS",
+      "summary": "[iOS][POC] Improve SFV Feed Player via Local Caching",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8085",
+      "board": "VAL",
+      "summary": "[Android Crash] [DevEx] JvmOkio.kt - okio.InputStreamSource.read",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "VAL-8090",
+      "board": "VAL",
+      "summary": "[Android] Regression Test 3.55.0",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "pre_qa_assignee",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "VAL-8091",
+      "board": "VAL",
+      "summary": "[iOS] Regression Test 3.55.0",
+      "owner": "Kittisak Buaphanna",
+      "platform": "iOS",
+      "method": "pre_qa_assignee",
+      "note": "excluded",
+      "counted": false
+    },
+    {
+      "key": "EXP-14693",
+      "board": "EXP",
+      "summary": "[Android] Game hub: Game landing page (L2)",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "pull_request_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4026",
+      "board": "SC",
+      "summary": "Implement live list deeplink (trueidcreator://live)",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19687",
+      "board": "IMP",
+      "summary": "[testing][iOS] Toggle On/Off - Chat Feature",
+      "owner": "ext.chotikar.pho",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19557",
+      "board": "IMP",
+      "summary": "[iOS] Toggle On/Off - Chat Feature",
+      "owner": "Patipat Sahasapanan",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "IMP-19695",
+      "board": "IMP",
+      "summary": "[Testing] [Android][Bug][RC4] True card number on Green pop up should show with white text",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "IMP-19683",
+      "board": "IMP",
+      "summary": "[Android][Bug][RC4] True card number on Green pop up should show with white text",
+      "owner": "Vissanu Pornsurasaksit",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-4065",
+      "board": "SC",
+      "summary": "Time Test",
+      "owner": "Amnad Koetpon",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "SC-3924",
+      "board": "SC",
+      "summary": "[iOS](Creator) SFV upload : Check banned user before navigating to SDK",
+      "owner": "Amnad Koetpon",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Sakolrat Niratthisaikul",
+      "counted": true
+    },
+    {
+      "key": "SC-3977",
+      "board": "SC",
+      "summary": "Implement data layer",
+      "owner": "Nevin Ruttanaboonta",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    }
+  ],
+  "notes": {
+    "tickets": "Owner = last non-QA assignee before QA, or In Progress author / longest non-QA assignee; PR-only keys use method=pull_request_only",
+    "prs": "PR counts reused from prior dist report where available; re-fetch with collect_report.py without --skip-prs to refresh",
+    "boards": "SC Social Commerce, IMP TrueID HERO, LS Watch, EXP Today, VAL DevEx",
+    "qa_excluded": [
+      "Atthaphon Sriathayanon",
+      "Jeerapa Wisawawiwatsakul",
+      "Kansinee Ruengchawaroj (Ext)",
+      "Nanthanat Nimchanasit (Ext)",
+      "Nuttapol Pakdeesuppapol",
+      "Supakorn Naowaratphunsin",
+      "Suwanna Thananitaporn",
+      "Vanidchaporn Suksai",
+      "Wanwisa Lertlumwittayanon"
+    ]
+  }
+}

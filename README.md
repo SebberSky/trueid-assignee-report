@@ -6,10 +6,12 @@ Ticket owner ignores QA closing assignees — uses last non-QA assignee before Q
 
 ## Setup
 
-Credentials are read from env **or** `~/.cursor/mcp.json` (`mcp-atlassian` + `bitbucket` servers):
+Credentials are read from `~/.cursor/mcp.json` (`mcp-atlassian` + `bitbucket` servers), with optional env override:
 
-- Jira: `JIRA_URL` / `JIRA_USERNAME` / `JIRA_API_TOKEN`
-- Bitbucket: `BITBUCKET_USERNAME` / `BITBUCKET_APP_PASSWORD`
+- Jira: prefers mcp-atlassian `JIRA_USERNAME` + `JIRA_API_TOKEN` (needed for SC / IMP browse access). Set `JIRA_USE_ENV=1` to force shell `JIRA_EMAIL` / `JIRA_API_TOKEN` instead.
+- Bitbucket: `BITBUCKET_USERNAME` / `BITBUCKET_APP_PASSWORD` (env overrides mcp)
+
+Boards: `SC` Social Commerce, `IMP` TrueID HERO, `LS` Watch, `EXP` Today, `VAL` DevEx.
 
 ## Collect
 
