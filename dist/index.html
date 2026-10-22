@@ -64,6 +64,7 @@
     th.sortable::after { content: " ↕"; opacity: 0.45; }
     th.sortable.asc::after { content: " ↑"; opacity: 1; }
     th.sortable.desc::after { content: " ↓"; opacity: 1; }
+    .hidden-column { display: none; }
     tr:hover td { background: rgba(255,255,255,0.03); }
     td.num { text-align: right; font-variant-numeric: tabular-nums; }
     .ios { color: var(--ios); font-weight: 600; }
@@ -101,11 +102,11 @@
       <thead>
         <tr>
           <th class="sortable" data-key="name">Person</th>
-          <th class="sortable num" data-key="tickets_ios">Tickets iOS</th>
-          <th class="sortable num" data-key="tickets_android">Tickets Android</th>
+          <th class="sortable num col-ios" data-key="tickets_ios">Tickets iOS</th>
+          <th class="sortable num col-android" data-key="tickets_android">Tickets Android</th>
           <th class="sortable num" data-key="tickets_other">Tickets Other</th>
-          <th class="sortable num" data-key="prs_ios">PRs iOS</th>
-          <th class="sortable num" data-key="prs_android">PRs Android</th>
+          <th class="sortable num col-ios" data-key="prs_ios">PRs iOS</th>
+          <th class="sortable num col-android" data-key="prs_android">PRs Android</th>
           <th class="sortable num" data-key="prs_mobile">PRs Mobile</th>
         </tr>
       </thead>
@@ -154,11 +155,11 @@
         const other = (r.tickets_unknown || 0) + (r.tickets_both || 0);
         tr.innerHTML = `
           <td class="name">${escapeHtml(r.name)}</td>
-          <td class="num ios">${r.tickets_ios}</td>
-          <td class="num android">${r.tickets_android}</td>
+          <td class="num ios col-ios">${r.tickets_ios}</td>
+          <td class="num android col-android">${r.tickets_android}</td>
           <td class="num">${other}</td>
-          <td class="num ios">${r.prs_ios}</td>
-          <td class="num android">${r.prs_android}</td>
+          <td class="num ios col-ios">${r.prs_ios}</td>
+          <td class="num android col-android">${r.prs_android}</td>
           <td class="num">${r.prs_mobile || 0}</td>`;
         tr.querySelector(".name").addEventListener("click", () => {
           selected = r.name;
@@ -203,6 +204,12 @@
         <div class="ticket"><span class="ios">iOS: ${row.prs_ios || 0}</span> · <span class="android">Android: ${row.prs_android || 0}</span> · Mobile: ${row.prs_mobile || 0}</div>`;
     }
 
+    function updateColumnVisibility() {
+      const visible = new Set([...document.querySelectorAll(".filters input:checked")].map(input => input.value));
+      document.querySelectorAll(".col-ios").forEach(cell => cell.classList.toggle("hidden-column", !visible.has("ios")));
+      document.querySelectorAll(".col-android").forEach(cell => cell.classList.toggle("hidden-column", !visible.has("android")));
+    }
+
     function escapeHtml(s) {
       return String(s ?? "").replace(/[&<>"']/g, c => ({
         "&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"
@@ -231,7 +238,11 @@
       monthSelect.innerHTML = months.map(m => `<option value="${escapeHtml(m.file)}">${escapeHtml(m.label)}</option>`).join("");
       monthSelect.addEventListener("change", e => loadReport(e.target.value));
       document.getElementById("q").addEventListener("input", e => renderRows(e.target.value));
-      document.querySelectorAll(".filters input").forEach(input => input.addEventListener("change", () => renderRows(document.getElementById("q").value)));
+      document.querySelectorAll(".filters input").forEach(input => input.addEventListener("change", () => {
+        renderRows(document.getElementById("q").value);
+        updateColumnVisibility();
+      }));
+      updateColumnVisibility();
       await loadReport(months[0].file);
       document.querySelectorAll("th.sortable").forEach(th => th.addEventListener("click", () => {
         const key = th.dataset.key;
