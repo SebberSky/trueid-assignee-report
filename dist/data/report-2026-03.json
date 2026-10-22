@@ -1,0 +1,1445 @@
+{
+  "generated_at": "2026-10-22T09:29:45.958185+00:00",
+  "month": "2026-03",
+  "project": "VAL",
+  "rows": [
+    {
+      "name": "Kittisak Buaphanna",
+      "tickets_ios": 5,
+      "tickets_android": 19,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 8,
+      "prs_android": 50,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Todsapon Sangpook",
+      "tickets_ios": 3,
+      "tickets_android": 5,
+      "tickets_unknown": 3,
+      "tickets_both": 0,
+      "prs_ios": 23,
+      "prs_android": 176,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kijja Charuchinda",
+      "tickets_ios": 5,
+      "tickets_android": 4,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 42,
+      "prs_android": 137,
+      "prs_mobile": 1
+    },
+    {
+      "name": "Attapong Jakkrawantanarak",
+      "tickets_ios": 6,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 97,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Tanet Pornsirirat",
+      "tickets_ios": 1,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 2,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Pathiphon Jaiyen",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 394,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Phanat Buraphaphichit",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 310,
+      "prs_mobile": 66
+    },
+    {
+      "name": "Pratchaya Suksena",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 373,
+      "prs_android": 1,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Nevin Ruttanaboonta",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 358,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Niracha Boonyanaet",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 354
+    },
+    {
+      "name": "Nuttapon Buaban",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 329,
+      "prs_android": 5,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Akamate Chayapiwat",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 114,
+      "prs_android": 0,
+      "prs_mobile": 177
+    },
+    {
+      "name": "Nattarit",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 276,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Ruttanachai Auitragool",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 275,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kanjanawit Yanggratoke",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 88,
+      "prs_android": 35,
+      "prs_mobile": 141
+    },
+    {
+      "name": "Nattapat Santiphan",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 256,
+      "prs_mobile": 3
+    },
+    {
+      "name": "Thanakorn Suttiwong",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 138,
+      "prs_mobile": 106
+    },
+    {
+      "name": "Nuttawut (Khun`O) Commerce",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 1,
+      "prs_android": 239,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kirathi Mingsakul",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 233,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Phatsawee Puttarukkul",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 229,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Damrongdech Haemanee",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 217,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sakolrat Niratthisaikul",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 204,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jiraporn Praneet",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 191,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Patipat Sahasapanan",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 184,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jassadakorn (Tony) (Today)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 168,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Papon Supamongkonchai (Boy)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 161,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Poowanat Homruen",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 135,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Suriya Alee",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 2,
+      "prs_android": 127,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Chatchai Chen-Aphisart",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 127,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jetarin Taloet (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 123,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thosapol Sangkasub",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 123,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Wachirawit (MossiTo) (Discovery)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 115,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Panuwat (Pum) (Privilege)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 1,
+      "prs_android": 113,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thanyaporn Boonyen",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 107,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sarawut (Kai) (Player)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 105,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Chitipat Mueanpaopong",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 102
+    },
+    {
+      "name": "Nutthapoom (Big) (Hero)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 102,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "saweena.b",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 102,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Chamnarn Suksai",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 95,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Narawit",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 90,
+      "prs_mobile": 0
+    },
+    {
+      "name": "teerapat.c",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 89,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Alongkot Tonprasert",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 87,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Pichamol Phookpun",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 84,
+      "prs_mobile": 0
+    },
+    {
+      "name": "ext.jirawat.chi",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 78,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kritsada Kongsaming",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 46,
+      "prs_mobile": 30
+    },
+    {
+      "name": "Chawapon Kiatpravee",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 73,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "pohnpawit buaban",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 72,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Punyawat Suwannatat",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 71,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sittisak Tangpraditchai",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 71,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Yossawat Sarasomran (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 71,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Supachote Marungrueng (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 69,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thanapol Sopanhari",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 53,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Vissanu (NU) (Communicator)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 53,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Natdanai Chaiyakan",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 52,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Wattakamol L.",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 50,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kantachat Puagkajee",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 49,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Ittipon Kankaew",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 47,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Nattapon Pattanakasetwong",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 44,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Nuttarikan Pattanaporn (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 44,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Natthanan Gumyan",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 43,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thanawut (Pek)(Social)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 42,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jakkarin Thongjit",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 40,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Pitchawat Wiangnai",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 40,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sitthikorn Sommechai (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 40,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Piyabute Chairiboon",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 39
+    },
+    {
+      "name": "supasit suebsunthorn",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 35,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Isarapong Tuensakul (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 19,
+      "prs_android": 15,
+      "prs_mobile": 0
+    },
+    {
+      "name": "ext.chawapon.kia",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 32,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "ext.chotikar.pho",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 28,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thaworn Limwattanachai",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 28
+    },
+    {
+      "name": "ext.nuttanai.sal",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 24,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jae.Nuttapong",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 24,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Rattapong Paleegui (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 22,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Waranon Phuket",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 21
+    },
+    {
+      "name": "Nontachai Jaila",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 20,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Aekkawin Anantrakarnkit",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 18,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Merin Phunupha",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 17
+    },
+    {
+      "name": "Methas Tariya",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 15,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Shinnakrit Jirasopon",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 13
+    },
+    {
+      "name": "Rattapong Paleegui",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 8,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Tanapat(Aor)(TODAY)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 5,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Atikom Tancharoen",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 2,
+      "prs_android": 1,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Former user",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 2,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Naphat Sottiyaphai (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 2,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Chaiyatat Saipin",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 1,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Peerapong (Dew) Samarnpong",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 1,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Phongsakorn Srikate",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 1,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sitthiphong (Oat)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 1,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Yanyong (Benz) (Communicator)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 1,
+      "prs_android": 0,
+      "prs_mobile": 0
+    }
+  ],
+  "ticket_details": [
+    {
+      "key": "VAL-8136",
+      "summary": "[Android] Regression Test 3.56.0",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "pre_qa_assignee",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8137",
+      "summary": "[iOS] Regression Test 3.56.0",
+      "owner": "Kittisak Buaphanna",
+      "platform": "iOS",
+      "method": "pre_qa_assignee",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8145",
+      "summary": "[Android] Upgrade NewRelic SDK to v7.7.0",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8008",
+      "summary": "[iOS] Send Generated JSON to OTL",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8143",
+      "summary": "[Android Crash] com.tdcm.trueidapp.Hilt_TrueIDApplication.onCreate",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8144",
+      "summary": "[Android Crash] IllegalStateException on FirebaseApp.getInstance",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8141",
+      "summary": "[Android SDK] Add JS Interface to login receive callback from AAA",
+      "owner": "Todsapon Sangpook",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8158",
+      "summary": "[Android Crash] [DevEx] Fix crash caused by SQLiteConnection.java",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8160",
+      "summary": "[Android Crash] [DevEx] Crash on Samsung S21 Ultra on Main page",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8166",
+      "summary": "[Android Crash] [libsignal.so] jni.h - _JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8164",
+      "summary": "[Crashlytics] [Linked Issue] com.tdcm.trueidapp.Hilt_TrueIDApplication.a",
+      "owner": "Todsapon Sangpook",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8167",
+      "summary": "[iOS][Urgent! Expired in 13 March 2026] Update 43 Provisioning Profile && 3 Certificate(.p12) && Update Certificate on Agent 43, 47, 48, 49, 51, 52, 53, 54",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8002",
+      "summary": "[iOS SDK] Send Device Commercial Name to AAA",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8140",
+      "summary": "[iOS SDK] Add JS Interface to receive login callback from AAA",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8033",
+      "summary": "[iOS] Remove UIDesignRequiresCompatibility config",
+      "owner": "Kijja Charuchinda",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8139",
+      "summary": "[iOS] Implement Tabar for L1 page",
+      "owner": "Kijja Charuchinda",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8031",
+      "summary": "[iOS] Implement Toolbars for L1 pages",
+      "owner": "Todsapon Sangpook",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8165",
+      "summary": "[Android] Implement Profiling on Android",
+      "owner": "Todsapon Sangpook",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8147",
+      "summary": "[Android] Upgrade AndroidX SDKs version",
+      "owner": "Kijja Charuchinda",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8034",
+      "summary": "[iOS] Re-check Action Button on Home page",
+      "owner": "Kittisak Buaphanna",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8169",
+      "summary": "[iOS] Disable ThreatCast",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8168",
+      "summary": "[Android] Disable ThreatCast",
+      "owner": "Kijja Charuchinda",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8098",
+      "summary": "[iOS] Upgrade NewRelic SDK to v7.6.3",
+      "owner": "Kijja Charuchinda",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8150",
+      "summary": "[Android Crash] [DevEx] com.truedigital.anrspy.agent.ANRSpyAgent.addAnnotatedMethods",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8177",
+      "summary": "[Android Crash] com.google.android.gms.policy_ads_fdr_dynamite",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8175",
+      "summary": "[Android Crash] SourceFile line 120 in org.webrtc.MediaStreamTrack",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8176",
+      "summary": "[Android Crash] SourceFile line 131 in lip.dispatch",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8172",
+      "summary": "[Crashlytics] [Linked Issue] android.content.BroadcastReceiver$PendingResult.sendFinished",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-8173",
+      "summary": "[Crashlytics] [Linked Issue] com.truedigital.features.tuned.service.music.MediaSessionServiceNotification.getNotificationChannel",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-8060",
+      "summary": "[Vivo] Migrate Firestore to TBD for Vivo (Pre-install) environment",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-8061",
+      "summary": "[Vivo] Migrate Firebase Analytics to TBD for Vivo (Pre-install) environment",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-8062",
+      "summary": "[Vivo] Migrate Firebase Performance to TBD to Vivo (Pre-install) environment",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-8065",
+      "summary": "[Vivo] Migrate Firebase Crashlytics to TBD for Vivo (Pre-install) environment",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-8063",
+      "summary": "[Vivo] Implement Permission Request Dialog for User Sensitive Data for Vivo (Pre-install) environment",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-8180",
+      "summary": "[iOS crash] 0x000C5964 in /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+      "owner": "Kittisak Buaphanna",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8179",
+      "summary": "[iOS crash] 0x0000C728 in TrueID.app/TrueID",
+      "owner": "Kittisak Buaphanna",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8154",
+      "summary": "[Android Crash] [DevEx] JvmOkio.kt - okio.InputStreamSource.read",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8188",
+      "summary": "[Android] Fix ANRs Signal execute in loop",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8001",
+      "summary": "[iOS] Upgrade iXGuard to v4.15.3",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8146",
+      "summary": "[Android Crash] [DevEx] com.truedigital.foundation.utils.bundlesafe.utils.Converter.toBytes",
+      "owner": "Todsapon Sangpook",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8155",
+      "summary": "[Android Crash] [DevEx] :com.google.android.gms@250335022@25.03.35 (150400-720971461) - com.google.android.gms.chimera.container.DynamiteLoaderImpl.<init>",
+      "owner": "Todsapon Sangpook",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8151",
+      "summary": "[Android Crash] [DevEx] Collections.kt - kotlin.collections.EmptyList.subList",
+      "owner": "Kijja Charuchinda",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8152",
+      "summary": "[Android Crash] [DevEx] java.util.AbstractList.subListRangeCheck",
+      "owner": "Kijja Charuchinda",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8195",
+      "summary": "[Android Crash] [DevEx] BaseConsents.getAllConsentsViewModel",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8197",
+      "summary": "[Android ANRs] [DevEx] Fix ANRs Signal callback execute where the user closes the app by tapping the home button",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8189",
+      "summary": "[iOS Crash] [DevEx] -[AFSDKUserDefaultsStorage incrementInAppCnt]",
+      "owner": "Todsapon Sangpook",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-5577",
+      "summary": "[iOS] Implement fastlane match to enhance code signing process instead of using certificate file",
+      "owner": "Tanet Pornsirirat",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-7831",
+      "summary": "[iOS] Add step to retry build RC pipeline when some stage has been failed",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-8186",
+      "summary": "[n8n] Revise RC workflow",
+      "owner": "Todsapon Sangpook",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8187",
+      "summary": "[n8n] Revise RC announcement",
+      "owner": "Todsapon Sangpook",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8153",
+      "summary": "[Android Crash] [DevEx] android.app.Activity.performResume",
+      "owner": "Todsapon Sangpook",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8212",
+      "summary": "[Android] Fix Unable to watch movies, anime, or cartoons",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8216",
+      "summary": "[Android Crash] [DevEx] com.bytedance.common.wschannel.LifeCycleMonitor.<clinit>",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8193",
+      "summary": "[iOS] Hang & Crash after switching the navigation bar many times",
+      "owner": "Kijja Charuchinda",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8198",
+      "summary": "[iOS] SFV Action buttons stuck for a while after switching bottom nav",
+      "owner": "Kijja Charuchinda",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8194",
+      "summary": "[iOS] Liquid Glass did not apply after logout / login many times",
+      "owner": "Todsapon Sangpook",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8213",
+      "summary": "[Android] Fix App content does not display after launch",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8217",
+      "summary": "[Android] Regression Test 3.57.0",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "pre_qa_assignee",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8218",
+      "summary": "[iOS] Regression Test 3.57.0",
+      "owner": "Kittisak Buaphanna",
+      "platform": "iOS",
+      "method": "pre_qa_assignee",
+      "note": "",
+      "counted": true
+    }
+  ],
+  "notes": {
+    "tickets": "Owner = last non-QA assignee before QA, or In Progress author / longest non-QA assignee",
+    "prs": "Merged PR authors from 9 /reviewpr repos; platform from repo",
+    "qa_excluded": [
+      "Atthaphon Sriathayanon",
+      "Jeerapa Wisawawiwatsakul",
+      "Kansinee Ruengchawaroj (Ext)",
+      "Nanthanat Nimchanasit (Ext)",
+      "Nuttapol Pakdeesuppapol",
+      "Supakorn Naowaratphunsin",
+      "Suwanna Thananitaporn",
+      "Vanidchaporn Suksai",
+      "Wanwisa Lertlumwittayanon"
+    ]
+  }
+}

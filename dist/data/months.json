@@ -1,5 +1,12 @@
 [
   {"label": "ตุลาคม 2026", "file": "report.json"},
   {"label": "กันยายน 2026", "file": "report-2026-09.json"},
-  {"label": "สิงหาคม 2026", "file": "report-2026-08.json"}
+  {"label": "สิงหาคม 2026", "file": "report-2026-08.json"},
+  {"label": "กรกฎาคม 2026", "file": "report-2026-07.json"},
+  {"label": "มิถุนายน 2026", "file": "report-2026-06.json"},
+  {"label": "พฤษภาคม 2026", "file": "report-2026-05.json"},
+  {"label": "เมษายน 2026", "file": "report-2026-04.json"},
+  {"label": "มีนาคม 2026", "file": "report-2026-03.json"},
+  {"label": "กุมภาพันธ์ 2026", "file": "report-2026-02.json"},
+  {"label": "มกราคม 2026", "file": "report-2026-01.json"}
 ]
