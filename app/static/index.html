@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ownership Report — Tickets & PRs</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --panel: #1a2332;
+      --text: #e7ecf3;
+      --muted: #8b9bb4;
+      --line: #2a3a52;
+      --ios: #5ac8fa;
+      --android: #a4c639;
+      --accent: #ff6b4a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "IBM Plex Sans Thai", "Segoe UI", sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #243552 0%, var(--bg) 55%);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    main { max-width: 1200px; margin: 0 auto; padding: 28px 20px 64px; }
+    h1 { font-size: 1.6rem; margin: 0 0 6px; letter-spacing: -0.02em; }
+    .sub { color: var(--muted); margin-bottom: 22px; font-size: 0.95rem; }
+    .toolbar {
+      display: flex; gap: 12px; flex-wrap: wrap; align-items: center;
+      margin-bottom: 18px;
+    }
+    input[type="search"] {
+      background: var(--panel); border: 1px solid var(--line); color: var(--text);
+      border-radius: 10px; padding: 10px 12px; min-width: 240px;
+    }
+    .pill {
+      background: var(--panel); border: 1px solid var(--line);
+      border-radius: 999px; padding: 6px 12px; color: var(--muted); font-size: 0.85rem;
+    }
+    table {
+      width: 100%; border-collapse: collapse; background: var(--panel);
+      border-radius: 14px; overflow: hidden; border: 1px solid var(--line);
+    }
+    th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--line); }
+    th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+    tr:hover td { background: rgba(255,255,255,0.03); }
+    td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    .ios { color: var(--ios); font-weight: 600; }
+    .android { color: var(--android); font-weight: 600; }
+    .name { font-weight: 600; cursor: pointer; }
+    .name:hover { color: var(--accent); }
+    details {
+      margin-top: 22px; background: var(--panel); border: 1px solid var(--line);
+      border-radius: 14px; padding: 12px 14px;
+    }
+    details summary { cursor: pointer; color: var(--muted); }
+    .ticket {
+      padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 0.9rem;
+    }
+    .ticket a { color: var(--ios); text-decoration: none; }
+    .empty { color: var(--muted); padding: 24px; text-align: center; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Ownership Report</h1>
+    <p class="sub">จำนวน ticket ที่ถือจริง (ไม่นับ QA) และ merged PR จาก 9 repo — แยก iOS / Android</p>
+    <div class="toolbar">
+      <input id="q" type="search" placeholder="ค้นชื่อ…" />
+      <span class="pill" id="meta">loading…</span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Person</th>
+          <th class="num">Tickets iOS</th>
+          <th class="num">Tickets Android</th>
+          <th class="num">Tickets Other</th>
+          <th class="num">PRs iOS</th>
+          <th class="num">PRs Android</th>
+          <th class="num">PRs Mobile</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <details id="drill" open>
+      <summary>Ticket drill-down</summary>
+      <div id="tickets" class="empty">เลือกชื่อในตาราง</div>
+    </details>
+  </main>
+  <script>
+    let report = null;
+    let selected = null;
+
+    function renderRows(filter = "") {
+      const tbody = document.getElementById("rows");
+      tbody.innerHTML = "";
+      const needle = filter.trim().toLowerCase();
+      const rows = (report.rows || []).filter(r => !needle || r.name.toLowerCase().includes(needle));
+      if (!rows.length) {
+        tbody.innerHTML = `<tr><td colspan="7" class="empty">ไม่มีข้อมูล</td></tr>`;
+        return;
+      }
+      for (const r of rows) {
+        const tr = document.createElement("tr");
+        const other = (r.tickets_unknown || 0) + (r.tickets_both || 0);
+        tr.innerHTML = `
+          <td class="name">${escapeHtml(r.name)}</td>
+          <td class="num ios">${r.tickets_ios}</td>
+          <td class="num android">${r.tickets_android}</td>
+          <td class="num">${other}</td>
+          <td class="num ios">${r.prs_ios}</td>
+          <td class="num android">${r.prs_android}</td>
+          <td class="num">${r.prs_mobile || 0}</td>`;
+        tr.querySelector(".name").addEventListener("click", () => {
+          selected = r.name;
+          renderTickets();
+        });
+        tbody.appendChild(tr);
+      }
+    }
+
+    function renderTickets() {
+      const box = document.getElementById("tickets");
+      if (!selected) {
+        box.className = "empty";
+        box.textContent = "เลือกชื่อในตาราง";
+        return;
+      }
+      const items = (report.ticket_details || []).filter(t => t.owner === selected && t.counted);
+      if (!items.length) {
+        box.className = "empty";
+        box.textContent = `${selected}: ไม่มี ticket ในเดือนนี้`;
+        return;
+      }
+      box.className = "";
+      box.innerHTML = `<p class="sub">${escapeHtml(selected)} — ${items.length} tickets</p>` +
+        items.map(t => `
+          <div class="ticket">
+            <a href="https://truedmp.atlassian.net/browse/${encodeURIComponent(t.key)}" target="_blank" rel="noopener">${escapeHtml(t.key)}</a>
+            <span class="${t.platform === 'iOS' ? 'ios' : t.platform === 'Android' ? 'android' : ''}">[${escapeHtml(t.platform)}]</span>
+            ${escapeHtml(t.summary)}
+            <div class="sub">${escapeHtml(t.method)}${t.note ? " · " + escapeHtml(t.note) : ""}</div>
+          </div>`).join("");
+    }
+
+    function escapeHtml(s) {
+      return String(s ?? "").replace(/[&<>"']/g, c => ({
+        "&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"
+      })[c]);
+    }
+
+    async function boot() {
+      const res = await fetch("/data/report.json", { cache: "no-store" });
+      if (!res.ok) {
+        document.getElementById("meta").textContent = "ยังไม่มี report — รัน scripts/collect_report.py ก่อน";
+        return;
+      }
+      report = await res.json();
+      document.getElementById("meta").textContent =
+        `month ${report.month} · generated ${new Date(report.generated_at).toLocaleString()} · ${report.rows.length} people`;
+      renderRows();
+      document.getElementById("q").addEventListener("input", e => renderRows(e.target.value));
+    }
+    boot();
+  </script>
+</body>
+</html>
