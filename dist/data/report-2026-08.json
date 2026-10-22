@@ -290,19 +290,6 @@
       ]
     },
     {
-      "name": "Kittisak Buaphanna",
-      "tickets_ios": 2,
-      "tickets_android": 3,
-      "tickets_unknown": 1,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 4,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
-    },
-    {
       "name": "Nuttarikan Pattanaporn (Ext)",
       "tickets_ios": 0,
       "tickets_android": 5,
@@ -1312,8 +1299,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Unknown",
       "method": "in_progress_author",
-      "note": "fallback_a=Kijja Charuchinda",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1512,8 +1499,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "in_progress_author",
-      "note": "fallback_a=Punyawat Suwannatat",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1922,8 +1909,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -2192,8 +2179,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -2232,8 +2219,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -2972,8 +2959,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {

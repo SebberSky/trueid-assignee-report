@@ -316,19 +316,6 @@
       ]
     },
     {
-      "name": "Kittisak Buaphanna",
-      "tickets_ios": 0,
-      "tickets_android": 8,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 3,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
-    },
-    {
       "name": "Punyawat Suwannatat",
       "tickets_ios": 5,
       "tickets_android": 0,
@@ -391,19 +378,6 @@
       "prs_mobile": 0,
       "boards": [
         "EXP"
-      ]
-    },
-    {
-      "name": "Nutchanon (OH) Hero",
-      "tickets_ios": 1,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
       ]
     },
     {
@@ -495,8 +469,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -645,8 +619,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -655,8 +629,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -665,8 +639,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -815,8 +789,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -835,8 +809,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "fallback_a=Kijja Charuchinda",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1235,8 +1209,8 @@
       "owner": "Nutchanon (OH) Hero",
       "platform": "iOS",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -2635,8 +2609,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -3635,8 +3609,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {

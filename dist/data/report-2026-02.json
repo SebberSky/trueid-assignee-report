@@ -4,19 +4,6 @@
   "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
     {
-      "name": "Kittisak Buaphanna",
-      "tickets_ios": 2,
-      "tickets_android": 22,
-      "tickets_unknown": 1,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 13,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
-    },
-    {
       "name": "Suriya Alee",
       "tickets_ios": 1,
       "tickets_android": 5,
@@ -200,20 +187,6 @@
       ]
     },
     {
-      "name": "Tanapat(Aor)(TODAY)",
-      "tickets_ios": 0,
-      "tickets_android": 2,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 2,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP",
-        "VAL"
-      ]
-    },
-    {
       "name": "Sarawut (Kai) (Player)",
       "tickets_ios": 0,
       "tickets_android": 1,
@@ -224,19 +197,6 @@
       "prs_mobile": 0,
       "boards": [
         "LS"
-      ]
-    },
-    {
-      "name": "Nutchanon (OH) Hero",
-      "tickets_ios": 0,
-      "tickets_android": 1,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
       ]
     },
     {
@@ -409,8 +369,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -449,8 +409,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "fallback_a=Todsapon Sangpook",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -479,8 +439,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -489,8 +449,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -499,8 +459,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -509,8 +469,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -519,8 +479,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -539,8 +499,8 @@
       "owner": "Nutchanon (OH) Hero",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -549,8 +509,8 @@
       "owner": "Tanapat(Aor)(TODAY)",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -729,8 +689,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -739,8 +699,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -749,8 +709,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -759,8 +719,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -799,8 +759,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Unknown",
       "method": "in_progress_author",
-      "note": "fallback_a=Kijja Charuchinda",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1229,8 +1189,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1239,8 +1199,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1249,8 +1209,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1289,8 +1249,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1359,8 +1319,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1379,8 +1339,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1389,8 +1349,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1399,8 +1359,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1409,8 +1369,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1429,8 +1389,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1489,8 +1449,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1509,8 +1469,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1659,8 +1619,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1689,8 +1649,8 @@
       "owner": "Tanapat(Aor)(TODAY)",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "EXP"
     },
     {

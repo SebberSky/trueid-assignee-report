@@ -264,19 +264,6 @@
       ]
     },
     {
-      "name": "Kittisak Buaphanna",
-      "tickets_ios": 1,
-      "tickets_android": 2,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 4,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
-    },
-    {
       "name": "Alongkot Tonprasert",
       "tickets_ios": 0,
       "tickets_android": 2,
@@ -1389,8 +1376,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "in_progress_author",
-      "note": "fallback_a=Chawapon Kiatpravee",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1649,8 +1636,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1659,8 +1646,8 @@
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
