@@ -11,7 +11,10 @@
       "tickets_both": 0,
       "prs_ios": 8,
       "prs_android": 16,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "VAL"
+      ]
     },
     {
       "name": "Papon Supamongkonchai (Boy)",
@@ -21,7 +24,10 @@
       "tickets_both": 0,
       "prs_ios": 13,
       "prs_android": 0,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "EXP"
+      ]
     },
     {
       "name": "Wachirawit (MossiTo) (Discovery)",
@@ -31,7 +37,10 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 15,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "EXP"
+      ]
     },
     {
       "name": "Todsapon Sangpook",
@@ -41,7 +50,10 @@
       "tickets_both": 0,
       "prs_ios": 3,
       "prs_android": 12,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "VAL"
+      ]
     },
     {
       "name": "Kirathi Mingsakul",
@@ -51,7 +63,10 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 12,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "EXP"
+      ]
     },
     {
       "name": "Supachote Marungrueng (Ext)",
@@ -61,7 +76,10 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 5,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "EXP"
+      ]
     },
     {
       "name": "Thosapol Sangkasub",
@@ -71,7 +89,10 @@
       "tickets_both": 0,
       "prs_ios": 3,
       "prs_android": 0,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "LS"
+      ]
     },
     {
       "name": "Wanwisa (Nune) Lertlumwittayanon",
@@ -81,7 +102,10 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 0,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "LS"
+      ]
     },
     {
       "name": "Jiraporn Praneet",
@@ -91,7 +115,10 @@
       "tickets_both": 0,
       "prs_ios": 11,
       "prs_android": 0,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "LS"
+      ]
     },
     {
       "name": "Chamnarn Suksai",
@@ -101,7 +128,10 @@
       "tickets_both": 0,
       "prs_ios": 10,
       "prs_android": 0,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "LS"
+      ]
     },
     {
       "name": "Attapong Jakkrawantanarak",
@@ -111,7 +141,10 @@
       "tickets_both": 0,
       "prs_ios": 6,
       "prs_android": 0,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "VAL"
+      ]
     },
     {
       "name": "Jetarin Taloet (Ext)",
@@ -121,7 +154,10 @@
       "tickets_both": 0,
       "prs_ios": 6,
       "prs_android": 0,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "EXP"
+      ]
     },
     {
       "name": "Sarawut (Kai) (Player)",
@@ -131,7 +167,10 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 5,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "LS"
+      ]
     },
     {
       "name": "Rattapong Paleegui (Ext)",
@@ -141,7 +180,10 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 4,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "LS"
+      ]
     },
     {
       "name": "Suriya Alee",
@@ -151,7 +193,10 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 4,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "LS"
+      ]
     },
     {
       "name": "Kittisak Buaphanna",
@@ -161,7 +206,10 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 0,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "VAL"
+      ]
     },
     {
       "name": "Thanyaporn Boonyen",
@@ -171,7 +219,10 @@
       "tickets_both": 0,
       "prs_ios": 8,
       "prs_android": 0,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "EXP"
+      ]
     },
     {
       "name": "Piyaporn Pengboon",
@@ -181,7 +232,10 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 0,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "EXP"
+      ]
     },
     {
       "name": "Tanapat(Aor)(TODAY)",
@@ -191,7 +245,10 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 0,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": [
+        "EXP"
+      ]
     },
     {
       "name": "Nutthapoom (Big) (Hero)",
@@ -201,7 +258,8 @@
       "tickets_both": 0,
       "prs_ios": 11,
       "prs_android": 0,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": []
     },
     {
       "name": "Alongkot Tonprasert",
@@ -211,7 +269,8 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 2,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": []
     },
     {
       "name": "Narawit",
@@ -221,7 +280,8 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 2,
-      "prs_mobile": 0
+      "prs_mobile": 0,
+      "boards": []
     }
   ],
   "ticket_details": [
@@ -232,7 +292,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "LS-18907",
@@ -241,7 +302,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "EXP-15380",
@@ -250,7 +312,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15248",
@@ -259,7 +322,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15381",
@@ -268,7 +332,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-12769",
@@ -277,7 +342,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "board": "EXP"
     },
     {
       "key": "EXP-9339",
@@ -286,7 +352,8 @@
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Jassadakorn (Tony) (Today)",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "LS-19257",
@@ -295,7 +362,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "EXP-15382",
@@ -304,7 +372,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "LS-19198",
@@ -313,7 +382,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "board": "LS"
     },
     {
       "key": "LS-19282",
@@ -322,7 +392,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "LS-19281",
@@ -331,7 +402,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "VAL-8205",
@@ -340,7 +412,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8206",
@@ -349,7 +422,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8207",
@@ -358,7 +432,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8210",
@@ -367,7 +442,8 @@
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Todsapon Sangpook",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "LS-19010",
@@ -376,7 +452,8 @@
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Chamnarn Suksai",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "EXP-14814",
@@ -385,7 +462,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15388",
@@ -394,7 +472,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15515",
@@ -403,7 +482,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-14794",
@@ -412,7 +492,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15317",
@@ -421,7 +502,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15128",
@@ -430,7 +512,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "LS-19227",
@@ -439,7 +522,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "VAL-8190",
@@ -448,7 +532,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-6738",
@@ -457,7 +542,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "board": "VAL"
     },
     {
       "key": "VAL-7047",
@@ -466,7 +552,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "board": "VAL"
     },
     {
       "key": "VAL-7046",
@@ -475,7 +562,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "board": "VAL"
     },
     {
       "key": "VAL-7366",
@@ -484,7 +572,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "board": "VAL"
     },
     {
       "key": "LS-19287",
@@ -493,7 +582,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "LS-19288",
@@ -502,7 +592,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "VAL-8162",
@@ -511,7 +602,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "EXP-15491",
@@ -520,7 +612,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "VAL-8211",
@@ -529,7 +622,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "LS-19277",
@@ -538,7 +632,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "LS-19267",
@@ -547,7 +642,8 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Suriya Alee",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "LS-19292",
@@ -556,7 +652,8 @@
       "platform": "Unknown",
       "method": "in_progress_author",
       "note": "fallback_a=Sarawut (Kai) (Player)",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "LS-19294",
@@ -565,7 +662,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "LS-19156",
@@ -574,7 +672,8 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Sarawut (Kai) (Player)",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "LS-19226",
@@ -583,7 +682,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "EXP-6806",
@@ -592,7 +692,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "VAL-8204",
@@ -601,7 +702,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8199",
@@ -610,7 +712,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8203",
@@ -619,7 +722,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "LS-19103",
@@ -628,7 +732,8 @@
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Jiraporn Praneet",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "LS-19152",
@@ -637,7 +742,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "LS-19230",
@@ -646,7 +752,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "VAL-8163",
@@ -655,7 +762,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "EXP-15510",
@@ -664,7 +772,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "VAL-8208",
@@ -673,7 +782,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "EXP-15513",
@@ -682,7 +792,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15530",
@@ -691,7 +802,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15144",
@@ -700,7 +812,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15489",
@@ -709,7 +822,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15532",
@@ -718,7 +832,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "LS-19231",
@@ -727,7 +842,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "LS-19278",
@@ -736,7 +852,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "EXP-15401",
@@ -745,7 +862,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-14815",
@@ -754,7 +872,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "VAL-8247",
@@ -763,7 +882,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8246",
@@ -772,7 +892,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "EXP-15047",
@@ -781,7 +902,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15048",
@@ -790,7 +912,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15533",
@@ -799,7 +922,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15050",
@@ -808,7 +932,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "LS-19325",
@@ -817,7 +942,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "EXP-15387",
@@ -826,7 +952,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15547",
@@ -835,7 +962,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15539",
@@ -844,7 +972,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15067",
@@ -853,7 +982,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "VAL-8226",
@@ -862,7 +992,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8227",
@@ -871,7 +1002,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8228",
@@ -880,7 +1012,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "EXP-15574",
@@ -889,7 +1022,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "VAL-8225",
@@ -898,7 +1032,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "EXP-15575",
@@ -907,7 +1042,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "VAL-8240",
@@ -916,7 +1052,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "board": "VAL"
     },
     {
       "key": "VAL-8241",
@@ -925,7 +1062,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "board": "VAL"
     },
     {
       "key": "VAL-8242",
@@ -934,7 +1072,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "board": "VAL"
     },
     {
       "key": "VAL-8209",
@@ -943,7 +1082,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "LS-19155",
@@ -952,7 +1092,8 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Rattapong Paleegui (Ext)",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "LS-19337",
@@ -961,7 +1102,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "VAL-8068",
@@ -970,7 +1112,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8243",
@@ -979,7 +1122,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "EXP-15564",
@@ -988,7 +1132,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15548",
@@ -997,7 +1142,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15598",
@@ -1006,7 +1152,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "LS-19280",
@@ -1015,7 +1162,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "LS-19289",
@@ -1024,7 +1172,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "EXP-15595",
@@ -1033,7 +1182,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15596",
@@ -1042,7 +1192,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "LS-19299",
@@ -1051,7 +1202,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "VAL-8219",
@@ -1060,7 +1212,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8220",
@@ -1069,7 +1222,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8221",
@@ -1078,7 +1232,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8222",
@@ -1087,7 +1242,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8159",
@@ -1096,7 +1252,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8224",
@@ -1105,7 +1262,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8254",
@@ -1114,7 +1272,8 @@
       "platform": "Android",
       "method": "pre_qa_assignee",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8245",
@@ -1123,7 +1282,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8255",
@@ -1132,7 +1292,8 @@
       "platform": "iOS",
       "method": "pre_qa_assignee",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "EXP-15601",
@@ -1141,7 +1302,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15597",
@@ -1150,7 +1312,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15608",
@@ -1159,7 +1322,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "VAL-8250",
@@ -1168,7 +1332,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "LS-19349",
@@ -1177,7 +1342,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "EXP-15049",
@@ -1186,7 +1352,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "EXP-15538",
@@ -1195,7 +1362,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "LS-19348",
@@ -1204,7 +1372,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "VAL-8237",
@@ -1213,7 +1382,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "LS-19364",
@@ -1222,7 +1392,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "VAL-4924",
@@ -1231,7 +1402,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "VAL-8257",
@@ -1240,7 +1412,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "VAL"
     },
     {
       "key": "EXP-15625",
@@ -1249,7 +1422,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     },
     {
       "key": "LS-19365",
@@ -1258,7 +1432,8 @@
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Chamnarn Suksai",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "LS-19363",
@@ -1267,7 +1442,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "LS-19366",
@@ -1276,7 +1452,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "LS"
     },
     {
       "key": "EXP-15519",
@@ -1285,7 +1462,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "board": "EXP"
     }
   ],
   "notes": {

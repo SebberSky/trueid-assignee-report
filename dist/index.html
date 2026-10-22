@@ -51,6 +51,7 @@
       border-radius: 999px; padding: 6px 12px; color: var(--muted); font-size: 0.85rem;
     }
     .filters { display: inline-flex; gap: 10px; align-items: center; }
+    .filter-row { width: 100%; }
     .check { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
     .check input { accent-color: var(--accent); }
     table {
@@ -95,6 +96,7 @@
         <label class="check"><input id="ios-filter" type="checkbox" value="ios" checked /> iOS</label>
         <label class="check"><input id="android-filter" type="checkbox" value="android" checked /> Android</label>
       </span>
+      <div class="filter-row"><span class="pill">Jira board</span> <span id="board-filters" class="filters"></span></div>
       <input id="q" type="search" placeholder="ค้นชื่อ…" />
       <span class="pill" id="meta">loading…</span>
     </div>
@@ -102,6 +104,7 @@
       <thead>
         <tr>
           <th class="sortable" data-key="name">Person</th>
+          <th>Boards</th>
           <th class="sortable num col-ios" data-key="tickets_ios">Tickets iOS</th>
           <th class="sortable num col-android" data-key="tickets_android">Tickets Android</th>
           <th class="sortable num" data-key="tickets_other">Tickets Other</th>
@@ -131,14 +134,16 @@
       const tbody = document.getElementById("rows");
       tbody.innerHTML = "";
       const needle = filter.trim().toLowerCase();
-      const platforms = [...document.querySelectorAll(".filters input:checked")].map(input => input.value);
+      const platforms = [...document.querySelectorAll("#ios-filter:checked, #android-filter:checked")].map(input => input.value);
+      const boards = [...document.querySelectorAll("#board-filters input:checked")].map(input => input.value);
       const rows = (report.rows || []).filter(r => {
         const matchesText = !needle || r.name.toLowerCase().includes(needle);
         const matchesPlatform = !platforms.length || platforms.some(platform =>
           platform === "ios" ? (r.tickets_ios || 0) + (r.prs_ios || 0) > 0 :
           (r.tickets_android || 0) + (r.prs_android || 0) > 0
         );
-        return matchesText && matchesPlatform;
+        const matchesBoard = !boards.length || (r.boards || []).some(board => boards.includes(board));
+        return matchesText && matchesPlatform && matchesBoard;
       });
       rows.sort((a, b) => {
         const av = sortKey === "tickets_other" ? (a.tickets_unknown || 0) + (a.tickets_both || 0) : a[sortKey];
@@ -147,7 +152,7 @@
         return sortDirection * ((av || 0) - (bv || 0));
       });
       if (!rows.length) {
-        tbody.innerHTML = `<tr><td colspan="7" class="empty">ไม่มีข้อมูล</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="8" class="empty">ไม่มีข้อมูล</td></tr>`;
         return;
       }
       for (const r of rows) {
@@ -155,6 +160,7 @@
         const other = (r.tickets_unknown || 0) + (r.tickets_both || 0);
         tr.innerHTML = `
           <td class="name">${escapeHtml(r.name)}</td>
+          <td>${(r.boards || []).map(escapeHtml).join(", ") || "—"}</td>
           <td class="num ios col-ios">${r.tickets_ios}</td>
           <td class="num android col-android">${r.tickets_android}</td>
           <td class="num">${other}</td>
@@ -223,6 +229,8 @@
         return;
       }
       report = await res.json();
+      const boardValues = [...new Set((report.rows || []).flatMap(r => r.boards || []))].sort();
+      document.getElementById("board-filters").innerHTML = boardValues.map(board => `<label class="check"><input type="checkbox" value="${escapeHtml(board)}" checked /> ${escapeHtml(board)}</label>`).join("");
       document.getElementById("meta").textContent =
         `month ${report.month} · generated ${new Date(report.generated_at).toLocaleString()} · ${report.rows.length} people`;
       renderRows();
@@ -242,6 +250,7 @@
         renderRows(document.getElementById("q").value);
         updateColumnVisibility();
       }));
+      document.getElementById("board-filters").addEventListener("change", () => renderRows(document.getElementById("q").value));
       updateColumnVisibility();
       await loadReport(months[0].file);
       document.querySelectorAll("th.sortable").forEach(th => th.addEventListener("click", () => {
