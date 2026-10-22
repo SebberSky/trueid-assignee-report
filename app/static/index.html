@@ -34,6 +34,10 @@
       background: var(--panel); border: 1px solid var(--line); color: var(--text);
       border-radius: 10px; padding: 10px 12px; min-width: 240px;
     }
+    select {
+      background: var(--panel); border: 1px solid var(--line); color: var(--text);
+      border-radius: 10px; padding: 10px 12px; min-width: 150px;
+    }
     .pill {
       background: var(--panel); border: 1px solid var(--line);
       border-radius: 999px; padding: 6px 12px; color: var(--muted); font-size: 0.85rem;
@@ -67,6 +71,8 @@
     <h1>Ownership Report</h1>
     <p class="sub">จำนวน ticket ที่ถือจริง (ไม่นับ QA) และ merged PR จาก 9 repo — แยก iOS / Android</p>
     <div class="toolbar">
+      <label class="pill" for="month">เดือน</label>
+      <select id="month" aria-label="เลือกเดือน"></select>
       <input id="q" type="search" placeholder="ค้นชื่อ…" />
       <span class="pill" id="meta">loading…</span>
     </div>
@@ -151,8 +157,8 @@
       })[c]);
     }
 
-    async function boot() {
-      const res = await fetch("/data/report.json", { cache: "no-store" });
+    async function loadReport(file = "report.json") {
+      const res = await fetch(`/data/${file}`, { cache: "no-store" });
       if (!res.ok) {
         document.getElementById("meta").textContent = "ยังไม่มี report — รัน scripts/collect_report.py ก่อน";
         return;
@@ -161,7 +167,18 @@
       document.getElementById("meta").textContent =
         `month ${report.month} · generated ${new Date(report.generated_at).toLocaleString()} · ${report.rows.length} people`;
       renderRows();
+      renderTickets();
+    }
+
+    async function boot() {
+      const monthSelect = document.getElementById("month");
+      let months = [{ label: "เดือนล่าสุด", file: "report.json" }];
+      const index = await fetch("/data/months.json", { cache: "no-store" });
+      if (index.ok) months = await index.json();
+      monthSelect.innerHTML = months.map(m => `<option value="${escapeHtml(m.file)}">${escapeHtml(m.label)}</option>`).join("");
+      monthSelect.addEventListener("change", e => loadReport(e.target.value));
       document.getElementById("q").addEventListener("input", e => renderRows(e.target.value));
+      await loadReport(months[0].file);
     }
     boot();
   </script>
