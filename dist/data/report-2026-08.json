@@ -1,3984 +1,3984 @@
 {
-  "generated_at": "2026-10-22T10:23:16.910646+00:00",
+  "generated_at": "2026-10-22T10:37:21.794130+00:00",
   "month": "2026-08",
   "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
     {
       "name": "Narawit",
-      "tickets_ios": 1,
+      "boards": [
+        "LS"
+      ],
+      "tickets_ios": 2,
       "tickets_android": 17,
       "tickets_unknown": 4,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 30,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Papon Supamongkonchai (Boy)",
-      "tickets_ios": 21,
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 22,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 22,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Suriya Alee",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 0,
       "tickets_android": 21,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 20,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Jiraporn Praneet",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 19,
       "tickets_android": 0,
       "tickets_unknown": 2,
       "tickets_both": 0,
       "prs_ios": 14,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Alongkot Tonprasert",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 0,
       "tickets_android": 20,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 18,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Sarawut (Kai) (Player)",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 0,
       "tickets_android": 16,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 19,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Kijja Charuchinda",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 0,
-      "tickets_android": 9,
+      "tickets_android": 8,
       "tickets_unknown": 5,
       "tickets_both": 0,
       "prs_ios": 3,
       "prs_android": 24,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Wachirawit (MossiTo) (Discovery)",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 0,
       "tickets_android": 13,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 13,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Punyawat Suwannatat",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 1,
       "tickets_android": 0,
       "tickets_unknown": 11,
       "tickets_both": 0,
       "prs_ios": 9,
       "prs_android": 0,
-      "prs_mobile": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Yossawat Sarasomran (Ext)",
       "boards": [
         "VAL"
-      ]
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 9,
+      "tickets_unknown": 2,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 30,
+      "prs_mobile": 0
     },
     {
       "name": "Kirathi Mingsakul",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 0,
       "tickets_android": 11,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 19,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Ruttanachai Auitragool",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 10,
       "tickets_android": 0,
       "tickets_unknown": 1,
       "tickets_both": 0,
       "prs_ios": 16,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
-    },
-    {
-      "name": "Yossawat Sarasomran (Ext)",
-      "tickets_ios": 0,
-      "tickets_android": 8,
-      "tickets_unknown": 2,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 30,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Jetarin Taloet (Ext)",
-      "tickets_ios": 9,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 8,
-      "prs_android": 0,
-      "prs_mobile": 0,
       "boards": [
         "EXP"
-      ]
-    },
-    {
-      "name": "Thosapol Sangkasub",
+      ],
       "tickets_ios": 9,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 8,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Isarapong Tuensakul (Ext)",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 5,
       "tickets_android": 3,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 7,
       "prs_android": 4,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Supachote Marungrueng (Ext)",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 0,
       "tickets_android": 8,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 9,
-      "prs_mobile": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thosapol Sangkasub",
       "boards": [
-        "EXP"
-      ]
+        "LS"
+      ],
+      "tickets_ios": 8,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 8,
+      "prs_android": 0,
+      "prs_mobile": 0
     },
     {
       "name": "Aekkawin Anantrakarnkit",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 6,
       "tickets_android": 0,
       "tickets_unknown": 1,
       "tickets_both": 0,
       "prs_ios": 9,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Chamnarn Suksai",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 5,
       "tickets_android": 0,
       "tickets_unknown": 2,
       "tickets_both": 0,
       "prs_ios": 5,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
-    },
-    {
-      "name": "Todsapon Sangpook",
-      "tickets_ios": 0,
-      "tickets_android": 4,
-      "tickets_unknown": 2,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 33,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
-    },
-    {
-      "name": "Thanyaporn Boonyen",
-      "tickets_ios": 6,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 11,
-      "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Jae.Nuttapong",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 5,
       "tickets_android": 0,
       "tickets_unknown": 1,
       "tickets_both": 0,
       "prs_ios": 6,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Nuttarikan Pattanaporn (Ext)",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 0,
       "tickets_android": 5,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 15,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Chawapon Kiatpravee",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 5,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 12,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Sittisak Tangpraditchai",
-      "tickets_ios": 0,
+      "boards": [
+        "VAL"
+      ],
+      "tickets_ios": 1,
       "tickets_android": 4,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 12,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
-      "name": "Attapong Jakkrawantanarak",
-      "tickets_ios": 3,
+      "name": "Thanyaporn Boonyen",
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 5,
       "tickets_android": 0,
-      "tickets_unknown": 1,
+      "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 6,
+      "prs_ios": 11,
       "prs_android": 0,
-      "prs_mobile": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sitthikorn Sommechai (Ext)",
       "boards": [
         "VAL"
-      ]
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 4,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 10,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Todsapon Sangpook",
+      "boards": [
+        "VAL"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 2,
+      "tickets_unknown": 2,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 33,
+      "prs_mobile": 0
     },
     {
       "name": "Kantachat Puagkajee",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 3,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 10,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
-      "name": "Sitthikorn Sommechai (Ext)",
-      "tickets_ios": 0,
-      "tickets_android": 2,
-      "tickets_unknown": 1,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 10,
-      "prs_mobile": 0,
+      "name": "Attapong Jakkrawantanarak",
       "boards": [
         "VAL"
-      ]
+      ],
+      "tickets_ios": 2,
+      "tickets_android": 0,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 6,
+      "prs_android": 0,
+      "prs_mobile": 0
     },
     {
       "name": "Natdanai Chaiyakan",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 0,
       "tickets_android": 1,
       "tickets_unknown": 1,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 22,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Nutthapoom (Big) (Hero)",
+      "boards": [],
       "tickets_ios": 0,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 6,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": []
+      "prs_mobile": 0
     }
   ],
   "ticket_details": [
     {
       "key": "VAL-8816",
+      "board": "VAL",
       "summary": "apply AppTopBar in Commerce L1 ",
       "owner": "Kijja Charuchinda",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8815",
+      "board": "VAL",
       "summary": "apply AppTopBar in Today L1",
       "owner": "Kijja Charuchinda",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8814",
+      "board": "VAL",
       "summary": "apply AppTopBar in Watch L1",
       "owner": "Kijja Charuchinda",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-19915",
+      "board": "LS",
       "summary": "Use data from cache when render Device list on popup",
       "owner": "Narawit",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19773",
+      "board": "LS",
       "summary": "[Android] manage device entitlement #watch1",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "note": "fallback_a=Narawit",
+      "counted": false
     },
     {
       "key": "LS-19913",
+      "board": "LS",
       "summary": "[Android] กรณีที่เล่น trailer ในแนวนอนไม่ควรแสดงปุ่ม Next EP ใน player ",
       "owner": "Nuttarikan Pattanaporn (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19914",
+      "board": "LS",
       "summary": "[Android]กด Watch Now ใน player มีเสียง content จริง แต่ จอดำ",
       "owner": "Kodchakorn (Zigzag) (Livestream/Player)",
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Narawit",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "EXP-15778",
+      "board": "EXP",
       "summary": "[iOS] Home Feed: Add follow button > TATANG, TrueAF",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-15933",
+      "board": "EXP",
       "summary": "[iOS] Home Feed: TATANG, TrueAF, Following > Add setting_cta",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-19919",
+      "board": "LS",
       "summary": "[iOS]หลังจาก ดู trailer จบ ปุ่ม play ขึ้นซ้อนปุ่ม rewatch",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19939",
+      "board": "LS",
       "summary": "[TVS][Movie] เมื่อกดปุ่ม connect&watch ของ TVS movie ควรพาไปหน้า truevision_connect ",
       "owner": "Jiraporn Praneet",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19762",
+      "board": "LS",
       "summary": "[iOS] VOD player: Subscription Connect TVS",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8836",
+      "board": "VAL",
       "summary": "Migrate Fragment Result Handling",
       "owner": "Todsapon Sangpook",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8850",
+      "board": "VAL",
       "summary": "Migrate host lifecycle and startup orchestration into NewMainActivity",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8851",
+      "board": "VAL",
       "summary": "Re-home the remaining MainFragment behaviours onto the nav3 host",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8852",
+      "board": "VAL",
       "summary": "Restore the host-level navigation triggers on nav3",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8853",
+      "board": "VAL",
       "summary": "Finalize the host window policy and delete the legacy main screens",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8713",
+      "board": "VAL",
       "summary": "[Android] Refactor the existing navigation logic to support nav3 - Main activity",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16158",
+      "board": "EXP",
       "summary": "[Android] Home Feed: Handle no stream URL case",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8734",
+      "board": "VAL",
       "summary": "Migrate UGC to SPM - Part 6",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8610",
+      "board": "VAL",
       "summary": "Amity and RealmSwift / Realm to SPM migration Part 6",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-19941",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC1] ยืนยันลบ item ใน Manage Device List แล้วแต่ item ที่ลบไปยังอยู่",
       "owner": "Narawit",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8858",
+      "board": "VAL",
       "summary": "[Android][RG 3.62.0 RC1][LogIn] Unable to found TATANG login theme on TATANG shelf Watch L1 and TATANG L2",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-19911",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC1]ปรับสี Detail และ สีปุ่ม",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "note": "fallback_a=Narawit",
+      "counted": false
     },
     {
       "key": "VAL-8859",
+      "board": "VAL",
       "summary": "[iOS] Regression Test 3.62.0",
       "owner": null,
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "LS-19940",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC1] ไม่ควรแสดง play icon ที่ EP1 กรณีที่เล่น trailer อยู่",
       "owner": "Narawit",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8718",
+      "board": "VAL",
       "summary": "Watch L1",
       "owner": "Natdanai Chaiyakan",
       "platform": "Unknown",
       "method": "in_progress_author",
       "note": "fallback_a=Sitthikorn Sommechai (Ext)",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8817",
+      "board": "VAL",
       "summary": "Fragment State Restoration on WatchForYouFragment",
       "owner": "Sitthikorn Sommechai (Ext)",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-19824",
+      "board": "LS",
       "summary": "[Android] VOD player: Content Sampling",
       "owner": "Nuttarikan Pattanaporn (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19881",
+      "board": "LS",
       "summary": "The usage meter API is called every time after tapping the Rent button",
       "owner": "Chamnarn Suksai",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19880",
+      "board": "LS",
       "summary": "user ดู content ครบ 30s call  POST usage meter เพื่อ update (isplay = true) และ อัพเดทข้อความ ดูได้ถึงวันที่",
       "owner": "Chamnarn Suksai",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19761",
+      "board": "LS",
       "summary": "[iOS] VOD player: Subscription TVOD Ticket",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "note": "fallback_a=Chamnarn Suksai",
+      "counted": false
     },
     {
       "key": "EXP-16014",
+      "board": "EXP",
       "summary": "[iOS][RG 3.61.0 RC2] - Pulling down Notification Center during app launch breaks video autoplay",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8729",
+      "board": "VAL",
       "summary": "Migrate Communicator to SPM - Part 6",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-19952",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC1] API เส้น entitlements ส่งซ้ำ 2 ครั้ง",
       "owner": "Narawit",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8857",
+      "board": "VAL",
       "summary": "[Android][RG 3.62.0 RC1][Bottom Navigation] Proceed to other page when multiple tap on bottom navigation",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8552",
+      "board": "VAL",
       "summary": "[Android] Implement the new strategy for Firebase Firestore",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8860",
+      "board": "VAL",
       "summary": "[Android] Regression Test 3.62.0",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "EXP-15817",
+      "board": "EXP",
       "summary": "[Android]Change sent stream_url to player sdk",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "EXP"
+      "counted": false
     },
     {
       "key": "EXP-10856",
+      "board": "EXP",
       "summary": "[Android] Home: item_3x4_clip > Play SFV continuously",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "EXP"
+      "counted": false
     },
     {
       "key": "EXP-11154",
+      "board": "EXP",
       "summary": "[Android] Onboarding: Permission setting",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "EXP"
+      "counted": false
     },
     {
       "key": "EXP-10834",
+      "board": "EXP",
       "summary": "[iOS] Shelf TrueID Top Picks displayed items delay",
       "owner": null,
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "EXP"
+      "counted": false
     },
     {
       "key": "LS-19789",
+      "board": "LS",
       "summary": "[iOS][RG 3.61.0 RC1] ไม่แสดง toast แจ้งเตือนกรณีที่ internet lost [PO Acceptable]",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19929",
+      "board": "LS",
       "summary": "[iOS]กรณีที่กด VOD item จาก shelf ที่ไม่ใช่ continue watching จะเล่น content ในแนวตั้งเสมอ",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19946",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC1]กรณีที่เล่น Pre-roll ads ในแนวนอนไม่ควรแสดงปุ่ม Next EP ใน player",
       "owner": "Suriya Alee",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19956",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC1] กรณีที่ Trailer เล่นจบ ไม่ควรแสดง ชื่อ Series ในแนวตั้ง",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19959",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC1] Current EP ที่มีการเล่นอยู่บน Player เมื่อมีการกด EP เดิมใน EP list จะต้องไม่ restart เล่น Current EP ใหม่",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19964",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC2] กรณี่ที่  trailer เล่นอยู่ เมื่อ user กดปุ่ม watch แล้ว ติด limit device player ที่ player ไม่ควรแสดง Stream ของ trailer",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19967",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC2] Save and Share section should display under synopsis",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19826",
+      "board": "LS",
       "summary": "[Android] VOD player: Subscription TVOD Ticket",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8813",
+      "board": "VAL",
       "summary": "migrate AppTopBar to compose (apply Privilege L1)",
       "owner": "Kijja Charuchinda",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8383",
+      "board": "VAL",
       "summary": "[Android] Migrate Main page to Jetpack Compose",
-      "owner": "Kijja Charuchinda",
+      "owner": "Sitthikorn Sommechai (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-19948",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC1] API ไม่ส่ง เมื่อดู content จนครบเวลา watch and earn ",
       "owner": "Kantachat Puagkajee",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16057",
+      "board": "EXP",
       "summary": "[Android] Home Feed: Play preloaded videos",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-19961",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC1] FA tracks play_movie_initial, play_movie, pause_movieและ unload_movie ส่ง parameter ไม่ครบ",
       "owner": "Narawit",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19955",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC1] FA tracks play_series_initial, play_series, pause_series และ unload_series ส่ง parameter ไม่ครบ",
       "owner": "Narawit",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19954",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC1] pause_series and unload_series ส่งค่า duration_ms parameter มาผิด",
       "owner": "Narawit",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19962",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC1] pause_movie and unload_movie ส่งค่า duration_ms parameter มาผิด",
       "owner": "Narawit",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19969",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC1] back ออกจาก player, FA tracks pause_series ซ้ำ 2 ครั้ง",
       "owner": "Narawit",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19971",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC1] back ออกจาก player, FA tracks pause_movie ซ้ำ 2 ครั้ง",
       "owner": "Narawit",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19994",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC3] API เส้น https://cms-content.trueid.net/content/public/v1/graphql ส่งซ้ำหลายครั้ง",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19992",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC3] play icon ไม่แสดงที่หน้า ep ที่ user อยู่ หรือกำลังเล่นอยู่",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-15379",
+      "board": "EXP",
       "summary": "[iOS] Creator shelf: L1",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16058",
+      "board": "EXP",
       "summary": "[iOS] Creator shelf: L2",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16163",
+      "board": "EXP",
       "summary": "[iOS][RG 3.62.0 RC1][OS<26] - bottom nav ต่ำมาก ติดตัวปัดหน้าจอ",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-19972",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC2] ควรแสดงเวลาทั้งหมดของ Movie/Series ตอนเริ่มเล่น content จริง และ progress bar countdown จนเหลือ 0:00 ",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19975",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC2] กรณีที่ Series ไม่มี trailer เมื่อ auto play Content จริง ควรจะแสดง ชื่อ EP ที่เล่นให้ถูกต้อง",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19979",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC2] กรณีที่กด VOD item จาก shelf ที่ไม่ใช่ continue watching จะเล่น content ในแนวตั้งเสมอ",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19980",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC2] กด Collapse button จาก Full screen player แล้วจอดำ ต้อง kill app",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19986",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC2][Movie>Documentary] Layout เพี้ยน",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20001",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC3] กรณีที่ กดปุ่ม rent  ครั้งที่ 2 แอป ปรับ fullscreen ให้ ทั้งๆที่ ยังไม่ได้เล่น content จริง",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19997",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC3] FA tracks earn_point event แต่ parameter ส่งค่าไม่ถูกต้อง",
       "owner": "Kantachat Puagkajee",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19995",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC3] Tap on forward button, FA not tracks seek_forward event",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19996",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC3] Tap on  backward button, FA not tracks seek_backward event",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19977",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC1]  เมื่อดู content ครบ 5 วินาที api ส่งเส้น post history ",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16142",
+      "board": "EXP",
       "summary": "[Android] App link: Watch 5 layer Change web URL",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16151",
+      "board": "EXP",
       "summary": "[iOS] Playlist: Deep link",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16152",
+      "board": "EXP",
       "summary": "[Android] Playlist: Deep link",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-19942",
+      "board": "LS",
       "summary": "[iOS] VOD player: add ads value in Mux Analytic",
-      "owner": "Thosapol Sangkasub",
+      "owner": "Narawit",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19550",
+      "board": "LS",
       "summary": "[Android] VOD player: watch and earn for VOD content",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19831",
+      "board": "LS",
       "summary": "[iOS] VOD player: mapping value for MUX analytic",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-15852",
+      "board": "EXP",
       "summary": "[iOS] Add Copyright notice",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8877",
+      "board": "VAL",
       "summary": "Migrate DesignSystem to SPM - Part 6",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8876",
+      "board": "VAL",
       "summary": "[Android][Today] - Found blank page when select on 'True Service' and 'Extra Pack'",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "LS-19982",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC2]  กรณีที่ {watchable} = true ปุ่มจะต้องแสดง Watch button ทุกกรณี",
       "owner": "Chamnarn Suksai",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16140",
+      "board": "EXP",
       "summary": "[Android] Home Feed: Change engagement icon",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-19973",
+      "board": "LS",
       "summary": "[Android][3.62.0] เข้า applink ไปหน้า movie detail  แล้วไม่ track FA “referral“ event",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19974",
+      "board": "LS",
       "summary": "[iOS][3.62.0] เข้า Universal link ไปหน้า movie detail  แล้วไม่ track FA “referral“ event",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20010",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC4] ปุ่ม Next EP หายไป เมื่อมีการ Select Season สุดท้ายของ Series",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20024",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC4] content ที่อยู่ใน Trailer&More Tab ไม่ต้องยิง history",
-      "owner": "Narawit",
+      "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "in_progress_author",
+      "method": "pull_request_author",
       "note": "fallback_a=Jiraporn Praneet",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8249",
+      "board": "VAL",
       "summary": "[TrueID Lite] Migrate `pk-streamer` to CMS Streamer public v3",
       "owner": "Kittisak Buaphanna",
       "platform": "Unknown",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "note": "fallback_a=Kijja Charuchinda",
+      "counted": false
     },
     {
       "key": "VAL-8812",
+      "board": "VAL",
       "summary": "[TrueID Lite] Upgrade targetSDK to 36 on TrueID Lite & HTV",
       "owner": "Kijja Charuchinda",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-19830",
+      "board": "LS",
       "summary": "[iOS] VOD player: Post History",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16196",
+      "board": "EXP",
       "summary": "[iOS][Home Feed - 3.62.0 rc4] Duplicate API requests triggered for shelf ID jP4oZkK9KL9X",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16201",
+      "board": "EXP",
       "summary": "[iOS][FA - 3.62.0 rc5] Incorrect shelfName value sent for item_1x1_highlight, item_4x3_movie, and shelf_creator_bubble on Today page",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16164",
+      "board": "EXP",
       "summary": "[iOS][Home Feed - 3.62.0] เลื่อนขึ้น เลื่อนลง แล้ว ปุ่ม comment เด้งดึ้ง",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16088",
+      "board": "EXP",
       "summary": "[iOS] Creator shelf: FA tracking",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16089",
+      "board": "EXP",
       "summary": "[Android] Creator shelf: FA tracking",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16189",
+      "board": "EXP",
       "summary": "[Android][RG 3.62.0 RC3]FA -Incorrect content_type parameter sent in select_content event on Channel Creator Shelf",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20016",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC4][Next EP Button]พาไป Next EP ไม่ถูกต้อง เมื่อมีการเลือก EP จาก selective และกดปุ่ม Next Ep ใน player",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-14321",
+      "board": "EXP",
       "summary": "[Android] SFV player page: Add follow button >  Short L2",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-19987",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC2]FIX Save/UnSave VODS Feature",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19947",
+      "board": "LS",
       "summary": "[iOS][RG3.62.0RC1][TVS][Series] เมื่อ connect TVS success ยังไม่สามารถดู VOD ได้",
       "owner": "Chamnarn Suksai",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19546",
+      "board": "LS",
       "summary": "[iOS] VOD player: Subscription payment",
       "owner": "Chamnarn Suksai",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8887",
+      "board": "VAL",
       "summary": "[Android][RG 3.62.0 RC7][Top Action Icons] Home screen not Dark Theme",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16213",
+      "board": "EXP",
       "summary": "[iOS][Home Feed - 3.62.0 RC6] : Play preloaded videos -  Title and Video Clip Mismatch Upon Repeated Refresh",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16226",
+      "board": "EXP",
       "summary": "[iOS][Home Feed - 3.62.0_RC7] : User Can’t see CTA ads",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16214",
+      "board": "EXP",
       "summary": "[iOS][Home Feed - 3.62.0] : CTA Ads - Missing Headline Ad Element and \"Ad\" Label Overlapping Ad Image.",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20032",
+      "board": "LS",
       "summary": " [iOS][RG 3.62.0 RC6] API เส้น Post History ไม่ส่งเมื่อดู content duration - 5 sec",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8886",
+      "board": "VAL",
       "summary": "[TrueID Lite] Update environment for iOS",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8855",
+      "board": "VAL",
       "summary": "[iOS] Migrate to SPM Part 6",
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "note": "fallback_a=Punyawat Suwannatat",
+      "counted": false
     },
     {
       "key": "VAL-8710",
+      "board": "VAL",
       "summary": "[iOS] Upgrade Facebook SDK to v18.1.0",
       "owner": "Aekkawin Anantrakarnkit",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-19912",
+      "board": "LS",
       "summary": "[Android] ไม่ควรแสดงปุ่ม Watch Now ใน player เมื่ออยู่ในแนวตั้ง",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "note": "fallback_a=Nuttarikan Pattanaporn (Ext)",
+      "counted": false
     },
     {
       "key": "LS-19993",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC1] ไม่ควรแสดง player control ใน player กรณีที่ pre roll/mid roll ads กำลังเล่น",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19981",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC2]  กด content ใน EP list ไม่ต้อง Fullscreen",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8888",
+      "board": "VAL",
       "summary": "[Android][RG 3.62.0 RC7][Top Action Icons] Incorrect Icons on Today menu",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-20025",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC5] Case content sampling เลือก EP. ที่ไม่มีสิทธิ์ดู สามารถกดปุ่ม play บน player เพื่อดูได้",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19998",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC3][TVOD]ไม่ว่าจะ redeem จาก platform ไหน หนังเช่าที่มีการ ดูไปแล้ว จะต้องแสดง   \"ดูได้ถึงวันที่ : DD MONTH YYYY - HH:MM น.\"",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20031",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC6] เลือก setting ใน player ของ content ที่มี content sampling แล้ว setting ไม่แสดงค่าให้เลือก",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20002",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC3][TVOD] หลังจาก redeem แล้ว ไม่มีการอัปเดทข้อความ และ ปุ่ม",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19999",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC3][TVOD][GraphQL API] ขา request tvodflag ต้องเป็น true",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20004",
+      "board": "LS",
       "summary": "[Android][RG3.62.0 RC3] content right ไม่ใช่ TVOD เมื่อเข้าหน้า movie ไม่ต้องยิง usagemeter",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20005",
+      "board": "LS",
       "summary": "[Android][RG3.62.0 RC3][TVOD]The usage meter API is called every time after tapping the Rent button",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20037",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC6] API เส้น Post History ส่งมาจังหวะที่ดู player แนวตั้งแล้วเปลี่ยนเป็นแนวนอน",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20023",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC4] ไม่สามารถ กดเล่น content ที่อยู่ใน Trailer&More Tab",
       "owner": "Narawit",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20008",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC4] กรณี่ที่ เล่น VOD อยู่ เมื่อ user กด EPถัดไป แล้ว EP นั้นติดเงื่อนไข content sampling ที่ player ไม่ควร Stream VOD ของ  EP ก่อนหน้า",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20022",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC4] ไม่สามารถ scroll เลือก video quality ในแนวนอนได้",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20015",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC4] เมื่อมีการ Select Season สุดท้ายของ Series แล้ว กด ปุ่ม next EP จาก Fullscreen แล้ว ปุ่มหาย และ ชื่อ titleของ EP เปลี่ยนเป็นชื่อ ซีรี่ย์แม่ ",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20017",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC4][Next EP Button]พาไป Next EP ไม่ถูกต้อง เมื่อมีการเลือก EP จาก selective และกดปุ่ม Next Ep ใน player",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20021",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC4] กรณีที่ไม่มีตัวอย่าง ไม่ต้อง auto ขึ้น checkout page",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20042",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC7] ปุ่ม collapse ควรซ่อนตาม player control",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20038",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC6][Player] กรณีที่ เจอ popup ในแนวนอน ปุ่ม collapse หายไป ทำให้ออกจากแนวนอนไม่ได้",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20033",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC6] เมื่อเลือก EP อื่นๆ, API เส้น Post History ไม่ส่งของ current cmsid",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20039",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC6] case ที่ user ไม่มีสิทธิ์ดู VOD ไม่ต้อง auto display TVS Connect page ",
       "owner": "Chamnarn Suksai",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20044",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC6] เมื่อดู series จนจบ EP แล้ว auto next ep ถัดไป API ไม่ส่ง Post History ของ EP เดิม",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20045",
+      "board": "LS",
       "summary": "[iOS][VOD][History] Remove logic post history in -5s before vod end",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20043",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC6] เมื่อเลือก EP อื่นๆ, API เส้น Post History ส่งของ EP ถัดไปมาด้วย",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16198",
+      "board": "EXP",
       "summary": "[iOS][Home Feed - 3.62.0 RC4] : Play preloaded videos -  App fails to trigger fresh API calls and refresh content after being backgrounded for over 2 hours",
-      "owner": "Thanyaporn Boonyen",
+      "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16019",
+      "board": "EXP",
       "summary": "[iOS] Home Feed: Play preloaded videos",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16217",
+      "board": "EXP",
       "summary": "[iOS][3.62.0 RC6] เข้า Universal link ไปหน้า Series player แล้วไม่ track FA “referral“ event",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16137",
+      "board": "EXP",
       "summary": "[iOS] Universal link: Watch 5 layer Change web URL",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20000",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC3] หนังที่มี trailer และ user ไม่มีสิทธิ์ดู เมื่อกดปุ่ม rent หรือ Subscribe & watch label \"trailer\" ที่อยู่ใน player หายไป",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16059",
+      "board": "EXP",
       "summary": "[Android] Creator shelf: L1",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16221",
+      "board": "EXP",
       "summary": "[Android][3.62.0 RC6] Creator shelf - Creator bubble fails to display placeholder image when thumb is empty string or null",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20056",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC8] non login user เมื่อกดปุ่ม watch แล้ว login กลับมา ที่ Watch L1 layout หน้าจะผิด",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20057",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC8] non login user เมื่อกดปุ่ม watch หลังจากลอคอินเสร็จ แล้ว user มีสิทธิ์ดู ไม่ควร auto fullscreen",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-14475",
+      "board": "EXP",
       "summary": "[Android] Creator shelf: L2",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8893",
+      "board": "VAL",
       "summary": "[Android][RG 3.62.0 RC8][Top Action Icons] 'More' icon overlap Title and missing profile picture when switch back from another menu on Today menu",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-20034",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC6] tap back out of player, API เส้น Post History ส่งซ้ำ 2 รอบ",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19951",
+      "board": "LS",
       "summary": "[Android] ไม่สามารถเล่น EP.03 เดอะ เซเลบริตีส์ | หมอตังค์ และ ฟาโรห์ ได้",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19963",
+      "board": "LS",
       "summary": "[Android][DAI] Channel switching issue",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8895",
+      "board": "VAL",
       "summary": "[Android Crash] [DevEx] com.google.android.gms.chimera.container.DynamiteLoaderImpl.<init>",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-7101",
+      "board": "VAL",
       "summary": "[Android] Migrate from legacy Google Sign-In",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-19886",
+      "board": "LS",
       "summary": "[iOS] VOD Player : Login Flow after user click play",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19910",
+      "board": "LS",
       "summary": "Non-login ไม่ควรต้องเช็ค device entitlement",
       "owner": "Ruttanachai Auitragool",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19887",
+      "board": "LS",
       "summary": "[Android] VOD Player : Login Flow after user click play",
       "owner": "Suriya Alee",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19825",
+      "board": "LS",
       "summary": "[Android] VOD player: Subscription Connect TVS",
       "owner": "Suriya Alee",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8540",
+      "board": "VAL",
       "summary": "[Android] Login with Line SDK",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8541",
+      "board": "VAL",
       "summary": "[iOS] Login with Line SDK",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8350",
+      "board": "VAL",
       "summary": "[iOS] Improve the Page Loading Performance on the Privilege page",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8716",
+      "board": "VAL",
       "summary": "[Android] Refactor the existing navigation logic to support nav3 - Outbound",
-      "owner": "Todsapon Sangpook",
+      "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8841",
+      "board": "VAL",
       "summary": "[iOS] Improve the switching performance on Today and Privilege on the bottom nav",
       "owner": "Aekkawin Anantrakarnkit",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8880",
+      "board": "VAL",
       "summary": "[Android Crash] [DevEx] SourceFile line 669 in com.contusflysdk.service.ChatService.loginXMPPTCPConnection",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "LS-19827",
+      "board": "LS",
       "summary": "[Android] VOD player: Subscription payment",
       "owner": "Suriya Alee",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-8101",
+      "board": "LS",
       "summary": "[Trailer VODs] - Users can see \"Controler\" movies/series display immediately when tap any area on trailer playing screen.",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-8097",
+      "board": "LS",
       "summary": "[Trailer VODs] Users of all tiers can watch any movie/series trailers both login and non-login",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-8085",
+      "board": "LS",
       "summary": "[Trailer VODs] Login users can see movie/series trailer play automatically.",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "VAL-8869",
+      "board": "VAL",
       "summary": "[Android Crash] [DevEx] android.view.ViewRootImpl.setView",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-20030",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC6] เลือก setting ใน player แล้ว player ค้าง",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8871",
+      "board": "VAL",
       "summary": "[iOS] Show current content on player in lock screen",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8516",
+      "board": "VAL",
       "summary": "[iOS] [POC] E2E Testing on FA Tracking on Critical Events",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-19988",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC2]FIX Save/UnSave VODS Feature",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "note": "fallback_a=Suriya Alee",
+      "counted": false
     },
     {
       "key": "LS-20058",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC8][TVOD]หลังจาก redeem และ หนังเช่าที่มีการ ดูไปแล้ว ตามเวลาใน config จะต้องupdate ข้อความ  \"ดูได้ถึงวันที่ : DD MONTH YYYY - HH:MM น.\"",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20063",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC3][TVOD] หลังจาก redeem แล้ว ไม่มีการอัปเดทข้อความ และ ปุ่ม [ReOpen]",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8897",
+      "board": "VAL",
       "summary": "[iOS] Onboarding / Documents",
-      "owner": "Attapong Jakkrawantanarak",
+      "owner": "Sittisak Tangpraditchai",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16227",
+      "board": "EXP",
       "summary": "[Android][3.62.0 RC8] Search - The font size is too large",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20059",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC8] เข้า series or movie player page ครั้งแรกไม่เจอ ads",
       "owner": "Narawit",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16233",
+      "board": "EXP",
       "summary": "[Android][3.63.0] Watch - Title Name not display on Shelf 1x1 และ 3x4",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "EXP"
+      "counted": false
     },
     {
       "key": "VAL-8896",
+      "board": "VAL",
       "summary": "[Android][Android 17 Only][RG 3.62.0 RC10] Blur Effect follow scrolling on Home screen",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "EXP-16241",
+      "board": "EXP",
       "summary": "[Android][3.62.0 rc10] Short From Ads - Short form video flickers rapidly when watching an ad to completion",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8825",
+      "board": "VAL",
       "summary": "[Android] Implement Top Action Icons - Views",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16261",
+      "board": "EXP",
       "summary": "[Android][3.62.0 rc11] Home Feed - Feed page resets to index 0 after reaching item 20",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8894",
+      "board": "VAL",
       "summary": "[Android][Vivo Android 11 Only][RG 3.62.0 RC10] Application Crashed",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "LS-18312",
+      "board": "LS",
       "summary": "[Android][RG 3.49.0]  TrueID+ ในหน้า detail behavior ปุ่ม Subscribe & watch ต่างกัน ระหว่าง iOS/Android",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-17721",
+      "board": "LS",
       "summary": "[iOS][RG 3.49.0]  TrueID+ ในหน้า detail behavior ปุ่ม Subscribe & watch ต่างกัน ระหว่าง iOS/Android",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20097",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC11][LiveTV Scrolling page]Top Header ไม่ย่อขึ้นตามที่เลื่อน และ ขยายลงมาตอน  swipe ขึ้นไปบนสุด",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20060",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC9][TVS] หลังจาก connect TVS สำเร็จ แต่ content tier ไม่แมช กับ user tier ไม่ต้อง auto alert หน้า tvs connect page จนกว่า user จะกด ปุ่ม หรือ ปุ่มplay หรือ item ใน EPlist",
       "owner": "Suriya Alee",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20061",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC9][TVS] หลังจาก connect TVS สำเร็จ และ ดู connect ได้ แต่ ปุ่มยังเป็น connect & watch อยู่",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20062",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC9] Start with TrueID+ button overlaps QR Scan and Search buttons",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20091",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC11][TVOD] หลังจากซื้อช่องทางอื่น แล้ว ไม่มีการอัปเดทข้อความ และ ปุ่ม",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20085",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC10][LFVL2] Top10 shelf ในหน้า LFVL2 แสดง logic ของ publish date ไม่ถูกต้อง",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16143",
+      "board": "EXP",
       "summary": "[Android] Today/Watch L1: Support Playlist type",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16144",
+      "board": "EXP",
       "summary": "[Android] Watch L2: Support Playlist type",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8371",
+      "board": "VAL",
       "summary": "[iOS] Upgrade AppsFlyer SDK to v7.0.0",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16249",
+      "board": "EXP",
       "summary": "[iOS][Playlist][FA] - FA dose not send “screen_view” event when navigate to Playlist page",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16250",
+      "board": "EXP",
       "summary": "[iOS][Playlist]- UI elements on the playlist page are displayed incorrectly.",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16272",
+      "board": "EXP",
       "summary": "[iOS][3.62.0] Creator shelf - navigate ไปที่ social profile แล้วหน้าขึ้นซ้อนกัน (เป็นบางจังหวะ)",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Thanyaporn Boonyen",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-19983",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC2]  ไม่พบการ track FA ของ Feature Content sampling",
       "owner": "Nuttarikan Pattanaporn (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-15959",
+      "board": "EXP",
       "summary": "[iOS] Playlist: Meta data",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16051",
+      "board": "EXP",
       "summary": "[iOS] Today/Watch L1: Support Playlist type",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-19966",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC1] FA tracks play_movie_initial ส่ง content_duration_ms parameter มาไม่ถูกต้อง[POAcceptable]",
       "owner": "Narawit",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20054",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC8] หลังจากจบ Ads แล้ว content เล่น แต่ tap ที่ player แล้วไม่แสดง player control",
       "owner": "Nuttarikan Pattanaporn (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20082",
+      "board": "LS",
       "summary": "[Android][VOD][Mux] ส่ง content type ผิด",
       "owner": "Narawit",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20081",
+      "board": "LS",
       "summary": "[Android][VOD][Mux] มีการส่ง mux แยกหลายครั้งทั้งที่ดูvodแค่ครั้งเดียว",
       "owner": "Narawit",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20055",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC8] เข้า series player, FA not tracks play_series_initial, play_series, pause_series and unload_series event",
       "owner": "Nuttarikan Pattanaporn (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20098",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC11] เข้า player ผ่าน continue watching shelf แล้วเจอ ads player ไม่เล่นต่อจากที่เคยดูไว้",
       "owner": "Narawit",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16251",
+      "board": "EXP",
       "summary": "[iOS] Add new custom attribute for TTFF (unseen_item)",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16252",
+      "board": "EXP",
       "summary": "[Android] Add new custom attribute for TTFF (unseen_item)",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20026",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC5] FA tracks earn_point event แต่ play_session_id ส่งค่าผิด",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8811",
+      "board": "VAL",
       "summary": "[Android] Upgrade targetSDK to 36 on TrueID",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16248",
+      "board": "EXP",
       "summary": "[Android][Playlist][FA] - User click “Play All” button, FA dose not send “click” event.",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16145",
+      "board": "EXP",
       "summary": "[Android] Playlist: Meta data",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-4972",
+      "board": "LS",
       "summary": "[BackButton-PlayerSettingPage] Users tap Back button on Movie/Series player for PlayerSetting page closing(Landscape).",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-4971",
+      "board": "LS",
       "summary": "[BackButton-PlayerSettingPage] Users tap Back button on Movie/Series player for PlayerSetting page closing(Portrait).",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-4970",
+      "board": "LS",
       "summary": "[PlayerSettingPage] Users tap Settings button on Movie/Series player for PlayerSetting page opening(Landscape).",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-4969",
+      "board": "LS",
       "summary": "[PlayerSettingPage] Users tap Settings button on Movie/Series player for PlayerSetting page opening(Portrait).",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-7945",
+      "board": "LS",
       "summary": "[Preview VODs] User can see VOD preview as default when config firebase (display preview field = true) on horizontal screen.",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-7417",
+      "board": "LS",
       "summary": "[Preview VODs] users can see VOD Preview automatically when Tap any Movies/Series content on vertical screen.",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-7469",
+      "board": "LS",
       "summary": "[Preview VODs] users can see VOD Preview automatically when Tap any Movies/Series content on horizontal screen.",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-4614",
+      "board": "LS",
       "summary": "[Preview VODs]  user can seeVOD preview when  Api streamer return code = 10001on vertical screen)",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-4708",
+      "board": "LS",
       "summary": "[Preview VODs]  user can seeVOD preview when  Api streamer return code = 10001 on horizontal  screen.",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "VAL-8900",
+      "board": "VAL",
       "summary": "01 Baseline & Inventory - Core",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-7415",
+      "board": "LS",
       "summary": "[Preview VOD] User can see VOD poster series on series title page when user open series title page (API Get series detail return preview_start = empty)",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-7470",
+      "board": "LS",
       "summary": "[Preview VOD] User can see VOD poster on VOD title page when user open series title page (API Streamer return stream_url = null)",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-7424",
+      "board": "LS",
       "summary": "[Preview VODs]  Users can see VOD poster image as default  if  content type is incorrect (type =livetv)  on vertical screen.\n ",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-9186",
+      "board": "LS",
       "summary": "[Replay] User can tap Replay button on full screen player for rewatching Movie/Series preview content. (Horizontal view mode)",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-9184",
+      "board": "LS",
       "summary": "[Replay] User can tap Replay button on full screen player for rewatching Movie/Series trailer content. (Horizontal view mode)",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "VAL-8380",
+      "board": "VAL",
       "summary": "[POC][Android] Implement animation effect on Comment view on SFV Home Feed",
       "owner": "Natdanai Chaiyakan",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8901",
+      "board": "VAL",
       "summary": "02 Target & Boundary - Core",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8912",
+      "board": "VAL",
       "summary": "[iOS] Jenkins Failed Unit test (Duplicate GoogleInteractiveMediaAds) Privilege",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16149",
+      "board": "EXP",
       "summary": "[Android] SFV Player: New player",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16260",
+      "board": "EXP",
       "summary": "[Android][3.63.0] Playlist items not show gradient",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16146",
+      "board": "EXP",
       "summary": "[Android] Playlist: Item list",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16077",
+      "board": "EXP",
       "summary": "[iOS] Watch L2: Support Playlist type",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16273",
+      "board": "EXP",
       "summary": "[Android][FA] - Switching tabs on Watch page triggers 'play' and duplicate 'pause' events.",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16186",
+      "board": "EXP",
       "summary": "[Android] SFV Player: New Player > FA  tracking",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8911",
+      "board": "VAL",
       "summary": "[Android] Upgrade Gradle plugin",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8372",
+      "board": "VAL",
       "summary": "[Android] OpenTelemetry Improvement",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16150",
+      "board": "EXP",
       "summary": "[Android] SFV Player: New player > Meta data",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16283",
+      "board": "EXP",
       "summary": "[Android][3.62.0]Meta Data- ตรง description มี<p> tag html ติดมา",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8915",
+      "board": "VAL",
       "summary": "[iOS] Extract UTM meta and track to FA",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-4962",
+      "board": "LS",
       "summary": "[ChangeVideoQuality] Users tap to change any video quality for Movie/Series content(Landscape).",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-4961",
+      "board": "LS",
       "summary": "[ChangeVideoQuality] Users tap to change any video quality for Movie/Series content(Portrait).",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-6517",
+      "board": "LS",
       "summary": "[Watch button-Movie] Users can see \"EN: Resume / TH: ดูต่อ\" button when has continue watching history of VOD content.\n\n",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-6520",
+      "board": "LS",
       "summary": "[Watch button-Movie] Users can continue watching from old break_point if has continue watching history when tap on \"EN: Resume / TH: ดูต่อ\" button.",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-6525",
+      "board": "LS",
       "summary": "[Watch button-Movie] Users can see wording \"EN: Resume / TH: ดูต่อ\" on button when users have watched content and remaining duration > 2.5 mins to ending.\n\n",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-6488",
+      "board": "LS",
       "summary": "[Watch button-Movie] Users can see wording \"EN: Watch / TH: ดู\" on button when users have watched remaining duration <= 2.5 mins to ending\n\n",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-6490",
+      "board": "LS",
       "summary": "[Watch button-Series] Users can see \"EN: Resume / TH: ดูต่อ\" button when has continue watching history of VOD content.\n\n",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-6484",
+      "board": "LS",
       "summary": "[Watch button-Series] Users can continue watching last EP or sub-EP from old break_point if has continue watching history when tap on \"EN: Resume / TH: ดูต่อ\" button.",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-6485",
+      "board": "LS",
       "summary": "[Watch button-Series] Users can see wording \"EN: Resume / TH: ดูต่อ\" on button when users have watched latest episode and remaining duration > 2.5 mins to ending.\n\n",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-6486",
+      "board": "LS",
       "summary": "[Watch button-Series] Users can see wording \"EN: Resume / TH: ดูต่อ\" on button when users have watched latest episode and remaining duration > 2.5 mins to ending and latest episode without ep selection on series title detail page.\n",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-6487",
+      "board": "LS",
       "summary": "[Watch button-Series] Users can see wording \"EN: Watch / TH: ดู\" on button when users have watched latest episode and remaining duration <= 2.5 mins to ending.\n\n",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-6476",
+      "board": "LS",
       "summary": "[Watch button-Series] Users can see wording \"EN: Watch / TH: ดู\" on button when users have watched latest episode and remaining duration <= 2.5 mins to ending and latest episode without ep selection on series title detail page.\r\n\n",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-6477",
+      "board": "LS",
       "summary": "[Watch button-Series] Users can see wording \"EN: Resume / TH: ดูต่อ\" on button when users have watched latest sub-episode and remaining duration > 2.5 mins to ending.\n\n",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-6460",
+      "board": "LS",
       "summary": "[Watch button-Series] Users can see wording \"EN: Watch / TH: ดู\" on button when users have watched latest sub-episode and remaining duration <= 2.5 mins to ending.\n\n",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "VAL-8914",
+      "board": "VAL",
       "summary": "[Android] Extract UTM metadata and track to FA",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8547",
+      "board": "VAL",
       "summary": "[iOS] Support TrueID Pentest",
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8926",
+      "board": "VAL",
       "summary": "[Android Crash] [DevEx] com.trueid.playersdk.internal.h.intercept",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-20053",
+      "board": "LS",
       "summary": "[iOS] VOD player[Perf] : Instrument Firebase Performance trace (watch_start_to_first_frame)",
       "owner": "Chamnarn Suksai",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8930",
+      "board": "VAL",
       "summary": "[iOS] Audio and Video Calling View Crashed",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8861",
+      "board": "VAL",
       "summary": "[iOS][RG 3.62.0 RC1][CallAndChat] found error message and end call when tap 'Microphone' and 'Camera' on Audio/Video Calling",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16240",
+      "board": "EXP",
       "summary": "[Android][3.62.0] Short From Ads - short form ad ปุ่ม mute pause มันจะลงไปอยู่ใต้ bottomnav",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "in_progress_author",
+      "method": "pull_request_author",
       "note": "fallback_a=Kirathi Mingsakul",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16285",
+      "board": "EXP",
       "summary": "[Android Crash] [Discovery] TodayFragment.checkTheme",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8629",
+      "board": "VAL",
       "summary": "[iOS][LogIn][Social Login] Found error screen when user select to close any social login page",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8890",
+      "board": "VAL",
       "summary": "[iOS] Rate Limit Full-Screen UI (embedded in Bottom Tab)",
       "owner": "Aekkawin Anantrakarnkit",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8891",
+      "board": "VAL",
       "summary": "[iOS] Rate Limit Configuration",
       "owner": "Aekkawin Anantrakarnkit",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8892",
+      "board": "VAL",
       "summary": "[iOS] Rate-Limit Flow",
       "owner": "Aekkawin Anantrakarnkit",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-14250",
+      "board": "EXP",
       "summary": "[iOS] Playlist: Share button",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-9642",
+      "board": "LS",
       "summary": "[ChangeAudio] On Fullscreen mode, user can set audio language. (series)",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-9641",
+      "board": "LS",
       "summary": "[ChangeAudio] On Mini screen mode, user can set audio language. (series)",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-9640",
+      "board": "LS",
       "summary": "[ChangeAudio] On Fullscreen mode, user can set audio language. (movie)",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "VAL-8862",
+      "board": "VAL",
       "summary": "[Android] Carousel slider layout is distorted after fold device",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-9652",
+      "board": "LS",
       "summary": "[ChangeSubtitle] On Fullscreen mode, user can set Subtitle Language. (series)",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-9651",
+      "board": "LS",
       "summary": "[ChangeSubtitle] On Mini screen mode, user can set Subtitle Language. (series)",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-9650",
+      "board": "LS",
       "summary": "[ChangeSubtitle] On Fullscreen mode, user can set Subtitle Language. (movie)",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20137",
+      "board": "LS",
       "summary": "เมื่อเริ่มเล่น previewใน fullscreen เมื่อดู preview จบ ควรแสดง replay เพื่อให้ user เลือกที่จะเล่น preview อีกครั้งหรือไม่",
       "owner": "Jiraporn Praneet",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8623",
+      "board": "VAL",
       "summary": "[Android][Only Note8 Android 9][LogIn] Layout compressed at the top of the screen when login theme to TATANG campaign",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "LS-4849",
+      "board": "LS",
       "summary": "[series season level] User has history to watched in that season. then User can see “Resume Button” and click to continue watching.",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20104",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC12][Coming soon EP] แสดง raw object value บางอย่างหลุดมาบน UI ใน EP list[POAcceptable]",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20105",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC12][Coming soon EP] แสดง dialog แจ้ง ส่วน stream ที่เล่นเป็นของ ep 20 ที่เล่นได้จริง แต่ title และ active ep ก็ เปลี่ยนไปตาม coming soon epที่กด [POAcceptable]",
       "owner": "Suriya Alee",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20108",
+      "board": "LS",
       "summary": "[Android Crash] [Watch] FloatingDecimal.readJavaFormatString",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20117",
+      "board": "LS",
       "summary": "[Android Crash] [Watch] VodPlayerManagerImpl$createAdsMediaSourceFactory$adViewProvider$1.getAdViewGroup",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20123",
+      "board": "LS",
       "summary": "[Android Crash] [Watch n/a] TvPlayerFragment.initPaymentViewModel$lambda$0$0",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16224",
+      "board": "EXP",
       "summary": "[Android] Today/Watch L1: item_16x9",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8902",
+      "board": "VAL",
       "summary": "03 Foundation & Test Support - Core",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-20100",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC12] ไม่ควร call get graphQL (content detail) อีก เมื่อมีการ กด VOD item ใน Trailers&More tab[POAcceptable]",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16267",
+      "board": "EXP",
       "summary": "[iOS][Home feed] Short From Ads - short form ad ปุ่ม mute pause ถูกบัง",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20118",
+      "board": "LS",
       "summary": "[iOS][RG 3.62.0 RC12] ไม่ควร call get graphQL (content detail) อีก เมื่อมีการ กดปุ่ม watch button ในขณะที่เล่น content จริงอยู่",
-      "owner": "Jiraporn Praneet",
+      "owner": "Narawit",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16130",
+      "board": "EXP",
       "summary": "[iOS] SFV Player: New player",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20121",
+      "board": "LS",
       "summary": "[iOS] [Player] Update Button Text and Color Based on Flow Conditions",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16050",
+      "board": "EXP",
       "summary": "[iOS] SFV Player: Swipe up, down and auto next episode ",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16147",
+      "board": "EXP",
       "summary": "[Android] SFV Player: Swipe up, down and auto next episode ",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20124",
+      "board": "LS",
       "summary": "[Android Crash] [Watch n/a] com.google.android.gms.cast.framework.CastContext.zzg",
       "owner": "Suriya Alee",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20128",
+      "board": "LS",
       "summary": "[Android][Preview][Post History] กรณีที่ดู preview เมื่อมีการ pause/seek/backward/forward ไม่ต้องยิง History",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Narawit",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16270",
+      "board": "EXP",
       "summary": "[iOS] [ 3.63.0] Playlist meta : กด save แล้ว มันเด้งดึงไม่สามารถ save ได้",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16300",
+      "board": "EXP",
       "summary": "[iOS][New Player]FA tracking : Missing 'unload_sfv' analytics event when navigating to another page",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16162",
+      "board": "EXP",
       "summary": "[iOS]  SFV Player: New Player > FA tracking",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16160",
+      "board": "EXP",
       "summary": "[iOS] SFV Player: New player > MUX Tracking",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16185",
+      "board": "EXP",
       "summary": "[Android] SFV Player: New player > MUX Tracking",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16187",
+      "board": "EXP",
       "summary": "[iOS] Home Feed:  MUX Tracking",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20122",
+      "board": "LS",
       "summary": "User cannot Replay the preview for rewatching",
       "owner": "Narawit",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16305",
+      "board": "EXP",
       "summary": "[iOS][item_16x9] FA - Incorrect shelfName value sent for item_16x9_ads and item_16x9_privilege on Today /Watch page",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16210",
+      "board": "EXP",
       "summary": "[iOS] Today/Watch L1: item_16x9",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20152",
+      "board": "LS",
       "summary": "[Android][3.63.0][Trailer player]layout player ตกขอบ เมื่อเล่น content ในแนวนอน",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Sarawut (Kai) (Player)",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20151",
+      "board": "LS",
       "summary": "[Android][3.63.0][Trailer player]กดปุ่ม fullscreen ไม่ได้",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Sarawut (Kai) (Player)",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20127",
+      "board": "LS",
       "summary": "เมื่อกดปุ่มเพื่อเล่น EP1 แต่ label/title/EP item ไม่ active ตาม content ที่เล่นจริง",
       "owner": "Narawit",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20132",
+      "board": "LS",
       "summary": "Display poster actual content with play button when display_preview= false",
       "owner": "Narawit",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16296",
+      "board": "EXP",
       "summary": "[Android][Feed] - Home button feed refresh briefly flashes previous first clip before updating",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20051",
+      "board": "LS",
       "summary": "[iOS] VOD player: post count view",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8536",
+      "board": "VAL",
       "summary": "[Android] Home Feed: Swipe to profile",
       "owner": "Sitthikorn Sommechai (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16312",
+      "board": "EXP",
       "summary": "[Android] Home Feed Mux - sub tabs ที่ไม่ใช่ for you ไม่ส่งค่า mux tracking",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16188",
+      "board": "EXP",
       "summary": "[Android] Home Feed:  MUX Tracking",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-14732",
+      "board": "EXP",
       "summary": "[Android] Playlist: Share button",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16254",
+      "board": "EXP",
       "summary": "[Android][3.63.0] Show Special Pop up เป็นสีขาวหลังจากกดไปหน้าอื่นแล้วกลับมาหลายครั้ง",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "EXP"
+      "counted": false
     },
     {
       "key": "EXP-16234",
+      "board": "EXP",
       "summary": "[iOS][3.62.0] Home Feed - after Scroll Clip ขึ้นลง ตัวเลข Comment มาๆๆ หายๆๆ",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-8549",
+      "board": "LS",
       "summary": "[series season leve] User 3.13.0 and up down can landing at first season of series when click  link to landing at first season of series.  \n\n\n\n\n\n ",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-8546",
+      "board": "LS",
       "summary": "[series season level]   International user can see Series season when select  deep link.\n\n\n\n ",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-8547",
+      "board": "LS",
       "summary": "[series season leve] User can navigate to Watch for you L2  If Without Season id ",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-8548",
+      "board": "LS",
       "summary": "[series season leve] User can see Series at first  season  if  title id and season id is wrong ",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-19800",
+      "board": "LS",
       "summary": "[Deeplink - Movie] User can see Error page when deeplink is invalid.",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-19801",
+      "board": "LS",
       "summary": "[Open Deeplink] Support opening special episode via Deeplink",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20028",
+      "board": "LS",
       "summary": "[Android] VOD player: post count view",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20052",
+      "board": "LS",
       "summary": "[iOS] SFV Series: playback speed on player",
       "owner": "Kantachat Puagkajee",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19555",
+      "board": "LS",
       "summary": "[Android] VOD player: re-integrate L-shape ad (ease live sdk)",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19918",
+      "board": "LS",
       "summary": "[iOS] VOD player: re-integrate L-shape ad (ease live sdk)",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19965",
+      "board": "LS",
       "summary": "[Android][Ads] Pre-roll on live tv issue",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20036",
+      "board": "LS",
       "summary": "[Android] VOD player[Perf] : Instrument Firebase Performance trace (watch_start_to_first_frame)",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20107",
+      "board": "LS",
       "summary": "[Android][RG 3.62.0 RC13] เข้า player ผ่าน continue watching shelf, user ดูแนวตั้ง แอพเปลี่ยนให้เป็นแนวนอนเอง[POAcceptable]",
       "owner": "Narawit",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20109",
+      "board": "LS",
       "summary": "[Android][V3.62.0][On Store] เมื่อดู trailer จบในแนวตั้ง จากนั้น หมุนจอเป็นแนวนอน ต้องแสดงปุ่ม watch Now ",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20110",
+      "board": "LS",
       "summary": "[Android][V3.62.0][On Store] เมื่อดู trailer จบ ไม่ขึ้น replay button",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "note": "fallback_a=Narawit",
+      "counted": false
     },
     {
       "key": "LS-20119",
+      "board": "LS",
       "summary": "[Android] [Player] Update Image Display in Player Based on Content State",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "note": "fallback_a=Narawit",
+      "counted": false
     },
     {
       "key": "LS-20153",
+      "board": "LS",
       "summary": "[iOS][Deeplink] เปิด player อยู่ และ deeplink เข้า player อื่น เจอว่ามีเสียงซ้อน",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20140",
+      "board": "LS",
       "summary": "[iOS][Deeplink] deeplink เข้า player แต่ cms_id ตัวแม่ผิด แอพแสดงจอดำ",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20157",
+      "board": "LS",
       "summary": "[iOS][player] กรณีที่ call streamer trailer แล้ว response error app ไม่ call streamer ของ content จริง มาเล่น",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20158",
+      "board": "LS",
       "summary": "[Android][player] กรณีที่ call streamer trailer แล้ว response error app ไม่ call call streamer ของ content จริง มาเล่น",
       "owner": "Narawit",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8873",
+      "board": "VAL",
       "summary": "[Android][Tablet Only][Swipe to Profile] Navigation bar slide delayed when swipe to profile and swipe back to Home feed",
       "owner": "Sitthikorn Sommechai (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8837",
+      "board": "VAL",
       "summary": "Handle Theme onResume page",
       "owner": "Todsapon Sangpook",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8856",
+      "board": "VAL",
       "summary": "[Android] Refactor the existing navigation logic to support nav3 - In app - Part 2",
-      "owner": "Todsapon Sangpook",
+      "owner": "Sitthikorn Sommechai (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8879",
+      "board": "VAL",
       "summary": "[Android] Support issue from Adaptive Layout tasks",
       "owner": "Todsapon Sangpook",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8925",
+      "board": "VAL",
       "summary": "[Android][Top Actions] Icons Position and Transparency not follow UX/UI Design",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8878",
+      "board": "VAL",
       "summary": "[Android] Implement Top Action Icons - Jetpack Compose",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8515",
+      "board": "VAL",
       "summary": "[Android] [POC] E2E Testing on FA Tracking on Critical Events",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8373",
+      "board": "VAL",
       "summary": "[iOS] OpenTelemetry Improvement",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8910",
+      "board": "VAL",
       "summary": "[Android][3.63.0] Case → App crash when navigate to Catchup Player",
       "owner": "Todsapon Sangpook",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16311",
+      "board": "EXP",
       "summary": "[iOS]SFV Player: Clips do not reset from the beginning upon scrolling through the feed.",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16289",
+      "board": "EXP",
       "summary": "[iOS][Playlist: Item list] - When the API returns \"ep_items\": [] or \"ep_items\": null, the UI renders an error page.",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16131",
+      "board": "EXP",
       "summary": "[iOS] Playlist: Item list",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8947",
+      "board": "VAL",
       "summary": "[iOS] Generate Certtficate for kajanurak",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8950",
+      "board": "VAL",
       "summary": "Remove",
       "owner": "Aekkawin Anantrakarnkit",
       "platform": "Unknown",
       "method": "pre_qa_assignee",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8907",
+      "board": "VAL",
       "summary": "Remove",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8906",
+      "board": "VAL",
       "summary": "07 Data & Networking - Core",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8904",
+      "board": "VAL",
       "summary": "05 Navigation & Deeplink Migration - Core",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8941",
+      "board": "VAL",
       "summary": "Remove & move to VAL-8956",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8905",
+      "board": "VAL",
       "summary": "06 AppServices Migration - Core",
       "owner": "Jae.Nuttapong",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8507",
+      "board": "VAL",
       "summary": "[iOS] Implement the New Architecture concept - Core Module P1",
       "owner": "Punyawat Suwannatat",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-20048",
+      "board": "LS",
       "summary": "[iOS] VOD player: comment widget",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8957",
+      "board": "VAL",
       "summary": "[iOS] Handling Circuit Breaker (Rate limit 429)",
       "owner": null,
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8527",
+      "board": "VAL",
       "summary": "[iOS][Improvement] Handling Circuit Breaker (Rate limit 429)",
       "owner": "Aekkawin Anantrakarnkit",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8952",
+      "board": "VAL",
       "summary": "[Android] Handling Circuit Breaker (Rate limit 429)",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8528",
+      "board": "VAL",
       "summary": "[Android][Improvement] Handling Circuit Breaker (Rate limit 429)",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     }
   ],
   "notes": {

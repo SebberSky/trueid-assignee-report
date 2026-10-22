@@ -1,1412 +1,1412 @@
 {
-  "generated_at": "2026-10-22T10:21:10.238053+00:00",
+  "generated_at": "2026-10-22T10:35:05.172246+00:00",
   "month": "2026-01",
   "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
     {
       "name": "Suriya Alee",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 0,
       "tickets_android": 4,
-      "tickets_unknown": 12,
+      "tickets_unknown": 11,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 19,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Jetarin Taloet (Ext)",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 8,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 11,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Wachirawit (MossiTo) (Discovery)",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 0,
       "tickets_android": 8,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 9,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Chamnarn Suksai",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 2,
       "tickets_android": 0,
       "tickets_unknown": 5,
       "tickets_both": 0,
       "prs_ios": 6,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Attapong Jakkrawantanarak",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 6,
       "tickets_android": 0,
       "tickets_unknown": 1,
       "tickets_both": 0,
       "prs_ios": 5,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Thosapol Sangkasub",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 5,
       "tickets_android": 0,
       "tickets_unknown": 1,
       "tickets_both": 0,
       "prs_ios": 10,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Jiraporn Praneet",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 6,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 7,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Kijja Charuchinda",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 0,
       "tickets_android": 2,
       "tickets_unknown": 3,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 5,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "ext.nuttanai.sal",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 5,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 4,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Sarawut (Kai) (Player)",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 0,
       "tickets_android": 4,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 6,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Thanyaporn Boonyen",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 4,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 6,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Todsapon Sangpook",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 0,
       "tickets_android": 2,
-      "tickets_unknown": 0,
+      "tickets_unknown": 1,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 11,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Nutthapoom (Big) (Hero)",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 1,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 3,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Wanthida Jittayanantakul",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 1,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Kirathi Mingsakul",
+      "boards": [],
       "tickets_ios": 0,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 11,
-      "prs_mobile": 0,
-      "boards": []
+      "prs_mobile": 0
     }
   ],
   "ticket_details": [
     {
       "key": "LS-18701",
+      "board": "LS",
       "summary": "[Android] VOD: Top10 vertical shelf migrate api to graphql",
       "owner": "Todsapon Sangpook",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18698",
+      "board": "LS",
       "summary": "[iOS] Live TV: Top10 shelf migrate api to graphql",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18714",
+      "board": "LS",
       "summary": "[Android] Live TV: Top10 shelf migrate api to graphql",
       "owner": "Suriya Alee",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8013",
+      "board": "VAL",
       "summary": "[POC] [iOS E2E] Run Meastro Test on Real Device",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-7990",
+      "board": "VAL",
       "summary": "[iOS E2E] Run Maestro Test Suite on AWS Test Farm",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-7991",
+      "board": "VAL",
       "summary": "[Android E2E] Run Maestro Test Suite on AWS Test Farm",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-7977",
+      "board": "VAL",
       "summary": "[POC] E2E Testing on AWS Test Farm",
       "owner": "Kijja Charuchinda",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-14813",
+      "board": "EXP",
       "summary": "[Android] Vivo: Cosmetic",
       "owner": "Tanapat(Aor)(TODAY)",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "EXP"
+      "counted": false
     },
     {
       "key": "LS-17429",
+      "board": "LS",
       "summary": "[Watch][iOS][FA] - when user watch free tv FA tracking event: play_tv_initial, play_tv, pause_tv and unload_tv with parameter play_type = 'preview'",
       "owner": null,
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-18754",
+      "board": "LS",
       "summary": "[iOS] LFV: UI Like",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-15062",
+      "board": "EXP",
       "summary": "[iOS][Today] Force Update - Sent FA event click (link_desc) incorrectly when user click \"update now\" on force update pop up",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-18785",
+      "board": "LS",
       "summary": "[iOS][RG3.54.0][LFVplayer][continue issue]เวลา back กลับมาที่หน้า LFV เรา มันไม่ resume ให้ ต้องกด play เอง อันนี้เป็นเคสที่ไม่ได้ pase ก่อนกด avatar[PO Accepable]",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-14659",
+      "board": "EXP",
       "summary": "[Android] Game hub: Game detail > Game trailer",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-18696",
+      "board": "LS",
       "summary": "[iOS] LFV: Fast forward double tap on player",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18749",
+      "board": "LS",
       "summary": "[Android] LFV: Fast forward double tap on player",
       "owner": "Suriya Alee",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-15056",
+      "board": "EXP",
       "summary": "[iOS][Today] Game trailer -  The video trailer doesn't loop and the information isn't displayed below the player.",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-17762",
+      "board": "LS",
       "summary": "[iOS] LFV: Get and Post Like content",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-15058",
+      "board": "EXP",
       "summary": "[iOS][Today] Game trailer - Fallback image not showing when video trailer fails to load.",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-14686",
+      "board": "EXP",
       "summary": "[iOS] Game hub: Game detail > Game trailer",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8042",
+      "board": "VAL",
       "summary": "[Android] Regression Test 3.54.0",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "pre_qa_assignee",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8043",
+      "board": "VAL",
       "summary": "[iOS] Regression Test 3.54.0",
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "pre_qa_assignee",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "LS-18787",
+      "board": "LS",
       "summary": "data ที่ graphQL ส่งมามีมากกว่า 10  items  แล้ว App แสดงดาต้าทั้งหมดใน Top 10 shelf",
       "owner": "Chamnarn Suksai",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18788",
+      "board": "LS",
       "summary": "badge New/Daily/Weekly/Monthly ที่แสดงใต้ title หายไป",
       "owner": "Chamnarn Suksai",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18750",
+      "board": "LS",
       "summary": "[Android] LFV: UI Like",
       "owner": "Suriya Alee",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-15073",
+      "board": "EXP",
       "summary": "[iOS] Game hub: Game detail > Add count view to CMS",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-18786",
+      "board": "LS",
       "summary": "graphQL ส่ง filter ไม่ครบ data ที่ได้ ไม่ตรงกับ production (On store v. 3.53.0)",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Unknown",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "note": "fallback_a=Chamnarn Suksai",
+      "counted": false
     },
     {
       "key": "VAL-7734",
+      "board": "VAL",
       "summary": "[Android] Upgrade Dexguard SDK",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-7465",
+      "board": "VAL",
       "summary": "[NEED REFACTOR] [iOS] เปิด VOD ผ่าน Ipad หน้าจอแนวนอนแสดงเฉพาะตัวอย่าง(Trailer)",
       "owner": null,
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "LS-18841",
+      "board": "LS",
       "summary": "ปรับเอาค่า article_category = field {shelf_slug} from setting",
       "owner": "Suriya Alee",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18842",
+      "board": "LS",
       "summary": "ส่ง limit = 15 ตาม flow",
       "owner": "Suriya Alee",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-15063",
+      "board": "EXP",
       "summary": "[iOS] Game hub: Game detail > Sticky player",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-18853",
+      "board": "LS",
       "summary": "เพิ่ม content_rights ใน query เพื่อเอาค่ามาแสดง badge logo",
       "owner": "Chamnarn Suksai",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18608",
+      "board": "LS",
       "summary": "[iOS] VOD: Top10 vertical shelf migrate api to graphql",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "note": "fallback_a=Chamnarn Suksai",
+      "counted": false
     },
     {
       "key": "EXP-15104",
+      "board": "EXP",
       "summary": "[Android] Game hub: Play now > Launch game -  Doesn't send FA event “game_open” with parameters",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-15072",
+      "board": "EXP",
       "summary": "[Android] Game hub: Game detail > Add count view to CMS",
       "owner": "Tanapat(Aor)(TODAY)",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "EXP"
+      "counted": false
     },
     {
       "key": "LS-18851",
+      "board": "LS",
       "summary": "ปรับกสรเรียก API get like ให้เหมือนใน flow ",
       "owner": "Suriya Alee",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8012",
+      "board": "VAL",
       "summary": "[Android] Upgrade Gradle to v9.2.1",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-18870",
+      "board": "LS",
       "summary": "กรณีที่ non login ไม่ต้อง เรียก  get like",
       "owner": "Suriya Alee",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18755",
+      "board": "LS",
       "summary": "[Android] LFV: Get and Post Like content",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "note": "fallback_a=Suriya Alee",
+      "counted": false
     },
     {
       "key": "LS-18777",
+      "board": "LS",
       "summary": "[Android] Game hub: Play now > Check tier",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-15106",
+      "board": "EXP",
       "summary": "Test Execution - [Android] UAT Purchase TrueIDGame  package",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "EXP"
+      "counted": false
     },
     {
       "key": "LS-18704",
+      "board": "LS",
       "summary": "[Andriod] POC: Player SDK",
-      "owner": "Suriya Alee",
+      "owner": "Todsapon Sangpook",
       "platform": "Unknown",
-      "method": "in_progress_author",
+      "method": "pull_request_author",
       "note": "fallback_a=Todsapon Sangpook",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18865",
+      "board": "LS",
       "summary": "setting.shelf_slug ส่งใช้ แค่กับ type = by_category_tv_program เท่านั้น ",
       "owner": "Suriya Alee",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18864",
+      "board": "LS",
       "summary": "mapping filed ให้ตรงกับ flow",
       "owner": "Suriya Alee",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18863",
+      "board": "LS",
       "summary": "เพิ่มส่งค่า lang ตอน request ตาม ภาษาของ app",
       "owner": "Suriya Alee",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8037",
+      "board": "VAL",
       "summary": "[iOS] Run Maestro on AWS EC2",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8015",
+      "board": "VAL",
       "summary": "[Android crash] SourceFile line 77 in d.ArrayIndexOutOfBoundsException.onTransact",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "LS-18753",
+      "board": "LS",
       "summary": "[Android] Live TV: By_category_TV_program graphql api migration",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "note": "fallback_a=Suriya Alee",
+      "counted": false
     },
     {
       "key": "LS-18719",
+      "board": "LS",
       "summary": "[iOS] Live TV: By_category_TV_program graphql api migration",
       "owner": "Chamnarn Suksai",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-14812",
+      "board": "EXP",
       "summary": "[Android] Game hub: Play now > Launch game",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-14913",
+      "board": "EXP",
       "summary": "[Android] Game hub: Add history to SPF",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-15057",
+      "board": "EXP",
       "summary": "[iOS] Game hub: Add history to SPF",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-14810",
+      "board": "EXP",
       "summary": "[iOS] Game hub: Play now > Open webview",
       "owner": "ext.nuttanai.sal",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8069",
+      "board": "VAL",
       "summary": "[Android] Remove CertificateChecker from RSAP",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "EXP-15107",
+      "board": "EXP",
       "summary": "[Android][Today]Game hub : Doesn't  show any error code when an API call fails (e.g., 404, 500)",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-18888",
+      "board": "LS",
       "summary": "[Android] Scroll watch pageL1 app crash",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18883",
+      "board": "LS",
       "summary": "[iOS] Get detail Movie/Series (Call API)",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8059",
+      "board": "VAL",
       "summary": "[Vivo] Setup environment only for Vivo (Pre-install)",
       "owner": "Kijja Charuchinda",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8019",
+      "board": "VAL",
       "summary": "[iOS crash] 0x000DACE0 in TrueID.app/Frameworks/Core.framework/Core",
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "EXP-15108",
+      "board": "EXP",
       "summary": "[iOS] Game hub: Rotate feature in game WebView",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-14864",
+      "board": "EXP",
       "summary": "[iOS] Game hub: Play now > Launch game with WebView",
       "owner": "ext.nuttanai.sal",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-18776",
+      "board": "LS",
       "summary": "[iOS] LFV: Display new view type  horizontal_list  category page (update api to graphql)",
       "owner": "Nutthapoom (Big) (Hero)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18736",
+      "board": "LS",
       "summary": "[Android] LFV: Display new view type  horizontal_list  category page (update api to graphql)",
       "owner": "Todsapon Sangpook",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18871",
+      "board": "LS",
       "summary": "[Android] Get detail Movie/Series (Call API)",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8017",
+      "board": "VAL",
       "summary": "[Android crash] SourceFile line 2234 in com.truedigital.features.tuned.service.music.MusicPlayerServiceImpl.asBinder",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8016",
+      "board": "VAL",
       "summary": "[Android crash] SourceFile line 256 in UsbInterface$3.onTransact",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8074",
+      "board": "VAL",
       "summary": "[Android Crash] SourceFile line 77 in e.AutoCloseable.asInterface",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8075",
+      "board": "VAL",
       "summary": "[Android Crash] SourceFile line 20 in iHC.onTransact",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8076",
+      "board": "VAL",
       "summary": "[Android Crash] ArrayList.java line 1014 in java.util.ArrayList.subListRangeCheck",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8072",
+      "board": "VAL",
       "summary": "Refactor Signal Native Module",
       "owner": "Kittisak Buaphanna",
       "platform": "Unknown",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8078",
+      "board": "VAL",
       "summary": "[iOS crash] 0x00026B6C in TrueID.app/TrueID",
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8079",
+      "board": "VAL",
       "summary": "[iOS crash] 0x0014529C in TrueID.app/Frameworks/Core.framework/Core",
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8080",
+      "board": "VAL",
       "summary": "[iOS crash] exceptionPreprocess",
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "EXP-15111",
+      "board": "EXP",
       "summary": "[iOS] Game hub: Play now > Check tier : Automatic redirect to package page after successful purchase.",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-14809",
+      "board": "EXP",
       "summary": "[iOS] Game hub: Play now > Check tier",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-15124",
+      "board": "EXP",
       "summary": "[Android][Regression 3.55.0_rc3]Game recommendation - Tap \"Back\" on the Related Content screen fails to navigate back to the previous Game Hub page",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8083",
+      "board": "VAL",
       "summary": "[TrueID Lite - Crash] package:trueid_lite_flutter/main.dart - main.<fn>",
       "owner": "Kittisak Buaphanna",
       "platform": "Unknown",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8044",
+      "board": "VAL",
       "summary": "[Android Crash] [DevEx] com.truedigital.core.view.extension.DialogExtensionKt.showSafe",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8020",
+      "board": "VAL",
       "summary": "[iOS crash] Backtrace.cc line 414 in fleece::Backtrace::installTerminateHandler",
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8021",
+      "board": "VAL",
       "summary": "[iOS crash] 0x000C5994 in /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8050",
+      "board": "VAL",
       "summary": "[Andriod] App Crash",
       "owner": "Kittisak Buaphanna",
       "platform": "Unknown",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "EXP-15127",
+      "board": "EXP",
       "summary": "[iOS][3.55.0_rc4]Game Detail - When click the save or like button and successfully log in, the system will automatically save or like.",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-14818",
+      "board": "EXP",
       "summary": "[iOS] Game hub: Game detail > Save",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-18715",
+      "board": "LS",
       "summary": "[iOS] POC: Player SDK ",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8082",
+      "board": "VAL",
       "summary": "[TrueID Lite - Crash] package:interactive_media_ads/src/android/interactive_media_ads.g.dart - MediaPlayer.start",
       "owner": "Kittisak Buaphanna",
       "platform": "Unknown",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "LS-18580",
+      "board": "LS",
       "summary": "[iOS] Pubmatic: send custom param when request ad to google ad manager",
       "owner": "Sirinard (Bo) Chokmongkolsatian",
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Thosapol Sangkasub",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "EXP-15064",
+      "board": "EXP",
       "summary": "[Android] Game hub: Deep link (L2)",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-18697",
+      "board": "LS",
       "summary": "[Android] Pubmatic: send custom param when request ad to google ad manager",
       "owner": "Sirinard (Bo) Chokmongkolsatian",
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Suriya Alee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-18920",
+      "board": "LS",
       "summary": "กรณีที่ flag_tvs = true ต้องส่ง ค่า content_provider ไปด้วย ",
       "owner": "Chamnarn Suksai",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18939",
+      "board": "LS",
       "summary": "แสดง error page กรณีที่ data list = 0",
       "owner": "Chamnarn Suksai",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18892",
+      "board": "LS",
       "summary": "Remove some field in paramaters",
       "owner": "Thosapol Sangkasub",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18893",
+      "board": "LS",
       "summary": "Remove field in parameter",
       "owner": "Suriya Alee",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18894",
+      "board": "LS",
       "summary": "Pass empty value in some field",
       "owner": "Suriya Alee",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-9644",
+      "board": "EXP",
       "summary": "Seasonal Animation: Background type",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "EXP"
+      "counted": false
     },
     {
       "key": "LS-18970",
+      "board": "LS",
       "summary": "[iOS][RG3.55.0 RC4][sfv] กด item จาก search result แล้วเจอ loading ค้าง ใน sfv player",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18971",
+      "board": "LS",
       "summary": "[iOS][RG3.55.0 RC4][sfv] กด item จาก search result แล้วเจอ หน้าจอดำ ไม่มีปุ่ม back ใน sfv player",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Nutthapoom (Big) (Hero)",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8054",
+      "board": "VAL",
       "summary": "[Android Crash] [DevEx] com.truedigital.core.view.extension.DialogExtensionKt.showSafe",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8086",
+      "board": "VAL",
       "summary": "[TrueID Lite] Flutter pipeline iOS failed",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8087",
+      "board": "VAL",
       "summary": "[iOS] Reduce App Size",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8088",
+      "board": "VAL",
       "summary": "[iOS] Center Branch Build Failed",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8089",
+      "board": "VAL",
       "summary": "[iOS] Daily Build for QA Failed",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-18890",
+      "board": "LS",
       "summary": "[Android] API Error Alert Streamer sfv (muti id)",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18889",
+      "board": "LS",
       "summary": "[iOS] API Error Alert Streamer sfv (muti id)",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18744",
+      "board": "LS",
       "summary": "[iOS][Improvement] Watch domain - Firebase Performance Tracking",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-15071",
+      "board": "EXP",
       "summary": "[iOS] Game hub:  Main page > Top menu",
       "owner": "ext.nuttanai.sal",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-18975",
+      "board": "LS",
       "summary": "กรณีที่ setting.navigate ไม่มีค่า ไม่ต้องแสดงปุ่ม see more >",
       "owner": "Suriya Alee",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18976",
+      "board": "LS",
       "summary": "กรณีที่ data[].epg.thumb ไม่มีค่ามา ควรเอา channel logo (data[].thumb) มาแสดงแทน",
       "owner": "Suriya Alee",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18867",
+      "board": "LS",
       "summary": "[Android] Live TV: graphql migration page see more >",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "note": "fallback_a=Suriya Alee",
+      "counted": false
     },
     {
       "key": "EXP-9540",
+      "board": "EXP",
       "summary": "[iOS] Package: Trailer ",
       "owner": "Wanthida Jittayanantakul",
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Marosdee Uma (Dan, Ext)",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-9452",
+      "board": "EXP",
       "summary": "[iOS] Search people sorting by top followers",
       "owner": null,
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "EXP"
+      "counted": false
     },
     {
       "key": "EXP-13144",
+      "board": "EXP",
       "summary": "[iOS] Game hub: Deep link (L2)",
       "owner": "ext.nuttanai.sal",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-18938",
+      "board": "LS",
       "summary": "Thumb ที่แสดงใน see more mapping ไม่ตรงกับ flow ใหม่ ",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Unknown",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "note": "fallback_a=Chamnarn Suksai",
+      "counted": false
     },
     {
       "key": "LS-18849",
+      "board": "LS",
       "summary": "[iOS] Live TV: graphql migration page see more >",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "in_progress_author",
-      "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "note": "fallback_a=Chamnarn Suksai",
+      "counted": false
     },
     {
       "key": "VAL-8081",
+      "board": "VAL",
       "summary": "Remove jitpack in trueid-mirrorfly-integration",
       "owner": "Kijja Charuchinda",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-14695",
+      "board": "EXP",
       "summary": "[iOS] Game hub: Game landing page (L2)",
       "owner": "ext.nuttanai.sal",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-18866",
+      "board": "LS",
       "summary": "[Android][POC] Improve SFV Feed Player via Local Caching",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-18868",
+      "board": "LS",
       "summary": "[iOS][POC] Improve SFV Feed Player via Local Caching",
       "owner": "Chamnarn Suksai",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-8085",
+      "board": "VAL",
       "summary": "[Android Crash] [DevEx] JvmOkio.kt - okio.InputStreamSource.read",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8090",
+      "board": "VAL",
       "summary": "[Android] Regression Test 3.55.0",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
       "method": "pre_qa_assignee",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8091",
+      "board": "VAL",
       "summary": "[iOS] Regression Test 3.55.0",
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "pre_qa_assignee",
       "note": "excluded",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "EXP-14693",
+      "board": "EXP",
       "summary": "[Android] Game hub: Game landing page (L2)",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     }
   ],
   "notes": {

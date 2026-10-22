@@ -1,2738 +1,2739 @@
 {
-  "generated_at": "2026-10-22T10:23:54.928453+00:00",
+  "generated_at": "2026-10-22T10:38:02.409194+00:00",
   "month": "2026-10",
   "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
     {
       "name": "Thanyaporn Boonyen",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 13,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 9,
       "prs_android": 0,
-      "prs_mobile": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Papon Supamongkonchai (Boy)",
       "boards": [
-        "EXP"
-      ]
+        "EXP",
+        "VAL"
+      ],
+      "tickets_ios": 11,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 18,
+      "prs_android": 0,
+      "prs_mobile": 0
     },
     {
       "name": "Alongkot Tonprasert",
+      "boards": [
+        "EXP",
+        "LS"
+      ],
       "tickets_ios": 0,
       "tickets_android": 11,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 17,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP",
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Wachirawit (MossiTo) (Discovery)",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 0,
       "tickets_android": 10,
       "tickets_unknown": 1,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 11,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP"
-      ]
-    },
-    {
-      "name": "Papon Supamongkonchai (Boy)",
-      "tickets_ios": 10,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 18,
-      "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Suriya Alee",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 0,
       "tickets_android": 8,
       "tickets_unknown": 2,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 12,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
-    },
-    {
-      "name": "Yossawat Sarasomran (Ext)",
-      "tickets_ios": 0,
-      "tickets_android": 9,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 10,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
-    },
-    {
-      "name": "Chawapon Kiatpravee",
-      "tickets_ios": 9,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 7,
-      "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Sarawut (Kai) (Player)",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 0,
       "tickets_android": 8,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 16,
-      "prs_mobile": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Yossawat Sarasomran (Ext)",
       "boards": [
-        "LS"
-      ]
+        "VAL"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 8,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 10,
+      "prs_mobile": 0
     },
     {
       "name": "Jae.Nuttapong",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 8,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 8,
       "prs_android": 0,
-      "prs_mobile": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Chawapon Kiatpravee",
       "boards": [
         "VAL"
-      ]
+      ],
+      "tickets_ios": 8,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 7,
+      "prs_android": 0,
+      "prs_mobile": 0
     },
     {
       "name": "Jetarin Taloet (Ext)",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 7,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 9,
       "prs_android": 0,
-      "prs_mobile": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Nuttarikan Pattanaporn (Ext)",
       "boards": [
-        "EXP"
-      ]
+        "LS"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 7,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 9,
+      "prs_mobile": 0
     },
     {
       "name": "Sittisak Tangpraditchai",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 0,
       "tickets_android": 6,
       "tickets_unknown": 1,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 9,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Ruttanachai Auitragool",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 7,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 8,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Attapong Jakkrawantanarak",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 6,
       "tickets_android": 0,
       "tickets_unknown": 1,
       "tickets_both": 0,
       "prs_ios": 3,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Punyawat Suwannatat",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 0,
       "tickets_android": 0,
       "tickets_unknown": 6,
       "tickets_both": 0,
       "prs_ios": 13,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
-    },
-    {
-      "name": "Nuttarikan Pattanaporn (Ext)",
-      "tickets_ios": 0,
-      "tickets_android": 6,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 9,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Supachote Marungrueng (Ext)",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 0,
       "tickets_android": 6,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 6,
-      "prs_mobile": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Todsapon Sangpook",
       "boards": [
-        "EXP"
-      ]
+        "VAL"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 5,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 1,
+      "prs_android": 17,
+      "prs_mobile": 0
     },
     {
       "name": "Kijja Charuchinda",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 0,
       "tickets_android": 2,
       "tickets_unknown": 3,
       "tickets_both": 0,
       "prs_ios": 5,
       "prs_android": 9,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Jiraporn Praneet",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 3,
       "tickets_android": 0,
       "tickets_unknown": 2,
       "tickets_both": 0,
       "prs_ios": 11,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Kirathi Mingsakul",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 0,
       "tickets_android": 5,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 7,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Isarapong Tuensakul (Ext)",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 3,
       "tickets_android": 2,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 3,
       "prs_android": 2,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Aekkawin Anantrakarnkit",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 5,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 4,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
-    },
-    {
-      "name": "Todsapon Sangpook",
-      "tickets_ios": 0,
-      "tickets_android": 4,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 1,
-      "prs_android": 17,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Kantachat Puagkajee",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 4,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 6,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Natdanai Chaiyakan",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 0,
       "tickets_android": 2,
       "tickets_unknown": 2,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 6,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Chamnarn Suksai",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 3,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 1,
       "prs_ios": 5,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Chalatip Thongsri",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 1,
-      "tickets_android": 3,
+      "tickets_android": 2,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Sitthikorn Sommechai (Ext)",
+      "boards": [
+        "VAL"
+      ],
       "tickets_ios": 0,
       "tickets_android": 0,
       "tickets_unknown": 2,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 4,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Thosapol Sangkasub",
+      "boards": [
+        "LS"
+      ],
       "tickets_ios": 2,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 4,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "ext.nuttanai.sal",
+      "boards": [
+        "EXP"
+      ],
       "tickets_ios": 1,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP"
-      ]
+      "prs_mobile": 0
     },
     {
       "name": "Nutthapoom (Big) (Hero)",
+      "boards": [],
       "tickets_ios": 0,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 9,
       "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": []
+      "prs_mobile": 0
     }
   ],
   "ticket_details": [
     {
       "key": "EXP-16566",
+      "board": "EXP",
       "summary": "[Android][RG 3.64.0 RC2]Playlist - First clip pauses upon completion instead of auto to the next item.",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9085",
+      "board": "VAL",
       "summary": "[iOS] Implement Universal Link to support The Voice",
       "owner": null,
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-9150",
+      "board": "VAL",
       "summary": "[iOS][Universal Link] Found error pop-up when Logged In user from https://thevoice.trueid-preprod.net/campaign",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8970",
+      "board": "VAL",
       "summary": "[QA] Implement App Testing for RC",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "LS-20385",
+      "board": "LS",
       "summary": "[Android][RG 3.64.0 RC4][Movie Player] ไม่แสดงหน้า login หลังจาก กดปุ่ม watch",
       "owner": "Nuttarikan Pattanaporn (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20377",
+      "board": "LS",
       "summary": "[Android][RG 3.64.0 RC3][TATANG] หน้า rewarded ads โดนปิด หลังจากมีการ hide app และ กดเข้าapp จาก app icon",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20335",
+      "board": "LS",
       "summary": "[Android] คลิปแรกที่กดเข้ามาจะเล่นไม่ได้ ต้องสกอร์เปลี่ยนคลิปก่อนถึงจะกลับมาเล่น",
       "owner": "Suriya Alee",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16572",
+      "board": "EXP",
       "summary": "[Android][RG 3.64.0 RC2][SFV wtch] ไม่ replace key word ด้วย hashtag",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16552",
+      "board": "EXP",
       "summary": "[iOS][Welcome page] - Welcome Page Layout Adjustments for Non-TH Timezones",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16543",
+      "board": "EXP",
       "summary": "[Android][UI] Native Ads: ปุ่ม CTA และข้อความแสดงผลผิดสัดส่วน (ใหญ่เกินไป) ในโหมด Full Screen",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16223",
+      "board": "EXP",
       "summary": "[Android] SFV Player: Native ads",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9019",
+      "board": "VAL",
       "summary": "[Android] Secure all remaining credentials",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9170",
+      "board": "VAL",
       "summary": "[iOS][iPad Only][RG 3.64.0 RC2][Sliding Comment] Animation lags while UI loading after user select/slide to close comment",
-      "owner": "Chawapon Kiatpravee",
+      "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9020",
+      "board": "VAL",
       "summary": "[iOS] Secure all remaining credentials",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9190",
+      "board": "VAL",
       "summary": "[iOS][iPad Landscape][RG 3.64.0 RC5] Layout Spacing when User select to see Comment",
       "owner": null,
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "LS-20384",
+      "board": "LS",
       "summary": "[Android Crash] [DevEx] Fatal Exception: java.lang.IllegalArgumentException: Class androidx.recyclerview.widget.RecyclerView declares multiple JSON fields named 'mAccessibilityDelegate'",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20373",
+      "board": "LS",
       "summary": "[Watch][iOS][FA] - user see ads on vod player, FA not tracks play_ad_preroll or play_ad_midroll",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16570",
+      "board": "EXP",
       "summary": "[iOS][RG 3.64.0 RC2]Native ads - Black screen appears on all subsequent native ad clips after encountering the first native ad.",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9181",
+      "board": "VAL",
       "summary": "[Android Crash] [DevEx] FragmentManager.saveFragmentInstanceState",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16569",
+      "board": "EXP",
       "summary": "[Android][RG 3.64.0 RC3][SFV Shelf] SFV shelf ในหน้า L2  foryou หายไป",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9191",
+      "board": "VAL",
       "summary": "[iOS][iPad Landscape][OS under 26][RG 3.64.0 RC5] Bottom navigation overlaps comment when user select to see comment",
       "owner": null,
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-9193",
+      "board": "VAL",
       "summary": "[iOS] Implement the Sliding Comment View on SFV Home Feed",
       "owner": null,
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-9194",
+      "board": "VAL",
       "summary": "[iOS][RG 3.64.0 RC6] Animation Lags when User slowly drag to close comment",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
-      "method": "in_progress_author",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16581",
+      "board": "EXP",
       "summary": "[Android][App link]FA - \"Incorrect cmsid parameter sent (cmsid = {sub_episode_id}).\"",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9157",
+      "board": "VAL",
       "summary": "[Android Crash] [DevEx] android.view.WindowManager$BadTokenException - Unable to add window",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16553",
+      "board": "EXP",
       "summary": "[Android][Welcome page] - Welcome Page Layout Adjustments for Non-TH Timezones",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9195",
+      "board": "VAL",
       "summary": "[Core][Android][RC02_V3.64.0][MerchantDetail] app ไม่แสดง previous page ถ้าเปิด merchant detail page จาก \"View Merchant\" button",
       "owner": "Todsapon Sangpook",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9174",
+      "board": "VAL",
       "summary": "[Android][Foldable&Tablet][RG 3.64.0 RC3] Content render on Navigation side bar when user on Home tab switch to another tab",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16583",
+      "board": "EXP",
       "summary": "[iOS][RG 3.64.0 RC5]Feed: Non-logged-in: Feed video fails to autoplay after returning from Login page via Comment input.",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9180",
+      "board": "VAL",
       "summary": "[Android Crash] [DevEx] DaggerTrueIDApplication_HiltComponents_SingletonC$ActivityCImpl.keySetMapOfClassOfAndBooleanBuilder",
-      "owner": "Yossawat Sarasomran (Ext)",
+      "owner": "Todsapon Sangpook",
       "platform": "Android",
-      "method": "in_progress_author",
+      "method": "pull_request_author",
       "note": "fallback_a=Todsapon Sangpook",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16589",
+      "board": "EXP",
       "summary": "[iOS][RG 3.64.0 RC3][Watch L2] - SFV and UGCSFV type in vertical and horizontal shelf can not click on item.",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16391",
+      "board": "EXP",
       "summary": "[iOS] Watch L2: Display SFV/LFV in normal shelf with thumblist",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16591",
+      "board": "EXP",
       "summary": "[iOS][RG 3.64.0 RC4][Watch L2] - Placeholder displayed instead of hiding item when thumb_list and thumb are null or empty (type in top banner (3:4) shelf).",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20388",
+      "board": "LS",
       "summary": "[Android][RG 3.64.0 RC5][LiveTV Shelf L2] กด see more เจอหน้า error",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16393",
+      "board": "EXP",
       "summary": "[Android] Home Feed: Add new event for native ads",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "EXP"
+      "counted": false
     },
     {
       "key": "EXP-16268",
+      "board": "EXP",
       "summary": "[iOS] Home Feed: Add play_ad/unload_ad for native ads",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-15972",
+      "board": "EXP",
       "summary": " [Android] App link: All domain > Send hostname param",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9161",
+      "board": "VAL",
       "summary": "[Android] Implement the dependency analysis pipeline",
       "owner": "Todsapon Sangpook",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-15971",
+      "board": "EXP",
       "summary": " [iOS] Universal link: All domain > Send hostname param",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16588",
+      "board": "EXP",
       "summary": "[Android][RG 3.64.0 RC4][Watch L2] - SFV, UGCSFV and UGCLFV type in vertical and horizontal shelf can not click on item.",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16593",
+      "board": "EXP",
       "summary": "[Android][RG 3.64.0 RC4][Watch L2] - Display images appear incorrectly when the `thumb_list` and `thumb` URLs are invalid (type in top banner (3:4) shelf).",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20378",
+      "board": "LS",
       "summary": "[Android][RG 3.64.0 RC3][Checkout TATANG] ติด Theme สีดำด้านบน",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20393",
+      "board": "LS",
       "summary": "[BE][Android] You might also like shelf - Non Login ไม่แสดง You might also like shelf",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20164",
+      "board": "LS",
       "summary": "[Android] VOD player: You might also like shelf",
       "owner": "Chalatip Thongsri",
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Alongkot Tonprasert",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-9084",
+      "board": "VAL",
       "summary": "[iOS] Implement Universal Link to support site Tatang",
       "owner": null,
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-9156",
+      "board": "VAL",
       "summary": "[iOS][Universal Link] Navigated to TrueID app when user select on URL that under domain https://tatang.trueid-preprod.net",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-20387",
+      "board": "LS",
       "summary": "[Android][RG 3.64.0 RC5][Movie Player] ขอบบนและขอบล่างเปลี่ยนเป็นสีขาวหลังจาก ปิด fullscreen",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-9173",
+      "board": "VAL",
       "summary": "[Android][RG 3.64.0 RC3][SFV watch] กรณีที่เปิด sfv by search result เมื่อ กด back กลับ  app พาไป หน้า L1",
       "owner": "Todsapon Sangpook",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9178",
+      "board": "VAL",
       "summary": "[iOS][iPad Landscape][iOS>=26][RG 3.64.0 RC2][Home] Bottom Navigation overlaps CTA when user start app in Landscape on content has more than 1 CTA",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16426",
+      "board": "EXP",
       "summary": "[Android] Watch L2: Display SFV/LFV in normal shelf with thumblist",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16580",
+      "board": "EXP",
       "summary": "[iOS][Today/Watch L1]Shelf-  SFV, UGCSFV types don't support thumbnail - {thumb list - trueid lanscape}.",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16385",
+      "board": "EXP",
       "summary": "[iOS] Today/Watch L1: Display SFV/LFV in normal shelf with thumblist",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9167",
+      "board": "VAL",
       "summary": "[iOS] Regression Test 3.64.0",
       "owner": null,
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-9205",
+      "board": "VAL",
       "summary": "[Android] Implement Alpha effect instead of Glass",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-9160",
+      "board": "VAL",
       "summary": "[Android] Implement Alpha effect instead of Glass",
       "owner": "Todsapon Sangpook",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9192",
+      "board": "VAL",
       "summary": "[iOS] Move SSL Pining config from Remote Config to Firestore",
       "owner": null,
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-9114",
+      "board": "VAL",
       "summary": "[iOS] Move SSL Pining config from Remote Config to Firestore ",
       "owner": "Aekkawin Anantrakarnkit",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-20389",
+      "board": "LS",
       "summary": "[Android][RG 3.64.0 RC6][VODs player] กดใน EP ใน EPlist player ปรับเป็น fullscreen",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16491",
+      "board": "EXP",
       "summary": "[Android] Watch L2: Support SFV shelf with by_cate, by_tag",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20403",
+      "board": "LS",
       "summary": "cache หมดเวลาไม่เรียก url ใหม่",
       "owner": "Suriya Alee",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-9204",
+      "board": "VAL",
       "summary": "[Android][App Link] Found Light theme on Home page when User is fresh install and enter from App Link",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9166",
+      "board": "VAL",
       "summary": "[Android] Regression Test 3.64.0",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "EXP-16596",
+      "board": "EXP",
       "summary": " [Android]App link - Open series (Title) page : Invalid cmsid parameter and Hostname is not sent (SFV player page).",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-12723",
+      "board": "EXP",
       "summary": " [Android] App link: Watch domain > Send hostname param",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16602",
+      "board": "EXP",
       "summary": "[iOS][RG 3.64.0 RC6][Watch L2]: Shelf does not hide when source_type and source_value are null or empty.",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16600",
+      "board": "EXP",
       "summary": "[iOS][RG 3.64.0 RC6][Watch L2]: SFV shelf with by_cate, by_tag sent cursor.",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16601",
+      "board": "EXP",
       "summary": "[iOS][RG 3.64.0 RC6][Watch L2]: SFV shelf does not display source_type is placement.",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20348",
+      "board": "LS",
       "summary": "[Watch][iOS][FA] - user เข้าหน้า vod player, FA track seek_forward event โดยที่ user ยังไม่ได้ทำการ seek",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20349",
+      "board": "LS",
       "summary": "[Watch][iOS][FA] - user ดู vod trailer แล้วทำการ seek, FA not track seek_forward and seek_backward event ",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20347",
+      "board": "LS",
       "summary": "[Watch][iOS][FA] - user ดู trailer จนจบและกดเล่นวนซ้ำ, FA not tracks play_*_initial and play_*",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-9115",
+      "board": "VAL",
       "summary": "[Android] Move SSL Pining config from Remote Config to Firestore",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9184",
+      "board": "VAL",
       "summary": "[Android] Move SSL Pining config from Remote Config to Firestore",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8985",
+      "board": "VAL",
       "summary": "[Automate] Implement Kudos chatbot for Mobile Team",
       "owner": "Kijja Charuchinda",
       "platform": "Unknown",
       "method": "in_progress_author",
       "note": "fallback_a=Chawapon Kiatpravee",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8884",
+      "board": "VAL",
       "summary": "[iOS] Redesign VODs players in Full-screen mode",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8883",
+      "board": "VAL",
       "summary": "[iOS] Sliding Comment View on VODs players in Full-screen mode",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9177",
+      "board": "VAL",
       "summary": "Group Share and establish ExternalLibraries as the central source of versions",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-20133",
+      "board": "LS",
       "summary": "[Android] SFV Series: Ads only Content Unlock & Error Handling part2",
       "owner": "Kodchakorn (Zigzag) (Livestream/Player)",
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Suriya Alee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20322",
+      "board": "LS",
       "summary": "[Android] VOD player: Banner Ad",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20183",
+      "board": "LS",
       "summary": "[iOS] VOD player: Banner Ad",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20274",
+      "board": "LS",
       "summary": "[Android] Watch L2: Adjust icon shelf",
       "owner": "Nuttarikan Pattanaporn (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20372",
+      "board": "LS",
       "summary": "[Watch][Android][FA] - user see ads on vod player, FA not tracks play_ad_preroll or play_ad_midroll",
       "owner": "Nuttarikan Pattanaporn (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20399",
+      "board": "LS",
       "summary": "[Android][RG 3.64.0 RC6][VODs player] กด next EP button ในแนวนอน แล้วไม่เล่น stream ตาม ep ที่ next",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20406",
+      "board": "LS",
       "summary": "[Android][RG 3.64.0 RC8][VODs player] ปุ่ม skip intro ขึ้นมาระหว่าง ads เล่น",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20400",
+      "board": "LS",
       "summary": "[Android][the voice] กด https://home.trueid.net/ แล้วเข้าแอปแทนเว็ป",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20396",
+      "board": "LS",
       "summary": "[iOS][the voice] เจอ error เวลาที่เข้ามาจาก deeplink",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16607",
+      "board": "EXP",
       "summary": "[iOS] - FA tracks read_article event, shelf_name parameter send wrong value",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16605",
+      "board": "EXP",
       "summary": "[Today][iOS][FA] - when user select LiveTV on Quick access shelf, FA track click event",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-19927",
+      "board": "LS",
       "summary": "[Android] VOD player: FA tracking skip end credit (next episode)",
       "owner": "Nuttarikan Pattanaporn (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20407",
+      "board": "LS",
       "summary": "[Android][RG 3.64.0 RC8][VODs player] ไม่สามารถกด fullscreen หลังจากปิด checkout ",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20402",
+      "board": "LS",
       "summary": "เจอ error 500 เมื่อเลื่อน seek ไปท้ายๆคลิป",
       "owner": "Jiraporn Praneet",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20333",
+      "board": "LS",
       "summary": "[iOS] VOD Player: SDK player with secret key",
       "owner": "Sirinard (Bo) Chokmongkolsatian",
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Chamnarn Suksai",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20440",
+      "board": "LS",
       "summary": "Case TIDPLUS Popup, FA track view_paywall event but missing product_code parameter",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20228",
+      "board": "LS",
       "summary": "[Android]FA Tracking -> Send view_paywall event",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19206",
+      "board": "LS",
       "summary": "[iOS]VOD player : time seek with snapshot",
       "owner": "Chamnarn Suksai",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-19205",
+      "board": "LS",
       "summary": "[iOS] VOD player : zoom to fill",
       "owner": "Kantachat Puagkajee",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20441",
+      "board": "LS",
       "summary": "Select Special Episode, FA track view_paywall but missing parent_id and send parent_name with wrong value",
       "owner": "Jiraporn Praneet",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20397",
+      "board": "LS",
       "summary": "[Android][RG 3.64.0 RC6][VODs player] Skipping an episode when tapping Next Episode in landscape mode",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20227",
+      "board": "LS",
       "summary": "[iOS]FA Tracking -> Send view_paywall event (my account)",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20408",
+      "board": "LS",
       "summary": "[Android][RG 3.64.0 RC8][VODs player] เมื่อมีการ pause clip แล้วกดปุ่ม watch button ควรจะปรับเป็น fullscreen ",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16487",
+      "board": "EXP",
       "summary": "[iOS] SFV Player: SFV content sequence in the player with shelf_id",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16489",
+      "board": "EXP",
       "summary": "[Android] SFV Player: SFV content sequence in the player with shelf_id",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16488",
+      "board": "EXP",
       "summary": "[iOS] Watch L2: Support SFV shelf with by_cate, by_tag",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20398",
+      "board": "LS",
       "summary": "[Android][RG 3.64.0 RC6][VODs player] กดปิดหน้า checkout แล้ว scale video แปลก",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20439",
+      "board": "LS",
       "summary": "[iOS] กด deeplink VOD5L จาก shelf ไม่ได้",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20442",
+      "board": "LS",
       "summary": "[Android] กด deeplink VOD5L จาก shelf ไม่ได้",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20392",
+      "board": "LS",
       "summary": "[Android] พบความผิดปกติ ในการ tracking สำหรับ TTFF - watch_start_to_first_frame",
       "owner": "Nuttarikan Pattanaporn (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-9217",
+      "board": "VAL",
       "summary": "[Android][MA Dialog] Description overlaps Image when hide_btn_close = \"yes\"",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-20401",
+      "board": "LS",
       "summary": "[Watch][Android][FA] - when user select item on My List Shelf, FA track select_content event but missing shelf_code and shelf_name",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20332",
+      "board": "LS",
       "summary": "[Android] VOD Player: SDK player with secret key",
       "owner": "Sirinard (Bo) Chokmongkolsatian",
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Suriya Alee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20404",
+      "board": "LS",
       "summary": "ถ้าไม่เซต timeout_sec มา ฟีเจอร์แสดงรูปจะไม่ทำงาน",
       "owner": "Suriya Alee",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16614",
+      "board": "EXP",
       "summary": "[iOS][Watch L2]FA- when user click item on top banner (3:4) shelf, parameter \"shelf_name\" doesn't track.",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20405",
+      "board": "LS",
       "summary": "[Android][RG 3.64.0 RC8][PVOD] ลูกค้าที่ซื้อตอนพิเศษ ไม่ควรเจอ ads ",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20379",
+      "board": "LS",
       "summary": "[Android][RG 3.64.0 RC3][Rewarded ads TATANG] เห็น player ด้านบน จังหวะที่ ads กำลังเล่นอยู่",
-      "owner": "Chalatip Thongsri",
+      "owner": "Nuttarikan Pattanaporn (Ext)",
       "platform": "Android",
-      "method": "in_progress_author",
+      "method": "pull_request_author",
       "note": "fallback_a=Nuttarikan Pattanaporn (Ext)",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-13393",
+      "board": "EXP",
       "summary": "[iOS][Today] Explore - When pull requests frequently on 4-5 time, There will be interference.",
       "owner": "ext.nuttanai.sal",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-8983",
+      "board": "VAL",
       "summary": "[CI/CD] Modify generate test coverage by team script",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9189",
+      "board": "VAL",
       "summary": "[Crashlytics] [Linked Issue] com.trueid.playersdk.internal.X0.addOverlayPlayerView",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8908",
+      "board": "VAL",
       "summary": "[ANRs] m7.ro.run",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9220",
+      "board": "VAL",
       "summary": "[Android][MA Dialog] MA Dialog shows incorrectly when user from deep link to SFV player",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-20270",
+      "board": "LS",
       "summary": "[Android] ไม่สามารถแสดงหน้า Doodi ได้",
       "owner": "Sarawut (Kai) (Player)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20383",
+      "board": "LS",
       "summary": "[Android][IOS][3.64] เช็คเชลฟ์ (TrueID App) Watch (For you) : The Voice Banner (16:9) cmsid: Jr1ybNBxgyer reaize",
       "owner": "Chamnarn Suksai",
       "platform": "Both",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-9179",
+      "board": "VAL",
       "summary": "[iOS][OS under 26][RG 3.64.0 RC2] Unable to Back To Top when User taps Bottom Navigation",
       "owner": "Aekkawin Anantrakarnkit",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16295",
+      "board": "EXP",
       "summary": "[iOS] Today/Watch: item_16x9_ads > Support display by placement_id",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16383",
+      "board": "EXP",
       "summary": "[Android] Today/Watch: item_16x9_ads > Support display by placement_id",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16458",
+      "board": "EXP",
       "summary": "[Android] L1: Change top&bottom nav icon",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9176",
+      "board": "VAL",
       "summary": "Inventory Data confirm ownership and Migrate",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-7513",
+      "board": "LS",
       "summary": "[FA - preview] Send firebase analytic \"play_movie\" with parameter \"play_type\" when preview movie player resumes playing content on the movie detail screen.",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-7510",
+      "board": "LS",
       "summary": "[FA - preview] Send firebase analytic \"pause_movie\" with parameter \"play_type\" when user go to other pages.\n",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-7509",
+      "board": "LS",
       "summary": "[FA - preview] Send firebase analytic \"pause_movie\" with parameter \"play_type\" when preview movie player pauses content.",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20451",
+      "board": "LS",
       "summary": "[iOS][RG 3.64.1 RC1][SFV Series] ลูกค้าที่ มี pack trueid+ ไม่เจอ ads only",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16290",
+      "board": "EXP",
       "summary": "[iOS] LFV: Pre-roll, Mid-roll ads",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16620",
+      "board": "EXP",
       "summary": "[iOS][Top Nav][UI] Watch/Today/shopping - The divider line below Top Nav does not align with other pages.",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9215",
+      "board": "VAL",
       "summary": "[iOS][MA Dialog] MA Dialog overlaps What's New page",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9221",
+      "board": "VAL",
       "summary": "[iOS Crash] [DevEx] -[GIDSignIn signInWithOptions:]",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16382",
+      "board": "EXP",
       "summary": "[iOS] L1: Change top&bottom nav icon",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9228",
+      "board": "VAL",
       "summary": "[iOS] Certificate & Sandbox for testing Subscription (Request by Watch Team)",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9100",
+      "board": "VAL",
       "summary": "[Android] Implement Remote Config Resolver from CDN",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-20473",
+      "board": "LS",
       "summary": "[iOS] กด deeplink จาก ไลน์ เฟสบุ๊ค แล้วไม่เปิด deeplink",
       "owner": "Chamnarn Suksai",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16606",
+      "board": "EXP",
       "summary": "[Android] - FA tracks read_article event, shelf_name parameter send wrong value",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9169",
+      "board": "VAL",
       "summary": "Move Networking into the TrueIDPackages SPM",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16634",
+      "board": "EXP",
       "summary": "[iOS][Search] UI does not support search with hyphens this causes the content to display incorrectly when viewed.",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9230",
+      "board": "VAL",
       "summary": "[iOS][SSL Pinning] Found API response 200 on URL that added in pinned_domain",
       "owner": "Aekkawin Anantrakarnkit",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9229",
+      "board": "VAL",
       "summary": "[iOS] Secure Graph URL",
       "owner": null,
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-9207",
+      "board": "VAL",
       "summary": " [iOS] Secure Graph URL",
       "owner": "Aekkawin Anantrakarnkit",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-19215",
+      "board": "LS",
       "summary": "[Android] player : time seek with snapshot",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20395",
+      "board": "LS",
       "summary": "[iOS] VOD Player: root detector should not play content",
       "owner": "Chamnarn Suksai",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16632",
+      "board": "EXP",
       "summary": "[iOS][Universal link]Watch Domain:  Incorrect title parameter sent on Home Feed and invalid cmsid parameter (cmsid = {title_id}) on Series, Short Drama Title pages and Movie player page .",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-15845",
+      "board": "EXP",
       "summary": " [iOS] Universal link: Watch domain > Send hostname param",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9208",
+      "board": "VAL",
       "summary": "[iOS] Update Facebook Login SDK",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16665",
+      "board": "EXP",
       "summary": "[iOS][Search box]After navigating from the search bar to the player, the search results are not displayed correctly.",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20462",
+      "board": "LS",
       "summary": "Test Execution - [iOS] Watch L2: FA tracking view_item_list : LS-20412",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20344",
+      "board": "LS",
       "summary": "Test Execution - [Android] SFV Series: Ads only FA tracking earn reward : LS-20242",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "pre_qa_assignee",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20316",
+      "board": "LS",
       "summary": "Test Execution - [iOS] SFV Series: update episode icon : LS-20247",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "pre_qa_assignee",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20345",
+      "board": "LS",
       "summary": "Test Execution - [iOS] SFV Series: Ads only FA tracking earn reward : LS-20243",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "pre_qa_assignee",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20283",
+      "board": "LS",
       "summary": "Test Execution - [iOS] VOD player: Available date in episode list : LS-19042",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20295",
+      "board": "LS",
       "summary": "Test Execution - [Android] VOD player: FA tracking for skip intro : LS-19923",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "pre_qa_assignee",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20284",
+      "board": "LS",
       "summary": "Test Execution - [Android] SFV Series: playback speed on player : LS-19906",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "pre_qa_assignee",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20315",
+      "board": "LS",
       "summary": "Test Execution - [Android] SFV Series: update episode icon : LS-20220",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "pre_qa_assignee",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20343",
+      "board": "LS",
       "summary": "Test Execution - [Android] SFV Series: Ads only Content Unlock & Error Handling part2 : LS-20133",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20370",
+      "board": "LS",
       "summary": "[iOS] Watch Regression Test 3.64.0",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20368",
+      "board": "LS",
       "summary": "[Android] Subscription Regression Test 3.64.0",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20371",
+      "board": "LS",
       "summary": "[Android] Watch Regression Test 3.64.0",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20367",
+      "board": "LS",
       "summary": "[iOS] Subscription Regression Test 3.64.0",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20342",
+      "board": "LS",
       "summary": "Test Execution - [iOS] SFV Series: Ads only Content Unlock & Error Handling part2 : LS-20221",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "pre_qa_assignee",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20205",
+      "board": "LS",
       "summary": "Test Execution : [Android] VOD player: skip intro : LS-19857",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "pre_qa_assignee",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20317",
+      "board": "LS",
       "summary": "Test Execution - [iOS] VOD player: You might also like shelf : LS-18909",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "LS-20214",
+      "board": "LS",
       "summary": "Test Execution : [iOS] SFV Series: dynamic badge (vertical auto content shelf) : LS-20067",
       "owner": "Chalatip Thongsri",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-9182",
+      "board": "VAL",
       "summary": "[iOS] Redesign MA dialog",
       "owner": null,
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-8918",
+      "board": "VAL",
       "summary": "[iOS] Redesign MA dialog",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9183",
+      "board": "VAL",
       "summary": "[Android] Redesign MA dialog",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-9223",
+      "board": "VAL",
       "summary": "[Android][MA Dialog] MA Dialog shows when description language that match application language is null/empty",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-8919",
+      "board": "VAL",
       "summary": "[Android] Redesign MA dialog",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9209",
+      "board": "VAL",
       "summary": "[Android] [POC] Big center bottom nav",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-20207",
+      "board": "LS",
       "summary": "Test Execution : [Android] VOD player: skip end credit (next episode) : LS-19926",
       "owner": "Chalatip Thongsri",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20412",
+      "board": "LS",
       "summary": "[iOS] Watch L2: FA tracking view_item_list",
       "owner": "Kantachat Puagkajee",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16646",
+      "board": "EXP",
       "summary": "[Android][LFV]Pre-roll, Mid-roll ads : In full-screen mode, video ads don't fit the screen aspect ratio",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-15752",
+      "board": "EXP",
       "summary": "[Android] LFV: Pre-roll, Mid-roll ads",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9022",
+      "board": "VAL",
       "summary": "[Android] Secure auto-backup feature",
       "owner": "Natdanai Chaiyakan",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16672",
+      "board": "EXP",
       "summary": "[iOS] The system does not allow capture or video recording on sfv player",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20490",
+      "board": "LS",
       "summary": "[iOS][Ads] rollback preroll ads when user click continue watching shelf",
       "owner": "Kantachat Puagkajee",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "VAL-9234",
+      "board": "VAL",
       "summary": "Move Analytics, Telemetry, Network Context and Social Login to AppServices",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16619",
+      "board": "EXP",
       "summary": "[Watch][iOS][FA] - user ดู SFV จังหวะวนเล่นซ้ำ, FA track pause_sfv",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20271",
+      "board": "LS",
       "summary": "[iOS] VOD player: companion ad",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "EXP-16647",
+      "board": "EXP",
       "summary": "[Android] [UI] Excessive vertical space between \"Creator Bubble shelf\" and content on Following tab",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9158",
+      "board": "VAL",
       "summary": "[iOS] Not allow unencrypted communication channel",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-20491",
+      "board": "LS",
       "summary": "[Android][Ads] rollback preroll ads when user click continue watching shelf",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20275",
+      "board": "LS",
       "summary": "[Android] Watch L2: FA tracking view_item_list",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20461",
+      "board": "LS",
       "summary": "Test Execution - [Android] Watch L2: FA tracking view_item_list : LS-20275",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "VAL-9213",
+      "board": "VAL",
       "summary": "[iOS] Compare Mobilewright vs Maestro",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9196",
+      "board": "VAL",
       "summary": "[iOS] Root Cause Analysis (RCA) on causing slower TTFF on SFV Home Feed",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9050",
+      "board": "VAL",
       "summary": "Move common:share split to :core :feature and refactor",
       "owner": "Sitthikorn Sommechai (Ext)",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9218",
+      "board": "VAL",
       "summary": "Move data:graphql to core:datasource",
       "owner": "Sitthikorn Sommechai (Ext)",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9251",
+      "board": "VAL",
       "summary": "[Cancelled - created in error] ย้าย SubstringHelper จาก Data ไป Discover",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-9252",
+      "board": "VAL",
       "summary": "[Cancelled - created in error] ตรวจสอบพฤติกรรม SubstringHelper หลังย้าย",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-9253",
+      "board": "VAL",
       "summary": "[Cancelled - created in error] ย้าย What's New presentation state จาก Data ไป Discover",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-9254",
+      "board": "VAL",
       "summary": "[Cancelled - created in error] ตรวจสอบผลรวมและเตรียม PR ของ Card 08",
       "owner": null,
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "EXP-16671",
+      "board": "EXP",
       "summary": "[iOS][RG 3.64.0]Today: Tapping from the vertical video shelf leads to a black screen.",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9247",
+      "board": "VAL",
       "summary": "Move NCCCommunity Unread Count Repository out of Data",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9116",
+      "board": "VAL",
       "summary": "[Automation] Migrate Remote Config to CDN",
       "owner": "Kijja Charuchinda",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9260",
+      "board": "VAL",
       "summary": "[iOS][Certificate] Create AppID, Certificate for AI Solution Hub (Vroom)",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9214",
+      "board": "VAL",
       "summary": "[Automation] Implement E2E Trigger pipeline for Mobilewright",
       "owner": "Kijja Charuchinda",
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9250",
+      "board": "VAL",
       "summary": "Move Discover out of Data",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16676",
+      "board": "EXP",
       "summary": "[iOS]If you haven't followed someone before, the system should show a \"Suggested\" page, but on iOS it doesn't; it seems to display items from your feed instead.",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9231",
+      "board": "VAL",
       "summary": "[iOS][MA Dialog][Field Validation] Invalid default value when data type is incorrect on 'title' and 'hide_btn_close'",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9261",
+      "board": "VAL",
       "summary": "[Android] Update Facebook Login SDK",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     },
     {
       "key": "VAL-9211",
+      "board": "VAL",
       "summary": "[Android] Update Facebook Login SDK",
       "owner": "Natdanai Chaiyakan",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9188",
+      "board": "VAL",
       "summary": "[iOS][iPhone][RG 3.64.0 RC4] Found Landscape Icon before Splash Screen when User launch app in Landscape ",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16673",
+      "board": "EXP",
       "summary": "[iOS][Playlist]Playlist item: Cannot add more than 20 items to a playlist",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9226",
+      "board": "VAL",
       "summary": "[Android Crash] [Watch] ActivePlaybackRegistryImpl.acquire",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9256",
+      "board": "VAL",
       "summary": "migrate comment to compose",
       "owner": "Natdanai Chaiyakan",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9023",
+      "board": "VAL",
       "summary": "[iOS] Secure auto-backup feature",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9099",
+      "board": "VAL",
       "summary": "[iOS] Implement Remote Config Resolver from CDN",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9210",
+      "board": "VAL",
       "summary": "[iOS] [POC] Big center bottom nav",
       "owner": "Aekkawin Anantrakarnkit",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9024",
+      "board": "VAL",
       "summary": "[Android] Not allow unencrypted communication channel",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "LS-20411",
+      "board": "LS",
       "summary": "[iOS] SFV Series: FA tracking select content Tatang shelf on home feed",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20487",
+      "board": "LS",
       "summary": "Test Execution - [iOS] SFV Series: FA tracking select content Tatang shelf on home feed : LS-20411",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "EXP-16135",
+      "board": "EXP",
       "summary": "[iOS] Home Feed: Following tab > Creator shelf",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16462",
+      "board": "EXP",
       "summary": "[Android] Home Feed: Following tab > Creator shelf",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "VAL-9258",
+      "board": "VAL",
       "summary": "[iOS] Certificate & Provisioning for new App (Social)",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16578",
+      "board": "EXP",
       "summary": "[iOS] SFV Player: Double tap to like",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-16680",
+      "board": "EXP",
       "summary": "[Andriod][State Mute] After muting the app, the icon does not remain visible.",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "EXP-14247",
+      "board": "EXP",
       "summary": "[Android] Home feed: Mute/Unmute",
       "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20391",
+      "board": "LS",
       "summary": "[Android] SFV Series: FA tracking select content Tatang shelf on home feed",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20489",
+      "board": "LS",
       "summary": "Test Execution - [Android] SFV Series: FA tracking select content Tatang shelf on home feed : LS-20391",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "VAL-9264",
+      "board": "VAL",
       "summary": "[iOS][Crashlytic Bug] html dialog title out of index Crash",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "EXP-16432",
+      "board": "EXP",
       "summary": "[Android] SFV&LFV: Check subscription tier and remove ads",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "EXP"
+      "counted": true
     },
     {
       "key": "LS-20390",
+      "board": "LS",
       "summary": "[iOS] WatchL2: remove TrueID+ button",
       "owner": "Kantachat Puagkajee",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20415",
+      "board": "LS",
       "summary": "[Android] WatchL2: remove TrueID+ button",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20355",
+      "board": "LS",
       "summary": "[Android] SFV Series: FA tracking grid theme shelf select content",
       "owner": "Nuttarikan Pattanaporn (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20394",
+      "board": "LS",
       "summary": "[iOS] Remove Legacy SFV Series flow from ShortFormVideoPlayerViewModel",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "LS"
+      "counted": true
     },
     {
       "key": "LS-20485",
+      "board": "LS",
       "summary": "Test Execution - [iOS] SFV Series: shelf on tatang home feed : LS-20410",
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "agree",
       "note": "excluded",
-      "counted": false,
-      "board": "LS"
+      "counted": false
     },
     {
       "key": "VAL-9224",
+      "board": "VAL",
       "summary": "[Android Crash] [DevEx] NewSFVSeriesFragment.onDestroyView",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9263",
+      "board": "VAL",
       "summary": "migrate option to compose",
       "owner": "Natdanai Chaiyakan",
       "platform": "Unknown",
-      "method": "agree",
+      "method": "pull_request_author",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9206",
+      "board": "VAL",
       "summary": " [Android] Secure Graph URL",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true,
-      "board": "VAL"
+      "counted": true
     },
     {
       "key": "VAL-9259",
+      "board": "VAL",
       "summary": "[Android] Secure Graph URL",
       "owner": null,
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false,
-      "board": "VAL"
+      "counted": false
     }
   ],
   "notes": {

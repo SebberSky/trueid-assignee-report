@@ -6,6 +6,7 @@ import base64
 import json
 import urllib.parse
 import urllib.request
+import re
 from collections import Counter, defaultdict
 from typing import Any
 
@@ -36,9 +37,10 @@ class BitbucketClient:
         end: str | None = None,
         pages_per_repo: int = 40,
         pagelen: int = 50,
-    ) -> dict[str, Counter]:
+    ) -> tuple[dict[str, Counter], dict[str, str]]:
         """person -> Counter(platform -> count)."""
         counts: dict[str, Counter] = defaultdict(Counter)
+        ticket_owners: dict[str, str] = {}
         for repo, platform in repos.items():
             page = 1
             while page <= pages_per_repo:
@@ -50,7 +52,7 @@ class BitbucketClient:
                         "q": f'state = "MERGED"{date_filter}',
                         "pagelen": pagelen,
                         "page": page,
-                        "fields": "values.author.display_name,size,next",
+                        "fields": "values.author.display_name,values.title,values.description,size,next",
                     }
                 )
                 url = (
@@ -65,7 +67,10 @@ class BitbucketClient:
                     name = ((item.get("author") or {}).get("display_name")) or ""
                     if name:
                         counts[name][platform] += 1
+                        text = f"{item.get('title') or ''} {item.get('description') or ''}"
+                        for key in re.findall(r"\b(?:SC|IMP|LS|EXP|VAL)-\d+\b", text, re.IGNORECASE):
+                            ticket_owners[key.upper()] = name
                 if not data.get("next"):
                     break
                 page += 1
-        return counts
+        return counts, ticket_owners

@@ -98,6 +98,7 @@ def aggregate_tickets(
             details.append(
                 {
                     "key": issue.get("key"),
+                    "board": (issue.get("key") or "").split("-", 1)[0],
                     "summary": summary,
                     "owner": owner,
                     "platform": result.platform,
@@ -121,6 +122,7 @@ def aggregate_tickets(
         details.append(
             {
                 "key": issue.get("key"),
+                "board": (issue.get("key") or "").split("-", 1)[0],
                 "summary": summary,
                 "owner": owner,
                 "platform": platform,
@@ -140,9 +142,9 @@ def aggregate_prs(
     exclude_names: set[str],
     board_members: set[str],
     pages_per_repo: int,
-) -> dict[str, Counter]:
+) -> tuple[dict[str, Counter], dict[str, str]]:
     start, end = month_bounds(month)
-    raw = bb.count_merged_authors(repos, start=start, end=end, pages_per_repo=pages_per_repo)
+    raw, ticket_owners = bb.count_merged_authors(repos, start=start, end=end, pages_per_repo=pages_per_repo)
     exclude_norm = {normalize_name(n) for n in exclude_names}
     out: dict[str, Counter] = defaultdict(Counter)
     for name, counter in raw.items():
@@ -151,13 +153,18 @@ def aggregate_prs(
         out[name]["prs_ios"] = counter.get("iOS", 0)
         out[name]["prs_android"] = counter.get("Android", 0)
         out[name]["prs_mobile"] = counter.get("Mobile", 0)
-    return out
+    return out, ticket_owners
 
 
 def merge_rows(
     ticket_counts: dict[str, Counter],
     pr_counts: dict[str, Counter],
+    ticket_details: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
+    boards_by_name: dict[str, set[str]] = defaultdict(set)
+    for detail in ticket_details:
+        if detail.get("counted") and detail.get("owner") and detail.get("board"):
+            boards_by_name[detail["owner"]].add(detail["board"])
     names = sorted(set(ticket_counts) | set(pr_counts), key=str.casefold)
     rows = []
     for name in names:
@@ -166,6 +173,7 @@ def merge_rows(
         rows.append(
             {
                 "name": name,
+                "boards": sorted(boards_by_name.get(name, set())),
                 "tickets_ios": int(t.get("tickets_ios", 0)),
                 "tickets_android": int(t.get("tickets_android", 0)),
                 "tickets_unknown": int(t.get("tickets_unknown", 0)),
@@ -215,6 +223,7 @@ def main() -> int:
         print(f"  tickets: {len(ticket_details)} issues")
 
     pr_counts: dict[str, Counter] = defaultdict(Counter)
+    pr_ticket_owners: dict[str, str] = {}
     if not args.skip_prs:
         if args.prs_from and args.prs_from.exists():
             print(f"Loading PR counts from {args.prs_from}")
@@ -229,9 +238,25 @@ def main() -> int:
         else:
             print("Fetching Bitbucket merged PRs across 9 repos…")
             bb = BitbucketClient()
-            pr_counts = aggregate_prs(bb, args.month, repos, exclude_names, board_members, args.pr_pages)
+            pr_counts, pr_ticket_owners = aggregate_prs(bb, args.month, repos, exclude_names, board_members, args.pr_pages)
 
-    rows = merge_rows(ticket_counts, pr_counts)
+    for detail in ticket_details:
+        pr_owner = pr_ticket_owners.get((detail.get("key") or "").upper())
+        if detail.get("counted") and pr_owner and not matches_name(pr_owner, exclude_names):
+            detail["owner"] = pr_owner
+            detail["method"] = "pull_request_author"
+    if pr_ticket_owners:
+        ticket_counts = defaultdict(Counter)
+        for detail in ticket_details:
+            if not detail.get("counted") or not detail.get("owner"):
+                continue
+            platform = detail.get("platform")
+            if platform == "iOS": ticket_counts[detail["owner"]]["tickets_ios"] += 1
+            elif platform == "Android": ticket_counts[detail["owner"]]["tickets_android"] += 1
+            elif platform == "Both": ticket_counts[detail["owner"]]["tickets_both"] += 1
+            else: ticket_counts[detail["owner"]]["tickets_unknown"] += 1
+
+    rows = merge_rows(ticket_counts, pr_counts, ticket_details)
     report = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "month": args.month,

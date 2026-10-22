@@ -123,6 +123,10 @@
       <summary>PR drill-down</summary>
       <div id="prs" class="empty">เลือกชื่อในตาราง</div>
     </details>
+    <details id="dev-not-found">
+      <summary>Dev not found</summary>
+      <div id="unknown-tickets" class="empty">ไม่มีข้อมูล</div>
+    </details>
   </main>
   <script>
     let report = null;
@@ -210,6 +214,14 @@
         <div class="ticket"><span class="ios">iOS: ${row.prs_ios || 0}</span> · <span class="android">Android: ${row.prs_android || 0}</span> · Mobile: ${row.prs_mobile || 0}</div>`;
     }
 
+    function renderUnknownTickets() {
+      const box = document.getElementById("unknown-tickets");
+      const items = (report.ticket_details || []).filter(t => t.method === "unknown" && t.note === "no_non_qa_assignee");
+      if (!items.length) { box.className = "empty"; box.textContent = "ไม่มี ticket ที่หา owner ไม่ได้"; return; }
+      box.className = "";
+      box.innerHTML = items.map(t => `<div class="ticket"><a href="https://truedmp.atlassian.net/browse/${encodeURIComponent(t.key)}" target="_blank" rel="noopener">${escapeHtml(t.key)}</a> ${escapeHtml(t.summary)}</div>`).join("");
+    }
+
     function updateColumnVisibility() {
       const visible = new Set([...document.querySelectorAll(".filters input:checked")].map(input => input.value));
       document.querySelectorAll(".col-ios").forEach(cell => cell.classList.toggle("hidden-column", !visible.has("ios")));
@@ -236,6 +248,7 @@
       renderRows();
       renderTickets();
       renderPRs();
+      renderUnknownTickets();
     }
 
     async function boot() {
