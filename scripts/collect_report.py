@@ -217,7 +217,7 @@ def main() -> int:
             payload = load_json(args.prs_from)
             for person in payload.get("people") or []:
                 name = person.get("name") or ""
-                if normalize_name(name) in {normalize_name(n) for n in exclude_names}:
+                if matches_name(name, exclude_names):
                     continue
                 pr_counts[name]["prs_ios"] = int(person.get("ios_prs") or 0)
                 pr_counts[name]["prs_android"] = int(person.get("android_prs") or 0)
