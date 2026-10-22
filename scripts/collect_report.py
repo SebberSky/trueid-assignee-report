@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from app.bitbucket_client import BitbucketClient
+from app.credentials import jira_auth
 from app.jira_client import JiraClient
 from app.ownership import matches_name, normalize_name, resolve_owner
 
@@ -135,6 +136,9 @@ def aggregate_tickets(
     return per_person, details
 
 
+BOARD_PREFIXES = {"SC", "IMP", "LS", "EXP", "VAL"}
+
+
 def aggregate_prs(
     bb: BitbucketClient,
     month: str,
@@ -142,10 +146,9 @@ def aggregate_prs(
     exclude_names: set[str],
     board_members: set[str],
     pages_per_repo: int,
-) -> tuple[dict[str, Counter], dict[str, str]]:
+) -> tuple[dict[str, Counter], dict[str, dict[str, str]]]:
     start, end = month_bounds(month)
-    raw, ticket_owners = bb.count_merged_authors(repos, start=start, end=end, pages_per_repo=pages_per_repo)
-    exclude_norm = {normalize_name(n) for n in exclude_names}
+    raw, ticket_meta = bb.count_merged_authors(repos, start=start, end=end, pages_per_repo=pages_per_repo)
     out: dict[str, Counter] = defaultdict(Counter)
     for name, counter in raw.items():
         if matches_name(name, exclude_names) or not matches_name(name, board_members):
@@ -153,7 +156,46 @@ def aggregate_prs(
         out[name]["prs_ios"] = counter.get("iOS", 0)
         out[name]["prs_android"] = counter.get("Android", 0)
         out[name]["prs_mobile"] = counter.get("Mobile", 0)
-    return out, ticket_owners
+    return out, ticket_meta
+
+
+def append_pull_request_only_tickets(
+    ticket_details: list[dict[str, Any]],
+    ticket_counts: dict[str, Counter],
+    pr_ticket_meta: dict[str, dict[str, str]],
+    exclude_names: set[str],
+) -> None:
+    """When Bitbucket has a Jira key but Jira search missed it, keep a PR-only row."""
+    existing = {(detail.get("key") or "").upper() for detail in ticket_details}
+    for key, meta in sorted(pr_ticket_meta.items()):
+        board = key.split("-", 1)[0]
+        if board not in BOARD_PREFIXES or key in existing:
+            continue
+        owner = meta.get("owner") or ""
+        counted = bool(owner) and not matches_name(owner, exclude_names)
+        platform = meta.get("platform") or "Unknown"
+        ticket_details.append(
+            {
+                "key": key,
+                "board": board,
+                "summary": meta.get("title") or "",
+                "owner": owner or None,
+                "platform": platform,
+                "method": "pull_request_only",
+                "note": "jira_issue_unavailable",
+                "counted": counted,
+            }
+        )
+        if not counted:
+            continue
+        if platform == "iOS":
+            ticket_counts[owner]["tickets_ios"] += 1
+        elif platform == "Android":
+            ticket_counts[owner]["tickets_android"] += 1
+        elif platform == "Both":
+            ticket_counts[owner]["tickets_both"] += 1
+        else:
+            ticket_counts[owner]["tickets_unknown"] += 1
 
 
 def merge_rows(
@@ -215,15 +257,21 @@ def main() -> int:
     ticket_counts: dict[str, Counter] = defaultdict(Counter)
     ticket_details: list[dict[str, Any]] = []
     if not args.skip_tickets:
+        jira_user = jira_auth()[1]
         print(f"Fetching Jira tickets for {args.project} month {args.month}…")
+        print(f"  Jira auth user: {jira_user}")
         jira = JiraClient()
         ticket_counts, ticket_details = aggregate_tickets(
             jira, args.month, args.project, qa_names, exclude_names
         )
-        print(f"  tickets: {len(ticket_details)} issues")
+        boards = Counter((d.get("board") or "?") for d in ticket_details)
+        print(f"  tickets: {len(ticket_details)} issues · boards {dict(boards)}")
+        missing = sorted(BOARD_PREFIXES - set(boards))
+        if missing:
+            raise SystemExit(f"Missing boards in ticket fetch: {', '.join(missing)}")
 
     pr_counts: dict[str, Counter] = defaultdict(Counter)
-    pr_ticket_owners: dict[str, str] = {}
+    pr_ticket_meta: dict[str, dict[str, str]] = {}
     if not args.skip_prs:
         if args.prs_from and args.prs_from.exists():
             print(f"Loading PR counts from {args.prs_from}")
@@ -236,25 +284,35 @@ def main() -> int:
                 pr_counts[name]["prs_android"] = int(person.get("android_prs") or 0)
                 pr_counts[name]["prs_mobile"] = int(person.get("mobile_prs") or 0)
         else:
-            print("Fetching Bitbucket merged PRs across 9 repos…")
+            print(f"Fetching Bitbucket merged PRs across {len(repos)} repos…")
             bb = BitbucketClient()
-            pr_counts, pr_ticket_owners = aggregate_prs(bb, args.month, repos, exclude_names, board_members, args.pr_pages)
+            pr_counts, pr_ticket_meta = aggregate_prs(
+                bb, args.month, repos, exclude_names, board_members, args.pr_pages
+            )
 
     for detail in ticket_details:
-        pr_owner = pr_ticket_owners.get((detail.get("key") or "").upper())
+        meta = pr_ticket_meta.get((detail.get("key") or "").upper()) or {}
+        pr_owner = meta.get("owner") or ""
         if detail.get("counted") and pr_owner and not matches_name(pr_owner, exclude_names):
             detail["owner"] = pr_owner
             detail["method"] = "pull_request_author"
-    if pr_ticket_owners:
+    if pr_ticket_meta:
         ticket_counts = defaultdict(Counter)
         for detail in ticket_details:
             if not detail.get("counted") or not detail.get("owner"):
                 continue
             platform = detail.get("platform")
-            if platform == "iOS": ticket_counts[detail["owner"]]["tickets_ios"] += 1
-            elif platform == "Android": ticket_counts[detail["owner"]]["tickets_android"] += 1
-            elif platform == "Both": ticket_counts[detail["owner"]]["tickets_both"] += 1
-            else: ticket_counts[detail["owner"]]["tickets_unknown"] += 1
+            if platform == "iOS":
+                ticket_counts[detail["owner"]]["tickets_ios"] += 1
+            elif platform == "Android":
+                ticket_counts[detail["owner"]]["tickets_android"] += 1
+            elif platform == "Both":
+                ticket_counts[detail["owner"]]["tickets_both"] += 1
+            else:
+                ticket_counts[detail["owner"]]["tickets_unknown"] += 1
+        append_pull_request_only_tickets(
+            ticket_details, ticket_counts, pr_ticket_meta, exclude_names
+        )
 
     rows = merge_rows(ticket_counts, pr_counts, ticket_details)
     report = {
@@ -264,8 +322,9 @@ def main() -> int:
         "rows": rows,
         "ticket_details": ticket_details,
         "notes": {
-            "tickets": "Owner = last non-QA assignee before QA, or In Progress author / longest non-QA assignee",
-            "prs": "Merged PR authors from 9 /reviewpr repos; platform from repo",
+            "tickets": "Owner = last non-QA assignee before QA, or In Progress author / longest non-QA assignee; PR-only keys use method=pull_request_only",
+            "prs": f"Merged PR authors from {len(repos)} repos; platform from repo; inaccessible repos skipped",
+            "boards": "SC Social Commerce, IMP TrueID HERO, LS Watch, EXP Today, VAL DevEx",
             "qa_excluded": sorted(qa_names),
         },
     }
