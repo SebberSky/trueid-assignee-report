@@ -1,0 +1,1679 @@
+{
+  "generated_at": "2026-10-22T07:23:59.410334+00:00",
+  "month": "2026-10",
+  "project": "VAL",
+  "rows": [
+    {
+      "name": "Chawapon Kiatpravee",
+      "tickets_ios": 9,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 73,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Yossawat Sarasomran (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 8,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 71,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jae.Nuttapong",
+      "tickets_ios": 8,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 24,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Attapong Jakkrawantanarak",
+      "tickets_ios": 6,
+      "tickets_android": 0,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 97,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sittisak Tangpraditchai",
+      "tickets_ios": 0,
+      "tickets_android": 6,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 71,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Punyawat Suwannatat",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 6,
+      "tickets_both": 0,
+      "prs_ios": 71,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kijja Charuchinda",
+      "tickets_ios": 0,
+      "tickets_android": 2,
+      "tickets_unknown": 3,
+      "tickets_both": 0,
+      "prs_ios": 42,
+      "prs_android": 137,
+      "prs_mobile": 1
+    },
+    {
+      "name": "Aekkawin Anantrakarnkit",
+      "tickets_ios": 5,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 18,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Todsapon Sangpook",
+      "tickets_ios": 0,
+      "tickets_android": 4,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 23,
+      "prs_android": 176,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Natdanai Chaiyakan",
+      "tickets_ios": 0,
+      "tickets_android": 2,
+      "tickets_unknown": 2,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 52,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sitthikorn Sommechai (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 2,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 40,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Pathiphon Jaiyen",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 394,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Phanat Buraphaphichit",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 310,
+      "prs_mobile": 66
+    },
+    {
+      "name": "Pratchaya Suksena",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 373,
+      "prs_android": 1,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Nevin Ruttanaboonta",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 358,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Niracha Boonyanaet",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 354
+    },
+    {
+      "name": "Nuttapon Buaban",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 329,
+      "prs_android": 5,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Akamate Chayapiwat",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 114,
+      "prs_android": 0,
+      "prs_mobile": 177
+    },
+    {
+      "name": "Nattarit",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 276,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Ruttanachai Auitragool",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 275,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kanjanawit Yanggratoke",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 88,
+      "prs_android": 35,
+      "prs_mobile": 141
+    },
+    {
+      "name": "Nattapat Santiphan",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 256,
+      "prs_mobile": 3
+    },
+    {
+      "name": "Thanakorn Suttiwong",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 138,
+      "prs_mobile": 106
+    },
+    {
+      "name": "Nuttawut (Khun`O) Commerce",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 1,
+      "prs_android": 239,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kirathi Mingsakul",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 233,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Phatsawee Puttarukkul",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 229,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Damrongdech Haemanee",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 217,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sakolrat Niratthisaikul",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 204,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jiraporn Praneet",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 191,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Patipat Sahasapanan",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 184,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jassadakorn (Tony) (Today)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 168,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Papon Supamongkonchai (Boy)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 161,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Poowanat Homruen",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 135,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Suriya Alee",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 2,
+      "prs_android": 127,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Chatchai Chen-Aphisart",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 127,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jetarin Taloet (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 123,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thosapol Sangkasub",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 123,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Wachirawit (MossiTo) (Discovery)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 115,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Panuwat (Pum) (Privilege)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 1,
+      "prs_android": 113,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thanyaporn Boonyen",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 107,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sarawut (Kai) (Player)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 105,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Chitipat Mueanpaopong",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 102
+    },
+    {
+      "name": "Nutthapoom (Big) (Hero)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 102,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "saweena.b",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 102,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Chamnarn Suksai",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 95,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Narawit",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 90,
+      "prs_mobile": 0
+    },
+    {
+      "name": "teerapat.c",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 89,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Alongkot Tonprasert",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 87,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Pichamol Phookpun",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 84,
+      "prs_mobile": 0
+    },
+    {
+      "name": "ext.jirawat.chi",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 78,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kritsada Kongsaming",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 46,
+      "prs_mobile": 30
+    },
+    {
+      "name": "pohnpawit buaban",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 72,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Supachote Marungrueng (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 69,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kittisak Buaphanna",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 8,
+      "prs_android": 50,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thanapol Sopanhari",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 53,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Vissanu (NU) (Communicator)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 53,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Wattakamol L.",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 50,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kantachat Puagkajee",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 49,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Ittipon Kankaew",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 47,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Nattapon Pattanakasetwong",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 44,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Nuttarikan Pattanaporn (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 44,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Natthanan Gumyan",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 43,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thanawut (Pek)(Social)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 42,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jakkarin Thongjit",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 40,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Pitchawat Wiangnai",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 40,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Piyabute Chairiboon",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 39
+    },
+    {
+      "name": "supasit suebsunthorn",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 35,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Isarapong Tuensakul (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 19,
+      "prs_android": 15,
+      "prs_mobile": 0
+    },
+    {
+      "name": "ext.chawapon.kia",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 32,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "ext.chotikar.pho",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 28,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thaworn Limwattanachai",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 28
+    },
+    {
+      "name": "ext.nuttanai.sal",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 24,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Rattapong Paleegui (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 22,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Waranon Phuket",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 21
+    },
+    {
+      "name": "Nontachai Jaila",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 20,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Merin Phunupha",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 17
+    },
+    {
+      "name": "Methas Tariya",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 15,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Shinnakrit Jirasopon",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 13
+    },
+    {
+      "name": "Rattapong Paleegui",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 8,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Tanapat(Aor)(TODAY)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 5,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Atikom Tancharoen",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 2,
+      "prs_android": 1,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Former user",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 2,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Naphat Sottiyaphai (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 2,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Tanet Pornsirirat",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 2,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Chaiyatat Saipin",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 1,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Peerapong (Dew) Samarnpong",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 1,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Phongsakorn Srikate",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 1,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sitthiphong (Oat)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 1,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Yanyong (Benz) (Communicator)",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 1,
+      "prs_android": 0,
+      "prs_mobile": 0
+    }
+  ],
+  "ticket_details": [
+    {
+      "key": "VAL-9085",
+      "summary": "[iOS] Implement Universal Link to support The Voice",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9150",
+      "summary": "[iOS][Universal Link] Found error pop-up when Logged In user from https://thevoice.trueid-preprod.net/campaign",
+      "owner": "Chawapon Kiatpravee",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8970",
+      "summary": "[QA] Implement App Testing for RC",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9019",
+      "summary": "[Android] Secure all remaining credentials",
+      "owner": "Yossawat Sarasomran (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9170",
+      "summary": "[iOS][iPad Only][RG 3.64.0 RC2][Sliding Comment] Animation lags while UI loading after user select/slide to close comment",
+      "owner": "Chawapon Kiatpravee",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9020",
+      "summary": "[iOS] Secure all remaining credentials",
+      "owner": "Jae.Nuttapong",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9190",
+      "summary": "[iOS][iPad Landscape][RG 3.64.0 RC5] Layout Spacing when User select to see Comment",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9181",
+      "summary": "[Android Crash] [DevEx] FragmentManager.saveFragmentInstanceState",
+      "owner": "Yossawat Sarasomran (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9191",
+      "summary": "[iOS][iPad Landscape][OS under 26][RG 3.64.0 RC5] Bottom navigation overlaps comment when user select to see comment",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9193",
+      "summary": "[iOS] Implement the Sliding Comment View on SFV Home Feed",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9194",
+      "summary": "[iOS][RG 3.64.0 RC6] Animation Lags when User slowly drag to close comment",
+      "owner": "Chawapon Kiatpravee",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9157",
+      "summary": "[Android Crash] [DevEx] android.view.WindowManager$BadTokenException - Unable to add window",
+      "owner": "Yossawat Sarasomran (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9195",
+      "summary": "[Core][Android][RC02_V3.64.0][MerchantDetail] app ไม่แสดง previous page ถ้าเปิด merchant detail page จาก \"View Merchant\" button",
+      "owner": "Todsapon Sangpook",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9174",
+      "summary": "[Android][Foldable&Tablet][RG 3.64.0 RC3] Content render on Navigation side bar when user on Home tab switch to another tab",
+      "owner": "Yossawat Sarasomran (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9180",
+      "summary": "[Android Crash] [DevEx] DaggerTrueIDApplication_HiltComponents_SingletonC$ActivityCImpl.keySetMapOfClassOfAndBooleanBuilder",
+      "owner": "Yossawat Sarasomran (Ext)",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Todsapon Sangpook",
+      "counted": true
+    },
+    {
+      "key": "VAL-9161",
+      "summary": "[Android] Implement the dependency analysis pipeline",
+      "owner": "Todsapon Sangpook",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9084",
+      "summary": "[iOS] Implement Universal Link to support site Tatang",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9156",
+      "summary": "[iOS][Universal Link] Navigated to TrueID app when user select on URL that under domain https://tatang.trueid-preprod.net",
+      "owner": "Chawapon Kiatpravee",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9173",
+      "summary": "[Android][RG 3.64.0 RC3][SFV watch] กรณีที่เปิด sfv by search result เมื่อ กด back กลับ  app พาไป หน้า L1",
+      "owner": "Todsapon Sangpook",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9178",
+      "summary": "[iOS][iPad Landscape][iOS>=26][RG 3.64.0 RC2][Home] Bottom Navigation overlaps CTA when user start app in Landscape on content has more than 1 CTA",
+      "owner": "Jae.Nuttapong",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9167",
+      "summary": "[iOS] Regression Test 3.64.0",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9205",
+      "summary": "[Android] Implement Alpha effect instead of Glass",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9160",
+      "summary": "[Android] Implement Alpha effect instead of Glass",
+      "owner": "Todsapon Sangpook",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9192",
+      "summary": "[iOS] Move SSL Pining config from Remote Config to Firestore",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9114",
+      "summary": "[iOS] Move SSL Pining config from Remote Config to Firestore ",
+      "owner": "Aekkawin Anantrakarnkit",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9204",
+      "summary": "[Android][App Link] Found Light theme on Home page when User is fresh install and enter from App Link",
+      "owner": "Sittisak Tangpraditchai",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9166",
+      "summary": "[Android] Regression Test 3.64.0",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9115",
+      "summary": "[Android] Move SSL Pining config from Remote Config to Firestore",
+      "owner": "Kijja Charuchinda",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9184",
+      "summary": "[Android] Move SSL Pining config from Remote Config to Firestore",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-8985",
+      "summary": "[Automate] Implement Kudos chatbot for Mobile Team",
+      "owner": "Kijja Charuchinda",
+      "platform": "Unknown",
+      "method": "in_progress_author",
+      "note": "fallback_a=Chawapon Kiatpravee",
+      "counted": true
+    },
+    {
+      "key": "VAL-8884",
+      "summary": "[iOS] Redesign VODs players in Full-screen mode",
+      "owner": "Chawapon Kiatpravee",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8883",
+      "summary": "[iOS] Sliding Comment View on VODs players in Full-screen mode",
+      "owner": "Chawapon Kiatpravee",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9177",
+      "summary": "Group Share and establish ExternalLibraries as the central source of versions",
+      "owner": "Punyawat Suwannatat",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9217",
+      "summary": "[Android][MA Dialog] Description overlaps Image when hide_btn_close = \"yes\"",
+      "owner": "Sittisak Tangpraditchai",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8983",
+      "summary": "[CI/CD] Modify generate test coverage by team script",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9189",
+      "summary": "[Crashlytics] [Linked Issue] com.trueid.playersdk.internal.X0.addOverlayPlayerView",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-8908",
+      "summary": "[ANRs] m7.ro.run",
+      "owner": "Sittisak Tangpraditchai",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9220",
+      "summary": "[Android][MA Dialog] MA Dialog shows incorrectly when user from deep link to SFV player",
+      "owner": "Sittisak Tangpraditchai",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9179",
+      "summary": "[iOS][OS under 26][RG 3.64.0 RC2] Unable to Back To Top when User taps Bottom Navigation",
+      "owner": "Aekkawin Anantrakarnkit",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9176",
+      "summary": "Inventory Data confirm ownership and Migrate",
+      "owner": "Punyawat Suwannatat",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9215",
+      "summary": "[iOS][MA Dialog] MA Dialog overlaps What's New page",
+      "owner": "Jae.Nuttapong",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9221",
+      "summary": "[iOS Crash] [DevEx] -[GIDSignIn signInWithOptions:]",
+      "owner": "Chawapon Kiatpravee",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9228",
+      "summary": "[iOS] Certificate & Sandbox for testing Subscription (Request by Watch Team)",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9100",
+      "summary": "[Android] Implement Remote Config Resolver from CDN",
+      "owner": "Kijja Charuchinda",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9169",
+      "summary": "Move Networking into the TrueIDPackages SPM",
+      "owner": "Punyawat Suwannatat",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9230",
+      "summary": "[iOS][SSL Pinning] Found API response 200 on URL that added in pinned_domain",
+      "owner": "Aekkawin Anantrakarnkit",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9229",
+      "summary": "[iOS] Secure Graph URL",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9207",
+      "summary": " [iOS] Secure Graph URL",
+      "owner": "Aekkawin Anantrakarnkit",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9208",
+      "summary": "[iOS] Update Facebook Login SDK",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9182",
+      "summary": "[iOS] Redesign MA dialog",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-8918",
+      "summary": "[iOS] Redesign MA dialog",
+      "owner": "Jae.Nuttapong",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9183",
+      "summary": "[Android] Redesign MA dialog",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9223",
+      "summary": "[Android][MA Dialog] MA Dialog shows when description language that match application language is null/empty",
+      "owner": "Sittisak Tangpraditchai",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-8919",
+      "summary": "[Android] Redesign MA dialog",
+      "owner": "Sittisak Tangpraditchai",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9209",
+      "summary": "[Android] [POC] Big center bottom nav",
+      "owner": "Yossawat Sarasomran (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9022",
+      "summary": "[Android] Secure auto-backup feature",
+      "owner": "Natdanai Chaiyakan",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9234",
+      "summary": "Move Analytics, Telemetry, Network Context and Social Login to AppServices",
+      "owner": "Punyawat Suwannatat",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9158",
+      "summary": "[iOS] Not allow unencrypted communication channel",
+      "owner": "Jae.Nuttapong",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9213",
+      "summary": "[iOS] Compare Mobilewright vs Maestro",
+      "owner": "Chawapon Kiatpravee",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9196",
+      "summary": "[iOS] Root Cause Analysis (RCA) on causing slower TTFF on SFV Home Feed",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9050",
+      "summary": "Move common:share split to :core :feature and refactor",
+      "owner": "Sitthikorn Sommechai (Ext)",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9218",
+      "summary": "Move data:graphql to core:datasource",
+      "owner": "Sitthikorn Sommechai (Ext)",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9251",
+      "summary": "[Cancelled - created in error] ย้าย SubstringHelper จาก Data ไป Discover",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9252",
+      "summary": "[Cancelled - created in error] ตรวจสอบพฤติกรรม SubstringHelper หลังย้าย",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9253",
+      "summary": "[Cancelled - created in error] ย้าย What's New presentation state จาก Data ไป Discover",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9254",
+      "summary": "[Cancelled - created in error] ตรวจสอบผลรวมและเตรียม PR ของ Card 08",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9247",
+      "summary": "Move NCCCommunity Unread Count Repository out of Data",
+      "owner": "Punyawat Suwannatat",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9116",
+      "summary": "[Automation] Migrate Remote Config to CDN",
+      "owner": "Kijja Charuchinda",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9260",
+      "summary": "[iOS][Certificate] Create AppID, Certificate for AI Solution Hub (Vroom)",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9214",
+      "summary": "[Automation] Implement E2E Trigger pipeline for Mobilewright",
+      "owner": "Kijja Charuchinda",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9250",
+      "summary": "Move Discover out of Data",
+      "owner": "Punyawat Suwannatat",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9231",
+      "summary": "[iOS][MA Dialog][Field Validation] Invalid default value when data type is incorrect on 'title' and 'hide_btn_close'",
+      "owner": "Jae.Nuttapong",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9261",
+      "summary": "[Android] Update Facebook Login SDK",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "VAL-9211",
+      "summary": "[Android] Update Facebook Login SDK",
+      "owner": "Natdanai Chaiyakan",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9188",
+      "summary": "[iOS][iPhone][RG 3.64.0 RC4] Found Landscape Icon before Splash Screen when User launch app in Landscape ",
+      "owner": "Jae.Nuttapong",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9226",
+      "summary": "[Android Crash] [Watch] ActivePlaybackRegistryImpl.acquire",
+      "owner": "Yossawat Sarasomran (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9256",
+      "summary": "migrate comment to compose",
+      "owner": "Natdanai Chaiyakan",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9023",
+      "summary": "[iOS] Secure auto-backup feature",
+      "owner": "Jae.Nuttapong",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9099",
+      "summary": "[iOS] Implement Remote Config Resolver from CDN",
+      "owner": "Chawapon Kiatpravee",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9210",
+      "summary": "[iOS] [POC] Big center bottom nav",
+      "owner": "Aekkawin Anantrakarnkit",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9024",
+      "summary": "[Android] Not allow unencrypted communication channel",
+      "owner": "Sittisak Tangpraditchai",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9258",
+      "summary": "[iOS] Certificate & Provisioning for new App (Social)",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9264",
+      "summary": "[iOS][Crashlytic Bug] html dialog title out of index Crash",
+      "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9224",
+      "summary": "[Android Crash] [DevEx] NewSFVSeriesFragment.onDestroyView",
+      "owner": "Yossawat Sarasomran (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "VAL-9263",
+      "summary": "migrate option to compose",
+      "owner": "Natdanai Chaiyakan",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    }
+  ],
+  "notes": {
+    "tickets": "Owner = last non-QA assignee before QA, or In Progress author / longest non-QA assignee",
+    "prs": "Merged PR authors from 9 /reviewpr repos; platform from repo",
+    "qa_excluded": [
+      "Atthaphon Sriathayanon",
+      "Jeerapa Wisawawiwatsakul",
+      "Kansinee Ruengchawaroj (Ext)",
+      "Nanthanat Nimchanasit (Ext)",
+      "Nuttapol Pakdeesuppapol",
+      "Supakorn Naowaratphunsin",
+      "Suwanna Thananitaporn",
+      "Vanidchaporn Suksai",
+      "Wanwisa Lertlumwittayanon"
+    ]
+  }
+}
