@@ -26,10 +26,8 @@
     main { max-width: 1200px; margin: 0 auto; padding: 28px 20px 64px; }
     h1 { font-size: 1.6rem; margin: 0 0 6px; letter-spacing: -0.02em; }
     .sub { color: var(--muted); margin-bottom: 22px; font-size: 0.95rem; }
-    .toolbar {
-      display: flex; gap: 12px; flex-wrap: wrap; align-items: center;
-      margin-bottom: 18px;
-    }
+    .toolbar { margin-bottom: 18px; }
+    .filter-line { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
     input[type="search"] {
       background: var(--panel); border: 1px solid var(--line); color: var(--text);
       border-radius: 10px; padding: 10px 12px; min-width: 240px;
@@ -89,16 +87,15 @@
     <h1>Ownership Report</h1>
     <p class="sub">จำนวน ticket ที่ถือจริง (ไม่นับ QA) และ merged PR จาก 9 repo — แยก iOS / Android</p>
     <div class="toolbar">
-      <label class="pill" for="month">เดือน</label>
-      <span class="month-picker"><select id="month" aria-label="เลือกเดือน"></select></span>
-      <span class="pill">Platform</span>
-      <span class="filters">
+      <div class="filter-line">
+        <label class="pill" for="month">เดือน</label>
+        <span class="month-picker"><select id="month" aria-label="เลือกเดือน"></select></span>
+        <span class="pill">Platform</span>
         <label class="check"><input id="ios-filter" type="checkbox" value="ios" checked /> iOS</label>
         <label class="check"><input id="android-filter" type="checkbox" value="android" checked /> Android</label>
-      </span>
-      <div class="filter-row"><span class="pill">Jira board</span> <span id="board-filters" class="filters"></span></div>
-      <input id="q" type="search" placeholder="ค้นชื่อ…" />
-      <span class="pill" id="meta">loading…</span>
+      </div>
+      <div class="filter-line"><span class="pill">Jira board</span> <span id="board-filters" class="filters"></span></div>
+      <div class="filter-line"><input id="q" type="search" placeholder="ค้นชื่อ…" /> <span class="pill" id="meta">loading…</span></div>
     </div>
     <table>
       <thead>
@@ -266,6 +263,7 @@
       document.getElementById("board-filters").addEventListener("change", () => renderRows(document.getElementById("q").value));
       updateColumnVisibility();
       await loadReport(months[0].file);
+      document.getElementById("board-filters").addEventListener("change", () => renderRows(document.getElementById("q").value));
       document.querySelectorAll("th.sortable").forEach(th => th.addEventListener("click", () => {
         const key = th.dataset.key;
         if (sortKey === key) sortDirection *= -1;
