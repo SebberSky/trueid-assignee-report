@@ -56,6 +56,11 @@
     }
     th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--line); }
     th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+    th.sortable { cursor: pointer; user-select: none; }
+    th.sortable:hover { color: var(--text); }
+    th.sortable::after { content: " ↕"; opacity: 0.45; }
+    th.sortable.asc::after { content: " ↑"; opacity: 1; }
+    th.sortable.desc::after { content: " ↓"; opacity: 1; }
     tr:hover td { background: rgba(255,255,255,0.03); }
     td.num { text-align: right; font-variant-numeric: tabular-nums; }
     .ios { color: var(--ios); font-weight: 600; }
@@ -87,13 +92,13 @@
     <table>
       <thead>
         <tr>
-          <th>Person</th>
-          <th class="num">Tickets iOS</th>
-          <th class="num">Tickets Android</th>
-          <th class="num">Tickets Other</th>
-          <th class="num">PRs iOS</th>
-          <th class="num">PRs Android</th>
-          <th class="num">PRs Mobile</th>
+          <th class="sortable" data-key="name">Person</th>
+          <th class="sortable num" data-key="tickets_ios">Tickets iOS</th>
+          <th class="sortable num" data-key="tickets_android">Tickets Android</th>
+          <th class="sortable num" data-key="tickets_other">Tickets Other</th>
+          <th class="sortable num" data-key="prs_ios">PRs iOS</th>
+          <th class="sortable num" data-key="prs_android">PRs Android</th>
+          <th class="sortable num" data-key="prs_mobile">PRs Mobile</th>
         </tr>
       </thead>
       <tbody id="rows"></tbody>
@@ -102,16 +107,28 @@
       <summary>Ticket drill-down</summary>
       <div id="tickets" class="empty">เลือกชื่อในตาราง</div>
     </details>
+    <details id="pr-drill" open>
+      <summary>PR drill-down</summary>
+      <div id="prs" class="empty">เลือกชื่อในตาราง</div>
+    </details>
   </main>
   <script>
     let report = null;
     let selected = null;
+    let sortKey = "name";
+    let sortDirection = 1;
 
     function renderRows(filter = "") {
       const tbody = document.getElementById("rows");
       tbody.innerHTML = "";
       const needle = filter.trim().toLowerCase();
       const rows = (report.rows || []).filter(r => !needle || r.name.toLowerCase().includes(needle));
+      rows.sort((a, b) => {
+        const av = sortKey === "tickets_other" ? (a.tickets_unknown || 0) + (a.tickets_both || 0) : a[sortKey];
+        const bv = sortKey === "tickets_other" ? (b.tickets_unknown || 0) + (b.tickets_both || 0) : b[sortKey];
+        if (typeof av === "string") return sortDirection * av.localeCompare(bv, "th");
+        return sortDirection * ((av || 0) - (bv || 0));
+      });
       if (!rows.length) {
         tbody.innerHTML = `<tr><td colspan="7" class="empty">ไม่มีข้อมูล</td></tr>`;
         return;
@@ -130,6 +147,7 @@
         tr.querySelector(".name").addEventListener("click", () => {
           selected = r.name;
           renderTickets();
+          renderPRs();
         });
         tbody.appendChild(tr);
       }
@@ -159,6 +177,16 @@
           </div>`).join("");
     }
 
+    function renderPRs() {
+      const box = document.getElementById("prs");
+      if (!selected) { box.className = "empty"; box.textContent = "เลือกชื่อในตาราง"; return; }
+      const row = (report.rows || []).find(r => r.name === selected);
+      if (!row) return;
+      box.className = "";
+      box.innerHTML = `<p class="sub">${escapeHtml(selected)} — PR summary</p>
+        <div class="ticket"><span class="ios">iOS: ${row.prs_ios || 0}</span> · <span class="android">Android: ${row.prs_android || 0}</span> · Mobile: ${row.prs_mobile || 0}</div>`;
+    }
+
     function escapeHtml(s) {
       return String(s ?? "").replace(/[&<>"']/g, c => ({
         "&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"
@@ -176,6 +204,7 @@
         `month ${report.month} · generated ${new Date(report.generated_at).toLocaleString()} · ${report.rows.length} people`;
       renderRows();
       renderTickets();
+      renderPRs();
     }
 
     async function boot() {
@@ -187,6 +216,14 @@
       monthSelect.addEventListener("change", e => loadReport(e.target.value));
       document.getElementById("q").addEventListener("input", e => renderRows(e.target.value));
       await loadReport(months[0].file);
+      document.querySelectorAll("th.sortable").forEach(th => th.addEventListener("click", () => {
+        const key = th.dataset.key;
+        if (sortKey === key) sortDirection *= -1;
+        else { sortKey = key; sortDirection = 1; }
+        document.querySelectorAll("th.sortable").forEach(h => h.classList.remove("asc", "desc"));
+        th.classList.add(sortDirection === 1 ? "asc" : "desc");
+        renderRows(document.getElementById("q").value);
+      }));
     }
     boot();
   </script>
