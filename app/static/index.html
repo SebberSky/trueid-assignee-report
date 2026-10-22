@@ -220,7 +220,7 @@
     }
 
     function updateColumnVisibility() {
-      const visible = new Set([...document.querySelectorAll(".filters input:checked")].map(input => input.value));
+      const visible = new Set([...document.querySelectorAll("#ios-filter:checked, #android-filter:checked")].map(input => input.value));
       document.querySelectorAll(".col-ios").forEach(cell => cell.classList.toggle("hidden-column", !visible.has("ios")));
       document.querySelectorAll(".col-android").forEach(cell => cell.classList.toggle("hidden-column", !visible.has("android")));
     }
@@ -256,7 +256,7 @@
       monthSelect.innerHTML = months.map(m => `<option value="${escapeHtml(m.file)}">${escapeHtml(m.label)}</option>`).join("");
       monthSelect.addEventListener("change", e => loadReport(e.target.value));
       document.getElementById("q").addEventListener("input", e => renderRows(e.target.value));
-      document.querySelectorAll(".filters input").forEach(input => input.addEventListener("change", () => {
+      document.querySelectorAll("#ios-filter, #android-filter").forEach(input => input.addEventListener("change", () => {
         renderRows(document.getElementById("q").value);
         updateColumnVisibility();
       }));
