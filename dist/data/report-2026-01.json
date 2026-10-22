@@ -43,20 +43,6 @@
       ]
     },
     {
-      "name": "Wanwisa (Nune) Lertlumwittayanon",
-      "tickets_ios": 2,
-      "tickets_android": 4,
-      "tickets_unknown": 2,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "EXP",
-        "LS"
-      ]
-    },
-    {
       "name": "Chamnarn Suksai",
       "tickets_ios": 2,
       "tickets_android": 0,
@@ -468,8 +454,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Unknown",
       "method": "in_progress_author",
-      "note": "fallback_a=Chamnarn Suksai",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -538,8 +524,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "in_progress_author",
-      "note": "fallback_a=Chamnarn Suksai",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -598,8 +584,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "fallback_a=Suriya Alee",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -618,8 +604,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "EXP"
     },
     {
@@ -688,8 +674,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "fallback_a=Suriya Alee",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -1288,8 +1274,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "fallback_a=Suriya Alee",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -1328,8 +1314,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Unknown",
       "method": "in_progress_author",
-      "note": "fallback_a=Chamnarn Suksai",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -1338,8 +1324,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "in_progress_author",
-      "note": "fallback_a=Chamnarn Suksai",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {

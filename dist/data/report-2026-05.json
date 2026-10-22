@@ -147,19 +147,6 @@
       ]
     },
     {
-      "name": "Wanwisa (Nune) Lertlumwittayanon",
-      "tickets_ios": 2,
-      "tickets_android": 2,
-      "tickets_unknown": 1,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
-    },
-    {
       "name": "Rattapong Paleegui (Ext)",
       "tickets_ios": 0,
       "tickets_android": 3,
@@ -874,8 +861,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "fallback_a=Rattapong Paleegui (Ext)",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -1054,8 +1041,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "fallback_a=Rattapong Paleegui (Ext)",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -1064,8 +1051,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Unknown",
       "method": "in_progress_author",
-      "note": "fallback_a=Chamnarn Suksai",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -1074,8 +1061,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "in_progress_author",
-      "note": "fallback_a=Chamnarn Suksai",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -1674,8 +1661,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "in_progress_author",
-      "note": "fallback_a=Thosapol Sangkasub",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {

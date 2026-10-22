@@ -95,19 +95,6 @@
       ]
     },
     {
-      "name": "Wanwisa (Nune) Lertlumwittayanon",
-      "tickets_ios": 2,
-      "tickets_android": 3,
-      "tickets_unknown": 1,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
-    },
-    {
       "name": "Jiraporn Praneet",
       "tickets_ios": 5,
       "tickets_android": 0,
@@ -425,8 +412,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "in_progress_author",
-      "note": "fallback_a=Chamnarn Suksai",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -615,8 +602,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "fallback_a=Suriya Alee",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -625,8 +612,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Unknown",
       "method": "in_progress_author",
-      "note": "fallback_a=Sarawut (Kai) (Player)",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -645,8 +632,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "fallback_a=Sarawut (Kai) (Player)",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -705,8 +692,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "in_progress_author",
-      "note": "fallback_a=Jiraporn Praneet",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -1065,8 +1052,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "fallback_a=Rattapong Paleegui (Ext)",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {

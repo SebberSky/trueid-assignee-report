@@ -95,19 +95,6 @@
       ]
     },
     {
-      "name": "Wanwisa (Nune) Lertlumwittayanon",
-      "tickets_ios": 3,
-      "tickets_android": 3,
-      "tickets_unknown": 2,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "LS"
-      ]
-    },
-    {
       "name": "Suriya Alee",
       "tickets_ios": 0,
       "tickets_android": 4,
@@ -199,19 +186,6 @@
       ]
     },
     {
-      "name": "Tanet Pornsirirat",
-      "tickets_ios": 1,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0,
-      "boards": [
-        "VAL"
-      ]
-    },
-    {
       "name": "Kirathi Mingsakul",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -281,8 +255,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "in_progress_author",
-      "note": "fallback_a=Chamnarn Suksai",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -341,8 +315,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "fallback_a=Sarawut (Kai) (Player)",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -601,8 +575,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "in_progress_author",
-      "note": "fallback_a=Jiraporn Praneet",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -681,8 +655,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "iOS",
       "method": "in_progress_author",
-      "note": "fallback_a=Thosapol Sangkasub",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -1111,8 +1085,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Unknown",
       "method": "in_progress_author",
-      "note": "fallback_a=Sarawut (Kai) (Player)",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -1351,8 +1325,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "fallback_a=Rattapong Paleegui (Ext)",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -1361,8 +1335,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Unknown",
       "method": "in_progress_author",
-      "note": "fallback_a=Sarawut (Kai) (Player)",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
@@ -1381,8 +1355,8 @@
       "owner": "Tanet Pornsirirat",
       "platform": "iOS",
       "method": "agree",
-      "note": "",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "VAL"
     },
     {
@@ -1651,8 +1625,8 @@
       "owner": "Wanwisa (Nune) Lertlumwittayanon",
       "platform": "Android",
       "method": "in_progress_author",
-      "note": "fallback_a=Suriya Alee",
-      "counted": true,
+      "note": "excluded",
+      "counted": false,
       "board": "LS"
     },
     {
