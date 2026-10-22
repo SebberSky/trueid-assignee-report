@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22T09:29:45.958185+00:00",
+  "generated_at": "2026-10-22T09:51:26.795929+00:00",
   "month": "2026-03",
-  "project": "VAL",
+  "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
     {
       "name": "Kittisak Buaphanna",
@@ -11,6 +11,36 @@
       "tickets_both": 0,
       "prs_ios": 8,
       "prs_android": 50,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Papon Supamongkonchai (Boy)",
+      "tickets_ios": 14,
+      "tickets_android": 1,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 161,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Wachirawit (MossiTo) (Discovery)",
+      "tickets_ios": 0,
+      "tickets_android": 14,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 115,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sarawut (Kai) (Player)",
+      "tickets_ios": 0,
+      "tickets_android": 8,
+      "tickets_unknown": 5,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 105,
       "prs_mobile": 0
     },
     {
@@ -24,6 +54,26 @@
       "prs_mobile": 0
     },
     {
+      "name": "Thanyaporn Boonyen",
+      "tickets_ios": 10,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 107,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Supachote Marungrueng (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 10,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 69,
+      "prs_mobile": 0
+    },
+    {
       "name": "Kijja Charuchinda",
       "tickets_ios": 5,
       "tickets_android": 4,
@@ -32,6 +82,46 @@
       "prs_ios": 42,
       "prs_android": 137,
       "prs_mobile": 1
+    },
+    {
+      "name": "Wanwisa (Nune) Lertlumwittayanon",
+      "tickets_ios": 3,
+      "tickets_android": 3,
+      "tickets_unknown": 2,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Suriya Alee",
+      "tickets_ios": 0,
+      "tickets_android": 4,
+      "tickets_unknown": 3,
+      "tickets_both": 0,
+      "prs_ios": 2,
+      "prs_android": 127,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jetarin Taloet (Ext)",
+      "tickets_ios": 7,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 123,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Chamnarn Suksai",
+      "tickets_ios": 6,
+      "tickets_android": 0,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 95,
+      "prs_android": 0,
+      "prs_mobile": 0
     },
     {
       "name": "Attapong Jakkrawantanarak",
@@ -44,12 +134,62 @@
       "prs_mobile": 0
     },
     {
+      "name": "Rattapong Paleegui (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 3,
+      "tickets_unknown": 2,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 22,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jiraporn Praneet",
+      "tickets_ios": 4,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 191,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thosapol Sangkasub",
+      "tickets_ios": 4,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 123,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Tanapat(Aor)(TODAY)",
+      "tickets_ios": 0,
+      "tickets_android": 1,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 5,
+      "prs_mobile": 0
+    },
+    {
       "name": "Tanet Pornsirirat",
       "tickets_ios": 1,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 2,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sirinard (Bo) Chokmongkolsatian",
+      "tickets_ios": 1,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -224,16 +364,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Jiraporn Praneet",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 191,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
       "name": "Patipat Sahasapanan",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -254,16 +384,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Papon Supamongkonchai (Boy)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 161,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
       "name": "Poowanat Homruen",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -271,16 +391,6 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 135,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Suriya Alee",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 2,
-      "prs_android": 127,
       "prs_mobile": 0
     },
     {
@@ -294,36 +404,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Jetarin Taloet (Ext)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 123,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Thosapol Sangkasub",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 123,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Wachirawit (MossiTo) (Discovery)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 115,
-      "prs_mobile": 0
-    },
-    {
       "name": "Panuwat (Pum) (Privilege)",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -331,26 +411,6 @@
       "tickets_both": 0,
       "prs_ios": 1,
       "prs_android": 113,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Thanyaporn Boonyen",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 107,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Sarawut (Kai) (Player)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 105,
       "prs_mobile": 0
     },
     {
@@ -381,16 +441,6 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 102,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Chamnarn Suksai",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 95,
-      "prs_android": 0,
       "prs_mobile": 0
     },
     {
@@ -501,16 +551,6 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 71,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Supachote Marungrueng (Ext)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 69,
       "prs_mobile": 0
     },
     {
@@ -724,16 +764,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Rattapong Paleegui (Ext)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 22,
-      "prs_mobile": 0
-    },
-    {
       "name": "Waranon Phuket",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -801,16 +831,6 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 8,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Tanapat(Aor)(TODAY)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 5,
       "prs_mobile": 0
     },
     {
@@ -914,6 +934,87 @@
       "counted": true
     },
     {
+      "key": "EXP-15334",
+      "summary": "[Android][Today]Home Feed : Get navigate config error",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19089",
+      "summary": "กรณีที่ CB  failed หลังจาก login ก่อนจะเข้าหน้า player มัน retry เรียก CB รัว",
+      "owner": "Chamnarn Suksai",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19019",
+      "summary": "[iOS] Migrate Backend Data Source from SCC Mixer to Couchbase",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Chamnarn Suksai",
+      "counted": true
+    },
+    {
+      "key": "LS-19059",
+      "summary": "[Android][SFV Player] Send FA Event Click when user click upload button",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19040",
+      "summary": "[iOS][SFV Player] Send FA Event Click when user click upload button",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15051",
+      "summary": "[iOS][Improvement][SFV Home Feed] The first clip is preloaded and buffered before playback",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "EXP-15324",
+      "summary": "[Android][MyTrueID] - Selecting a single checkbox incorrectly toggles all checkboxes in the list.",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19091",
+      "summary": "On VOD player จังหวะที่เล่น stream มีการ call sub profile เบิ้ล หลายครั้ง",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18898",
+      "summary": "[Android] Migrate Backend Data Source from SCC Mixer to Couchbase",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Sarawut (Kai) (Player)",
+      "counted": true
+    },
+    {
       "key": "VAL-8145",
       "summary": "[Android] Upgrade NewRelic SDK to v7.7.0",
       "owner": "Kittisak Buaphanna",
@@ -941,6 +1042,24 @@
       "counted": true
     },
     {
+      "key": "LS-19064",
+      "summary": "[iOS][SFV]Send custom parameter cate to ads request",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19065",
+      "summary": "[Android][SFV] Prioritize between CTA and Ads",
+      "owner": "Rattapong Paleegui (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8144",
       "summary": "[Android Crash] IllegalStateException on FirebaseApp.getInstance",
       "owner": "Kittisak Buaphanna",
@@ -959,6 +1078,60 @@
       "counted": true
     },
     {
+      "key": "EXP-15329",
+      "summary": "[iOS] Game hub: Improve full screen button",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15350",
+      "summary": "[Android] Game hub: Map API response from camelCase to snake_case",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15330",
+      "summary": "[Android][Game hub]Game Details : UI Layout: Developer field value is overlapping and misaligned due to long text.",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19062",
+      "summary": "[iOS][SFV] Delay x seconds before showing ads",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19034",
+      "summary": "[Android] Series content episode tab",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15349",
+      "summary": "[iOS] Game hub: Map API response from camelCase to snake_case",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8158",
       "summary": "[Android Crash] [DevEx] Fix crash caused by SQLiteConnection.java",
       "owner": "Kittisak Buaphanna",
@@ -968,9 +1141,27 @@
       "counted": true
     },
     {
+      "key": "EXP-15251",
+      "summary": "[iOS] Game hub: Bonus game > Check limit reached",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8160",
       "summary": "[Android Crash] [DevEx] Crash on Samsung S21 Ultra on Main page",
       "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15351",
+      "summary": "[Android][GamHub]Check limit reached  - Expiration date with time not display when the current game is not an active bonus game (limit reached).",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
       "platform": "Android",
       "method": "agree",
       "note": "",
@@ -986,6 +1177,105 @@
       "counted": true
     },
     {
+      "key": "EXP-15257",
+      "summary": "[Android] Game hub: Bonus game > Check limit reached",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15359",
+      "summary": "[iOS][GameHub] Play Now - User non-login unable click \"Play Now\" button again after successfully logging in.",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19102",
+      "summary": "[Android]Dynamic Tabs (Special EPs) for Series Detail via GraphQL",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18908",
+      "summary": "[iOS]Dynamic Tabs (Trailers & More) for Series Detail via GraphQL ",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18996",
+      "summary": "[iOS]Dynamic Tabs (Special EPs) for Series Detail via GraphQL ",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15253",
+      "summary": "[iOS] Game hub: Bonus game > T&C ",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19101",
+      "summary": "[Android][SFV] Send custom parameter cate to ads request",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19063",
+      "summary": "[iOS][SFV] Adding ads cooldown time for x minutes",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Jiraporn Praneet",
+      "counted": true
+    },
+    {
+      "key": "LS-19148",
+      "summary": "[iOS][SFS][FA] User did not watch ads for unlock ep. on SFS but FA tracking click event",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15357",
+      "summary": "[Android Crash] [Discovery] com.truedigital.features.home.MainActivity.bindViewModel$lambda$4$2",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-17430",
+      "summary": "[iOS][LiveTV][FA] - watch live tv FA tracking event: play_tv_initial, play_tv, pause_tv and unload_tv without parameter title",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8164",
       "summary": "[Crashlytics] [Linked Issue] com.tdcm.trueidapp.Hilt_TrueIDApplication.a",
       "owner": "Todsapon Sangpook",
@@ -995,9 +1285,54 @@
       "counted": true
     },
     {
+      "key": "EXP-15255",
+      "summary": "[Android] Game hub: Display bonus game frame",
+      "owner": "Tanapat(Aor)(TODAY)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8167",
       "summary": "[iOS][Urgent! Expired in 13 March 2026] Update 43 Provisioning Profile && 3 Certificate(.p12) && Update Certificate on Agent 43, 47, 48, 49, 51, 52, 53, 54",
       "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-13157",
+      "summary": "[iOS] Game: Bonus game shelf",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18837",
+      "summary": "[iOS] Series Content Display with Dynamic Dropdowns & GraphQL Caching",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Thosapol Sangkasub",
+      "counted": true
+    },
+    {
+      "key": "EXP-15385",
+      "summary": "[iOS][GAME] FA -  Incorrect shelf_name parameter in  “select_content” event.",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15331",
+      "summary": "[iOS] Game hub: Bonus game > View active bonus game popup",
+      "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
@@ -1076,6 +1411,60 @@
       "counted": true
     },
     {
+      "key": "EXP-15390",
+      "summary": "[Android][Bonus game] Play Ubisoft game - Trailer audio persists on the error page after clicking 'Connect Ubisoft'.",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15258",
+      "summary": "[Android] Game hub: Bonus game > Play Ubisoft game",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19176",
+      "summary": "[Watch][iOS][VOD detail] - ปรับ underline เมนู ใน EP List section",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19178",
+      "summary": "[Watch][iOS][VOD detail] When duration return 0 Then display 0m or 0น.",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15394",
+      "summary": "[iOS][Game hub]: Bonus game -  Not display Error With code after clicking \"Unlock Game\" in the popup",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15252",
+      "summary": "[iOS] Game hub: Bonus game > Play Ubisoft game",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8169",
       "summary": "[iOS] Disable ThreatCast",
       "owner": "Attapong Jakkrawantanarak",
@@ -1085,9 +1474,36 @@
       "counted": true
     },
     {
+      "key": "LS-19177",
+      "summary": "แสดงเส้น guideline ใต้ Ep List ไม่เต็ม ",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8168",
       "summary": "[Android] Disable ThreatCast",
       "owner": "Kijja Charuchinda",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19150",
+      "summary": " logic การแสดง delay แล้วให้ขึ้น ads ต้อง เอาตาม วินาทีของ video",
+      "owner": "Rattapong Paleegui (Ext)",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19100",
+      "summary": "[Android][SFV] Adding ads cooldown time for x minutes",
+      "owner": "Rattapong Paleegui (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
@@ -1238,10 +1654,82 @@
       "counted": true
     },
     {
+      "key": "EXP-15333",
+      "summary": "[iOS][Game hub]Game Details : UI Layout: Developer field value is overlapping and misaligned due to long text.",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8001",
       "summary": "[iOS] Upgrade iXGuard to v4.15.3",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15068",
+      "summary": "[iOS]  Game hub: Display bonus game frame",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15412",
+      "summary": "[iOS] Game hub: Game menu - Clicking the search box in an incorrect navigation and The Game Page title is jumping upon page load.",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15414",
+      "summary": "[Android] Game hub: Game menu - The system was unable to navigate to the \"My Game Library\" and \"My Games\" pages.",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19186",
+      "summary": "layout ใน dropdownlist เส้น guideline ใต้ season ห่างไปจากเดิม และ season ที่ไม่ได้ เลือก สี font ควรต่างกัน",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "Unknown",
+      "method": "in_progress_author",
+      "note": "fallback_a=Sarawut (Kai) (Player)",
+      "counted": true
+    },
+    {
+      "key": "LS-19192",
+      "summary": "ปรับ layout  EP List ",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19189",
+      "summary": "EP List : สี font duration สว่างกว่า เทียบกับ build on prod",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19190",
+      "summary": "call API graphQL ตาม season ที่เลือก แต่ API Error แสดง data เดิม ไม่มีการ retry API",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
       "method": "agree",
       "note": "",
       "counted": true
@@ -1265,6 +1753,42 @@
       "counted": true
     },
     {
+      "key": "EXP-15426",
+      "summary": "[iOS] Improve Bonus game frame",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15386",
+      "summary": "[Android][GAME] FA -  Incorrect shelf_name parameter in \"select_content\" event.",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-13093",
+      "summary": "[Android] Game: Bonus game shelf",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19060",
+      "summary": "[Android]Dynamic Tabs (Trailers & More) for Series Detail via GraphQL",
+      "owner": "Rattapong Paleegui (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8151",
       "summary": "[Android Crash] [DevEx] Collections.kt - kotlin.collections.EmptyList.subList",
       "owner": "Kijja Charuchinda",
@@ -1278,6 +1802,60 @@
       "summary": "[Android Crash] [DevEx] java.util.AbstractList.subListRangeCheck",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15423",
+      "summary": "[iOS][Bonus game]View active bonus game : The displayed pop-up title is incorrect.",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15428",
+      "summary": "[iOS] Game hub: Game menu - The Game Page title is jumping upon page load.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Thanyaporn Boonyen",
+      "counted": true
+    },
+    {
+      "key": "EXP-15155",
+      "summary": "[iOS] Game hub: Game menu",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15421",
+      "summary": "[Android] Bonus game > T&C  - The spacing and layout are unappealing.",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15260",
+      "summary": "[Android] Game hub: Bonus game > T&C ",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15429",
+      "summary": "[iOS][Gamehub]Game Landing - The UI is broken due to incorrect localization.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
       "method": "agree",
       "note": "",
       "counted": true
@@ -1310,6 +1888,60 @@
       "counted": true
     },
     {
+      "key": "LS-19199",
+      "summary": "[Android Crash] [Experience] ShortFormVideoPlayerFragment.onPlayingProgress",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19220",
+      "summary": "[Android](TrueID) Social Profile : App crashed when tapping back from sfv player",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19193",
+      "summary": "case swipable  เมื่อ user กลับมาคลิปเดิมที่เคยเห็น Ads",
+      "owner": "Rattapong Paleegui (Ext)",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19066",
+      "summary": "[Android][SFV] Delay x seconds before showing ads",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Rattapong Paleegui (Ext)",
+      "counted": true
+    },
+    {
+      "key": "LS-19191",
+      "summary": "Should display placeholder when field: vod_items.vod_items.ep_items.thumb_list.trueid_landscape (content_type = \"movie\") is null or empty",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "Unknown",
+      "method": "in_progress_author",
+      "note": "fallback_a=Sarawut (Kai) (Player)",
+      "counted": true
+    },
+    {
+      "key": "EXP-15152",
+      "summary": "[iOS] Game hub: Game detail page: > Check enable_date",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-5577",
       "summary": "[iOS] Implement fastlane match to enhance code signing process instead of using certificate file",
       "owner": "Tanet Pornsirirat",
@@ -1326,6 +1958,60 @@
       "method": "unknown",
       "note": "no_non_qa_assignee",
       "counted": false
+    },
+    {
+      "key": "EXP-15430",
+      "summary": "[Android][3.57.0_rc3] SFV Home Feed - The SFV feed fails to refresh after login, and the app crashes when a manual refresh is attempted",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Wachirawit (MossiTo) (Discovery)",
+      "counted": true
+    },
+    {
+      "key": "EXP-15406",
+      "summary": "[iOS] My TrueID: Cannot scroll the page",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15431",
+      "summary": "[iOS] Game hub: My Game page -  Navigation error due to an incorrect path.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19218",
+      "summary": "[Android][RG3.57.0 RC4] - app bar ไม่ยอมหุบตอน swipe ขึ้น",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19219",
+      "summary": "[Android][RG3.57.0 RC4] - swipe ขึ้นจนไปถึงล่างสุด layout ด้านล่างโดนตัด",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19221",
+      "summary": "[Android][RG3.57.0 RC5] Special Popup ไม่พาไปเปิดหน้า series player",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
     },
     {
       "key": "VAL-8186",
@@ -1346,10 +2032,181 @@
       "counted": true
     },
     {
+      "key": "EXP-15422",
+      "summary": "[Android] Game hub: Game menu - The spacing and layout are unappealing and the text (EN) is incorrect.",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19129",
+      "summary": "[Watch][iOS][FA][SFS] - When user select ep on ep list, FA not tracking event:pause_sfv and unload_sfv",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15065",
+      "summary": "[Android] Game hub: Game menu",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19225",
+      "summary": "[iOS][RG3.57.0 RC5] icon ยืด ข้อความใน bottom sheet และในปุ่ม ไม่ควร ... ",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19224",
+      "summary": "[Android][RG3.57.0 RC5] ข้อความใน bottom sheet ไม่ควร ... และในปุ่ม ตกขอบ",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15475",
+      "summary": "[Android] Game hub: My Game page -  Bonus games are not sorted by the earliest expiry date when there is more than one bonus.",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19157",
+      "summary": "[Android] trailer player : integrate player sdk",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19104",
+      "summary": "[iOS]trailer player : integrate player sdk",
+      "owner": "Sirinard (Bo) Chokmongkolsatian",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Thosapol Sangkasub",
+      "counted": true
+    },
+    {
+      "key": "LS-19179",
+      "summary": "[iOS][L2 Page][Tech]: Migrate api to graphql type by_cate",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19126",
+      "summary": "[iOS][LFV] Add preroll ads in LFV player page",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19222",
+      "summary": "On Dropdown list : Season and Ep should display single line then ... ",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19223",
+      "summary": "Selective EP มีการเรียก API graphQL ทุกครั้งที่มีการเลือก EP",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19180",
+      "summary": "[Android][L2 Page][Tech]: Migrate api to graphql type by_cate",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-14816",
+      "summary": "[Android] Game hub: My Game page",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15427",
+      "summary": "[Android][Game hub]View active bonus game -  When accessing a previously unlocked bonus and clicking 'View Active', the displayed the wrong result.",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15332",
+      "summary": "[Android] Game hub: Bonus game > View active bonus game popup",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19232",
+      "summary": "กรณีที่ season more than 1 and sub-ep more than 1 (sub_ep_included = yes) เมื่อมีการเปลี่ยน season จะต้อง แสดง Ep1 เป็น default เสมอ",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19035",
+      "summary": "[Android] Series Content Display with Dynamic Dropdowns & GraphQL Caching",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Suriya Alee",
+      "counted": true
+    },
+    {
       "key": "VAL-8153",
       "summary": "[Android Crash] [DevEx] android.app.Activity.performResume",
       "owner": "Todsapon Sangpook",
       "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15472",
+      "summary": "[iOS] Game hub: My Game page - The system does not render properly if both content-detail-all and sub-offers are in an Error or Empty state.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
       "method": "agree",
       "note": "",
       "counted": true
@@ -1400,10 +2257,55 @@
       "counted": true
     },
     {
+      "key": "EXP-15480",
+      "summary": "[iOS][MParticle]Update data type for content_duration_ms and duration_ms to Integer in mParticle",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15488",
+      "summary": "[Android][RC07_V3.57.0]App Shortcut : Incorrect redirection for \"More\" menu in App Shortcut.",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8213",
       "summary": "[Android] Fix App content does not display after launch",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15482",
+      "summary": "[iOS][RC8] SFV - Black screen loading after login while attempting to watch SFV clip.",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15403",
+      "summary": "[iOS Discovery] Implement Liquid Glass on Explore /My TrueID page",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15404",
+      "summary": "[iOS Discovery] Fix sticky banner has been hidden on Today page",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
       "method": "agree",
       "note": "",
       "counted": true
@@ -1423,6 +2325,87 @@
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "pre_qa_assignee",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15405",
+      "summary": "[iOS Discovery] Fix the bottom on SFV Home page has been hidden",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15476",
+      "summary": "[iOS] Game hub: My Game page - Bonus games are not sorted by the earliest expiry date when there is more than one bonus.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15250",
+      "summary": "[iOS] Game hub: My Game page",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19228",
+      "summary": "[Watch][iOS][FA] When user selects content from “You Might Also Like” shelf, select_content event contains both missing and unexpected parameters.",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15076",
+      "summary": "[iOS] Top nav: Liquid glass design (test)",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15481",
+      "summary": "[Android][Game hub]: Continue playing shelf -  The select_content event is missing some parameters. It’s currently not sending cms_id, content_type, and category.",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15109",
+      "summary": "[Android] Game hub: Continue playing shelf",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15492",
+      "summary": "[iOS][Today]Today page: Liquid Glass - The Sticky Banner on the Today page does not persist.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-13253",
+      "summary": "[Android] Game hub: Game detail page: > Check enable_date",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
       "note": "",
       "counted": true
     }

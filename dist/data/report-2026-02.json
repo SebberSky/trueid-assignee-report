@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22T09:29:44.615119+00:00",
+  "generated_at": "2026-10-22T09:51:23.190137+00:00",
   "month": "2026-02",
-  "project": "VAL",
+  "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
     {
       "name": "Kittisak Buaphanna",
@@ -11,6 +11,26 @@
       "tickets_both": 0,
       "prs_ios": 8,
       "prs_android": 50,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Suriya Alee",
+      "tickets_ios": 1,
+      "tickets_android": 5,
+      "tickets_unknown": 10,
+      "tickets_both": 0,
+      "prs_ios": 2,
+      "prs_android": 127,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jiraporn Praneet",
+      "tickets_ios": 8,
+      "tickets_android": 0,
+      "tickets_unknown": 5,
+      "tickets_both": 0,
+      "prs_ios": 191,
+      "prs_android": 0,
       "prs_mobile": 0
     },
     {
@@ -26,7 +46,7 @@
     {
       "name": "Todsapon Sangpook",
       "tickets_ios": 1,
-      "tickets_android": 6,
+      "tickets_android": 7,
       "tickets_unknown": 4,
       "tickets_both": 0,
       "prs_ios": 23,
@@ -44,6 +64,116 @@
       "prs_mobile": 1
     },
     {
+      "name": "Jetarin Taloet (Ext)",
+      "tickets_ios": 8,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 123,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Papon Supamongkonchai (Boy)",
+      "tickets_ios": 7,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 161,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thosapol Sangkasub",
+      "tickets_ios": 3,
+      "tickets_android": 0,
+      "tickets_unknown": 3,
+      "tickets_both": 0,
+      "prs_ios": 123,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Wachirawit (MossiTo) (Discovery)",
+      "tickets_ios": 0,
+      "tickets_android": 6,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 115,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Wanwisa (Nune) Lertlumwittayanon",
+      "tickets_ios": 3,
+      "tickets_android": 2,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Thanyaporn Boonyen",
+      "tickets_ios": 5,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 107,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Chamnarn Suksai",
+      "tickets_ios": 3,
+      "tickets_android": 0,
+      "tickets_unknown": 2,
+      "tickets_both": 0,
+      "prs_ios": 95,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Supachote Marungrueng (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 5,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 69,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Rattapong Paleegui (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 2,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 22,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Tanapat(Aor)(TODAY)",
+      "tickets_ios": 0,
+      "tickets_android": 2,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 5,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sarawut (Kai) (Player)",
+      "tickets_ios": 0,
+      "tickets_android": 1,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 105,
+      "prs_mobile": 0
+    },
+    {
       "name": "Thanawut (Pek)(Social)",
       "tickets_ios": 0,
       "tickets_android": 1,
@@ -51,16 +181,6 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 42,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Tanapat(Aor)(TODAY)",
-      "tickets_ios": 0,
-      "tickets_android": 1,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 5,
       "prs_mobile": 0
     },
     {
@@ -244,16 +364,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Jiraporn Praneet",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 191,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
       "name": "Patipat Sahasapanan",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -274,16 +384,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Papon Supamongkonchai (Boy)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 161,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
       "name": "Poowanat Homruen",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -291,16 +391,6 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 135,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Suriya Alee",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 2,
-      "prs_android": 127,
       "prs_mobile": 0
     },
     {
@@ -314,36 +404,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Jetarin Taloet (Ext)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 123,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Thosapol Sangkasub",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 123,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Wachirawit (MossiTo) (Discovery)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 115,
-      "prs_mobile": 0
-    },
-    {
       "name": "Panuwat (Pum) (Privilege)",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -351,26 +411,6 @@
       "tickets_both": 0,
       "prs_ios": 1,
       "prs_android": 113,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Thanyaporn Boonyen",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 107,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Sarawut (Kai) (Player)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 105,
       "prs_mobile": 0
     },
     {
@@ -401,16 +441,6 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 102,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Chamnarn Suksai",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 95,
-      "prs_android": 0,
       "prs_mobile": 0
     },
     {
@@ -521,16 +551,6 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 71,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Supachote Marungrueng (Ext)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 69,
       "prs_mobile": 0
     },
     {
@@ -734,16 +754,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Rattapong Paleegui (Ext)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 22,
-      "prs_mobile": 0
-    },
-    {
       "name": "Waranon Phuket",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -906,6 +916,42 @@
   ],
   "ticket_details": [
     {
+      "key": "EXP-15133",
+      "summary": "[iOS][3.55.0_rc4] Explore - “View“ in toast message not displayed after saving to Library on Explore page",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15150",
+      "summary": "[iOS] Game hub: Webview > Move close button position",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15148",
+      "summary": "[iOS][3.55.0_rc9]Game Detail - Saved/Liked state inactive after logout and re-login on the game page ",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-14795",
+      "summary": "[iOS] Game hub: Game detail > Like",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8051",
       "summary": "[iOS] Move TBD module to Swift Package Manager (SPM)",
       "owner": "Attapong Jakkrawantanarak",
@@ -919,6 +965,33 @@
       "summary": "[iOS] Migrate TBD Cocopods to Swift Package Manager (SPM)",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18734",
+      "summary": "[Android] LFV: FA tracking select content and view item list in L2 category page",
+      "owner": "Todsapon Sangpook",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Suriya Alee",
+      "counted": true
+    },
+    {
+      "key": "LS-18789",
+      "summary": "[iOS] Integration 3.55",
+      "owner": "Suriya Alee",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Jiraporn Praneet",
+      "counted": true
+    },
+    {
+      "key": "LS-18790",
+      "summary": "[Android] Integration 3.55",
+      "owner": "Suriya Alee",
+      "platform": "Android",
       "method": "agree",
       "note": "",
       "counted": true
@@ -948,6 +1021,15 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18992",
+      "summary": "[iOS][Remote Config]Migrate Backend Data Source from SCC Mixer to Couchbase",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Chamnarn Suksai",
       "counted": true
     },
     {
@@ -1008,6 +1090,15 @@
       "key": "VAL-8092",
       "summary": "[iOS] Get Config from Remote Config",
       "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19001",
+      "summary": "[iOS] Error characters on FA console",
+      "owner": "Jiraporn Praneet",
       "platform": "iOS",
       "method": "agree",
       "note": "",
@@ -1113,6 +1204,24 @@
       "counted": false
     },
     {
+      "key": "LS-19005",
+      "summary": "[iOS] link_desc on Category Tabs in Page Level 2 should track lower-case title_en ",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-14791",
+      "summary": "[Android] Game hub: Main page > Top menu",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8111",
       "summary": "create user setting config repository",
       "owner": "Todsapon Sangpook",
@@ -1140,10 +1249,82 @@
       "counted": true
     },
     {
+      "key": "LS-19003",
+      "summary": "สี font ของ creator ไม่ถูกต้อง",
+      "owner": "Jiraporn Praneet",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19007",
+      "summary": "คำนวน count view ไม่ถูกต้อง",
+      "owner": "Jiraporn Praneet",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18775",
+      "summary": "[iOS] LFV: Display new view type horizontal_list at category page UI",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Jiraporn Praneet",
+      "counted": true
+    },
+    {
+      "key": "LS-19002",
+      "summary": "invalid shelf index of select content",
+      "owner": "Jiraporn Praneet",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19000",
+      "summary": "should always trigger an FA tracking. When back out from L2 page and get back to L2 cate page again",
+      "owner": "Jiraporn Praneet",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19004",
+      "summary": "Error characters on FA console",
+      "owner": "Jiraporn Praneet",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18974",
+      "summary": "[iOS] LFV: FA tracking select content and view item list in L2 category page",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Jiraporn Praneet",
+      "counted": true
+    },
+    {
       "key": "VAL-8055",
       "summary": "[Vivo] Fix crash caused by EuiccManager.setPsimConversionSupportedCarriers",
       "owner": "Kijja Charuchinda",
       "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18973",
+      "summary": "[iOS]Multi Bitrate : Group duplicate resolution",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
       "method": "agree",
       "note": "",
       "counted": true
@@ -1185,6 +1366,24 @@
       "counted": true
     },
     {
+      "key": "LS-19031",
+      "summary": "[iOS] Change event name response_success to purchase",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18991",
+      "summary": "[Android][Content sampling] ไม่พาไปเปิด deeplink ข้างนอกถ้า user มีแพ็กแล้ว",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8066",
       "summary": "[Vivo] Fix crash caused Too many receivers",
       "owner": "Kijja Charuchinda",
@@ -1200,6 +1399,33 @@
       "platform": "Unknown",
       "method": "in_progress_author",
       "note": "fallback_a=Kijja Charuchinda",
+      "counted": true
+    },
+    {
+      "key": "LS-19006",
+      "summary": "[iOS]should always trigger an FA tracking. When back out from L2 page and get back to L2 page again",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19008",
+      "summary": "หน้า error page แสดง ข้อความไม่ถูกต้อง",
+      "owner": "Rattapong Paleegui (Ext)",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18752",
+      "summary": "[Android] LFV: Display new view type horizontal_list at category page UI",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Rattapong Paleegui (Ext)",
       "counted": true
     },
     {
@@ -1230,9 +1456,153 @@
       "counted": true
     },
     {
+      "key": "EXP-15261",
+      "summary": "[iOS][Game hub]: See more -  Incorrect FA parameter values are sent.",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-14694",
+      "summary": "[iOS] Game hub: Casual+Cloud game > See more",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18869",
+      "summary": "[Android][Improvement] Watch domain - Firebase Performance Tracking",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18985",
+      "summary": "[iOS][Repo couchbase]Migrate Backend Data Source from SCC Mixer to Couchbase ",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18986",
+      "summary": "[iOS][sub profile api + cache]Migrate Backend Data Source from SCC Mixer to Couchbase ",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Thosapol Sangkasub",
+      "counted": true
+    },
+    {
+      "key": "EXP-15265",
+      "summary": "[Android] Search: Game tab -  The font size for the game title is incorrect.",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-14767",
+      "summary": "[Android] Search: Game tab",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19020",
+      "summary": "Update “Read more” and “Read less” to use capital “M” and “L”.",
+      "owner": "Thosapol Sangkasub",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19030",
+      "summary": "Series ไม่ต้องเอา duration มาแสดง",
+      "owner": "Thosapol Sangkasub",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19014",
+      "summary": "Do not display view icon and count view. IF count_views = 0 or null",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "Unknown",
+      "method": "in_progress_author",
+      "note": "fallback_a=Thosapol Sangkasub",
+      "counted": true
+    },
+    {
+      "key": "LS-19016",
+      "summary": "Count view ปรับใช้ logic เดียวกันกับ LFV",
+      "owner": "Thosapol Sangkasub",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18836",
+      "summary": "[iOS]Get detail Movie/Series",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Thosapol Sangkasub",
+      "counted": true
+    },
+    {
+      "key": "LS-19038",
+      "summary": "[iOS] Trueid+  ในส่วน popup ของ trueid on board โดน หน้า L2 ทับ",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18994",
+      "summary": "[Android]Multi Bitrate : Group duplicate resolution",
+      "owner": "Rattapong Paleegui (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8096",
       "summary": "[iOS Crash] [DevEx] [CoreFoundation] -[__NSSingleObjectArrayI objectAtIndex:]",
       "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15264",
+      "summary": "[iOS][Search]: Game tab -  Unable load more Game content on Game tab.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-12839",
+      "summary": "[iOS] Search: Game tab",
+      "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
@@ -1248,9 +1618,162 @@
       "counted": true
     },
     {
+      "key": "EXP-15069",
+      "summary": "[Android] Game hub: Casual+Cloud game > See more",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15263",
+      "summary": "[Android][Game hub]: See more -  The bottom sheet does not close when the same sub-genre is selected from the list.",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18993",
+      "summary": "[Android][Remote + map to scc]Migrate Backend Data Source from SCC Mixer to Couchbase",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19013",
+      "summary": "Logic แสดง display newepi_badge_type หายไป",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19022",
+      "summary": "Series/Movie Title Should be Bold",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19026",
+      "summary": "ค่าของ filed genres ที่แสดงในแอป ตัวแรกเป็นตัวพิมพ์ใหญ่",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19027",
+      "summary": "User see Movie/series title name on thumbnail it’s will have limit to show 2 line if have more than 2 line it’s show “…“",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19028",
+      "summary": "เส้นแบ่ง ระหว่าง title section และ synopsis หายไป",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19023",
+      "summary": "ตรวจเชค field subtitle อีกครั้ง เพราะ ไม่มีมาใน api graphQL แต่ของเดิมมีส่งมา",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19024",
+      "summary": "Audio or Subtitle or Cast or Director then show - if no detail",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19025",
+      "summary": "Should Move the Audio or Subtitle or Cast or Director up to replace the synopsis details",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19029",
+      "summary": "hide count view section. if count_view is null or 0",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8097",
       "summary": "[iOS Crash] [DevEx]-[AFSDKUserDefaultsStorage incrementInAppCnt]",
       "owner": "Attapong Jakkrawantanarak",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18835",
+      "summary": "[Android] PATCH Subscription Error: Invalid parameter [source_type]",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19039",
+      "summary": "[Android] After scanning QR code on OTT box, app show error \"Content Not Available (103)\"",
+      "owner": "Rattapong Paleegui (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15103",
+      "summary": "[iOS] Today: Show full top nav",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15151",
+      "summary": "[Android] Search: Top result > Game",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-13221",
+      "summary": "[iOS] Search: Top results > Game",
+      "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
@@ -1293,10 +1816,82 @@
       "counted": true
     },
     {
+      "key": "EXP-15302",
+      "summary": "[Android][GameHub]L3  - Incorrect firebase_screen_screen parameter in screen_view event.",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19032",
+      "summary": "[Android] Series Content Display Api and cache",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8128",
       "summary": "[Android Crash] SourceFile line 120 in org.webrtc.MediaStreamTrack.checkMediaStreamTrackExists",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19080",
+      "summary": "The Detail page should display the dark theme regardless of the access channel",
+      "owner": "Suriya Alee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15294",
+      "summary": "[iOS][Game hub]Continue playing - The \"Continue Playing\" title must be hidden when the shelf contains no items, when the user is not logged in or when the API error.",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-14819",
+      "summary": "[iOS] Game hub: Component shelf > Continue playing",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15314",
+      "summary": "[iOS][Game hub]L3-  The error page does not display the page name.",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-18882",
+      "summary": "[Android]Get detail Movie/Series",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Suriya Alee",
+      "counted": true
+    },
+    {
+      "key": "LS-19085",
+      "summary": "ปรับ query is_active ให้ใช้ค่า true/false",
+      "owner": "Chamnarn Suksai",
+      "platform": "Unknown",
       "method": "agree",
       "note": "",
       "counted": true
@@ -1374,11 +1969,47 @@
       "counted": true
     },
     {
+      "key": "EXP-15318",
+      "summary": "[iOS][Game hub]L3- 16:9 shelf : The system must fall back to {thumbnail} if {thumb list} is not available.",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15066",
+      "summary": "[iOS] Game hub: Casual+Cloud game (L3)",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8133",
       "summary": "[iOS] Jenkins Build Center Branch GONE (Need to create the new one)",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
       "method": "pre_qa_assignee",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15319",
+      "summary": "[Android][Game hub]L3- 16:9 shelf : The system must fall back to {thumbnail} if {thumb list} is not available.",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15070",
+      "summary": "[Android] Game hub: Casual+Cloud game (L3)",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
       "note": "",
       "counted": true
     },
@@ -1392,10 +2023,55 @@
       "counted": true
     },
     {
+      "key": "EXP-14595",
+      "summary": "[iOS][Today] FA tracking - Select content send Method incorrect",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8135",
       "summary": "[Android Crash] [DevEx] th.co.truemoney.sdk.auth.TMNLoginInstance$p.a",
       "owner": "Kittisak Buaphanna",
       "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15322",
+      "summary": "[iOS][Today]Home Feed : video playback freezes after returning from External Browser",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19018",
+      "summary": "[iOS] Series Content Display Api and cache",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19033",
+      "summary": "[iOS] Series content episode tab",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15134",
+      "summary": "[iOS] Game hub: item_1x1_game > New view type",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
       "method": "agree",
       "note": "",
       "counted": true
@@ -1437,6 +2113,33 @@
       "counted": true
     },
     {
+      "key": "LS-19061",
+      "summary": "[iOS][SFV] Prioritize between CTA and Ads",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19093",
+      "summary": "Series player page : กรณีที่ CB และ sub profile failed ทั้งสองเส้น เมื่อเข้าไปที่หน้า series player และ retry CB  failed แอป ควรเรียก sub profile อีกครั้ง",
+      "owner": "Chamnarn Suksai",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19110",
+      "summary": "[iOS][RG3.56.0 RC8] [LiveTV shelf] รูป TVSNOW Package บน shelf สีม่วงๆ  ในหน้า LiveTV ไม่แสดง",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8057",
       "summary": "[iOS] Generate JSON",
       "owner": "Attapong Jakkrawantanarak",
@@ -1444,6 +2147,24 @@
       "method": "agree",
       "note": "",
       "counted": true
+    },
+    {
+      "key": "LS-19088",
+      "summary": "[iOS crash] 0x0009B16C in TrueID.app/Frameworks/Player.framework/Player",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19099",
+      "summary": "[Android][Series] While series watching then series player page is disappeared",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
     },
     {
       "key": "VAL-8138",
@@ -1464,9 +2185,54 @@
       "counted": true
     },
     {
+      "key": "EXP-15171",
+      "summary": "[iOS] MParticle: Data plan",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15288",
+      "summary": "[Android] MParticle: Data plan",
+      "owner": "Tanapat(Aor)(TODAY)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8118",
       "summary": "[Android Crash] [DevEx] android.content.BroadcastReceiver$PendingResult.sendFinished",
       "owner": "Kijja Charuchinda",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15249",
+      "summary": "[Android] Game hub: item_1x1_game > New view type",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15256",
+      "summary": "[iOS] Game hub: Bonus game > User can access the unpublished game",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15259",
+      "summary": "[Android] Game hub: Bonus game > User can access the unpublished game",
+      "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",

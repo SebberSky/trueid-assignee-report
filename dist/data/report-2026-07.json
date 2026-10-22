@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22T09:29:55.868754+00:00",
+  "generated_at": "2026-10-22T09:51:44.138432+00:00",
   "month": "2026-07",
-  "project": "VAL",
+  "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
     {
       "name": "Todsapon Sangpook",
@@ -20,6 +20,16 @@
       "tickets_unknown": 36,
       "tickets_both": 0,
       "prs_ios": 71,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Papon Supamongkonchai (Boy)",
+      "tickets_ios": 25,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 161,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -64,6 +74,36 @@
       "prs_mobile": 0
     },
     {
+      "name": "Thanyaporn Boonyen",
+      "tickets_ios": 17,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 107,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sarawut (Kai) (Player)",
+      "tickets_ios": 0,
+      "tickets_android": 15,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 105,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Wachirawit (MossiTo) (Discovery)",
+      "tickets_ios": 0,
+      "tickets_android": 12,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 115,
+      "prs_mobile": 0
+    },
+    {
       "name": "Yossawat Sarasomran (Ext)",
       "tickets_ios": 0,
       "tickets_android": 6,
@@ -74,12 +114,52 @@
       "prs_mobile": 0
     },
     {
+      "name": "Jetarin Taloet (Ext)",
+      "tickets_ios": 12,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 123,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
       "name": "Attapong Jakkrawantanarak",
       "tickets_ios": 12,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 97,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kirathi Mingsakul",
+      "tickets_ios": 0,
+      "tickets_android": 10,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 233,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Wanwisa (Nune) Lertlumwittayanon",
+      "tickets_ios": 4,
+      "tickets_android": 7,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jiraporn Praneet",
+      "tickets_ios": 5,
+      "tickets_android": 0,
+      "tickets_unknown": 5,
+      "tickets_both": 0,
+      "prs_ios": 191,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -104,6 +184,36 @@
       "prs_mobile": 0
     },
     {
+      "name": "Thosapol Sangkasub",
+      "tickets_ios": 7,
+      "tickets_android": 0,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 123,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Suriya Alee",
+      "tickets_ios": 0,
+      "tickets_android": 7,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 2,
+      "prs_android": 127,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Supachote Marungrueng (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 6,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 69,
+      "prs_mobile": 0
+    },
+    {
       "name": "Naphat Sottiyaphai (Ext)",
       "tickets_ios": 6,
       "tickets_android": 0,
@@ -114,19 +224,89 @@
       "prs_mobile": 0
     },
     {
-      "name": "Sarawut (Kai) (Player)",
+      "name": "Isarapong Tuensakul (Ext)",
+      "tickets_ios": 4,
+      "tickets_android": 1,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 19,
+      "prs_android": 15,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Chamnarn Suksai",
+      "tickets_ios": 4,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 95,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Nuttarikan Pattanaporn (Ext)",
+      "tickets_ios": 0,
+      "tickets_android": 3,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 44,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Ruttanachai Auitragool",
+      "tickets_ios": 2,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 275,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Narawit",
+      "tickets_ios": 0,
+      "tickets_android": 0,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 90,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Alongkot Tonprasert",
       "tickets_ios": 0,
       "tickets_android": 1,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
-      "prs_android": 105,
+      "prs_android": 87,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kodchakorn (Zigzag) (Livestream/Player)",
+      "tickets_ios": 0,
+      "tickets_android": 1,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
       "prs_mobile": 0
     },
     {
       "name": "Nutchanon (OH) Hero",
       "tickets_ios": 0,
       "tickets_android": 1,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Wanthida Jittayanantakul",
+      "tickets_ios": 1,
+      "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
       "prs_ios": 0,
@@ -214,16 +394,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Ruttanachai Auitragool",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 275,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
       "name": "Kanjanawit Yanggratoke",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -264,16 +434,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Kirathi Mingsakul",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 233,
-      "prs_mobile": 0
-    },
-    {
       "name": "Phatsawee Puttarukkul",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -304,16 +464,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Jiraporn Praneet",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 191,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
       "name": "Patipat Sahasapanan",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -334,16 +484,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Papon Supamongkonchai (Boy)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 161,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
       "name": "Poowanat Homruen",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -351,16 +491,6 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 135,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Suriya Alee",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 2,
-      "prs_android": 127,
       "prs_mobile": 0
     },
     {
@@ -374,36 +504,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Jetarin Taloet (Ext)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 123,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Thosapol Sangkasub",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 123,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Wachirawit (MossiTo) (Discovery)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 115,
-      "prs_mobile": 0
-    },
-    {
       "name": "Panuwat (Pum) (Privilege)",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -411,16 +511,6 @@
       "tickets_both": 0,
       "prs_ios": 1,
       "prs_android": 113,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Thanyaporn Boonyen",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 107,
-      "prs_android": 0,
       "prs_mobile": 0
     },
     {
@@ -454,26 +544,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Chamnarn Suksai",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 95,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Narawit",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 90,
-      "prs_mobile": 0
-    },
-    {
       "name": "teerapat.c",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -481,16 +551,6 @@
       "tickets_both": 0,
       "prs_ios": 89,
       "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Alongkot Tonprasert",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 87,
       "prs_mobile": 0
     },
     {
@@ -531,16 +591,6 @@
       "tickets_both": 0,
       "prs_ios": 0,
       "prs_android": 72,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Supachote Marungrueng (Ext)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 69,
       "prs_mobile": 0
     },
     {
@@ -604,16 +654,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Nuttarikan Pattanaporn (Ext)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 44,
-      "prs_mobile": 0
-    },
-    {
       "name": "Natthanan Gumyan",
       "tickets_ios": 0,
       "tickets_android": 0,
@@ -671,16 +711,6 @@
       "tickets_both": 0,
       "prs_ios": 35,
       "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Isarapong Tuensakul (Ext)",
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 19,
-      "prs_android": 15,
       "prs_mobile": 0
     },
     {
@@ -924,6 +954,15 @@
       "counted": true
     },
     {
+      "key": "EXP-15950",
+      "summary": "[Android]  Home Feed - UI Sub Tab แสดง gradient ไม่ถูกต้อง",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8491",
       "summary": "[Android] subscription-customer-api.trueid.net",
       "owner": "Sittisak Tangpraditchai",
@@ -987,11 +1026,29 @@
       "counted": false
     },
     {
+      "key": "EXP-15815",
+      "summary": "[iOS] Integrate SDK Player",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
       "key": "VAL-8435",
       "summary": "Migrate BridgeToken to SPM",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
       "method": "in_progress_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19584",
+      "summary": "[Android] Analytic FA Event",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
       "note": "",
       "counted": true
     },
@@ -1041,11 +1098,83 @@
       "counted": true
     },
     {
+      "key": "EXP-15944",
+      "summary": "[iOS] Home Feed: Creator avatar > Handle cache",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15945",
+      "summary": "[Android] Home Feed: Creator avatar > Handle cache",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-14790",
+      "summary": "[iOS] Bottom nav: Liquid glass design",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false
+    },
+    {
+      "key": "EXP-15942",
+      "summary": "[Android] Home Feed: Add count view to CMS ",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15947",
+      "summary": "[Android][Discovery]Rotate LFV (SDK player) -The video Total Time disappeared in full screen.",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15880",
+      "summary": "[Android] Home Feed: Rotate LFV (SDK player)",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8424",
       "summary": "Migrate MiniApp to SPM",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
       "method": "in_progress_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15951",
+      "summary": "[Android][Discovery]Home Feed - Black Screen on Sub-tabs After Language Change (Non-login State)",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15956",
+      "summary": "[Android] Home Feed: Engagement button-  Incorrect spacing and alignment of the Like counter under the Like icon.",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
       "note": "",
       "counted": true
     },
@@ -1167,6 +1296,15 @@
       "counted": true
     },
     {
+      "key": "LS-19521",
+      "summary": "[iOS] Mux Analytic",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8348",
       "summary": "[iOS] Standby to support the implementation of the caching mechanism to SFV Home Feed",
       "owner": "Attapong Jakkrawantanarak",
@@ -1180,6 +1318,42 @@
       "summary": "[Android] Standby to support the implementation of the caching mechanism to SFV Home Feed",
       "owner": "Todsapon Sangpook",
       "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19767",
+      "summary": "กรณีที่มีการใช้ 1 account ดู SFV series หลาย อุปกรณ์ ไม่แสดงหน้า Warning stage แต่แสดง Thumb Ep1",
+      "owner": "Jiraporn Praneet",
+      "platform": "Unknown",
+      "method": "in_progress_author",
+      "note": "fallback_a=Thosapol Sangkasub",
+      "counted": true
+    },
+    {
+      "key": "LS-19760",
+      "summary": "แสดง EP ในหน้า player ไม่ตรงกับ EP ที่ active ใน EP list",
+      "owner": "Thosapol Sangkasub",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15991",
+      "summary": "[iOS][Preprod] Home Feed - Open App with EN the system not show 2 line default in Title+Desc+hashtag",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19516",
+      "summary": "[iOS] Subscription SFD",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
       "method": "agree",
       "note": "",
       "counted": true
@@ -1219,6 +1393,33 @@
       "method": "unknown",
       "note": "no_non_qa_assignee",
       "counted": false
+    },
+    {
+      "key": "LS-19754",
+      "summary": "FA silent_notification_receive event ไม่ track ส่งมา ทั้ง foreground background ",
+      "owner": "Jiraporn Praneet",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19746",
+      "summary": "กรณีที่ tap status bar แอป scroll page ไปที่ EP แรก ไม่สามารถเล่น stream และ กด play ไ้ด้",
+      "owner": "Jiraporn Praneet",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19410",
+      "summary": "[iOS] SFV Series: All Feature การ์ดแม่",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
     },
     {
       "key": "VAL-8556",
@@ -1275,10 +1476,145 @@
       "counted": true
     },
     {
+      "key": "EXP-15958",
+      "summary": "[Android] Home Feed: Engagement button-  Missing toast notification and video not hidden after successful report.",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19666",
+      "summary": "[Android][RG 3.61.0]Should post SPF history when watch over time duration of content - 5sec",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Suriya Alee",
+      "counted": true
+    },
+    {
+      "key": "EXP-15883",
+      "summary": "[Android] Home Feed: Engagement button (SDK player)",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19572",
+      "summary": "[Android] Subscription SFD",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19733",
+      "summary": "[Android][RG 3.61.0]Player controls are accessible during stream error / playback failure / no package scenarios",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Suriya Alee",
+      "counted": true
+    },
+    {
+      "key": "LS-19765",
+      "summary": "[Android][RG 3.61.0]จังหวะที่มีการเข้า sfv series ครั้งแรก track play_sfv เบิ้ล และ track pause_sfv เกิน",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19724",
+      "summary": "[iOS] SFV Series: recall streaming when click play button",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8586",
       "summary": "Migrate TrueMoney to SPM",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19753",
+      "summary": "[iOS][RG 3.61.0] \"screen view\" Event ส่ง parameter ไม่ครบ เมื่อ user เข้าไปที่หน้า SFS Synopsis detail page",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Jiraporn Praneet",
+      "counted": true
+    },
+    {
+      "key": "EXP-15812",
+      "summary": "[Android] New UI Home Feed [Compose]",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Wachirawit (MossiTo) (Discovery)",
+      "counted": true
+    },
+    {
+      "key": "LS-19744",
+      "summary": "[Android][RG 3.61.0]Badge Free ใน EP List แสดงไม่ถูกต้องตาม subscription_tiers",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19745",
+      "summary": "[Android][RG 3.61.0]ไม่ auto เล่น EP ที่ซื้อ สำเร็จ",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19783",
+      "summary": "[Android] Missing some field",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19763",
+      "summary": "[Android][RG 3.61.0]หลัง Login ในหน้า SFV series สำเร็จ VDO มีแต่เสียง",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Sarawut (Kai) (Player)",
+      "counted": true
+    },
+    {
+      "key": "LS-19583",
+      "summary": "[Android] Mux Analytic",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15992",
+      "summary": "[iOS] [Preprod] Home Feed - in version EN the system not show 2 line in title + description + hashtag ",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
       "method": "agree",
       "note": "",
       "counted": true
@@ -1289,6 +1625,24 @@
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
       "method": "in_progress_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16016",
+      "summary": "[Andriod][3.61.0_RC2] Progress bar แสดงช้าหลังคลิปเล่นไปสักพัก",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16002",
+      "summary": "[iOS][RG 3.61.0 RC1]Rotate LFV - The player overlay is overlapping the pause button and the top-left/top-right corner buttons , unable to tap the \"Skip 15 seconds\"",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
       "note": "",
       "counted": true
     },
@@ -1320,6 +1674,69 @@
       "counted": true
     },
     {
+      "key": "EXP-16022",
+      "summary": "[Android][3.61.0 RC3] Home Feed: Content Display : Title +  Description ตอนกด More แล้วแสดงเกิน 50% ของคลิป",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "pre_qa_assignee",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19361",
+      "summary": "[Android][RG 3.58.0 RC8] CTA ในหน้า SFV ไม่พาไปเปิดหน้า package",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19377",
+      "summary": "[Android] SFV Series: All Feature การ์ดแม่",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15954",
+      "summary": "[Android][Discovery]Live shopping - Live Shopping stream stop or freeze during active viewing.",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19777",
+      "summary": "[Android][RG 3.61.0]Force Update screen layout is misaligned: Beck button on top is shifted too high and bottom button is partially hidden",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19766",
+      "summary": "[Android][RG 3.61.0]กรณีที่userมีการ swipe เปลี่ยน EP ต้อง track play_sfv_initial, pause_sfv, unload_sfv event ด้วย ",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19750",
+      "summary": "[iOS][RG 3.61.0]Track unload_rewarded_ad เบิ้ล",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8442",
       "summary": "[iOS Crash] RLMObjectBaseAddNotificationBlock",
       "owner": "Kittisak Buaphanna",
@@ -1347,9 +1764,108 @@
       "counted": true
     },
     {
+      "key": "EXP-16021",
+      "summary": "[iOS][RG 3.61.0 RC2] - SFV does not restart from the beginning when switching back to the previous sub-tab",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16009",
+      "summary": "[iOS][RG 3.61.0 RC2] - Video doesn't resume and screen flickers when navigating back from Deep Link.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16010",
+      "summary": "[iOS][RG 3.61.0 RC2] - Feed content flickers when switching back from another tab or screen.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16008",
+      "summary": "[iOS][RG 3.61.0 RC2] - Audio overlaps/plays in the background when opening a video via Deep Link.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16015",
+      "summary": "[iOS][RG 3.61.0 RC2] - เมื่อพับแอปแล้วเปิดใหม่ sub tab ที่เปิดค้างไว้จะใช้งานได้ปกติ แต่ sub tab อื่นๆ ที่เหลือทั้งหมดจะโดนบล็อกจนกดเล่นวิดีโอไม่ได้เลย",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16013",
+      "summary": "[iOS][RG 3.61.0 RC2] - Overlapping audio occurs when change language.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16012",
+      "summary": "[iOS][RG 3.61.0 RC2] - Audio plays automatically in Following tab even though the user hasn't followed anyone.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16003",
+      "summary": "[iOS][RG 3.61.0 RC1] - HomeTab change to another Tab have background snap 2 timeissue homeTab change to another Tab have background snap 2 time",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19795",
+      "summary": "[Watch][Android][FA] - User watch SFV Series to the end, FA not tracks unload_sfv event.",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8546",
       "summary": "[Android] Support TrueID Pentest",
       "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16007",
+      "summary": "[Andriod][3.61.0_RC2] กด CTA ที่ Content Type = Web View และ e- commerce แล้วมีเสียงคลิปแทรก",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19735",
+      "summary": "[Android][RG 3.61.0]แสดงข้อมูลใน player setting ไม่ครบ",
+      "owner": "Suriya Alee",
       "platform": "Android",
       "method": "agree",
       "note": "",
@@ -1365,11 +1881,38 @@
       "counted": true
     },
     {
+      "key": "LS-19743",
+      "summary": "[Android][RG 3.61.0]หาก user ไม่มีสิทธิ์ดู content   Progress bar ไม่ควร Seek ได้",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Sarawut (Kai) (Player)",
+      "counted": true
+    },
+    {
+      "key": "LS-19797",
+      "summary": "[Android][RG 3.61.0 RC2] หลังจากที่ปิดหน้า checkout หรือ login ไป แล้ว swipe กลับไปที่ ep ก่อนหน้า แอพไม่ auto play แต่จะเข้า state pause ",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8549",
       "summary": "[iOS] Regression Test 3.61.0",
       "owner": "Kittisak Buaphanna",
       "platform": "iOS",
       "method": "in_progress_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19788",
+      "summary": "[iOS][RG 3.61.0 RC2] Normal shelf L2 ไม่ขึ้น color bg",
+      "owner": "Ruttanachai Auitragool",
+      "platform": "iOS",
+      "method": "agree",
       "note": "",
       "counted": true
     },
@@ -1392,6 +1935,51 @@
       "counted": true
     },
     {
+      "key": "LS-19787",
+      "summary": "[Android][RG 3.61.0 RC2] Normal shelf L2 ไม่ขึ้น icon",
+      "owner": "Alongkot Tonprasert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16045",
+      "summary": "[iOS][RG 3.61.0 RC4] CTA - กด CTA ประเภท Deep link ที่ Following tab แล้วกลับมาคลิปเดิมหยุดเล่น ต้องกด play คลิปถึงเล่น หรือต้องเลื่อนไปคลิปอื่นก่อนแล้วกลับมาคลิปเดิมถึงเล่นได้",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "pre_qa_assignee",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15965",
+      "summary": "[Android] Home Feed: TATANG, TrueAF, Following > Add setting_cta",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15877",
+      "summary": "[Android] Home Feed: CTA (SDK player)",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15814",
+      "summary": "[iOS]Change sent stream_url to player sdk",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8630",
       "summary": "MissionDecodeDeepLinkUseCaseImpl",
       "owner": "Todsapon Sangpook",
@@ -1407,6 +1995,24 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19796",
+      "summary": "[iOS][RG 3.61.0 RC2] หลังจากที่ปิดหน้า checkout หรือ login ไป แล้ว swipe กลับไปที่ ep ก่อนหน้า แอพไม่ auto play จากจุดเริ่มต้น แต่จะเข้า state pause ",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Thosapol Sangkasub",
+      "counted": true
+    },
+    {
+      "key": "LS-19794",
+      "summary": "[Watch][iOS][FA] - User watch SFV Series to the end, FA not tracks unload_sfv event.",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Thosapol Sangkasub",
       "counted": true
     },
     {
@@ -1464,11 +2070,47 @@
       "counted": true
     },
     {
+      "key": "LS-19803",
+      "summary": "[iOS][RG 3.61.0 RC3] มีการแสดง Active Ep มากกว่า 1",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19804",
+      "summary": "[iOS][RG 3.61.0 RC3] เมื่อกด EP ที่ checkout/login ใน EP List ควรแสดงหน้า checkout หรือ login ตาม stage ",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8425",
       "summary": "Migrate Multimedia to SPM",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
       "method": "in_progress_author",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19805",
+      "summary": "[iOS][RG 3.61.0 RC3]กรณีที่มีการเปลี่ยน EP ต้องปิด EP list bottom sheet",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19807",
+      "summary": "[iOS][RG 3.61.0 RC3]กรณีที่กด sfv drama จาก continue watching shelf จากหน้า L1 แอปเปิด EP ไม่ถูกต้อง ",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
       "note": "",
       "counted": true
     },
@@ -1563,6 +2205,24 @@
       "counted": false
     },
     {
+      "key": "EXP-16024",
+      "summary": "[iOS][RG 3.61.0 RC3]Rotate LFV - Video progress bar is misaligned ",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16020",
+      "summary": "[iOS][RG 3.61.0 RC3] CTA - เปิด app ครั้งแรก แล้ว CTA ซ้อนทับ Buttom Nav",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8571",
       "summary": "cms.dmpcdn.com",
       "owner": null,
@@ -1635,6 +2295,24 @@
       "counted": false
     },
     {
+      "key": "EXP-16048",
+      "summary": "[iOS][3.61.0_RC4] UI - Creator name ยาวเกินบรรทัดทำให้ ปุ่ม \"Follow / Following เขยิบไปชิดขอบด้านขวา",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16037",
+      "summary": "[iOS][3.61.0_RC3] กด \"More\" ที่ Title , description แล้ว scroll  ดูข้อความไม่ได้ ",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8477",
       "summary": "[iOS Crash] [NSISEngine optimize]",
       "owner": "Naphat Sottiyaphai (Ext)",
@@ -1648,6 +2326,114 @@
       "summary": "[iOS Crash] 0x000048BC in TrueID.app/Frameworks/TrueIDFramework.framework/TrueIDFramework",
       "owner": "Naphat Sottiyaphai (Ext)",
       "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15874",
+      "summary": "[iOS] Home Feed: Metadata + follow button (SDK player)",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16004",
+      "summary": "[iOS]Engagement button  - Comment popup persists after successful login",
+      "owner": "Isarapong Tuensakul (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19809",
+      "summary": "[iOS][RG 3.61.0 RC4][SFV watch]หลังปิดหน้า detail/social profile/upload  SFV watch ไม่เล่นคลิปต่อ",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16000",
+      "summary": "[iOS][Home Feed - 3.61.0] เลื่อนขึ้น เลื่อนลง แล้ว ปุ่ม comment เด้งดึ้ง",
+      "owner": "Isarapong Tuensakul (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19806",
+      "summary": "[Android][RG 3.61.0 RC3]แสดงข้อมูลใน Video Quality ไม่ถูกต้อง และ ไม่สามารถเลือก resolution ได้",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16035",
+      "summary": "[iOS][RG 3.61.0 RC4] Engagement button  - All video engagement buttons (Like, Comment, Share, Save, Report) are completely unclickable",
+      "owner": "Isarapong Tuensakul (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16023",
+      "summary": "[Android][3.61.0 RC3] Home Feed: Content Display : Title +  Description ตอนกด More แล้วแสดงเกิน 50% ของคลิป",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16025",
+      "summary": "[Android][3.61.0 RC3] Home Feed: Content Display: กรณีมีแค่ Creator name แล้วระบบเว้นช่องห่างจาก progress bar เยอะเกินไป",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16043",
+      "summary": "[Android][3.61.0 RC3] - Clicking the \"following (Unfollow)\" button success to update state and returns an API error response.",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15875",
+      "summary": "[iOS] Home Feed: Engagement button (SDK player)",
+      "owner": "Isarapong Tuensakul (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16006",
+      "summary": "[Andriod][3.61.0_RC2] หลังจากกด More แล้วเลื่อนคลิป คลิปแสดงครึ่งๆ กลางๆ ",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15882",
+      "summary": "[Android] Home Feed: Metadata + follow button (SDK player)",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
       "method": "agree",
       "note": "",
       "counted": true
@@ -1671,6 +2457,24 @@
       "counted": true
     },
     {
+      "key": "EXP-15872",
+      "summary": "[iOS] Home Feed: Hold to speed (SDK player)",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16049",
+      "summary": "[iOS][RG 3.61.0 RC5]Rotate LFV - The screen video in full-screen mode doesn't fit the screen.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8643",
       "summary": "ChannelNavigateWithDeeplinkUseCase",
       "owner": "Sitthikorn Sommechai (Ext)",
@@ -1689,6 +2493,15 @@
       "counted": true
     },
     {
+      "key": "EXP-16011",
+      "summary": "[iOS][RG 3.61.0 RC2]Rotate LFV - หลังจากกด Full Screen คลิปเล่นได้ปกติแต่มัน Swipe to next subtab ",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8632",
       "summary": "Migrate Data to SPM",
       "owner": "Punyawat Suwannatat",
@@ -1698,10 +2511,73 @@
       "counted": true
     },
     {
+      "key": "EXP-16046",
+      "summary": "[iOS][RG 3.61.0 RC4] - Video fails to restart and seek bar jump back when returning to a previously seeked video.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16041",
+      "summary": "[Android][RG 3.61.0 RC3]Live shopping - Live shopping video automatically stops playing/freezes after returning to the Feed screen from a CTA page",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16040",
+      "summary": "[iOS][RG 3.61.0 RC2]Rotate LFV - กด Full Screen และพับแอป กลับเข้ามาคลิป LFV ไม่เล่น",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16047",
+      "summary": "[iOS][RG 3.61.0 RC5] - Video fails to resume after non-logged-in user swipes to Profile and navigates back.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15873",
+      "summary": "[iOS] Home Feed: Rotate LFV (SDK player)",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8642",
       "summary": "WatchDecodeDeeplinkUseCaseImpl",
       "owner": "Todsapon Sangpook",
       "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19816",
+      "summary": "[Android][RG 3.61.0 RC5][All Player page]quality/subtitle/audio แสดงไม่ครบ ",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19819",
+      "summary": "[iOS][RG 3.61.0 RC6] Player controls are not displayed when user taps on the player",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
       "method": "agree",
       "note": "",
       "counted": true
@@ -1729,6 +2605,15 @@
       "summary": "TrueCloudV3DecodeDeepLinkUseCaseImpl",
       "owner": "Todsapon Sangpook",
       "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15904",
+      "summary": "[iOS] Home Feed: Swipe to profile",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
       "method": "agree",
       "note": "",
       "counted": true
@@ -1770,6 +2655,42 @@
       "counted": true
     },
     {
+      "key": "LS-19817",
+      "summary": "[Android][RG 3.61.0 RC5][LFV]แสดงสี Theme ไม่ถูกต้อง เมื่อเข้า หน้า LFV Player ด้วย deeplink/onelink",
+      "owner": "Nuttarikan Pattanaporn (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16055",
+      "summary": "[iOS][RG 3.61.0 RC5] - FA: The screen_view event double when changing sub tabs.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15811",
+      "summary": "[iOS] New UI Home Feed [UIKit]",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16054",
+      "summary": "[iOS][RG 3.61.0 RC6] Home Feed - กด Delete ที่ comment ไม่ได้ ระบบขึ้น pop up delete แล้วเด้งออก",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8673",
       "summary": "PrivilegeDecodeDeepLinkUseCaseImpl",
       "owner": "Todsapon Sangpook",
@@ -1797,6 +2718,42 @@
       "counted": true
     },
     {
+      "key": "LS-19798",
+      "summary": "[Android][Mux] Player size มาบ้างไม่มาบ้าง",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16062",
+      "summary": "[iOS][RG 3.61.0 RC7] Rotate LFV - App resets to portrait orientation upon resuming from background while in fullscreen mode.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16070",
+      "summary": "[iOS][3.61.0 RC7] API Error แสดงหน้าถูกแล้วแต่ไม่ Auto Next Clip ให้  ",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "pre_qa_assignee",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16069",
+      "summary": "[Android][3.61.0 RC7] API Error แสดงหน้าถูกแล้วแต่ไม่ Auto Next Clip ให้  ",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "pre_qa_assignee",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8688",
       "summary": "TodayDecodeDeeplinkUseCaseImpl",
       "owner": "Yossawat Sarasomran (Ext)",
@@ -1815,10 +2772,55 @@
       "counted": true
     },
     {
+      "key": "EXP-16053",
+      "summary": "[iOS][RG 3.61.0 RC6] Home Feed : ตอน Swipe to profile แล้วกลับมา feed ใหม่ แล้วพับ app เข้าใหม่อีกครั้ง คลิปเล่นไม่ได้ต้อง play และ swipe หรือ คลิกไป tab อื่นไม่ได้ ",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19818",
+      "summary": "[Android][RG 3.61.0 RC6] หน้า live TV all Channel ใช้ search ไม่ได้",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8649",
       "summary": "CheckoutDecodeDeepLinkUseCaseImpl",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16018",
+      "summary": "[iOS][RG 3.61.0 RC3] CTA - CTA and profile info overlay float too high on OS versions below 26 and CTA shopping overlay float too high (all OS versions)",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19821",
+      "summary": "[Watch][Android][FA] -  User watch SFV on social profile page, FA dose not send play_sfv_initial, play_sfv, pause_sfv and unload_sfv events.",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16065",
+      "summary": "[Today][Android][FA] - FA tracks play_sfv_initial, play_series, pause_sfv and unload_sfv events with content_duration_ms = '0' on Home Feed page",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
       "method": "agree",
       "note": "",
       "counted": true
@@ -1869,6 +2871,15 @@
       "counted": true
     },
     {
+      "key": "EXP-16071",
+      "summary": "[Today][Android][FA] - Watch SFV on Home Feed page, FA tracks play_sfv_initial, play_sfv, pause_sfv and unload_sfv events but missing ref parameter",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8695",
       "summary": "UserInboxDecodeDeepLinkUseCaseImpl",
       "owner": "Todsapon Sangpook",
@@ -1900,6 +2911,15 @@
       "summary": "OnBoardingDefaultPageDecodeDeeplinkUseCaseImpl",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15881",
+      "summary": "[Android] Home Feed: Support live shopping, native ads (SDK player)",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
       "method": "agree",
       "note": "",
       "counted": true
@@ -2004,6 +3024,15 @@
       "counted": true
     },
     {
+      "key": "LS-19203",
+      "summary": "[iOS]trailer player : trailer badge",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8701",
       "summary": "[iOS] [POC] - Very slow loading content on Article Details page",
       "owner": "Attapong Jakkrawantanarak",
@@ -2026,6 +3055,69 @@
       "summary": "OrderStatusDecodeDeeplinkUseCaseImpl",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16044",
+      "summary": "[iOS][RG 3.61.0 RC4] CTA  -  ระบบ navigate กลับมาที่หน้าเดิมถูกแต่คลิปไม่เล่น",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15974",
+      "summary": "[Android] Home Feed: All play event",
+      "owner": "Kirathi Mingsakul",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15968",
+      "summary": "[Android] Home Feed: CTA Ads",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15876",
+      "summary": "[iOS] Home Feed: CTA (SDK player - use existing)",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16072",
+      "summary": "[Today][iOS][FA] - Watch SFV on Home Feed page, FA tracks play_sfv_initial, play_sfv, pause_sfv and unload_sfv events but firebase_screen parameter send wrong value",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15973",
+      "summary": "[iOS] Home Feed: All play event",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16078",
+      "summary": "[iOS] Improve CTA on Home Feed",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
       "method": "agree",
       "note": "",
       "counted": true
@@ -2157,6 +3249,24 @@
       "counted": true
     },
     {
+      "key": "EXP-16081",
+      "summary": "[Android][RG 3.61.0 RC9] - FA: The screen_view event double when changing sub tabs.",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19776",
+      "summary": "[iOS] continue watching #watch1",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8681",
       "summary": "SettingsDecodeDeeplinkUseCaseImpl",
       "owner": "Natdanai Chaiyakan",
@@ -2170,6 +3280,24 @@
       "summary": "ListenDecodeDeeplinkUseCaseImpl",
       "owner": "Todsapon Sangpook",
       "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19770",
+      "summary": "[iOS] display Player title and drop down episode/season #watch1",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19771",
+      "summary": "[iOS] handle click Watch button #watch1",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
       "method": "agree",
       "note": "",
       "counted": true
@@ -2193,12 +3321,39 @@
       "counted": true
     },
     {
+      "key": "LS-19775",
+      "summary": "[iOS] watch now button on trailer player #watch1",
+      "owner": "Chamnarn Suksai",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19772",
+      "summary": "[Android] entitlement check #watch1",
+      "owner": "Suriya Alee",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8535",
       "summary": "[iOS] Recheck initializers to support the new Splash Screen",
       "owner": "Naphat Sottiyaphai (Ext)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19774",
+      "summary": "[Android] watch now button on trailer player #watch1",
+      "owner": "Kodchakorn (Zigzag) (Livestream/Player)",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Nuttarikan Pattanaporn (Ext)",
       "counted": true
     },
     {
@@ -2274,6 +3429,24 @@
       "counted": true
     },
     {
+      "key": "EXP-16085",
+      "summary": "[iOS][RG 3.61.0 RC10] - Non-login overlapping audio on Home Feed when returning from a creator's profile.",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16079",
+      "summary": "[iOS][RG 3.61.0 RC8] - Video stops playing when returning to feed after clicking a CTA ads",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8665",
       "summary": "MyLibraryDecodeDeeplinkUseCaseImpl",
       "owner": "Natdanai Chaiyakan",
@@ -2328,10 +3501,37 @@
       "counted": true
     },
     {
+      "key": "EXP-15961",
+      "summary": "[iOS] Home Feed: CTA Ads",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16074",
+      "summary": "[iOS][RG 3.61.0 RC8] - Scrolling through the videos on the Following page is unstable.",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8703",
       "summary": "[Android] Wrong fonts on More page",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16067",
+      "summary": "[iOS][3.61.0 RC7] Live Shopping คลิปไม่เล่น เป็นบางครั้ง",
+      "owner": "Jetarin Taloet (Ext)",
+      "platform": "iOS",
       "method": "agree",
       "note": "",
       "counted": true
@@ -2409,9 +3609,36 @@
       "counted": true
     },
     {
+      "key": "EXP-16063",
+      "summary": "[iOS][RG 3.61.0 RC7] - Sometimes video plays with no audio after resuming the app from the background.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8709",
       "summary": "[iOS][iOS 26.0+][Bottom Navigation] Bottom Navigation Title shows 'System Font' when first launch app",
       "owner": "Chawapon Kiatpravee",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15552",
+      "summary": "[Android] Home Feed: Add follow button > TATANG, TrueAF",
+      "owner": "Supachote Marungrueng (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15871",
+      "summary": "[iOS] Home Feed: Support live shopping, native ads (SDK player)",
+      "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
@@ -2440,6 +3667,51 @@
       "summary": "[iOS][Watch L1] Unable to found 'Section Header' on Watch menu",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-15818",
+      "summary": "[iOS] Integrate SDK Player",
+      "owner": "Wanthida Jittayanantakul",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Papon Supamongkonchai (Boy)",
+      "counted": true
+    },
+    {
+      "key": "EXP-16042",
+      "summary": "[iOS][RG 3.61.0 RC4] - Refreshing Feed via Home button causes overlapping background audio from Following tab.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19785",
+      "summary": "[Android][RG 3.61.0]กรณีที่มีการเปลี่ยน EP ต้องปิด EP list bottom sheet",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Sarawut (Kai) (Player)",
+      "counted": true
+    },
+    {
+      "key": "LS-19820",
+      "summary": "[Android][RG 3.61.0 RC6]แอปแสดง partner popup ที่ series ไม่เข้าเงื่อนไข",
+      "owner": "Nuttarikan Pattanaporn (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19822",
+      "summary": "[Watch][Android][FA] - when user select series on search page, FA not tracks play_series_initial, play_series, pause_series and unload_series events",
+      "owner": "Sarawut (Kai) (Player)",
+      "platform": "Android",
       "method": "agree",
       "note": "",
       "counted": true
@@ -2494,6 +3766,33 @@
       "summary": "ConfigUserInboxNavigate",
       "owner": "Todsapon Sangpook",
       "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19786",
+      "summary": "[Android][RG 3.61.0]แสดง ผลการปลดล๊อค EP ไม่ถูกต้องกรณีที่มีการซื้อ EP 50-51",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Sarawut (Kai) (Player)",
+      "counted": true
+    },
+    {
+      "key": "LS-19808",
+      "summary": "[Android][RG 3.61.0 RC3] ซื้อสำเร็จ แล้วกลับมา แอปเด้งหน้า  checkout ของ EP ที่เคยซื้อไปแล้วอีกครั้ง ",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "Android",
+      "method": "in_progress_author",
+      "note": "fallback_a=Sarawut (Kai) (Player)",
+      "counted": true
+    },
+    {
+      "key": "LS-19838",
+      "summary": "[iOS][RG 3.61.0 RC12] หน้าทีวี all channels พอเลือก most view สกอร์ลงปุ๊บมันดีดกลับไป recommended และ พยามสกอร์เอง",
+      "owner": "Ruttanachai Auitragool",
+      "platform": "iOS",
       "method": "agree",
       "note": "",
       "counted": true
@@ -2589,6 +3888,15 @@
       "counted": true
     },
     {
+      "key": "EXP-16001",
+      "summary": "[iOS] Today: Quick access > Support .gif file",
+      "owner": "Thanyaporn Boonyen",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8766",
       "summary": "ConfigMySevenCouponsNavigate",
       "owner": "Todsapon Sangpook",
@@ -2670,6 +3978,15 @@
       "counted": true
     },
     {
+      "key": "LS-19853",
+      "summary": "[Android][Content sampling] filter บาง ep ให้ดูได้ที่แอปทรูไอดี",
+      "owner": "Nuttarikan Pattanaporn (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8799",
       "summary": "[iOS][Privilege L1] Found BetterTogether font on 'Views of Top Content'",
       "owner": "Chawapon Kiatpravee",
@@ -2691,6 +4008,15 @@
       "key": "VAL-8537",
       "summary": "[iOS] Change to new font: All L1",
       "owner": "Chawapon Kiatpravee",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16087",
+      "summary": "[iOS][RG 3.61.0 RC12] - All CTA buttons display the message \"Watch Now\".",
+      "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
       "method": "agree",
       "note": "",
@@ -3093,6 +4419,15 @@
       "counted": true
     },
     {
+      "key": "LS-19873",
+      "summary": "Should Display VOD Title on TOP center when the layout player is Fullscreen  mode",
+      "owner": "Jiraporn Praneet",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8730",
       "summary": "Migrate shareextension to SPM - Part 5",
       "owner": "Punyawat Suwannatat",
@@ -3156,6 +4491,15 @@
       "counted": true
     },
     {
+      "key": "EXP-16114",
+      "summary": "[iOS][RG 3.61.0 RC14] - Feed Video Fails to Resume After Tab Switch",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8828",
       "summary": "[Android Crash] [DevEx] SharedPreferenceManager$mPreferences$2.invoke",
       "owner": "Kijja Charuchinda",
@@ -3172,6 +4516,15 @@
       "method": "unknown",
       "note": "no_non_qa_assignee",
       "counted": false
+    },
+    {
+      "key": "EXP-16112",
+      "summary": "[iOS][RG 3.61.0 RC14] Text ใน search bar ล้น เวลากดมาจาก tag หน้า feed *เข้าหน้า search แล้วพิมเยอะๆๆ",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
     },
     {
       "key": "VAL-8833",
@@ -3291,6 +4644,24 @@
       "counted": true
     },
     {
+      "key": "EXP-15911",
+      "summary": "[Android] Restrict TrueID Universal Link/App Link to support only specific Watch Detail pages and fallback unsupported pages to Web",
+      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "EXP-16116",
+      "summary": "[iOS][RG 3.61.0 RC14] เลื่อนคลิปไปเรื่อยๆ แล้วมีอาการเครื่องช้า กระตุก เครื่องร้อน",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8611",
       "summary": "[iOS] Remove True Money SDK",
       "owner": "Attapong Jakkrawantanarak",
@@ -3322,6 +4693,15 @@
       "summary": "[iOS] Implement 4 menu",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19854",
+      "summary": "Should display dialog Manage device when count(active) +1) > data.max_entitlement",
+      "owner": "Narawit",
+      "platform": "Unknown",
       "method": "agree",
       "note": "",
       "counted": true
@@ -3399,6 +4779,15 @@
       "counted": true
     },
     {
+      "key": "EXP-16056",
+      "summary": "[Android] Add Copyright notice",
+      "owner": "Isarapong Tuensakul (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8539",
       "summary": "[iOS] Support issue from TrueX",
       "owner": "Attapong Jakkrawantanarak",
@@ -3444,6 +4833,15 @@
       "counted": true
     },
     {
+      "key": "EXP-16115",
+      "summary": "[iOS][RG 3.61.0 RC14] - เวลาปัดไป next item แล้วจะเจอจอดำแว่บนึง ไม่ทุกคลิปแต่บ่อย ",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8849",
       "summary": "[Android][ฺTrue Money] Found gap at top of screen when back from True money via recent app",
       "owner": "Sittisak Tangpraditchai",
@@ -3471,12 +4869,39 @@
       "counted": true
     },
     {
+      "key": "EXP-16113",
+      "summary": "[iOS][RG 3.61.0 RC14] - Native ads have no sound.",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19882",
+      "summary": "Layout ของ player เพี้ยน กรณีที่กด On Auto Rotate ตอน Fullscreen ",
+      "owner": "Jiraporn Praneet",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true
+    },
+    {
       "key": "VAL-8627",
       "summary": "[Android] What's new page with countdown auto close",
       "owner": "Sitthikorn Sommechai (Ext)",
       "platform": "Android",
       "method": "agree",
       "note": "",
+      "counted": true
+    },
+    {
+      "key": "LS-19202",
+      "summary": "[iOS]VOD player : fullscreen mode",
+      "owner": "Wanwisa (Nune) Lertlumwittayanon",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Jiraporn Praneet",
       "counted": true
     },
     {

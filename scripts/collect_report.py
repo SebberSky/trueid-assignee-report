@@ -41,8 +41,10 @@ def aggregate_tickets(
     exclude_names: set[str],
 ) -> tuple[dict[str, Counter], list[dict[str, Any]]]:
     start, end = month_bounds(month)
+    projects = [p.strip() for p in project.split(",") if p.strip()]
+    project_clause = f"project = {projects[0]}" if len(projects) == 1 else f"project in ({', '.join(projects)})"
     jql = (
-        f'project = {project} AND resolved >= "{start}" AND resolved < "{end}" '
+        f'{project_clause} AND resolved >= "{start}" AND resolved < "{end}" '
         f"ORDER BY resolved ASC"
     )
     issues = jira.search_issues(
@@ -183,7 +185,7 @@ def merge_rows(
 def main() -> int:
     parser = argparse.ArgumentParser(description="Collect ownership report")
     parser.add_argument("--month", default=date.today().strftime("%Y-%m"), help="YYYY-MM")
-    parser.add_argument("--project", default="VAL")
+    parser.add_argument("--project", default="SC,IMP,LS,EXP,VAL", help="Comma-separated Jira project keys")
     parser.add_argument("--skip-prs", action="store_true")
     parser.add_argument("--skip-tickets", action="store_true")
     parser.add_argument("--pr-pages", type=int, default=40)
