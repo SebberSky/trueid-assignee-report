@@ -1,3 +1,5 @@
 [
-  {"label": "ตุลาคม 2026", "file": "report.json"}
+  {"label": "ตุลาคม 2026", "file": "report.json"},
+  {"label": "กันยายน 2026", "file": "report-2026-09.json"},
+  {"label": "สิงหาคม 2026", "file": "report-2026-08.json"}
 ]

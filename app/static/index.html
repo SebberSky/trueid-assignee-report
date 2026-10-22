@@ -34,9 +34,17 @@
       background: var(--panel); border: 1px solid var(--line); color: var(--text);
       border-radius: 10px; padding: 10px 12px; min-width: 240px;
     }
+    .month-picker { position: relative; display: inline-flex; align-items: center; }
     select {
+      appearance: none; -webkit-appearance: none;
       background: var(--panel); border: 1px solid var(--line); color: var(--text);
-      border-radius: 10px; padding: 10px 12px; min-width: 150px;
+      border-radius: 10px; padding: 10px 38px 10px 12px; min-width: 170px;
+      cursor: pointer;
+    }
+    .month-picker::after {
+      content: ""; position: absolute; right: 14px; top: 50%; width: 7px; height: 7px;
+      border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted);
+      transform: translateY(-65%) rotate(45deg); pointer-events: none;
     }
     .pill {
       background: var(--panel); border: 1px solid var(--line);
@@ -72,7 +80,7 @@
     <p class="sub">จำนวน ticket ที่ถือจริง (ไม่นับ QA) และ merged PR จาก 9 repo — แยก iOS / Android</p>
     <div class="toolbar">
       <label class="pill" for="month">เดือน</label>
-      <select id="month" aria-label="เลือกเดือน"></select>
+      <span class="month-picker"><select id="month" aria-label="เลือกเดือน"></select></span>
       <input id="q" type="search" placeholder="ค้นชื่อ…" />
       <span class="pill" id="meta">loading…</span>
     </div>
