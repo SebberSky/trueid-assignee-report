@@ -16,7 +16,7 @@ sys.path.insert(0, str(ROOT))
 
 from app.bitbucket_client import BitbucketClient
 from app.jira_client import JiraClient
-from app.ownership import normalize_name, resolve_owner
+from app.ownership import matches_name, normalize_name, resolve_owner
 
 
 def load_json(path: Path) -> Any:
@@ -94,7 +94,7 @@ def aggregate_tickets(
         logs = changelogs_by_id.get(issue_id) or []
         result = resolve_owner(summary, assignee, logs, qa_names)
         owner = result.owner
-        if not owner or normalize_name(owner) in exclude_norm:
+        if not owner or matches_name(owner, exclude_names):
             details.append(
                 {
                     "key": issue.get("key"),
@@ -143,7 +143,7 @@ def aggregate_prs(
     exclude_norm = {normalize_name(n) for n in exclude_names}
     out: dict[str, Counter] = defaultdict(Counter)
     for name, counter in raw.items():
-        if normalize_name(name) in exclude_norm:
+        if matches_name(name, exclude_names):
             continue
         out[name]["prs_ios"] = counter.get("iOS", 0)
         out[name]["prs_android"] = counter.get("Android", 0)

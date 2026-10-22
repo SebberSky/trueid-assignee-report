@@ -17,6 +17,15 @@ def normalize_name(name: str | None) -> str:
     return " ".join(name.strip().split()).casefold()
 
 
+def matches_name(name: str | None, known_names: set[str]) -> bool:
+    """Match a known full name even when Jira appends extra text."""
+    normalized = normalize_name(name)
+    return bool(normalized) and any(
+        normalized_known and normalized_known in normalized
+        for normalized_known in (normalize_name(value) for value in known_names)
+    )
+
+
 def detect_ticket_platform(summary: str) -> str:
     matches = PLATFORM_RE.findall(summary or "")
     platforms = {m.lower() for m in matches}
@@ -106,7 +115,7 @@ def resolve_owner(
         durations[name] = durations.get(name, 0.0) + seconds
 
     def is_qa(name: str | None) -> bool:
-        return bool(name) and normalize_name(name) in qa
+        return matches_name(name, qa)
 
     # Candidate A: walk assignees newest → oldest, first non-QA
     ordered_names: list[str] = []
