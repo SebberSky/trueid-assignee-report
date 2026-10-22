@@ -1,0 +1,14 @@
+{
+  "workspace": "truedmp",
+  "repos": {
+    "trueid-ios-v3": "iOS",
+    "trueid-creator-ios": "iOS",
+    "trueid-social-commerce-sdk-ios": "iOS",
+    "tvn-tvos": "iOS",
+    "trueid-android-v3": "Android",
+    "trueid-creator-android": "Android",
+    "trueid-social-commerce-sdk-android": "Android",
+    "tvn-android-tv": "Android",
+    "tvn-mobile-app": "Mobile"
+  }
+}
