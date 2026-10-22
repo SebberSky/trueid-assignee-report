@@ -238,7 +238,7 @@
         return;
       }
       report = await res.json();
-      const boardValues = [...new Set((report.rows || []).flatMap(r => r.boards || []))].sort();
+      const boardValues = [...new Set(["SC", "IMP", "LS", "EXP", "VAL", ...(report.rows || []).flatMap(r => r.boards || [])])].sort();
       document.getElementById("board-filters").innerHTML = boardValues.map(board => `<label class="check"><input type="checkbox" value="${escapeHtml(board)}" checked /> ${escapeHtml(board)}</label>`).join("");
       document.getElementById("meta").textContent =
         `month ${report.month} · generated ${new Date(report.generated_at).toLocaleString()} · ${report.rows.length} people`;
