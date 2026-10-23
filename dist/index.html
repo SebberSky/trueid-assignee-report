@@ -113,7 +113,12 @@
       <div class="filter-line"><span class="pill">Jira board</span> <span id="board-filters" class="filters"></span></div>
       <div class="filter-line"><input id="q" type="search" placeholder="ค้นชื่อ…" /> <span class="pill" id="meta">loading…</span></div>
     </div>
-    <details id="list-section" open>
+    <details id="graph-section" class="chart-panel" open>
+      <summary>Graph <span class="sub" style="margin-left:8px">แกน X = จำนวน · แกน Y = รายชื่อ</span></summary>
+      <div id="factor-filters" class="chart-toolbar"></div>
+      <div id="bar-chart" class="bar-chart"></div>
+    </details>
+    <details id="list-section">
       <summary>List</summary>
       <table>
         <thead>
@@ -131,16 +136,11 @@
         <tbody id="rows"></tbody>
       </table>
     </details>
-    <details id="graph-section" class="chart-panel" open>
-      <summary>Graph <span class="sub" style="margin-left:8px">แกน X = จำนวน · แกน Y = รายชื่อ</span></summary>
-      <div id="factor-filters" class="chart-toolbar"></div>
-      <div id="bar-chart" class="bar-chart"></div>
-    </details>
-    <details id="drill" open>
+    <details id="drill">
       <summary>Ticket drill-down</summary>
       <div id="tickets" class="empty">เลือกชื่อในตาราง</div>
     </details>
-    <details id="pr-drill" open>
+    <details id="pr-drill">
       <summary>PR drill-down</summary>
       <div id="prs" class="empty">เลือกชื่อในตาราง</div>
     </details>
