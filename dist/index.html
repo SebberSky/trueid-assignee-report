@@ -218,6 +218,7 @@
         return;
       }
       const values = rows.map(row => ({ row, values: selectedFactors.map(key => key === "tickets_other" ? (row.tickets_unknown || 0) + (row.tickets_both || 0) : (row[key] || 0)) }));
+      values.sort((a, b) => b.values.reduce((sum, value) => sum + value, 0) - a.values.reduce((sum, value) => sum + value, 0) || a.row.name.localeCompare(b.row.name, "th"));
       const max = Math.max(1, ...values.flatMap(item => item.values));
       chart.innerHTML = values.map(({ row, values: counts }) => `
         <div class="bar-row">
