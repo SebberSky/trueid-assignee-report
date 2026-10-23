@@ -82,8 +82,8 @@
     .empty { color: var(--muted); padding: 24px; text-align: center; }
     .chart-panel { margin-top: 22px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
     .chart-toolbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
-    .bar-chart { display: grid; gap: 8px; overflow-x: auto; }
-    .bar-row { display: grid; grid-template-columns: minmax(150px, 220px) minmax(260px, 1fr); gap: 10px; align-items: center; min-width: 560px; }
+    .bar-chart { display: grid; gap: 8px; width: 100%; overflow-x: hidden; }
+    .bar-row { display: grid; grid-template-columns: minmax(120px, 220px) minmax(0, 1fr); gap: 10px; align-items: center; width: 100%; }
     .bar-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: right; color: var(--text); }
     .bar-stack { display: flex; gap: 2px; align-items: center; min-height: 24px; }
     .bar { height: 20px; min-width: 2px; border-radius: 4px; color: #081018; font-size: 0.72rem; line-height: 20px; padding: 0 5px; overflow: hidden; white-space: nowrap; }
@@ -219,7 +219,7 @@
       }
       const values = rows.map(row => ({ row, values: selectedFactors.map(key => key === "tickets_other" ? (row.tickets_unknown || 0) + (row.tickets_both || 0) : (row[key] || 0)) }));
       values.sort((a, b) => b.values.reduce((sum, value) => sum + value, 0) - a.values.reduce((sum, value) => sum + value, 0) || a.row.name.localeCompare(b.row.name, "th"));
-      const max = Math.max(1, ...values.flatMap(item => item.values));
+      const max = Math.max(1, ...values.map(item => item.values.reduce((sum, value) => sum + value, 0)));
       chart.innerHTML = values.map(({ row, values: counts }) => `
         <div class="bar-row">
           <div class="bar-name" title="${escapeHtml(row.name)}">${escapeHtml(row.name)}</div>
