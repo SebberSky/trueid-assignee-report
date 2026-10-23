@@ -113,26 +113,29 @@
       <div class="filter-line"><span class="pill">Jira board</span> <span id="board-filters" class="filters"></span></div>
       <div class="filter-line"><input id="q" type="search" placeholder="ค้นชื่อ…" /> <span class="pill" id="meta">loading…</span></div>
     </div>
-    <table>
-      <thead>
-        <tr>
-          <th class="sortable" data-key="name">Person</th>
-          <th>Boards</th>
-          <th class="sortable num col-ios" data-key="tickets_ios">Tickets iOS</th>
-          <th class="sortable num col-android" data-key="tickets_android">Tickets Android</th>
-          <th class="sortable num" data-key="tickets_other">Tickets Other</th>
-          <th class="sortable num col-ios" data-key="prs_ios">PRs iOS</th>
-          <th class="sortable num col-android" data-key="prs_android">PRs Android</th>
-          <th class="sortable num" data-key="prs_mobile">PRs Mobile</th>
-        </tr>
-      </thead>
-      <tbody id="rows"></tbody>
-    </table>
-    <section class="chart-panel">
-      <div class="filter-line"><span class="pill">Graph</span><span class="sub" style="margin:0">แกน X = จำนวน · แกน Y = รายชื่อ</span></div>
+    <details id="list-section" open>
+      <summary>List</summary>
+      <table>
+        <thead>
+          <tr>
+            <th class="sortable" data-key="name">Person</th>
+            <th>Boards</th>
+            <th class="sortable num col-ios" data-key="tickets_ios">Tickets iOS</th>
+            <th class="sortable num col-android" data-key="tickets_android">Tickets Android</th>
+            <th class="sortable num" data-key="tickets_other">Tickets Other</th>
+            <th class="sortable num col-ios" data-key="prs_ios">PRs iOS</th>
+            <th class="sortable num col-android" data-key="prs_android">PRs Android</th>
+            <th class="sortable num" data-key="prs_mobile">PRs Mobile</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </details>
+    <details id="graph-section" class="chart-panel" open>
+      <summary>Graph <span class="sub" style="margin-left:8px">แกน X = จำนวน · แกน Y = รายชื่อ</span></summary>
       <div id="factor-filters" class="chart-toolbar"></div>
       <div id="bar-chart" class="bar-chart"></div>
-    </section>
+    </details>
     <details id="drill" open>
       <summary>Ticket drill-down</summary>
       <div id="tickets" class="empty">เลือกชื่อในตาราง</div>
