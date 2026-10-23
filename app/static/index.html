@@ -80,6 +80,22 @@
     }
     .ticket a { color: var(--ios); text-decoration: none; }
     .empty { color: var(--muted); padding: 24px; text-align: center; }
+    .chart-panel { margin-top: 22px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
+    .chart-toolbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
+    .bar-chart { display: grid; gap: 8px; overflow-x: auto; }
+    .bar-row { display: grid; grid-template-columns: minmax(150px, 220px) minmax(260px, 1fr); gap: 10px; align-items: center; min-width: 560px; }
+    .bar-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: right; color: var(--text); }
+    .bar-stack { display: flex; gap: 2px; align-items: center; min-height: 24px; }
+    .bar { height: 20px; min-width: 2px; border-radius: 4px; color: #081018; font-size: 0.72rem; line-height: 20px; padding: 0 5px; overflow: hidden; white-space: nowrap; }
+    .bar.tickets_ios, .legend-tickets_ios { background: var(--ios); }
+    .bar.tickets_android, .legend-tickets_android { background: var(--android); }
+    .bar.tickets_other, .legend-tickets_other { background: #f5b942; }
+    .bar.prs_ios, .legend-prs_ios { background: #b58cff; }
+    .bar.prs_android, .legend-prs_android { background: #ff8f70; }
+    .bar.prs_mobile, .legend-prs_mobile { background: #7ee0c1; }
+    .chart-legend { display: flex; flex-wrap: wrap; gap: 8px 14px; color: var(--muted); font-size: 0.82rem; }
+    .legend-item { display: inline-flex; gap: 5px; align-items: center; }
+    .legend-swatch { width: 10px; height: 10px; border-radius: 3px; }
   </style>
 </head>
 <body>
@@ -112,6 +128,11 @@
       </thead>
       <tbody id="rows"></tbody>
     </table>
+    <section class="chart-panel">
+      <div class="filter-line"><span class="pill">Graph</span><span class="sub" style="margin:0">แกน X = จำนวน · แกน Y = รายชื่อ</span></div>
+      <div id="factor-filters" class="chart-toolbar"></div>
+      <div id="bar-chart" class="bar-chart"></div>
+    </section>
     <details id="drill" open>
       <summary>Ticket drill-down</summary>
       <div id="tickets" class="empty">เลือกชื่อในตาราง</div>
@@ -130,6 +151,14 @@
     let selected = null;
     let sortKey = "name";
     let sortDirection = 1;
+    const factors = [
+      { key: "tickets_ios", label: "Tickets iOS" },
+      { key: "tickets_android", label: "Tickets Android" },
+      { key: "tickets_other", label: "Tickets Other" },
+      { key: "prs_ios", label: "PRs iOS" },
+      { key: "prs_android", label: "PRs Android" },
+      { key: "prs_mobile", label: "PRs Mobile" },
+    ];
 
     function renderRows(filter = "") {
       const tbody = document.getElementById("rows");
@@ -146,6 +175,7 @@
         const matchesBoard = !boards.length || (r.boards || []).some(board => boards.includes(board));
         return matchesText && matchesPlatform && matchesBoard;
       });
+      renderChart(rows);
       rows.sort((a, b) => {
         const av = sortKey === "tickets_other" ? (a.tickets_unknown || 0) + (a.tickets_both || 0) : a[sortKey];
         const bv = sortKey === "tickets_other" ? (b.tickets_unknown || 0) + (b.tickets_both || 0) : b[sortKey];
@@ -175,6 +205,22 @@
         });
         tbody.appendChild(tr);
       }
+    }
+
+    function renderChart(rows) {
+      const selectedFactors = [...document.querySelectorAll("#factor-filters input:checked")].map(input => input.value);
+      const chart = document.getElementById("bar-chart");
+      if (!selectedFactors.length || !rows.length) {
+        chart.innerHTML = `<div class="empty">เลือก factor และข้อมูลที่จะแสดง</div>`;
+        return;
+      }
+      const values = rows.map(row => ({ row, values: selectedFactors.map(key => key === "tickets_other" ? (row.tickets_unknown || 0) + (row.tickets_both || 0) : (row[key] || 0)) }));
+      const max = Math.max(1, ...values.flatMap(item => item.values));
+      chart.innerHTML = values.map(({ row, values: counts }) => `
+        <div class="bar-row">
+          <div class="bar-name" title="${escapeHtml(row.name)}">${escapeHtml(row.name)}</div>
+          <div class="bar-stack">${selectedFactors.map((key, index) => counts[index] ? `<div class="bar ${key}" style="width:${Math.max(2, counts[index] / max * 100)}%" title="${escapeHtml(factors.find(f => f.key === key).label)}: ${counts[index]}">${counts[index]}</div>` : "").join("")}</div>
+        </div>`).join("");
     }
 
     function renderTickets() {
@@ -240,6 +286,7 @@
       report = await res.json();
       const boardValues = [...new Set(["SC", "IMP", "LS", "EXP", "VAL", ...(report.rows || []).flatMap(r => r.boards || [])])].sort();
       document.getElementById("board-filters").innerHTML = boardValues.map(board => `<label class="check"><input type="checkbox" value="${escapeHtml(board)}" checked /> ${escapeHtml(board)}</label>`).join("");
+      document.getElementById("factor-filters").innerHTML = factors.map(factor => `<label class="check"><input type="checkbox" value="${factor.key}" checked /> <span class="legend-swatch legend-${factor.key}"></span>${escapeHtml(factor.label)}</label>`).join("");
       document.getElementById("meta").textContent =
         `month ${report.month} · generated ${new Date(report.generated_at).toLocaleString()} · ${report.rows.length} people`;
       renderRows();
@@ -261,6 +308,7 @@
         updateColumnVisibility();
       }));
       document.getElementById("board-filters").addEventListener("change", () => renderRows(document.getElementById("q").value));
+      document.getElementById("factor-filters").addEventListener("change", () => renderRows(document.getElementById("q").value));
       updateColumnVisibility();
       await loadReport(months[0].file);
       document.getElementById("board-filters").addEventListener("change", () => renderRows(document.getElementById("q").value));
