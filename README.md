@@ -1,8 +1,10 @@
 # Jira Ownership Report
 
-Local web report: per person, how many **tickets held** (iOS / Android) and how many **merged PRs** (iOS / Android / Mobile) across the 9 `/reviewpr` repos.
+Local web report: per person, how many **tickets held** (iOS / Android), total **ticket points**, and how many **merged PRs** (iOS / Android / Mobile) across the 9 `/reviewpr` repos.
 
 Ticket owner ignores QA closing assignees — uses last non-QA assignee before QA, or the person who moved the ticket to In Progress / held assignee longest.
+Ticket points use Jira Story Points (`customfield_10016`) and are summed by resolved ticket owner.
+The published static bundle includes the generated files under `dist/data/`.
 
 ## Setup
 
