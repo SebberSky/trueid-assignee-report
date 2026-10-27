@@ -96,6 +96,8 @@
     .chart-legend { display: flex; flex-wrap: wrap; gap: 8px 14px; color: var(--muted); font-size: 0.82rem; }
     .legend-item { display: inline-flex; gap: 5px; align-items: center; }
     .legend-swatch { width: 10px; height: 10px; border-radius: 3px; }
+    .points-table { width: 100%; border-collapse: collapse; }
+    .points-table td:last-child, .points-table th:last-child { text-align: right; }
   </style>
 </head>
 <body>
@@ -117,6 +119,13 @@
       <summary>Graph <span class="sub" style="margin-left:8px">แกน X = จำนวน · แกน Y = รายชื่อ</span></summary>
       <div id="factor-filters" class="chart-toolbar"></div>
       <div id="bar-chart" class="bar-chart"></div>
+    </details>
+    <details id="points-section" class="chart-panel" open>
+      <summary>Ticket Points <span class="sub" style="margin-left:8px">ผลรวม Story Point ของ ticket ที่ถือ</span></summary>
+      <table class="points-table">
+        <thead><tr><th>Person</th><th>Tickets</th><th>Points</th></tr></thead>
+        <tbody id="point-rows"></tbody>
+      </table>
     </details>
     <details id="list-section">
       <summary>List</summary>
@@ -179,6 +188,7 @@
         return matchesText && matchesPlatform && matchesBoard;
       });
       renderChart(rows);
+      renderPoints(rows);
       rows.sort((a, b) => {
         const av = sortKey === "tickets_other" ? (a.tickets_unknown || 0) + (a.tickets_both || 0) : a[sortKey];
         const bv = sortKey === "tickets_other" ? (b.tickets_unknown || 0) + (b.tickets_both || 0) : b[sortKey];
@@ -208,6 +218,29 @@
         });
         tbody.appendChild(tr);
       }
+    }
+
+    function renderPoints(rows) {
+      const tbody = document.getElementById("point-rows");
+      const sorted = [...rows].sort((a, b) =>
+        (b.ticket_points || 0) - (a.ticket_points || 0) || a.name.localeCompare(b.name, "th")
+      );
+      if (!sorted.length) {
+        tbody.innerHTML = `<tr><td colspan="3" class="empty">ไม่มีข้อมูล</td></tr>`;
+        return;
+      }
+      tbody.innerHTML = sorted.map(row => {
+        const tickets = (row.tickets_ios || 0) + (row.tickets_android || 0) +
+          (row.tickets_unknown || 0) + (row.tickets_both || 0);
+        const points = Number(row.ticket_points || 0);
+        return `<tr><td class="name" data-person="${escapeHtml(row.name)}">${escapeHtml(row.name)}</td>` +
+          `<td class="num">${tickets}</td><td class="num">${Number.isInteger(points) ? points : points.toFixed(1)}</td></tr>`;
+      }).join("");
+      tbody.querySelectorAll("[data-person]").forEach(cell => cell.addEventListener("click", () => {
+        selected = cell.dataset.person;
+        renderTickets();
+        renderPRs();
+      }));
     }
 
     function renderChart(rows) {

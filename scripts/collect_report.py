@@ -50,7 +50,12 @@ def aggregate_tickets(
     )
     issues = jira.search_issues(
         jql,
-        fields=["summary", "assignee", "status", "resolutiondate", "created"],
+        fields=[
+            "summary", "assignee", "status", "resolutiondate", "created",
+            # Jira Cloud commonly stores Story Points in customfield_10016.
+            # Keep the named field as a fallback for Jira installations that expose it.
+            "customfield_10016", "story_points",
+        ],
     )
 
     id_to_issue: dict[str, dict[str, Any]] = {}
@@ -91,6 +96,11 @@ def aggregate_tickets(
     for issue_id, issue in id_to_issue.items():
         fields = issue.get("fields") or {}
         summary = fields.get("summary") or ""
+        raw_points = fields.get("customfield_10016", fields.get("story_points"))
+        try:
+            points = float(raw_points) if raw_points is not None else 0
+        except (TypeError, ValueError):
+            points = 0
         assignee = ((fields.get("assignee") or {}).get("displayName"))
         logs = changelogs_by_id.get(issue_id) or []
         result = resolve_owner(summary, assignee, logs, qa_names)
@@ -106,6 +116,7 @@ def aggregate_tickets(
                     "method": result.method,
                     "note": result.note or "excluded",
                     "counted": False,
+                    "points": points,
                 }
             )
             continue
@@ -119,6 +130,7 @@ def aggregate_tickets(
             per_person[owner]["tickets_both"] += 1
         else:
             per_person[owner]["tickets_unknown"] += 1
+        per_person[owner]["ticket_points"] += points
 
         details.append(
             {
@@ -130,6 +142,7 @@ def aggregate_tickets(
                 "method": result.method,
                 "note": result.note,
                 "counted": True,
+                "points": points,
             }
         )
 
@@ -184,6 +197,7 @@ def append_pull_request_only_tickets(
                 "method": "pull_request_only",
                 "note": "jira_issue_unavailable",
                 "counted": counted,
+                "points": 0,
             }
         )
         if not counted:
@@ -220,6 +234,7 @@ def merge_rows(
                 "tickets_android": int(t.get("tickets_android", 0)),
                 "tickets_unknown": int(t.get("tickets_unknown", 0)),
                 "tickets_both": int(t.get("tickets_both", 0)),
+                "ticket_points": t.get("ticket_points", 0),
                 "prs_ios": int(p.get("prs_ios", 0)),
                 "prs_android": int(p.get("prs_android", 0)),
                 "prs_mobile": int(p.get("prs_mobile", 0)),
