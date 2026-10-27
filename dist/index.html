@@ -139,13 +139,6 @@
       <div id="factor-filters" class="chart-toolbar"></div>
       <div id="bar-chart" class="bar-chart"></div>
     </details>
-    <details id="points-section" class="chart-panel" open>
-      <summary>Ticket Points <span class="sub" style="margin-left:8px">ผลรวม Story Point ของ ticket ที่ถือ</span></summary>
-      <table class="points-table">
-        <thead><tr><th>Person</th><th>Tickets</th><th>Points</th></tr></thead>
-        <tbody id="point-rows"></tbody>
-      </table>
-    </details>
     <details id="list-section">
       <summary>List</summary>
       <table>
@@ -153,9 +146,9 @@
           <tr>
             <th class="sortable" data-key="name">Person</th>
             <th>Boards</th>
-            <th class="sortable num col-ios" data-key="tickets_ios">Tickets iOS</th>
-            <th class="sortable num col-android" data-key="tickets_android">Tickets Android</th>
-            <th class="sortable num" data-key="tickets_other">Tickets Other</th>
+            <th class="sortable num col-ios" data-key="tickets_ios">Tickets iOS (Points)</th>
+            <th class="sortable num col-android" data-key="tickets_android">Tickets Android (Points)</th>
+            <th class="sortable num" data-key="tickets_other">Tickets Other (Points)</th>
             <th class="sortable num col-ios" data-key="prs_ios">PRs iOS</th>
             <th class="sortable num col-android" data-key="prs_android">PRs Android</th>
             <th class="sortable num" data-key="prs_mobile">PRs Mobile</th>
@@ -207,7 +200,6 @@
         return matchesText && matchesPlatform && matchesBoard;
       });
       renderChart(rows);
-      renderPoints(rows);
       rows.sort((a, b) => {
         const av = sortKey === "tickets_other" ? (a.tickets_unknown || 0) + (a.tickets_both || 0) : a[sortKey];
         const bv = sortKey === "tickets_other" ? (b.tickets_unknown || 0) + (b.tickets_both || 0) : b[sortKey];
@@ -224,9 +216,9 @@
         tr.innerHTML = `
           <td class="name">${escapeHtml(r.name)}</td>
           <td>${(r.boards || []).map(escapeHtml).join(", ") || "—"}</td>
-          <td class="num ios col-ios">${r.tickets_ios}</td>
-          <td class="num android col-android">${r.tickets_android}</td>
-          <td class="num">${other}</td>
+          <td class="num ios col-ios">${r.tickets_ios} (${formatPoints(r.tickets_ios_points)} point)</td>
+          <td class="num android col-android">${r.tickets_android} (${formatPoints(r.tickets_android_points)} point)</td>
+          <td class="num">${other} (${formatPoints(r.tickets_other_points)} point)</td>
           <td class="num ios col-ios">${r.prs_ios}</td>
           <td class="num android col-android">${r.prs_android}</td>
           <td class="num">${r.prs_mobile || 0}</td>`;
@@ -331,6 +323,11 @@
       return String(s ?? "").replace(/[&<>"']/g, c => ({
         "&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"
       })[c]);
+    }
+
+    function formatPoints(value) {
+      const points = Number(value || 0);
+      return Number.isInteger(points) ? points : points.toFixed(1);
     }
 
     async function loadReport(file = "report.json") {

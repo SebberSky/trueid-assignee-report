@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T11:15:15.941509+00:00",
+  "generated_at": "2026-10-27T03:11:02.222408+00:00",
   "month": "2026-10",
   "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
@@ -12,6 +12,10 @@
       "tickets_android": 9,
       "tickets_unknown": 8,
       "tickets_both": 0,
+      "ticket_points": 26.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 26.0,
+      "tickets_other_points": 0.0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -25,6 +29,10 @@
       "tickets_android": 0,
       "tickets_unknown": 4,
       "tickets_both": 0,
+      "ticket_points": 31.0,
+      "tickets_ios_points": 31.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0.0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -38,6 +46,10 @@
       "tickets_android": 13,
       "tickets_unknown": 3,
       "tickets_both": 0,
+      "ticket_points": 17.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 17.0,
+      "tickets_other_points": 0.0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -51,6 +63,10 @@
       "tickets_android": 0,
       "tickets_unknown": 1,
       "tickets_both": 0,
+      "ticket_points": 17.0,
+      "tickets_ios_points": 17.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0.0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -64,6 +80,28 @@
       "tickets_android": 14,
       "tickets_unknown": 0,
       "tickets_both": 0,
+      "ticket_points": 14.0,
+      "tickets_ios_points": 0.0,
+      "tickets_android_points": 14.0,
+      "tickets_other_points": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Alongkot Tonprasert",
+      "boards": [
+        "EXP",
+        "LS"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 13,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "ticket_points": 29.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 29.0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -77,36 +115,29 @@
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 9,
+      "ticket_points": 29.0,
+      "tickets_ios_points": 29.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0,
+      "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
     },
     {
-      "name": "Papon Supamongkonchai (Boy)",
+      "name": "Chawapon Kiatpravee",
       "boards": [
-        "EXP",
         "VAL"
       ],
-      "tickets_ios": 11,
+      "tickets_ios": 10,
       "tickets_android": 0,
-      "tickets_unknown": 0,
+      "tickets_unknown": 2,
       "tickets_both": 0,
-      "prs_ios": 18,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Alongkot Tonprasert",
-      "boards": [
-        "EXP",
-        "LS"
-      ],
-      "tickets_ios": 0,
-      "tickets_android": 11,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
+      "ticket_points": 57.0,
+      "tickets_ios_points": 44.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 13.0,
       "prs_ios": 0,
-      "prs_android": 17,
+      "prs_android": 0,
       "prs_mobile": 0
     },
     {
@@ -118,6 +149,44 @@
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
+      "ticket_points": 17.0,
+      "tickets_ios_points": 17.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Wachirawit Chaipuvaphat",
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 10,
+      "tickets_unknown": 1,
+      "tickets_both": 0,
+      "ticket_points": 34.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 34.0,
+      "tickets_other_points": 0.0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Papon Supamongkonchai (Boy)",
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 10,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "ticket_points": 18.0,
+      "tickets_ios_points": 18.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -131,21 +200,12 @@
       "tickets_android": 8,
       "tickets_unknown": 2,
       "tickets_both": 0,
+      "ticket_points": 10.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 10.0,
+      "tickets_other_points": 0.0,
       "prs_ios": 0,
-      "prs_android": 12,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Sarawut (Kai) (Player)",
-      "boards": [
-        "LS"
-      ],
-      "tickets_ios": 0,
-      "tickets_android": 8,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 16,
+      "prs_android": 0,
       "prs_mobile": 0
     },
     {
@@ -154,11 +214,15 @@
         "VAL"
       ],
       "tickets_ios": 0,
-      "tickets_android": 8,
+      "tickets_android": 10,
       "tickets_unknown": 0,
       "tickets_both": 0,
+      "ticket_points": 23.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 23.0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
-      "prs_android": 10,
+      "prs_android": 0,
       "prs_mobile": 0
     },
     {
@@ -168,62 +232,48 @@
       ],
       "tickets_ios": 8,
       "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 8,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Chawapon Kiatpravee",
-      "boards": [
-        "VAL"
-      ],
-      "tickets_ios": 8,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 7,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Wachirawit (MossiTo) (Discovery)",
-      "boards": [
-        "EXP"
-      ],
-      "tickets_ios": 0,
-      "tickets_android": 6,
       "tickets_unknown": 1,
       "tickets_both": 0,
+      "ticket_points": 26.0,
+      "tickets_ios_points": 26.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0.0,
       "prs_ios": 0,
-      "prs_android": 11,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Jetarin Taloet (Ext)",
-      "boards": [
-        "EXP"
-      ],
-      "tickets_ios": 7,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 9,
       "prs_android": 0,
       "prs_mobile": 0
     },
     {
-      "name": "Nuttarikan Pattanaporn (Ext)",
+      "name": "Ruttanachai Auitragool",
+      "boards": [
+        "LS"
+      ],
+      "tickets_ios": 9,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "ticket_points": 34.0,
+      "tickets_ios_points": 34.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Sarawut Sungprasert",
       "boards": [
         "LS"
       ],
       "tickets_ios": 0,
-      "tickets_android": 7,
+      "tickets_android": 9,
       "tickets_unknown": 0,
       "tickets_both": 0,
+      "ticket_points": 15.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 15.0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
-      "prs_android": 9,
+      "prs_android": 0,
       "prs_mobile": 0
     },
     {
@@ -232,23 +282,14 @@
         "VAL"
       ],
       "tickets_ios": 0,
-      "tickets_android": 6,
+      "tickets_android": 7,
       "tickets_unknown": 1,
       "tickets_both": 0,
+      "ticket_points": 29.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 29.0,
+      "tickets_other_points": 0.0,
       "prs_ios": 0,
-      "prs_android": 9,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Ruttanachai Auitragool",
-      "boards": [
-        "LS"
-      ],
-      "tickets_ios": 7,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 8,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -261,7 +302,45 @@
       "tickets_android": 0,
       "tickets_unknown": 1,
       "tickets_both": 0,
-      "prs_ios": 3,
+      "ticket_points": 24.0,
+      "tickets_ios_points": 16.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 8.0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jetarin Taloet (Ext)",
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 7,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "ticket_points": 29.0,
+      "tickets_ios_points": 29.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Jiraporn Praneet",
+      "boards": [
+        "LS"
+      ],
+      "tickets_ios": 5,
+      "tickets_android": 0,
+      "tickets_unknown": 2,
+      "tickets_both": 0,
+      "ticket_points": 15.0,
+      "tickets_ios_points": 15.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0.0,
+      "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -274,6 +353,10 @@
       "tickets_android": 1,
       "tickets_unknown": 0,
       "tickets_both": 0,
+      "ticket_points": 31.0,
+      "tickets_ios_points": 29.0,
+      "tickets_android_points": 2.0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -287,6 +370,27 @@
       "tickets_android": 4,
       "tickets_unknown": 3,
       "tickets_both": 0,
+      "ticket_points": 5.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 5.0,
+      "tickets_other_points": 0.0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Pawanon Leangthammarat",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 2,
+      "tickets_unknown": 5,
+      "tickets_both": 0,
+      "ticket_points": 8.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 8.0,
+      "tickets_other_points": 0.0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -298,34 +402,80 @@
       ],
       "tickets_ios": 0,
       "tickets_android": 0,
-      "tickets_unknown": 6,
+      "tickets_unknown": 7,
       "tickets_both": 0,
-      "prs_ios": 13,
+      "ticket_points": 0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0.0,
+      "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
     },
     {
-      "name": "Supachote Marungrueng (Ext)",
+      "name": "Kantachat Puagkajee",
       "boards": [
-        "EXP"
+        "LS"
+      ],
+      "tickets_ios": 6,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "ticket_points": 21.0,
+      "tickets_ios_points": 21.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kijja Charuchinda",
+      "boards": [
+        "VAL"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 3,
+      "tickets_unknown": 3,
+      "tickets_both": 0,
+      "ticket_points": 47.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 26.0,
+      "tickets_other_points": 21.0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Natdanai Chaiyakan",
+      "boards": [
+        "VAL"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 4,
+      "tickets_unknown": 2,
+      "tickets_both": 0,
+      "ticket_points": 29.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 29.0,
+      "tickets_other_points": 0.0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Nuttarikan Pattanaporn (Ext)",
+      "boards": [
+        "LS"
       ],
       "tickets_ios": 0,
       "tickets_android": 6,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 6,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Pawanon Leangthammarat",
-      "boards": [
-        "SC"
-      ],
-      "tickets_ios": 0,
-      "tickets_android": 2,
-      "tickets_unknown": 4,
-      "tickets_both": 0,
+      "ticket_points": 11.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 11.0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -339,6 +489,112 @@
       "tickets_android": 3,
       "tickets_unknown": 3,
       "tickets_both": 0,
+      "ticket_points": 16.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 16.0,
+      "tickets_other_points": 0.0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Supachote Marungrueng (Ext)",
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 6,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "ticket_points": 16.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 16.0,
+      "tickets_other_points": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Aekkawin Anantrakarnkit",
+      "boards": [
+        "VAL"
+      ],
+      "tickets_ios": 5,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "ticket_points": 32.0,
+      "tickets_ios_points": 32.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Chalatip Thongsri",
+      "boards": [
+        "LS"
+      ],
+      "tickets_ios": 2,
+      "tickets_android": 3,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "ticket_points": 8.0,
+      "tickets_ios_points": 0.0,
+      "tickets_android_points": 8.0,
+      "tickets_other_points": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Isarapong Tuensakul (Ext)",
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 3,
+      "tickets_android": 2,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "ticket_points": 26.0,
+      "tickets_ios_points": 13.0,
+      "tickets_android_points": 13.0,
+      "tickets_other_points": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Kirathi Mingsakul",
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 5,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "ticket_points": 34.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 34.0,
+      "tickets_other_points": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "Nevin Ruttanaboonta",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 2,
+      "tickets_unknown": 3,
+      "tickets_both": 0,
+      "ticket_points": 10.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 10.0,
+      "tickets_other_points": 0.0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -352,99 +608,12 @@
       "tickets_android": 5,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 1,
-      "prs_android": 17,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Kijja Charuchinda",
-      "boards": [
-        "VAL"
-      ],
-      "tickets_ios": 0,
-      "tickets_android": 2,
-      "tickets_unknown": 3,
-      "tickets_both": 0,
-      "prs_ios": 5,
-      "prs_android": 9,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Jiraporn Praneet",
-      "boards": [
-        "LS"
-      ],
-      "tickets_ios": 3,
-      "tickets_android": 0,
-      "tickets_unknown": 2,
-      "tickets_both": 0,
-      "prs_ios": 11,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Kirathi Mingsakul",
-      "boards": [
-        "EXP"
-      ],
-      "tickets_ios": 0,
-      "tickets_android": 5,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
+      "ticket_points": 26.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 26.0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
-      "prs_android": 7,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Isarapong Tuensakul (Ext)",
-      "boards": [
-        "EXP"
-      ],
-      "tickets_ios": 3,
-      "tickets_android": 2,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 3,
-      "prs_android": 2,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Aekkawin Anantrakarnkit",
-      "boards": [
-        "VAL"
-      ],
-      "tickets_ios": 5,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 4,
       "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Kantachat Puagkajee",
-      "boards": [
-        "LS"
-      ],
-      "tickets_ios": 4,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 6,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Natdanai Chaiyakan",
-      "boards": [
-        "VAL"
-      ],
-      "tickets_ios": 0,
-      "tickets_android": 2,
-      "tickets_unknown": 2,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 6,
       "prs_mobile": 0
     },
     {
@@ -456,7 +625,11 @@
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 1,
-      "prs_ios": 5,
+      "ticket_points": 7.0,
+      "tickets_ios_points": 7.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0.0,
+      "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
     },
@@ -469,6 +642,10 @@
       "tickets_android": 4,
       "tickets_unknown": 0,
       "tickets_both": 0,
+      "ticket_points": 13.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 13.0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -482,32 +659,44 @@
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
+      "ticket_points": 13.0,
+      "tickets_ios_points": 13.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
     },
     {
-      "name": "Wachirawit Chaipuvaphat",
+      "name": "Sitthikorn Sommechai (Ext)",
       "boards": [
-        "EXP"
+        "VAL"
       ],
       "tickets_ios": 0,
-      "tickets_android": 4,
-      "tickets_unknown": 0,
+      "tickets_android": 1,
+      "tickets_unknown": 3,
       "tickets_both": 0,
+      "ticket_points": 13.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 13.0,
+      "tickets_other_points": 0.0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
     },
     {
-      "name": "Chalatip Thongsri",
+      "name": "Jassadakorn Ketkaew",
       "boards": [
-        "LS"
+        "SC"
       ],
-      "tickets_ios": 1,
-      "tickets_android": 2,
+      "tickets_ios": 3,
+      "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
+      "ticket_points": 3.0,
+      "tickets_ios_points": 3.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -521,21 +710,12 @@
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
+      "ticket_points": 13.0,
+      "tickets_ios_points": 13.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
       "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Sitthikorn Sommechai (Ext)",
-      "boards": [
-        "VAL"
-      ],
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 2,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 4,
       "prs_mobile": 0
     },
     {
@@ -543,36 +723,14 @@
       "boards": [
         "LS"
       ],
-      "tickets_ios": 2,
+      "tickets_ios": 3,
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
-      "prs_ios": 4,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Jassadakorn Ketkaew",
-      "boards": [
-        "SC"
-      ],
-      "tickets_ios": 2,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Nevin Ruttanaboonta",
-      "boards": [
-        "SC"
-      ],
-      "tickets_ios": 0,
-      "tickets_android": 2,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
+      "ticket_points": 10.0,
+      "tickets_ios_points": 10.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -586,6 +744,10 @@
       "tickets_android": 1,
       "tickets_unknown": 0,
       "tickets_both": 0,
+      "ticket_points": 21.0,
+      "tickets_ios_points": 13.0,
+      "tickets_android_points": 8.0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -599,6 +761,10 @@
       "tickets_android": 0,
       "tickets_unknown": 0,
       "tickets_both": 0,
+      "ticket_points": 0,
+      "tickets_ios_points": 0.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -612,6 +778,10 @@
       "tickets_android": 1,
       "tickets_unknown": 0,
       "tickets_both": 0,
+      "ticket_points": 8.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 8.0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -625,6 +795,27 @@
       "tickets_android": 0,
       "tickets_unknown": 1,
       "tickets_both": 0,
+      "ticket_points": 0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0.0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
+      "name": "saweena.b",
+      "boards": [
+        "LS"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 1,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "ticket_points": 5.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 5.0,
+      "tickets_other_points": 0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -638,18 +829,11 @@
       "tickets_android": 0,
       "tickets_unknown": 1,
       "tickets_both": 0,
+      "ticket_points": 13.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 13.0,
       "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Nutthapoom (Big) (Hero)",
-      "boards": [],
-      "tickets_ios": 0,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "prs_ios": 9,
       "prs_android": 0,
       "prs_mobile": 0
     }
@@ -663,7 +847,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21349",
@@ -673,7 +858,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6153",
@@ -683,7 +869,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "EXP-16566",
@@ -691,9 +878,10 @@
       "summary": "[Android][RG 3.64.0 RC2]Playlist - First clip pauses upon completion instead of auto to the next item.",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6149",
@@ -703,7 +891,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6234",
@@ -713,7 +902,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6086",
@@ -723,7 +913,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6105",
@@ -733,7 +924,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6061",
@@ -743,7 +935,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6112",
@@ -753,7 +946,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "SC-5857",
@@ -763,7 +957,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "SC-6094",
@@ -773,7 +968,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "SC-6028",
@@ -783,7 +979,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "SC-6121",
@@ -793,7 +990,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6127",
@@ -803,7 +1001,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6131",
@@ -813,7 +1012,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6033",
@@ -823,7 +1023,8 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Nuttawut Jaiban",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "SC-6027",
@@ -833,7 +1034,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "SC-5963",
@@ -843,7 +1045,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 2.0
     },
     {
       "key": "SC-6120",
@@ -853,7 +1056,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "SC-6146",
@@ -863,7 +1067,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6147",
@@ -873,7 +1078,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6148",
@@ -883,7 +1089,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6134",
@@ -893,7 +1100,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "VAL-9085",
@@ -903,7 +1111,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "IMP-21337",
@@ -913,7 +1122,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "IMP-21352",
@@ -923,7 +1133,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6136",
@@ -933,7 +1144,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "SC-6137",
@@ -943,7 +1155,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "SC-6138",
@@ -953,7 +1166,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "VAL-9150",
@@ -961,9 +1175,10 @@
       "summary": "[iOS][Universal Link] Found error pop-up when Logged In user from https://thevoice.trueid-preprod.net/campaign",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-8970",
@@ -973,7 +1188,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 5.0
     },
     {
       "key": "LS-20385",
@@ -981,9 +1197,10 @@
       "summary": "[Android][RG 3.64.0 RC4][Movie Player] ไม่แสดงหน้า login หลังจาก กดปุ่ม watch",
       "owner": "Nuttarikan Pattanaporn (Ext)",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20377",
@@ -991,9 +1208,10 @@
       "summary": "[Android][RG 3.64.0 RC3][TATANG] หน้า rewarded ads โดนปิด หลังจากมีการ hide app และ กดเข้าapp จาก app icon",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20335",
@@ -1003,7 +1221,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6144",
@@ -1013,17 +1232,19 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "EXP-16572",
       "board": "EXP",
       "summary": "[Android][RG 3.64.0 RC2][SFV wtch] ไม่ replace key word ด้วย hashtag",
-      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "owner": "Wachirawit Chaipuvaphat",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16552",
@@ -1031,19 +1252,21 @@
       "summary": "[iOS][Welcome page] - Welcome Page Layout Adjustments for Non-TH Timezones",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16543",
       "board": "EXP",
       "summary": "[Android][UI] Native Ads: ปุ่ม CTA และข้อความแสดงผลผิดสัดส่วน (ใหญ่เกินไป) ในโหมด Full Screen",
-      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "owner": "Wachirawit Chaipuvaphat",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16223",
@@ -1053,7 +1276,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "VAL-9019",
@@ -1061,19 +1285,21 @@
       "summary": "[Android] Secure all remaining credentials",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "VAL-9170",
       "board": "VAL",
       "summary": "[iOS][iPad Only][RG 3.64.0 RC2][Sliding Comment] Animation lags while UI loading after user select/slide to close comment",
-      "owner": "Papon Supamongkonchai (Boy)",
+      "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9020",
@@ -1081,9 +1307,10 @@
       "summary": "[iOS] Secure all remaining credentials",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "VAL-9190",
@@ -1093,17 +1320,19 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20384",
       "board": "LS",
       "summary": "[Android Crash] [DevEx] Fatal Exception: java.lang.IllegalArgumentException: Class androidx.recyclerview.widget.RecyclerView declares multiple JSON fields named 'mAccessibilityDelegate'",
-      "owner": "Sarawut (Kai) (Player)",
+      "owner": "Sarawut Sungprasert",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20373",
@@ -1111,9 +1340,10 @@
       "summary": "[Watch][iOS][FA] - user see ads on vod player, FA not tracks play_ad_preroll or play_ad_midroll",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16570",
@@ -1121,9 +1351,10 @@
       "summary": "[iOS][RG 3.64.0 RC2]Native ads - Black screen appears on all subsequent native ad clips after encountering the first native ad.",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9181",
@@ -1131,9 +1362,10 @@
       "summary": "[Android Crash] [DevEx] FragmentManager.saveFragmentInstanceState",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21356",
@@ -1143,7 +1375,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21355",
@@ -1153,7 +1386,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21357",
@@ -1163,7 +1397,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21358",
@@ -1173,7 +1408,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16569",
@@ -1183,7 +1419,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9191",
@@ -1193,7 +1430,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9193",
@@ -1203,7 +1441,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9194",
@@ -1211,19 +1450,21 @@
       "summary": "[iOS][RG 3.64.0 RC6] Animation Lags when User slowly drag to close comment",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "in_progress_author",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16581",
       "board": "EXP",
       "summary": "[Android][App link]FA - \"Incorrect cmsid parameter sent (cmsid = {sub_episode_id}).\"",
-      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "owner": "Wachirawit Chaipuvaphat",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6133",
@@ -1233,7 +1474,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "SC-6123",
@@ -1243,7 +1485,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "SC-6233",
@@ -1253,7 +1496,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "SC-6202",
@@ -1263,7 +1507,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "VAL-9157",
@@ -1271,9 +1516,10 @@
       "summary": "[Android Crash] [DevEx] android.view.WindowManager$BadTokenException - Unable to add window",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16553",
@@ -1281,9 +1527,10 @@
       "summary": "[Android][Welcome page] - Welcome Page Layout Adjustments for Non-TH Timezones",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9195",
@@ -1291,9 +1538,10 @@
       "summary": "[Core][Android][RC02_V3.64.0][MerchantDetail] app ไม่แสดง previous page ถ้าเปิด merchant detail page จาก \"View Merchant\" button",
       "owner": "Todsapon Sangpook",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9174",
@@ -1301,9 +1549,10 @@
       "summary": "[Android][Foldable&Tablet][RG 3.64.0 RC3] Content render on Navigation side bar when user on Home tab switch to another tab",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21354",
@@ -1313,7 +1562,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16583",
@@ -1321,19 +1571,21 @@
       "summary": "[iOS][RG 3.64.0 RC5]Feed: Non-logged-in: Feed video fails to autoplay after returning from Login page via Comment input.",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9180",
       "board": "VAL",
       "summary": "[Android Crash] [DevEx] DaggerTrueIDApplication_HiltComponents_SingletonC$ActivityCImpl.keySetMapOfClassOfAndBooleanBuilder",
-      "owner": "Todsapon Sangpook",
+      "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "in_progress_author",
       "note": "fallback_a=Todsapon Sangpook",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21369",
@@ -1343,7 +1595,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21365",
@@ -1353,7 +1606,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21372",
@@ -1363,7 +1617,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21312",
@@ -1373,7 +1628,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 1.0
     },
     {
       "key": "IMP-21313",
@@ -1383,7 +1639,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 1.0
     },
     {
       "key": "IMP-21264",
@@ -1393,7 +1650,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 2.0
     },
     {
       "key": "IMP-21309",
@@ -1403,7 +1661,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "IMP-21238",
@@ -1413,7 +1672,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 2.0
     },
     {
       "key": "IMP-21216",
@@ -1423,7 +1683,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "IMP-21345",
@@ -1433,7 +1694,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21316",
@@ -1443,7 +1705,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 1.0
     },
     {
       "key": "IMP-21315",
@@ -1453,7 +1716,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 1.0
     },
     {
       "key": "EXP-16589",
@@ -1463,7 +1727,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21374",
@@ -1473,7 +1738,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21375",
@@ -1483,7 +1749,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16391",
@@ -1491,9 +1758,10 @@
       "summary": "[iOS] Watch L2: Display SFV/LFV in normal shelf with thumblist",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "EXP-16591",
@@ -1503,17 +1771,19 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20388",
       "board": "LS",
       "summary": "[Android][RG 3.64.0 RC5][LiveTV Shelf L2] กด see more เจอหน้า error",
-      "owner": "Sarawut (Kai) (Player)",
+      "owner": "Sarawut Sungprasert",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16393",
@@ -1523,7 +1793,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "EXP-16268",
@@ -1531,9 +1802,10 @@
       "summary": "[iOS] Home Feed: Add play_ad/unload_ad for native ads",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "IMP-21376",
@@ -1543,7 +1815,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6237",
@@ -1553,7 +1826,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-15972",
@@ -1563,7 +1837,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "VAL-9161",
@@ -1571,9 +1846,10 @@
       "summary": "[Android] Implement the dependency analysis pipeline",
       "owner": "Todsapon Sangpook",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "EXP-15971",
@@ -1583,7 +1859,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "SC-6132",
@@ -1593,7 +1870,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21213",
@@ -1603,7 +1881,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "IMP-21214",
@@ -1613,7 +1892,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "EXP-16588",
@@ -1623,7 +1903,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16593",
@@ -1633,7 +1914,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21360",
@@ -1643,7 +1925,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20378",
@@ -1651,9 +1934,10 @@
       "summary": "[Android][RG 3.64.0 RC3][Checkout TATANG] ติด Theme สีดำด้านบน",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20393",
@@ -1661,9 +1945,10 @@
       "summary": "[BE][Android] You might also like shelf - Non Login ไม่แสดง You might also like shelf",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20164",
@@ -1673,7 +1958,8 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Alongkot Tonprasert",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "VAL-9084",
@@ -1683,7 +1969,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9156",
@@ -1693,7 +1980,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20387",
@@ -1701,9 +1989,10 @@
       "summary": "[Android][RG 3.64.0 RC5][Movie Player] ขอบบนและขอบล่างเปลี่ยนเป็นสีขาวหลังจาก ปิด fullscreen",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9173",
@@ -1711,9 +2000,10 @@
       "summary": "[Android][RG 3.64.0 RC3][SFV watch] กรณีที่เปิด sfv by search result เมื่อ กด back กลับ  app พาไป หน้า L1",
       "owner": "Todsapon Sangpook",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21317",
@@ -1723,7 +2013,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 1.0
     },
     {
       "key": "IMP-21318",
@@ -1733,7 +2024,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 1.0
     },
     {
       "key": "IMP-21320",
@@ -1743,7 +2035,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 1.0
     },
     {
       "key": "VAL-9178",
@@ -1751,9 +2044,10 @@
       "summary": "[iOS][iPad Landscape][iOS>=26][RG 3.64.0 RC2][Home] Bottom Navigation overlaps CTA when user start app in Landscape on content has more than 1 CTA",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16426",
@@ -1761,9 +2055,10 @@
       "summary": "[Android] Watch L2: Display SFV/LFV in normal shelf with thumblist",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "EXP-16580",
@@ -1773,7 +2068,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16385",
@@ -1781,9 +2077,10 @@
       "summary": "[iOS] Today/Watch L1: Display SFV/LFV in normal shelf with thumblist",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "VAL-9167",
@@ -1793,7 +2090,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9205",
@@ -1803,7 +2101,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9160",
@@ -1811,9 +2110,10 @@
       "summary": "[Android] Implement Alpha effect instead of Glass",
       "owner": "Todsapon Sangpook",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "IMP-21366",
@@ -1823,7 +2123,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21233",
@@ -1833,7 +2134,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "IMP-21311",
@@ -1843,7 +2145,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21314",
@@ -1853,7 +2156,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21201",
@@ -1863,7 +2167,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "IMP-21305",
@@ -1873,7 +2178,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21202",
@@ -1883,7 +2189,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "VAL-9192",
@@ -1893,7 +2200,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9114",
@@ -1901,9 +2209,10 @@
       "summary": "[iOS] Move SSL Pining config from Remote Config to Firestore ",
       "owner": "Aekkawin Anantrakarnkit",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "LS-20389",
@@ -1911,9 +2220,10 @@
       "summary": "[Android][RG 3.64.0 RC6][VODs player] กดใน EP ใน EPlist player ปรับเป็น fullscreen",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16491",
@@ -1923,7 +2233,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "LS-20403",
@@ -1933,7 +2244,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9204",
@@ -1941,9 +2253,10 @@
       "summary": "[Android][App Link] Found Light theme on Home page when User is fresh install and enter from App Link",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9166",
@@ -1953,7 +2266,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "IMP-21242",
@@ -1963,7 +2277,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "IMP-21338",
@@ -1973,7 +2288,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21339",
@@ -1983,7 +2299,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21215",
@@ -1993,7 +2310,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "IMP-21283",
@@ -2003,7 +2321,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "IMP-21328",
@@ -2013,7 +2332,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21346",
@@ -2023,7 +2343,8 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Panuwat Sanglert",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21348",
@@ -2033,7 +2354,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21350",
@@ -2043,7 +2365,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21368",
@@ -2053,7 +2376,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21373",
@@ -2063,17 +2387,19 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16596",
       "board": "EXP",
       "summary": " [Android]App link - Open series (Title) page : Invalid cmsid parameter and Hostname is not sent (SFV player page).",
-      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "owner": "Wachirawit Chaipuvaphat",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-12723",
@@ -2083,7 +2409,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "SC-6103",
@@ -2093,7 +2420,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 13.0
     },
     {
       "key": "SC-6238",
@@ -2103,7 +2431,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6135",
@@ -2113,7 +2442,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "SC-6158",
@@ -2123,7 +2453,8 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Nuttawut Jaiban",
-      "counted": true
+      "counted": true,
+      "points": 2.0
     },
     {
       "key": "SC-6239",
@@ -2133,7 +2464,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16602",
@@ -2143,7 +2475,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16600",
@@ -2153,7 +2486,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16601",
@@ -2163,7 +2497,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20348",
@@ -2173,7 +2508,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20349",
@@ -2183,7 +2519,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20347",
@@ -2193,7 +2530,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6155",
@@ -2203,7 +2541,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9115",
@@ -2211,9 +2550,10 @@
       "summary": "[Android] Move SSL Pining config from Remote Config to Firestore",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "VAL-9184",
@@ -2223,7 +2563,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-8985",
@@ -2233,7 +2574,8 @@
       "platform": "Unknown",
       "method": "in_progress_author",
       "note": "fallback_a=Chawapon Kiatpravee",
-      "counted": true
+      "counted": true,
+      "points": 13.0
     },
     {
       "key": "VAL-8884",
@@ -2243,7 +2585,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "VAL-8883",
@@ -2253,7 +2596,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "VAL-9177",
@@ -2261,9 +2605,10 @@
       "summary": "Group Share and establish ExternalLibraries as the central source of versions",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21351",
@@ -2273,7 +2618,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20133",
@@ -2283,17 +2629,19 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Suriya Alee",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "LS-20322",
       "board": "LS",
       "summary": "[Android] VOD player: Banner Ad",
-      "owner": "Sarawut (Kai) (Player)",
+      "owner": "Sarawut Sungprasert",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "LS-20183",
@@ -2303,7 +2651,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "LS-20274",
@@ -2313,7 +2662,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "IMP-21378",
@@ -2323,7 +2673,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21377",
@@ -2333,7 +2684,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20372",
@@ -2341,9 +2693,10 @@
       "summary": "[Watch][Android][FA] - user see ads on vod player, FA not tracks play_ad_preroll or play_ad_midroll",
       "owner": "Nuttarikan Pattanaporn (Ext)",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 2.0
     },
     {
       "key": "LS-20399",
@@ -2353,7 +2706,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20406",
@@ -2361,9 +2715,10 @@
       "summary": "[Android][RG 3.64.0 RC8][VODs player] ปุ่ม skip intro ขึ้นมาระหว่าง ads เล่น",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20400",
@@ -2371,9 +2726,10 @@
       "summary": "[Android][the voice] กด https://home.trueid.net/ แล้วเข้าแอปแทนเว็ป",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21394",
@@ -2383,7 +2739,8 @@
       "platform": "Unknown",
       "method": "pre_qa_assignee",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20396",
@@ -2391,9 +2748,10 @@
       "summary": "[iOS][the voice] เจอ error เวลาที่เข้ามาจาก deeplink",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21319",
@@ -2403,7 +2761,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 1.0
     },
     {
       "key": "IMP-21282",
@@ -2413,7 +2772,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 2.0
     },
     {
       "key": "EXP-16607",
@@ -2421,9 +2781,10 @@
       "summary": "[iOS] - FA tracks read_article event, shelf_name parameter send wrong value",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16605",
@@ -2431,9 +2792,10 @@
       "summary": "[Today][iOS][FA] - when user select LiveTV on Quick access shelf, FA track click event",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21396",
@@ -2443,7 +2805,8 @@
       "platform": "Unknown",
       "method": "pre_qa_assignee",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-19927",
@@ -2453,7 +2816,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "SC-6240",
@@ -2463,7 +2827,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6125",
@@ -2473,7 +2838,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "LS-20407",
@@ -2483,7 +2849,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20402",
@@ -2491,9 +2858,10 @@
       "summary": "เจอ error 500 เมื่อเลื่อน seek ไปท้ายๆคลิป",
       "owner": "Jiraporn Praneet",
       "platform": "Unknown",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20333",
@@ -2503,7 +2871,8 @@
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Chamnarn Suksai",
-      "counted": true
+      "counted": true,
+      "points": 13.0
     },
     {
       "key": "LS-20440",
@@ -2513,17 +2882,19 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20228",
       "board": "LS",
       "summary": "[Android]FA Tracking -> Send view_paywall event",
-      "owner": "Sarawut (Kai) (Player)",
+      "owner": "Sarawut Sungprasert",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "LS-19206",
@@ -2533,7 +2904,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "LS-19205",
@@ -2543,7 +2915,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "LS-20441",
@@ -2551,9 +2924,10 @@
       "summary": "Select Special Episode, FA track view_paywall but missing parent_id and send parent_name with wrong value",
       "owner": "Jiraporn Praneet",
       "platform": "Unknown",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20397",
@@ -2563,7 +2937,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20227",
@@ -2571,19 +2946,21 @@
       "summary": "[iOS]FA Tracking -> Send view_paywall event (my account)",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "LS-20408",
       "board": "LS",
       "summary": "[Android][RG 3.64.0 RC8][VODs player] เมื่อมีการ pause clip แล้วกดปุ่ม watch button ควรจะปรับเป็น fullscreen ",
-      "owner": "Sarawut (Kai) (Player)",
+      "owner": "Sarawut Sungprasert",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21359",
@@ -2593,7 +2970,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21387",
@@ -2603,7 +2981,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16487",
@@ -2611,9 +2990,10 @@
       "summary": "[iOS] SFV Player: SFV content sequence in the player with shelf_id",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 13.0
     },
     {
       "key": "EXP-16489",
@@ -2623,7 +3003,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 13.0
     },
     {
       "key": "EXP-16488",
@@ -2631,9 +3012,10 @@
       "summary": "[iOS] Watch L2: Support SFV shelf with by_cate, by_tag",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "SC-6236",
@@ -2643,7 +3025,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6156",
@@ -2653,7 +3036,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "SC-6087",
@@ -2663,7 +3047,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20398",
@@ -2671,9 +3056,10 @@
       "summary": "[Android][RG 3.64.0 RC6][VODs player] กดปิดหน้า checkout แล้ว scale video แปลก",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20439",
@@ -2681,9 +3067,10 @@
       "summary": "[iOS] กด deeplink VOD5L จาก shelf ไม่ได้",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20442",
@@ -2691,9 +3078,10 @@
       "summary": "[Android] กด deeplink VOD5L จาก shelf ไม่ได้",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20392",
@@ -2701,9 +3089,10 @@
       "summary": "[Android] พบความผิดปกติ ในการ tracking สำหรับ TTFF - watch_start_to_first_frame",
       "owner": "Nuttarikan Pattanaporn (Ext)",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9217",
@@ -2711,19 +3100,21 @@
       "summary": "[Android][MA Dialog] Description overlaps Image when hide_btn_close = \"yes\"",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20401",
       "board": "LS",
       "summary": "[Watch][Android][FA] - when user select item on My List Shelf, FA track select_content event but missing shelf_code and shelf_name",
-      "owner": "Sarawut (Kai) (Player)",
+      "owner": "Sarawut Sungprasert",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20332",
@@ -2733,7 +3124,8 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Suriya Alee",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "LS-20404",
@@ -2743,7 +3135,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6241",
@@ -2753,7 +3146,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6088",
@@ -2763,7 +3157,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "EXP-16614",
@@ -2773,27 +3168,30 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20405",
       "board": "LS",
       "summary": "[Android][RG 3.64.0 RC8][PVOD] ลูกค้าที่ซื้อตอนพิเศษ ไม่ควรเจอ ads ",
-      "owner": "Sarawut (Kai) (Player)",
+      "owner": "Sarawut Sungprasert",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20379",
       "board": "LS",
       "summary": "[Android][RG 3.64.0 RC3][Rewarded ads TATANG] เห็น player ด้านบน จังหวะที่ ads กำลังเล่นอยู่",
-      "owner": "Nuttarikan Pattanaporn (Ext)",
+      "owner": "Chalatip Thongsri",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "in_progress_author",
       "note": "fallback_a=Nuttarikan Pattanaporn (Ext)",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-13393",
@@ -2803,7 +3201,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-8983",
@@ -2811,9 +3210,10 @@
       "summary": "[CI/CD] Modify generate test coverage by team script",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "Unknown",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "VAL-9189",
@@ -2823,7 +3223,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-8908",
@@ -2831,9 +3232,10 @@
       "summary": "[ANRs] m7.ro.run",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Unknown",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9220",
@@ -2841,19 +3243,21 @@
       "summary": "[Android][MA Dialog] MA Dialog shows incorrectly when user from deep link to SFV player",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20270",
       "board": "LS",
       "summary": "[Android] ไม่สามารถแสดงหน้า Doodi ได้",
-      "owner": "Sarawut (Kai) (Player)",
+      "owner": "Sarawut Sungprasert",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20383",
@@ -2861,9 +3265,10 @@
       "summary": "[Android][IOS][3.64] เช็คเชลฟ์ (TrueID App) Watch (For you) : The Voice Banner (16:9) cmsid: Jr1ybNBxgyer reaize",
       "owner": "Chamnarn Suksai",
       "platform": "Both",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9179",
@@ -2871,9 +3276,10 @@
       "summary": "[iOS][OS under 26][RG 3.64.0 RC2] Unable to Back To Top when User taps Bottom Navigation",
       "owner": "Aekkawin Anantrakarnkit",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "IMP-21364",
@@ -2883,7 +3289,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16295",
@@ -2893,7 +3300,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "EXP-16383",
@@ -2903,7 +3311,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "EXP-16458",
@@ -2911,9 +3320,10 @@
       "summary": "[Android] L1: Change top&bottom nav icon",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "VAL-9176",
@@ -2921,9 +3331,10 @@
       "summary": "Inventory Data confirm ownership and Migrate",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-7513",
@@ -2933,7 +3344,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-7510",
@@ -2943,7 +3355,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-7509",
@@ -2953,7 +3366,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20451",
@@ -2961,9 +3375,10 @@
       "summary": "[iOS][RG 3.64.1 RC1][SFV Series] ลูกค้าที่ มี pack trueid+ ไม่เจอ ads only",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16290",
@@ -2971,9 +3386,10 @@
       "summary": "[iOS] LFV: Pre-roll, Mid-roll ads",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "EXP-16620",
@@ -2981,9 +3397,10 @@
       "summary": "[iOS][Top Nav][UI] Watch/Today/shopping - The divider line below Top Nav does not align with other pages.",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6272",
@@ -2993,7 +3410,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "SC-6274",
@@ -3003,7 +3421,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9215",
@@ -3011,9 +3430,10 @@
       "summary": "[iOS][MA Dialog] MA Dialog overlaps What's New page",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9221",
@@ -3021,9 +3441,10 @@
       "summary": "[iOS Crash] [DevEx] -[GIDSignIn signInWithOptions:]",
       "owner": "Chawapon Kiatpravee",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16382",
@@ -3031,9 +3452,10 @@
       "summary": "[iOS] L1: Change top&bottom nav icon",
       "owner": "Isarapong Tuensakul (Ext)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "VAL-9228",
@@ -3043,7 +3465,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9100",
@@ -3051,9 +3474,10 @@
       "summary": "[Android] Implement Remote Config Resolver from CDN",
       "owner": "Kijja Charuchinda",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 13.0
     },
     {
       "key": "LS-20473",
@@ -3061,9 +3485,10 @@
       "summary": "[iOS] กด deeplink จาก ไลน์ เฟสบุ๊ค แล้วไม่เปิด deeplink",
       "owner": "Chamnarn Suksai",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21432",
@@ -3073,7 +3498,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6275",
@@ -3083,7 +3509,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "SC-6273",
@@ -3093,17 +3520,19 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "EXP-16606",
       "board": "EXP",
       "summary": "[Android] - FA tracks read_article event, shelf_name parameter send wrong value",
-      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "owner": "Wachirawit Chaipuvaphat",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9169",
@@ -3111,9 +3540,10 @@
       "summary": "Move Networking into the TrueIDPackages SPM",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16634",
@@ -3121,9 +3551,10 @@
       "summary": "[iOS][Search] UI does not support search with hyphens this causes the content to display incorrectly when viewed.",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9230",
@@ -3133,7 +3564,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "VAL-9229",
@@ -3143,7 +3575,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9207",
@@ -3151,9 +3584,10 @@
       "summary": " [iOS] Secure Graph URL",
       "owner": "Aekkawin Anantrakarnkit",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "LS-19215",
@@ -3161,9 +3595,10 @@
       "summary": "[Android] player : time seek with snapshot",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "LS-20395",
@@ -3171,9 +3606,10 @@
       "summary": "[iOS] VOD Player: root detector should not play content",
       "owner": "Chamnarn Suksai",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 2.0
     },
     {
       "key": "EXP-16632",
@@ -3181,9 +3617,10 @@
       "summary": "[iOS][Universal link]Watch Domain:  Incorrect title parameter sent on Home Feed and invalid cmsid parameter (cmsid = {title_id}) on Series, Short Drama Title pages and Movie player page .",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-15845",
@@ -3191,9 +3628,10 @@
       "summary": " [iOS] Universal link: Watch domain > Send hostname param",
       "owner": "Thanyaporn Boonyen",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "VAL-9208",
@@ -3201,9 +3639,10 @@
       "summary": "[iOS] Update Facebook Login SDK",
       "owner": "Attapong Jakkrawantanarak",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "EXP-16665",
@@ -3213,7 +3652,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20462",
@@ -3223,7 +3663,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20344",
@@ -3233,7 +3674,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20316",
@@ -3243,7 +3685,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20345",
@@ -3253,7 +3696,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20283",
@@ -3263,7 +3707,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20295",
@@ -3273,7 +3718,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20284",
@@ -3283,7 +3729,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20315",
@@ -3293,7 +3740,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20343",
@@ -3303,7 +3751,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20370",
@@ -3313,7 +3762,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20368",
@@ -3323,7 +3773,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20371",
@@ -3333,7 +3784,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20367",
@@ -3343,7 +3795,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20342",
@@ -3353,7 +3806,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20205",
@@ -3363,7 +3817,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20317",
@@ -3373,7 +3828,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "LS-20214",
@@ -3383,7 +3839,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9182",
@@ -3393,7 +3850,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-8918",
@@ -3401,9 +3859,10 @@
       "summary": "[iOS] Redesign MA dialog",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "VAL-9183",
@@ -3413,7 +3872,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9223",
@@ -3421,9 +3881,10 @@
       "summary": "[Android][MA Dialog] MA Dialog shows when description language that match application language is null/empty",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-8919",
@@ -3431,9 +3892,10 @@
       "summary": "[Android] Redesign MA dialog",
       "owner": "Sittisak Tangpraditchai",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "VAL-9209",
@@ -3443,7 +3905,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 13.0
     },
     {
       "key": "IMP-21397",
@@ -3453,7 +3916,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20207",
@@ -3463,7 +3927,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21395",
@@ -3473,7 +3938,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21411",
@@ -3483,7 +3949,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21413",
@@ -3493,7 +3960,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21341",
@@ -3503,7 +3971,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "IMP-21347",
@@ -3513,7 +3982,8 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Chatchai Chen-Aphisart",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20412",
@@ -3521,9 +3991,10 @@
       "summary": "[iOS] Watch L2: FA tracking view_item_list",
       "owner": "Kantachat Puagkajee",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "IMP-21380",
@@ -3533,7 +4004,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21412",
@@ -3543,7 +4015,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21381",
@@ -3553,7 +4026,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21390",
@@ -3563,7 +4037,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 2.0
     },
     {
       "key": "IMP-21370",
@@ -3573,7 +4048,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21414",
@@ -3583,7 +4059,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16646",
@@ -3591,9 +4068,10 @@
       "summary": "[Android][LFV]Pre-roll, Mid-roll ads : In full-screen mode, video ads don't fit the screen aspect ratio",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-15752",
@@ -3601,9 +4079,10 @@
       "summary": "[Android] LFV: Pre-roll, Mid-roll ads",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "IMP-21240",
@@ -3613,7 +4092,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 13.0
     },
     {
       "key": "IMP-21379",
@@ -3623,7 +4103,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9022",
@@ -3631,9 +4112,10 @@
       "summary": "[Android] Secure auto-backup feature",
       "owner": "Natdanai Chaiyakan",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "SC-6244",
@@ -3643,7 +4125,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "SC-6250",
@@ -3653,7 +4136,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "EXP-16672",
@@ -3661,9 +4145,10 @@
       "summary": "[iOS] The system does not allow capture or video recording on sfv player",
       "owner": "Jetarin Taloet (Ext)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20490",
@@ -3671,9 +4156,10 @@
       "summary": "[iOS][Ads] rollback preroll ads when user click continue watching shelf",
       "owner": "Kantachat Puagkajee",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9234",
@@ -3681,9 +4167,10 @@
       "summary": "Move Analytics, Telemetry, Network Context and Social Login to AppServices",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16619",
@@ -3691,9 +4178,10 @@
       "summary": "[Watch][iOS][FA] - user ดู SFV จังหวะวนเล่นซ้ำ, FA track pause_sfv",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20271",
@@ -3701,9 +4189,10 @@
       "summary": "[iOS] VOD player: companion ad",
       "owner": "Ruttanachai Auitragool",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "EXP-16647",
@@ -3713,7 +4202,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9158",
@@ -3723,7 +4213,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "LS-20491",
@@ -3731,9 +4222,10 @@
       "summary": "[Android][Ads] rollback preroll ads when user click continue watching shelf",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "LS-20275",
@@ -3741,9 +4233,10 @@
       "summary": "[Android] Watch L2: FA tracking view_item_list",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "LS-20461",
@@ -3753,7 +4246,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9213",
@@ -3763,7 +4257,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "VAL-9196",
@@ -3773,7 +4268,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 13.0
     },
     {
       "key": "IMP-21211",
@@ -3783,7 +4279,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "IMP-21209",
@@ -3793,7 +4290,8 @@
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Nutthapoom Inthanin",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "IMP-21446",
@@ -3803,7 +4301,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9050",
@@ -3813,7 +4312,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9218",
@@ -3823,7 +4323,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9251",
@@ -3833,7 +4334,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9252",
@@ -3843,7 +4345,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9253",
@@ -3853,7 +4356,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9254",
@@ -3863,7 +4367,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "EXP-16671",
@@ -3873,7 +4378,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9247",
@@ -3881,9 +4387,10 @@
       "summary": "Move NCCCommunity Unread Count Repository out of Data",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9116",
@@ -3891,9 +4398,10 @@
       "summary": "[Automation] Migrate Remote Config to CDN",
       "owner": "Kijja Charuchinda",
       "platform": "Unknown",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "SC-6303",
@@ -3903,7 +4411,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "SC-6305",
@@ -3913,7 +4422,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9260",
@@ -3923,7 +4433,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9214",
@@ -3933,7 +4444,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "VAL-9250",
@@ -3941,9 +4453,10 @@
       "summary": "Move Discover out of Data",
       "owner": "Punyawat Suwannatat",
       "platform": "Unknown",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16676",
@@ -3951,9 +4464,10 @@
       "summary": "[iOS]If you haven't followed someone before, the system should show a \"Suggested\" page, but on iOS it doesn't; it seems to display items from your feed instead.",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21447",
@@ -3963,7 +4477,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9231",
@@ -3971,9 +4486,10 @@
       "summary": "[iOS][MA Dialog][Field Validation] Invalid default value when data type is incorrect on 'title' and 'hide_btn_close'",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9261",
@@ -3983,7 +4499,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9211",
@@ -3991,9 +4508,10 @@
       "summary": "[Android] Update Facebook Login SDK",
       "owner": "Natdanai Chaiyakan",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "VAL-9188",
@@ -4001,9 +4519,10 @@
       "summary": "[iOS][iPhone][RG 3.64.0 RC4] Found Landscape Icon before Splash Screen when User launch app in Landscape ",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16673",
@@ -4011,9 +4530,10 @@
       "summary": "[iOS][Playlist]Playlist item: Cannot add more than 20 items to a playlist",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9226",
@@ -4021,9 +4541,10 @@
       "summary": "[Android Crash] [Watch] ActivePlaybackRegistryImpl.acquire",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21457",
@@ -4033,7 +4554,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "VAL-9256",
@@ -4041,9 +4563,10 @@
       "summary": "migrate comment to compose",
       "owner": "Natdanai Chaiyakan",
       "platform": "Unknown",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9023",
@@ -4051,9 +4574,10 @@
       "summary": "[iOS] Secure auto-backup feature",
       "owner": "Jae.Nuttapong",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "VAL-9099",
@@ -4063,7 +4587,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 13.0
     },
     {
       "key": "VAL-9210",
@@ -4073,7 +4598,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 13.0
     },
     {
       "key": "VAL-9024",
@@ -4083,7 +4609,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "LS-20411",
@@ -4091,9 +4618,10 @@
       "summary": "[iOS] SFV Series: FA tracking select content Tatang shelf on home feed",
       "owner": "Thosapol Sangkasub",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "LS-20487",
@@ -4103,7 +4631,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "EXP-16135",
@@ -4111,9 +4640,10 @@
       "summary": "[iOS] Home Feed: Following tab > Creator shelf",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "EXP-16462",
@@ -4121,9 +4651,10 @@
       "summary": "[Android] Home Feed: Following tab > Creator shelf",
       "owner": "Supachote Marungrueng (Ext)",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "VAL-9258",
@@ -4133,7 +4664,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "SC-6026",
@@ -4143,7 +4675,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "SC-5194",
@@ -4153,7 +4686,8 @@
       "platform": "Unknown",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "EXP-16578",
@@ -4161,29 +4695,32 @@
       "summary": "[iOS] SFV Player: Double tap to like",
       "owner": "Papon Supamongkonchai (Boy)",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "EXP-16680",
       "board": "EXP",
       "summary": "[Andriod][State Mute] After muting the app, the icon does not remain visible.",
-      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "owner": "Wachirawit Chaipuvaphat",
       "platform": "Unknown",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-14247",
       "board": "EXP",
       "summary": "[Android] Home feed: Mute/Unmute",
-      "owner": "Wachirawit (MossiTo) (Discovery)",
+      "owner": "Wachirawit Chaipuvaphat",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "LS-20391",
@@ -4191,9 +4728,10 @@
       "summary": "[Android] SFV Series: FA tracking select content Tatang shelf on home feed",
       "owner": "Suriya Alee",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "LS-20489",
@@ -4203,7 +4741,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "IMP-21463",
@@ -4213,7 +4752,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21471",
@@ -4223,7 +4763,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21464",
@@ -4233,7 +4774,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21465",
@@ -4243,7 +4785,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21466",
@@ -4253,7 +4796,8 @@
       "platform": "Unknown",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21467",
@@ -4263,7 +4807,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21468",
@@ -4273,7 +4818,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21361",
@@ -4283,7 +4829,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "IMP-21281",
@@ -4293,7 +4840,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "IMP-21334",
@@ -4303,7 +4851,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "VAL-9264",
@@ -4313,7 +4862,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "EXP-16432",
@@ -4321,9 +4871,10 @@
       "summary": "[Android] SFV&LFV: Check subscription tier and remove ads",
       "owner": "Kirathi Mingsakul",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 13.0
     },
     {
       "key": "LS-20390",
@@ -4331,9 +4882,10 @@
       "summary": "[iOS] WatchL2: remove TrueID+ button",
       "owner": "Kantachat Puagkajee",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "LS-20415",
@@ -4341,9 +4893,10 @@
       "summary": "[Android] WatchL2: remove TrueID+ button",
       "owner": "Alongkot Tonprasert",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "LS-20355",
@@ -4353,7 +4906,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
     },
     {
       "key": "LS-20394",
@@ -4361,9 +4915,10 @@
       "summary": "[iOS] Remove Legacy SFV Series flow from ShortFormVideoPlayerViewModel",
       "owner": "Jiraporn Praneet",
       "platform": "iOS",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 2.0
     },
     {
       "key": "LS-20485",
@@ -4373,7 +4928,8 @@
       "platform": "iOS",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "IMP-21451",
@@ -4383,7 +4939,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9224",
@@ -4391,9 +4948,10 @@
       "summary": "[Android Crash] [DevEx] NewSFVSeriesFragment.onDestroyView",
       "owner": "Yossawat Sarasomran (Ext)",
       "platform": "Android",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21333",
@@ -4403,7 +4961,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 8.0
     },
     {
       "key": "VAL-9263",
@@ -4411,9 +4970,10 @@
       "summary": "migrate option to compose",
       "owner": "Natdanai Chaiyakan",
       "platform": "Unknown",
-      "method": "pull_request_author",
+      "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "VAL-9206",
@@ -4423,7 +4983,8 @@
       "platform": "Android",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "VAL-9259",
@@ -4433,7 +4994,8 @@
       "platform": "Android",
       "method": "unknown",
       "note": "no_non_qa_assignee",
-      "counted": false
+      "counted": false,
+      "points": 0
     },
     {
       "key": "IMP-21433",
@@ -4443,7 +5005,8 @@
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Nutthapoom Inthanin",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21343",
@@ -4453,7 +5016,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 5.0
     },
     {
       "key": "IMP-21462",
@@ -4463,7 +5027,8 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 0
     },
     {
       "key": "IMP-21277",
@@ -4473,12 +5038,552 @@
       "platform": "iOS",
       "method": "agree",
       "note": "",
-      "counted": true
+      "counted": true,
+      "points": 3.0
+    },
+    {
+      "key": "LS-20486",
+      "board": "LS",
+      "summary": "Test Execution - [Android] SFV Series: shelf on tatang home feed : LS-20272",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "VAL-9197",
+      "board": "VAL",
+      "summary": "[Android] Root Cause Analysis (RCA) on causing slower TTFF on SFV Home Feed",
+      "owner": "Sittisak Tangpraditchai",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 13.0
+    },
+    {
+      "key": "VAL-9246",
+      "board": "VAL",
+      "summary": "BridgeToken",
+      "owner": "Jae.Nuttapong",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 0
+    },
+    {
+      "key": "LS-19214",
+      "board": "LS",
+      "summary": "[Android]VOD player : zoom to fill",
+      "owner": "saweena.b",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 5.0
+    },
+    {
+      "key": "LS-19907",
+      "board": "LS",
+      "summary": "[Android] SFV Series: Update Font and design on watchL2",
+      "owner": "Alongkot Tonprasert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 8.0
+    },
+    {
+      "key": "LS-20414",
+      "board": "LS",
+      "summary": "[iOS] SFV Series: Update Font and design on watchL2",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 8.0
+    },
+    {
+      "key": "LS-20413",
+      "board": "LS",
+      "summary": "[Android] VOD player: revise FA tracking screen view",
+      "owner": "Sarawut Sungprasert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 2.0
+    },
+    {
+      "key": "LS-20352",
+      "board": "LS",
+      "summary": "[iOS] VOD player: revise FA tracking screen view",
+      "owner": "Kantachat Puagkajee",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 2.0
+    },
+    {
+      "key": "LS-20492",
+      "board": "LS",
+      "summary": "[iOS][Ads] Prevent duplicate ads when user click continue watching shelf",
+      "owner": "Ruttanachai Auitragool",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 5.0
+    },
+    {
+      "key": "VAL-9187",
+      "board": "VAL",
+      "summary": "[Android] Compare Mobilewright vs Maestro",
+      "owner": "Kijja Charuchinda",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 5.0
+    },
+    {
+      "key": "VAL-9124",
+      "board": "VAL",
+      "summary": "[Android] Implement POM structure using Mobilewright",
+      "owner": "Todsapon Sangpook",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 13.0
+    },
+    {
+      "key": "VAL-9245",
+      "board": "VAL",
+      "summary": "[Android Crash] [DevEx] com.truedigital.features.communicator.common.share.chat.call.WebRtcCallService.onUnbind",
+      "owner": "Yossawat Sarasomran (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 0
+    },
+    {
+      "key": "LS-20467",
+      "board": "LS",
+      "summary": "Test Execution - [Android] WatchL2: remove TrueID+ button : LS-20415",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "LS-20468",
+      "board": "LS",
+      "summary": "Test Execution - [iOS] WatchL2: remove TrueID+ button : LS-20390",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "LS-20466",
+      "board": "LS",
+      "summary": "Test Execution - [iOS] VOD player: revise FA tracking screen view : LS-20352",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "SC-6289",
+      "board": "SC",
+      "summary": "Implement ServiceUrlsStore",
+      "owner": "Nevin Ruttanaboonta",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 0
+    },
+    {
+      "key": "SC-6290",
+      "board": "SC",
+      "summary": "Implement Url Validator",
+      "owner": "Nevin Ruttanaboonta",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 0
+    },
+    {
+      "key": "SC-6307",
+      "board": "SC",
+      "summary": "Implement Data Layer",
+      "owner": "Nevin Ruttanaboonta",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 0
+    },
+    {
+      "key": "VAL-8882",
+      "board": "VAL",
+      "summary": "[Android] Redesign VODs players in Full-screen mode",
+      "owner": "Natdanai Chaiyakan",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 8.0
+    },
+    {
+      "key": "VAL-8885",
+      "board": "VAL",
+      "summary": "[Android] Sliding Comment View on VODs players in Full-screen mode",
+      "owner": "Natdanai Chaiyakan",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 13.0
+    },
+    {
+      "key": "VAL-9255",
+      "board": "VAL",
+      "summary": "Move common:wrapper",
+      "owner": "Sitthikorn Sommechai (Ext)",
+      "platform": "Unknown",
+      "method": "in_progress_author",
+      "note": "",
+      "counted": true,
+      "points": 0
+    },
+    {
+      "key": "VAL-9117",
+      "board": "VAL",
+      "summary": "[Android] Implement the New Architecture - P3",
+      "owner": "Sitthikorn Sommechai (Ext)",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 13.0
+    },
+    {
+      "key": "VAL-9257",
+      "board": "VAL",
+      "summary": "Rename NCCCommunity to Community and migrate NCCShare to CommunityShare Local SPM",
+      "owner": "Punyawat Suwannatat",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 0
+    },
+    {
+      "key": "VAL-9212",
+      "board": "VAL",
+      "summary": "[iOS] Implement POM structure using Mobilewright",
+      "owner": "Chawapon Kiatpravee",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 13.0
+    },
+    {
+      "key": "LS-20453",
+      "board": "LS",
+      "summary": "[iOS][Watch L2] - title icon หายไป ใน หน้า watch L2 (impact  ios 18)",
+      "owner": "Jiraporn Praneet",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 0
+    },
+    {
+      "key": "VAL-9118",
+      "board": "VAL",
+      "summary": "[iOS] Implement the New Architecture - P3",
+      "owner": "Kittisak Buaphanna",
+      "platform": "iOS",
+      "method": "in_progress_author",
+      "note": "fallback_a=Punyawat Suwannatat",
+      "counted": false,
+      "points": 13.0
+    },
+    {
+      "key": "VAL-8939",
+      "board": "VAL",
+      "summary": "[E2E] Generate % Test Coverage using AI",
+      "owner": "Chawapon Kiatpravee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 8.0
+    },
+    {
+      "key": "VAL-9233",
+      "board": "VAL",
+      "summary": "[Automation] Implement Personal PR reviewer stat",
+      "owner": "Chawapon Kiatpravee",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 5.0
+    },
+    {
+      "key": "LS-20357",
+      "board": "LS",
+      "summary": "[iOS] SFV Series: FA tracking grid theme shelf select content",
+      "owner": "Kantachat Puagkajee",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 3.0
+    },
+    {
+      "key": "LS-20460",
+      "board": "LS",
+      "summary": "Test Execution - [iOS] SFV Series: FA tracking grid theme shelf select content : LS-20357",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "LS-20459",
+      "board": "LS",
+      "summary": "Test Execution - [Android] SFV Series: FA tracking grid theme shelf select content : LS-20355",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "LS-20449",
+      "board": "LS",
+      "summary": "Test Execution - [Android]VOD player : zoom to fill : LS-19214",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "LS-20457",
+      "board": "LS",
+      "summary": "Test Execution - [Android] player : time seek with snapshot : LS-19215",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "LS-20465",
+      "board": "LS",
+      "summary": "Test Execution - [Android] VOD player: revise FA tracking screen view : LS-20413",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "SC-6343",
+      "board": "SC",
+      "summary": "First test",
+      "owner": "Pawanon Leangthammarat",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 0
+    },
+    {
+      "key": "SC-6344",
+      "board": "SC",
+      "summary": "Test case - SDK: display sfv series on explore page",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "SC-6345",
+      "board": "SC",
+      "summary": "Test case - SDK: display sfv series on explore page",
+      "owner": null,
+      "platform": "Unknown",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "SC-6267",
+      "board": "SC",
+      "summary": "[iOS][POC] UGC: nativeBridge implementation",
+      "owner": "Jassadakorn Ketkaew",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 3.0
+    },
+    {
+      "key": "LS-20450",
+      "board": "LS",
+      "summary": "Test Execution - [iOS]VOD player : zoom to fill : LS-19205",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "LS-20125",
+      "board": "LS",
+      "summary": "[Android] Membership: support test",
+      "owner": "Alongkot Tonprasert",
+      "platform": "Android",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 13.0
+    },
+    {
+      "key": "LS-20300",
+      "board": "LS",
+      "summary": "Test Execution - [Android] Membership: support test : LS-20125",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "LS-20244",
+      "board": "LS",
+      "summary": "[iOS] Membership: support test",
+      "owner": "Ruttanachai Auitragool",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 13.0
+    },
+    {
+      "key": "LS-20314",
+      "board": "LS",
+      "summary": "Test Execution - [iOS] Membership: support test : LS-20244",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "LS-20469",
+      "board": "LS",
+      "summary": "Test Execution - [iOS] SFV Series: resume playback from last watched duration : LS-19353",
+      "owner": "Chalatip Thongsri",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 0
+    },
+    {
+      "key": "LS-19353",
+      "board": "LS",
+      "summary": "[iOS] SFV Series: resume playback from last watched duration",
+      "owner": "Thosapol Sangkasub",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 5.0
+    },
+    {
+      "key": "LS-20550",
+      "board": "LS",
+      "summary": "[iOS] Subscription Regression Test 3.65.0",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "LS-20551",
+      "board": "LS",
+      "summary": "[Android] Subscription Regression Test 3.65.0",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "LS-20552",
+      "board": "LS",
+      "summary": "[iOS] Watch Regression Test 3.65.0",
+      "owner": null,
+      "platform": "iOS",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "LS-20553",
+      "board": "LS",
+      "summary": "[Android] Watch Regression Test 3.65.0",
+      "owner": null,
+      "platform": "Android",
+      "method": "unknown",
+      "note": "no_non_qa_assignee",
+      "counted": false,
+      "points": 0
     }
   ],
   "notes": {
     "tickets": "Owner = last non-QA assignee before QA, or In Progress author / longest non-QA assignee; PR-only keys use method=pull_request_only",
-    "prs": "PR counts reused from prior dist report where available; re-fetch with collect_report.py without --skip-prs to refresh",
+    "prs": "Merged PR authors from 10 repos; platform from repo; inaccessible repos skipped",
     "boards": "SC Social Commerce, IMP TrueID HERO, LS Watch, EXP Today, VAL DevEx",
     "qa_excluded": [
       "Atthaphon Sriathayanon",

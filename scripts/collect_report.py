@@ -52,9 +52,9 @@ def aggregate_tickets(
         jql,
         fields=[
             "summary", "assignee", "status", "resolutiondate", "created",
-            # Jira Cloud commonly stores Story Points in customfield_10016.
-            # Keep the named field as a fallback for Jira installations that expose it.
-            "customfield_10016", "story_points",
+            # TrueID Jira uses different Story Point fields by project.
+            "customfield_10124", "customfield_11210", "customfield_12714",
+            "customfield_13828", "story_points",
         ],
     )
 
@@ -96,7 +96,13 @@ def aggregate_tickets(
     for issue_id, issue in id_to_issue.items():
         fields = issue.get("fields") or {}
         summary = fields.get("summary") or ""
-        raw_points = fields.get("customfield_10016", fields.get("story_points"))
+        raw_points = next(
+            (fields.get(field) for field in (
+                "customfield_10124", "customfield_11210", "customfield_12714",
+                "customfield_13828", "story_points",
+            ) if fields.get(field) is not None),
+            None,
+        )
         try:
             points = float(raw_points) if raw_points is not None else 0
         except (TypeError, ValueError):
@@ -218,9 +224,14 @@ def merge_rows(
     ticket_details: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
     boards_by_name: dict[str, set[str]] = defaultdict(set)
+    points_by_name: dict[str, Counter] = defaultdict(Counter)
     for detail in ticket_details:
         if detail.get("counted") and detail.get("owner") and detail.get("board"):
             boards_by_name[detail["owner"]].add(detail["board"])
+        if detail.get("counted") and detail.get("owner"):
+            platform = detail.get("platform")
+            bucket = "ios" if platform == "iOS" else "android" if platform == "Android" else "other"
+            points_by_name[detail["owner"]][bucket] += float(detail.get("points") or 0)
     names = sorted(set(ticket_counts) | set(pr_counts), key=str.casefold)
     rows = []
     for name in names:
@@ -235,6 +246,9 @@ def merge_rows(
                 "tickets_unknown": int(t.get("tickets_unknown", 0)),
                 "tickets_both": int(t.get("tickets_both", 0)),
                 "ticket_points": t.get("ticket_points", 0),
+                "tickets_ios_points": points_by_name[name].get("ios", 0),
+                "tickets_android_points": points_by_name[name].get("android", 0),
+                "tickets_other_points": points_by_name[name].get("other", 0),
                 "prs_ios": int(p.get("prs_ios", 0)),
                 "prs_android": int(p.get("prs_android", 0)),
                 "prs_mobile": int(p.get("prs_mobile", 0)),
