@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T03:11:02.222408+00:00",
+  "generated_at": "2026-10-27T06:49:17.263039+00:00",
   "month": "2026-10",
   "project": "SC,IMP,LS,EXP,VAL",
   "rows": [
@@ -141,6 +141,23 @@
       "prs_mobile": 0
     },
     {
+      "name": "Papon Supamongkonchai (Boy)",
+      "boards": [
+        "EXP"
+      ],
+      "tickets_ios": 12,
+      "tickets_android": 0,
+      "tickets_unknown": 0,
+      "tickets_both": 0,
+      "ticket_points": 26.0,
+      "tickets_ios_points": 26.0,
+      "tickets_android_points": 0,
+      "tickets_other_points": 0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
       "name": "Nutthapoom Inthanin",
       "boards": [
         "IMP"
@@ -170,23 +187,6 @@
       "tickets_ios_points": 0,
       "tickets_android_points": 34.0,
       "tickets_other_points": 0.0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Papon Supamongkonchai (Boy)",
-      "boards": [
-        "EXP"
-      ],
-      "tickets_ios": 10,
-      "tickets_android": 0,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "ticket_points": 18.0,
-      "tickets_ios_points": 18.0,
-      "tickets_android_points": 0,
-      "tickets_other_points": 0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -464,6 +464,23 @@
       "prs_mobile": 0
     },
     {
+      "name": "Nevin Ruttanaboonta",
+      "boards": [
+        "SC"
+      ],
+      "tickets_ios": 0,
+      "tickets_android": 2,
+      "tickets_unknown": 4,
+      "tickets_both": 0,
+      "ticket_points": 10.0,
+      "tickets_ios_points": 0,
+      "tickets_android_points": 10.0,
+      "tickets_other_points": 0.0,
+      "prs_ios": 0,
+      "prs_android": 0,
+      "prs_mobile": 0
+    },
+    {
       "name": "Nuttarikan Pattanaporn (Ext)",
       "boards": [
         "LS"
@@ -578,23 +595,6 @@
       "tickets_ios_points": 0,
       "tickets_android_points": 34.0,
       "tickets_other_points": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Nevin Ruttanaboonta",
-      "boards": [
-        "SC"
-      ],
-      "tickets_ios": 0,
-      "tickets_android": 2,
-      "tickets_unknown": 3,
-      "tickets_both": 0,
-      "ticket_points": 10.0,
-      "tickets_ios_points": 0,
-      "tickets_android_points": 10.0,
-      "tickets_other_points": 0.0,
       "prs_ios": 0,
       "prs_android": 0,
       "prs_mobile": 0
@@ -736,23 +736,6 @@
       "prs_mobile": 0
     },
     {
-      "name": "Sirinard Chokmongkolsatian",
-      "boards": [
-        "LS"
-      ],
-      "tickets_ios": 1,
-      "tickets_android": 1,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "ticket_points": 21.0,
-      "tickets_ios_points": 13.0,
-      "tickets_android_points": 8.0,
-      "tickets_other_points": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
       "name": "ext.nuttanai.sal",
       "boards": [
         "EXP"
@@ -764,23 +747,6 @@
       "ticket_points": 0,
       "tickets_ios_points": 0.0,
       "tickets_android_points": 0,
-      "tickets_other_points": 0,
-      "prs_ios": 0,
-      "prs_android": 0,
-      "prs_mobile": 0
-    },
-    {
-      "name": "Kodchakorn Meytawee",
-      "boards": [
-        "LS"
-      ],
-      "tickets_ios": 0,
-      "tickets_android": 1,
-      "tickets_unknown": 0,
-      "tickets_both": 0,
-      "ticket_points": 8.0,
-      "tickets_ios_points": 0,
-      "tickets_android_points": 8.0,
       "tickets_other_points": 0,
       "prs_ios": 0,
       "prs_android": 0,
@@ -2629,7 +2595,7 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Suriya Alee",
-      "counted": true,
+      "counted": false,
       "points": 8.0
     },
     {
@@ -2871,7 +2837,7 @@
       "platform": "iOS",
       "method": "in_progress_author",
       "note": "fallback_a=Chamnarn Suksai",
-      "counted": true,
+      "counted": false,
       "points": 13.0
     },
     {
@@ -3124,7 +3090,7 @@
       "platform": "Android",
       "method": "in_progress_author",
       "note": "fallback_a=Suriya Alee",
-      "counted": true,
+      "counted": false,
       "points": 8.0
     },
     {
@@ -5579,6 +5545,50 @@
       "note": "no_non_qa_assignee",
       "counted": false,
       "points": 0
+    },
+    {
+      "key": "VAL-9277",
+      "board": "VAL",
+      "summary": "[Android crash] MovieSeeMoreFragment.kt line 84 in com.truedigital.features.watch.watchmain.presentation.movieseemore",
+      "owner": "Kittisak Buaphanna",
+      "platform": "Android",
+      "method": "agree",
+      "note": "excluded",
+      "counted": false,
+      "points": 0
+    },
+    {
+      "key": "SC-6308",
+      "board": "SC",
+      "summary": "Integration",
+      "owner": "Nevin Ruttanaboonta",
+      "platform": "Unknown",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 0
+    },
+    {
+      "key": "EXP-16697",
+      "board": "EXP",
+      "summary": "[iOS][Full Screen Mode] Mute app แล้วกด full screen icon ลำโพงโชว์ซ้อนกัน ",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 0
+    },
+    {
+      "key": "EXP-15750",
+      "board": "EXP",
+      "summary": "[iOS] Home Feed: Mute/Unmute",
+      "owner": "Papon Supamongkonchai (Boy)",
+      "platform": "iOS",
+      "method": "agree",
+      "note": "",
+      "counted": true,
+      "points": 8.0
     }
   ],
   "notes": {
