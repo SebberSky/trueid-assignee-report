@@ -132,7 +132,7 @@
         <label class="check"><input id="android-filter" type="checkbox" value="android" checked /> Android</label>
       </div>
       <div class="filter-line"><span class="pill">Jira board</span> <span id="board-filters" class="filters"></span></div>
-      <div class="filter-line"><input id="q" type="search" placeholder="ค้นชื่อ…" /> <span class="pill" id="meta">loading…</span></div>
+      <div class="filter-line"><input id="q" type="search" placeholder="ค้นชื่อ…" /> <span class="pill" id="meta">loading…</span> <button id="export-sheet" type="button">Export to Google Sheets</button></div>
     </div>
     <details id="graph-section" class="chart-panel" open>
       <summary>Graph <span class="sub" style="margin-left:8px">แกน X = จำนวน · แกน Y = รายชื่อ</span></summary>
@@ -325,6 +325,37 @@
       })[c]);
     }
 
+    function exportToGoogleSheets() {
+      const needle = document.getElementById("q").value.trim().toLowerCase();
+      const platforms = [...document.querySelectorAll("#ios-filter:checked, #android-filter:checked")].map(input => input.value);
+      const boards = [...document.querySelectorAll("#board-filters input:checked")].map(input => input.value);
+      const rows = (report.rows || []).filter(row => {
+        const matchesText = !needle || row.name.toLowerCase().includes(needle);
+        const matchesPlatform = !platforms.length || platforms.some(platform =>
+          platform === "ios" ? (row.tickets_ios || 0) + (row.prs_ios || 0) > 0 :
+          (row.tickets_android || 0) + (row.prs_android || 0) > 0
+        );
+        const matchesBoard = !boards.length || (row.boards || []).some(board => boards.includes(board));
+        return matchesText && matchesPlatform && matchesBoard;
+      });
+      const columns = [
+        ["Person", row => row.name], ["Boards", row => (row.boards || []).join(", ")],
+        ["Tickets iOS", row => row.tickets_ios || 0], ["Tickets iOS Points", row => row.tickets_ios_points || 0],
+        ["Tickets Android", row => row.tickets_android || 0], ["Tickets Android Points", row => row.tickets_android_points || 0],
+        ["Tickets Other", row => (row.tickets_unknown || 0) + (row.tickets_both || 0)], ["Tickets Other Points", row => row.tickets_other_points || 0],
+        ["PRs iOS", row => row.prs_ios || 0], ["PRs Android", row => row.prs_android || 0], ["PRs Mobile", row => row.prs_mobile || 0],
+      ];
+      const csvCell = value => `"${String(value ?? "").replace(/"/g, '""')}"`;
+      const csv = [columns.map(([header]) => csvCell(header)).join(","), ...rows.map(row => columns.map(([, getValue]) => csvCell(getValue(row))).join(","))].join("\n");
+      const blob = new Blob(["\ufeff" + csv], { type: "text/csv;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `ownership-report-${report.month}.csv`;
+      link.click();
+      URL.revokeObjectURL(url);
+    }
+
     function formatPoints(value) {
       const points = Number(value || 0);
       return Number.isInteger(points) ? points : points.toFixed(1);
@@ -372,6 +403,7 @@
       monthSelect.innerHTML = months.map(m => `<option value="${escapeHtml(m.file)}">${escapeHtml(m.label)}</option>`).join("");
       monthSelect.addEventListener("change", e => loadReport(e.target.value));
       document.getElementById("q").addEventListener("input", e => renderRows(e.target.value));
+      document.getElementById("export-sheet").addEventListener("click", exportToGoogleSheets);
       document.querySelectorAll("#ios-filter, #android-filter").forEach(input => input.addEventListener("change", () => {
         renderRows(document.getElementById("q").value);
         updateColumnVisibility();
