@@ -132,7 +132,7 @@
         <label class="check"><input id="android-filter" type="checkbox" value="android" checked /> Android</label>
       </div>
       <div class="filter-line"><span class="pill">Jira board</span> <span id="board-filters" class="filters"></span></div>
-      <div class="filter-line"><input id="q" type="search" placeholder="ค้นชื่อ…" /> <span class="pill" id="meta">loading…</span> <button id="export-sheet" type="button">Export to Google Sheets</button></div>
+      <div class="filter-line"><input id="q" type="search" placeholder="ค้นชื่อ…" /> <span class="pill" id="meta">loading…</span> <button id="export-sheet" type="button">Copy to Google Sheets</button></div>
     </div>
     <details id="graph-section" class="chart-panel" open>
       <summary>Graph <span class="sub" style="margin-left:8px">แกน X = จำนวน · แกน Y = รายชื่อ</span></summary>
@@ -345,15 +345,12 @@
         ["Tickets Other", row => (row.tickets_unknown || 0) + (row.tickets_both || 0)], ["Tickets Other Points", row => row.tickets_other_points || 0],
         ["PRs iOS", row => row.prs_ios || 0], ["PRs Android", row => row.prs_android || 0], ["PRs Mobile", row => row.prs_mobile || 0],
       ];
-      const csvCell = value => `"${String(value ?? "").replace(/"/g, '""')}"`;
-      const csv = [columns.map(([header]) => csvCell(header)).join(","), ...rows.map(row => columns.map(([, getValue]) => csvCell(getValue(row))).join(","))].join("\n");
-      const blob = new Blob(["\ufeff" + csv], { type: "text/csv;charset=utf-8" });
-      const url = URL.createObjectURL(blob);
-      const link = document.createElement("a");
-      link.href = url;
-      link.download = `ownership-report-${report.month}.csv`;
-      link.click();
-      URL.revokeObjectURL(url);
+      const tsv = [columns.map(([header]) => header).join("\t"), ...rows.map(row => columns.map(([, getValue]) => getValue(row)).join("\t"))].join("\n");
+      navigator.clipboard.writeText(tsv).then(() => {
+        window.open("https://sheets.new", "_blank", "noopener");
+        document.getElementById("export-sheet").textContent = "Copied — paste in Google Sheets";
+        setTimeout(() => document.getElementById("export-sheet").textContent = "Copy to Google Sheets", 2500);
+      });
     }
 
     function formatPoints(value) {
