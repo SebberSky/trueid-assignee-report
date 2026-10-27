@@ -90,9 +90,6 @@
     .bar.tickets_ios, .legend-tickets_ios { background: var(--ios); }
     .bar.tickets_android, .legend-tickets_android { background: var(--android); }
     .bar.tickets_other, .legend-tickets_other { background: #f5b942; }
-    .bar.tickets_ios_points, .legend-tickets_ios_points { background: #2ea8d6; }
-    .bar.tickets_android_points, .legend-tickets_android_points { background: #7e9e2b; }
-    .bar.tickets_other_points, .legend-tickets_other_points { background: #d89420; }
     .bar.prs_ios, .legend-prs_ios { background: #b58cff; }
     .bar.prs_android, .legend-prs_android { background: #ff8f70; }
     .bar.prs_mobile, .legend-prs_mobile { background: #7ee0c1; }
@@ -182,9 +179,6 @@
       { key: "tickets_ios", label: "Tickets iOS" },
       { key: "tickets_android", label: "Tickets Android" },
       { key: "tickets_other", label: "Tickets Other" },
-      { key: "tickets_ios_points", label: "iOS Points" },
-      { key: "tickets_android_points", label: "Android Points" },
-      { key: "tickets_other_points", label: "Other Points" },
       { key: "prs_ios", label: "PRs iOS" },
       { key: "prs_android", label: "PRs Android" },
       { key: "prs_mobile", label: "PRs Mobile" },
@@ -273,7 +267,7 @@
       chart.innerHTML = values.map(({ row, values: counts }) => `
         <div class="bar-row">
           <div class="bar-name" title="${escapeHtml(row.name)}">${escapeHtml(row.name)}</div>
-          <div class="bar-stack">${selectedFactors.map((key, index) => counts[index] ? `<div class="bar ${key}" style="width:${Math.max(2, counts[index] / max * 100)}%" title="${escapeHtml(factors.find(f => f.key === key).label)}: ${counts[index]}">${counts[index]}</div>` : "").join("")}</div>
+          <div class="bar-stack">${selectedFactors.map((key, index) => counts[index] ? `<div class="bar ${key}" style="width:${Math.max(2, counts[index] / max * 100)}%" title="${escapeHtml(factors.find(f => f.key === key).label)}: ${counts[index]}" >${formatChartValue(row, key, counts[index])}</div>` : "").join("")}</div>
         </div>`).join("");
     }
 
@@ -334,6 +328,13 @@
     function formatPoints(value) {
       const points = Number(value || 0);
       return Number.isInteger(points) ? points : points.toFixed(1);
+    }
+
+    function formatChartValue(row, key, count) {
+      if (key === "tickets_ios") return `${count} (${formatPoints(row.tickets_ios_points)} point)`;
+      if (key === "tickets_android") return `${count} (${formatPoints(row.tickets_android_points)} point)`;
+      if (key === "tickets_other") return `${count} (${formatPoints(row.tickets_other_points)} point)`;
+      return count;
     }
 
     async function loadReport(file = "report.json") {
