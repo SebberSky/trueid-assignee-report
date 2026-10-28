@@ -132,7 +132,7 @@
         <label class="check"><input id="android-filter" type="checkbox" value="android" checked /> Android</label>
       </div>
       <div class="filter-line"><span class="pill">Jira board</span> <span id="board-filters" class="filters"></span></div>
-      <div class="filter-line"><input id="q" type="search" placeholder="ค้นชื่อ…" /> <span class="pill" id="meta">loading…</span> <button id="export-sheet" type="button">Copy to Google Sheets</button></div>
+      <div class="filter-line"><input id="q" type="search" placeholder="ค้นชื่อ…" /> <span class="pill" id="meta">loading…</span> <button id="export-sheet" type="button">Export velocity report</button></div>
     </div>
     <details id="graph-section" class="chart-panel" open>
       <summary>Graph <span class="sub" style="margin-left:8px">แกน X = จำนวน · แกน Y = รายชื่อ</span></summary>
@@ -325,32 +325,86 @@
       })[c]);
     }
 
-    function exportToGoogleSheets() {
-      const needle = document.getElementById("q").value.trim().toLowerCase();
-      const platforms = [...document.querySelectorAll("#ios-filter:checked, #android-filter:checked")].map(input => input.value);
-      const boards = [...document.querySelectorAll("#board-filters input:checked")].map(input => input.value);
-      const rows = (report.rows || []).filter(row => {
-        const matchesText = !needle || row.name.toLowerCase().includes(needle);
-        const matchesPlatform = !platforms.length || platforms.some(platform =>
-          platform === "ios" ? (row.tickets_ios || 0) + (row.prs_ios || 0) > 0 :
-          (row.tickets_android || 0) + (row.prs_android || 0) > 0
-        );
-        const matchesBoard = !boards.length || (row.boards || []).some(board => boards.includes(board));
-        return matchesText && matchesPlatform && matchesBoard;
+    function velocityMonths(year) {
+      const now = new Date();
+      const currentMonth = now.getFullYear() === year ? now.getMonth() + 1 : 12;
+      return Array.from({ length: 12 }, (_, index) => {
+        const month = index + 1;
+        return {
+          number: month,
+          label: new Date(year, index, 1).toLocaleString("en", { month: "short" }),
+          file: `report-${year}-${String(month).padStart(2, "0")}.json`,
+          available: month <= currentMonth,
+        };
       });
-      const columns = [
-        ["Person", row => row.name], ["Boards", row => (row.boards || []).join(", ")],
-        ["Tickets iOS", row => row.tickets_ios || 0], ["Tickets iOS Points", row => row.tickets_ios_points || 0],
-        ["Tickets Android", row => row.tickets_android || 0], ["Tickets Android Points", row => row.tickets_android_points || 0],
-        ["Tickets Other", row => (row.tickets_unknown || 0) + (row.tickets_both || 0)], ["Tickets Other Points", row => row.tickets_other_points || 0],
-        ["PRs iOS", row => row.prs_ios || 0], ["PRs Android", row => row.prs_android || 0], ["PRs Mobile", row => row.prs_mobile || 0],
-      ];
-      const tsv = [columns.map(([header]) => header).join("\t"), ...rows.map(row => columns.map(([, getValue]) => getValue(row)).join("\t"))].join("\n");
-      navigator.clipboard.writeText(tsv).then(() => {
+    }
+
+    function velocityRows(reportForMonth, board, platform) {
+      const byName = new Map();
+      for (const detail of reportForMonth?.ticket_details || []) {
+        if (!detail.counted || detail.board !== board || detail.owner === null || detail.owner === undefined) continue;
+        if (platform === "ios" && detail.platform !== "iOS") continue;
+        if (platform === "android" && detail.platform !== "Android") continue;
+        const name = detail.owner;
+        byName.set(name, (byName.get(name) || 0) + Number(detail.points || 0));
+      }
+      return byName;
+    }
+
+    function sheetTsv(name, board, platform, months, monthlyReports) {
+      const title = `${name} — ${board}`;
+      const headers = ["Person", ...months.map(month => month.label), "Q1 Average", "Q2 Average", "Q3 Average", "Q4 Average"];
+      const names = new Set();
+      for (const month of months) {
+        for (const person of velocityRows(monthlyReports[month.number], board, platform).keys()) names.add(person);
+      }
+      const valuesFor = person => months.map(month => {
+        if (!month.available || !monthlyReports[month.number]) return "";
+        const value = velocityRows(monthlyReports[month.number], board, platform).get(person);
+        return value === undefined ? "" : formatPoints(value);
+      });
+      const average = (values, quarter) => {
+        const available = values.slice(quarter * 3, quarter * 3 + 3).filter(value => value !== "");
+        return available.length ? formatPoints(available.reduce((sum, value) => sum + Number(value), 0) / available.length) : "";
+      };
+      const lines = [`${title} (Jira points only)`, headers.join("\t")];
+      for (const person of [...names].sort((a, b) => a.localeCompare(b, "th"))) {
+        const values = valuesFor(person);
+        lines.push([person, ...values, ...[0, 1, 2, 3].map(quarter => average(values, quarter))].join("\t"));
+      }
+      if (names.size === 0) lines.push("ไม่มีข้อมูล");
+      return lines.join("\n");
+    }
+
+    async function exportToGoogleSheets() {
+      const button = document.getElementById("export-sheet");
+      const year = new Date().getFullYear();
+      const months = velocityMonths(year);
+      button.disabled = true;
+      button.textContent = "กำลังเตรียม velocity report…";
+      try {
+        const responses = await Promise.all(months.filter(month => month.available).map(async month => {
+          const response = await fetch(`/data/${month.file}`, { cache: "no-store" });
+          return [month.number, response.ok ? await response.json() : null];
+        }));
+        const monthlyReports = Object.fromEntries(responses);
+        const boards = ["SC", "IMP", "LS", "EXP", "VAL"];
+        const sheets = [];
+        for (const platform of ["ios", "android"]) {
+          for (const board of boards) sheets.push(sheetTsv(platform.toUpperCase(), board, platform, months, monthlyReports));
+        }
+        const payload = sheets.join("\n\n================ NEXT SHEET ================\n\n");
+        await navigator.clipboard.writeText(payload);
         window.open("https://sheets.new", "_blank", "noopener");
-        document.getElementById("export-sheet").textContent = "Copied — paste in Google Sheets";
-        setTimeout(() => document.getElementById("export-sheet").textContent = "Copy to Google Sheets", 2500);
-      });
+        button.textContent = "สร้างข้อมูลแล้ว — paste แยกชีทตามหัวข้อ";
+        setTimeout(() => button.textContent = "Export velocity report", 4000);
+      } catch (error) {
+        console.error(error);
+        button.textContent = "Export ไม่สำเร็จ";
+        setTimeout(() => button.textContent = "Export velocity report", 3000);
+      } finally {
+        button.disabled = false;
+      }
     }
 
     function formatPoints(value) {

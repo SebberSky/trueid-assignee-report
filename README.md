@@ -37,6 +37,11 @@ python3 scripts/serve.py
 # open http://127.0.0.1:8765/
 ```
 
+The **Export velocity report** button prepares the current year's Jira Story Points
+as monthly data grouped by board, with separate iOS and Android sections and
+quarterly averages. Future months remain blank; the current month uses the data
+available so far. Excluded/QA owners follow the same rules as the main report.
+
 ## Config
 
 - `config/qa_names.json` — QA excluded from ownership
