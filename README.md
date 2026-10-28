@@ -37,6 +37,32 @@ python3 scripts/serve.py
 # open http://127.0.0.1:8765/
 ```
 
+**Copy to Google Sheets** exports the selected month's table with the current
+name, platform and board filters, then opens a blank Google Sheet for pasting.
+If clipboard access is denied, the selected TSV remains visible for manual copy.
+
+The separate **Export velocity report** button opens the prepared native Google
+Sheet for the current year. It contains two tabs, **iOS** and **Android**, with
+people under board section headings, Jan–Dec Jira points, and formula-based Q1–Q4
+averages placed immediately after Mar, Jun, Sep and Dec. Board is a section heading,
+not a repeated data column.
+Missing/future months remain blank and are omitted from averages. The current
+month uses the available report data. Excluded/QA owners follow the main report.
+The page displays the export snapshot date; clicking opens that prepared report.
+It does not refresh Jira or create another Drive file on each click.
+
+To refresh the annual report after collecting monthly data:
+
+1. Run `python3 scripts/prepare_velocity_report.py --refresh-points --output /absolute/output/velocity-data.json`.
+   This reads `dist/data/`, including the latest month in `report.json`, and fills
+   historical points from Jira without changing ownership or counting PRs.
+2. Run `scripts/build_velocity_workbook.mjs` with the Codex bundled Node.js and
+   `@oai/artifact-tool` runtime, passing the JSON and an output directory.
+3. Import the verified workbook as a native Google Sheet with the connected
+   Google Drive tool. Keep its existing access restrictions.
+4. Update `dist/data/velocity-export.json` with the verified Sheet URL, year and
+   snapshot timestamp, copy the UI to `dist/index.html`, and publish.
+
 ## Config
 
 - `config/qa_names.json` — QA excluded from ownership

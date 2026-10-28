@@ -18,6 +18,8 @@ class Handler(SimpleHTTPRequestHandler):
     def do_GET(self):  # noqa: N802
         if self.path in ("/", "/index.html"):
             self.path = "/app/static/index.html"
+        elif self.path == "/data/velocity-export.json":
+            self.path = "/dist/data/velocity-export.json"
         return super().do_GET()
 
 

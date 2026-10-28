@@ -132,7 +132,9 @@
         <label class="check"><input id="android-filter" type="checkbox" value="android" checked /> Android</label>
       </div>
       <div class="filter-line"><span class="pill">Jira board</span> <span id="board-filters" class="filters"></span></div>
-      <div class="filter-line"><input id="q" type="search" placeholder="ค้นชื่อ…" /> <span class="pill" id="meta">loading…</span> <button id="export-sheet" type="button">Copy to Google Sheets</button></div>
+      <div class="filter-line"><input id="q" type="search" placeholder="ค้นชื่อ…" /> <span class="pill" id="meta">loading…</span> <button id="export-sheet" type="button">Copy to Google Sheets</button> <button id="export-velocity" type="button">Export velocity report</button></div>
+      <p id="export-status" class="sub" role="status" aria-live="polite"></p>
+      <textarea id="export-copy-fallback" aria-label="ข้อมูลสำหรับ copy ไป Google Sheets" rows="8" style="display:none;width:100%" readonly></textarea>
     </div>
     <details id="graph-section" class="chart-panel" open>
       <summary>Graph <span class="sub" style="margin-left:8px">แกน X = จำนวน · แกน Y = รายชื่อ</span></summary>
@@ -325,7 +327,12 @@
       })[c]);
     }
 
-    function exportToGoogleSheets() {
+    async function exportToGoogleSheets() {
+      const button = document.getElementById("export-sheet");
+      const status = document.getElementById("export-status");
+      const fallback = document.getElementById("export-copy-fallback");
+      if (!report) { status.textContent = "กรุณารอให้โหลดรายงานสำเร็จก่อน export"; return; }
+      if (button.disabled) return;
       const needle = document.getElementById("q").value.trim().toLowerCase();
       const platforms = [...document.querySelectorAll("#ios-filter:checked, #android-filter:checked")].map(input => input.value);
       const boards = [...document.querySelectorAll("#board-filters input:checked")].map(input => input.value);
@@ -345,12 +352,70 @@
         ["Tickets Other", row => (row.tickets_unknown || 0) + (row.tickets_both || 0)], ["Tickets Other Points", row => row.tickets_other_points || 0],
         ["PRs iOS", row => row.prs_ios || 0], ["PRs Android", row => row.prs_android || 0], ["PRs Mobile", row => row.prs_mobile || 0],
       ];
-      const tsv = [columns.map(([header]) => header).join("\t"), ...rows.map(row => columns.map(([, getValue]) => getValue(row)).join("\t"))].join("\n");
-      navigator.clipboard.writeText(tsv).then(() => {
-        window.open("https://sheets.new", "_blank", "noopener");
-        document.getElementById("export-sheet").textContent = "Copied — paste in Google Sheets";
-        setTimeout(() => document.getElementById("export-sheet").textContent = "Copy to Google Sheets", 2500);
-      });
+      const cell = value => String(value).replace(/[\t\r\n]+/g, " ");
+      const tsv = [columns.map(([header]) => header).join("\t"), ...rows.map(row => columns.map(([, getValue]) => cell(getValue(row))).join("\t"))].join("\n");
+      button.disabled = true;
+      button.textContent = "กำลัง copy…";
+      fallback.value = tsv;
+      fallback.style.display = "block";
+      fallback.focus();
+      fallback.select();
+      status.textContent = "ข้อมูลพร้อมแล้ว กด Ctrl+C / ⌘C เพื่อ copy และวางที่ A1 ใน Google Sheets";
+      let copying;
+      try { copying = navigator.clipboard.writeText(tsv); }
+      catch (error) { copying = Promise.reject(error); }
+      const sheetWindow = window.open("https://sheets.new", "_blank");
+      if (sheetWindow) sheetWindow.opener = null;
+      try {
+        await Promise.race([copying, new Promise((_, reject) => setTimeout(() => reject(new Error("Clipboard timed out")), 1500))]);
+        fallback.style.display = "none";
+        button.textContent = "Copied — paste in Google Sheets";
+        status.textContent = "Copy รายงานตามตัวกรองแล้ว วางที่เซลล์ A1 ใน Google Sheets";
+      } catch (error) {
+        fallback.value = tsv;
+        fallback.style.display = "block";
+        fallback.focus();
+        fallback.select();
+        button.textContent = "Copy to Google Sheets";
+        status.textContent = "เบราว์เซอร์ไม่อนุญาต clipboard กด Ctrl+C / ⌘C เพื่อ copy ข้อมูลที่เลือกไว้ แล้ววางใน Google Sheets";
+      } finally { button.disabled = false; }
+      if (!sheetWindow) {
+        const link = document.createElement("a");
+        link.href = "https://sheets.new"; link.target = "_blank"; link.rel = "noopener";
+        link.textContent = " เปิด Google Sheets"; status.appendChild(link);
+      }
+      setTimeout(() => button.textContent = "Copy to Google Sheets", 2500);
+    }
+
+    async function loadVelocityExport() {
+      const button = document.getElementById("export-velocity");
+      button.disabled = true;
+      try {
+        const response = await fetch("/data/velocity-export.json", { cache: "no-store" });
+        if (!response.ok || !response.headers.get("content-type")?.includes("application/json")) {
+          throw new Error("ยังไม่มี Google Sheet velocity report ที่เผยแพร่ไว้");
+        }
+        const exported = await response.json();
+        const year = Number(new Intl.DateTimeFormat("en", { year: "numeric", timeZone: "Asia/Bangkok" }).format(new Date()));
+        const url = new URL(exported.url);
+        if (exported.year !== year || url.origin !== "https://docs.google.com" || !url.pathname.startsWith("/spreadsheets/d/")) {
+          throw new Error(`ยังไม่มี Google Sheet velocity report ปี ${year}`);
+        }
+        button.onclick = () => {
+          const opened = window.open(url.href, "_blank");
+          if (opened) opened.opener = null;
+          const status = document.getElementById("export-status");
+          status.textContent = `Velocity ${year}: Jira points รายเดือน แท็บ iOS / Android · ข้อมูล ณ ${new Date(exported.generated_at).toLocaleString("th-TH", { timeZone: "Asia/Bangkok" })} `;
+          const link = document.createElement("a");
+          link.href = url.href; link.target = "_blank"; link.rel = "noopener";
+          link.textContent = "เปิด Google Sheet"; status.appendChild(link);
+        };
+      } catch (error) {
+        button.onclick = () => {
+          document.getElementById("export-status").textContent = error.message;
+          loadVelocityExport();
+        };
+      } finally { button.disabled = false; }
     }
 
     function formatPoints(value) {
@@ -401,6 +466,7 @@
       monthSelect.addEventListener("change", e => loadReport(e.target.value));
       document.getElementById("q").addEventListener("input", e => renderRows(e.target.value));
       document.getElementById("export-sheet").addEventListener("click", exportToGoogleSheets);
+      loadVelocityExport();
       document.querySelectorAll("#ios-filter, #android-filter").forEach(input => input.addEventListener("change", () => {
         renderRows(document.getElementById("q").value);
         updateColumnVisibility();
