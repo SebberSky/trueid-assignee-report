@@ -132,7 +132,9 @@
         <label class="check"><input id="android-filter" type="checkbox" value="android" checked /> Android</label>
       </div>
       <div class="filter-line"><span class="pill">Jira board</span> <span id="board-filters" class="filters"></span></div>
-      <div class="filter-line"><input id="q" type="search" placeholder="ค้นชื่อ…" /> <span class="pill" id="meta">loading…</span> <button id="export-sheet" type="button">Export velocity report</button></div>
+      <div class="filter-line"><input id="q" type="search" placeholder="ค้นชื่อ…" /> <span class="pill" id="meta">loading…</span> <button id="export-sheet" type="button">Copy to Google Sheets</button> <button id="export-velocity" type="button">Export velocity report</button></div>
+      <p id="export-status" class="sub" role="status" aria-live="polite"></p>
+      <textarea id="export-copy-fallback" aria-label="ข้อมูลสำหรับ copy ไป Google Sheets" rows="8" style="display:none;width:100%" readonly></textarea>
     </div>
     <details id="graph-section" class="chart-panel" open>
       <summary>Graph <span class="sub" style="margin-left:8px">แกน X = จำนวน · แกน Y = รายชื่อ</span></summary>
@@ -325,86 +327,91 @@
       })[c]);
     }
 
-    function velocityMonths(year) {
-      const now = new Date();
-      const currentMonth = now.getFullYear() === year ? now.getMonth() + 1 : 12;
-      return Array.from({ length: 12 }, (_, index) => {
-        const month = index + 1;
-        return {
-          number: month,
-          label: new Date(year, index, 1).toLocaleString("en", { month: "short" }),
-          file: `report-${year}-${String(month).padStart(2, "0")}.json`,
-          available: month <= currentMonth,
-        };
-      });
-    }
-
-    function velocityRows(reportForMonth, board, platform) {
-      const byName = new Map();
-      for (const detail of reportForMonth?.ticket_details || []) {
-        if (!detail.counted || detail.board !== board || detail.owner === null || detail.owner === undefined) continue;
-        if (platform === "ios" && detail.platform !== "iOS") continue;
-        if (platform === "android" && detail.platform !== "Android") continue;
-        const name = detail.owner;
-        byName.set(name, (byName.get(name) || 0) + Number(detail.points || 0));
-      }
-      return byName;
-    }
-
-    function sheetTsv(name, board, platform, months, monthlyReports) {
-      const title = `${name} — ${board}`;
-      const headers = ["Person", ...months.map(month => month.label), "Q1 Average", "Q2 Average", "Q3 Average", "Q4 Average"];
-      const names = new Set();
-      for (const month of months) {
-        for (const person of velocityRows(monthlyReports[month.number], board, platform).keys()) names.add(person);
-      }
-      const valuesFor = person => months.map(month => {
-        if (!month.available || !monthlyReports[month.number]) return "";
-        const value = velocityRows(monthlyReports[month.number], board, platform).get(person);
-        return value === undefined ? "" : formatPoints(value);
-      });
-      const average = (values, quarter) => {
-        const available = values.slice(quarter * 3, quarter * 3 + 3).filter(value => value !== "");
-        return available.length ? formatPoints(available.reduce((sum, value) => sum + Number(value), 0) / available.length) : "";
-      };
-      const lines = [`${title} (Jira points only)`, headers.join("\t")];
-      for (const person of [...names].sort((a, b) => a.localeCompare(b, "th"))) {
-        const values = valuesFor(person);
-        lines.push([person, ...values, ...[0, 1, 2, 3].map(quarter => average(values, quarter))].join("\t"));
-      }
-      if (names.size === 0) lines.push("ไม่มีข้อมูล");
-      return lines.join("\n");
-    }
-
     async function exportToGoogleSheets() {
       const button = document.getElementById("export-sheet");
-      const year = new Date().getFullYear();
-      const months = velocityMonths(year);
-      button.disabled = true;
-      button.textContent = "กำลังเตรียม velocity report…";
+      const status = document.getElementById("export-status");
+      const fallback = document.getElementById("export-copy-fallback");
+      if (!report) { status.textContent = "กรุณารอให้โหลดรายงานสำเร็จก่อน export"; return; }
+      const needle = document.getElementById("q").value.trim().toLowerCase();
+      const platforms = [...document.querySelectorAll("#ios-filter:checked, #android-filter:checked")].map(input => input.value);
+      const boards = [...document.querySelectorAll("#board-filters input:checked")].map(input => input.value);
+      const rows = (report.rows || []).filter(row => {
+        const matchesText = !needle || row.name.toLowerCase().includes(needle);
+        const matchesPlatform = !platforms.length || platforms.some(platform =>
+          platform === "ios" ? (row.tickets_ios || 0) + (row.prs_ios || 0) > 0 :
+          (row.tickets_android || 0) + (row.prs_android || 0) > 0
+        );
+        const matchesBoard = !boards.length || (row.boards || []).some(board => boards.includes(board));
+        return matchesText && matchesPlatform && matchesBoard;
+      });
+      const columns = [
+        ["Person", row => row.name], ["Boards", row => (row.boards || []).join(", ")],
+        ["Tickets iOS", row => row.tickets_ios || 0], ["Tickets iOS Points", row => row.tickets_ios_points || 0],
+        ["Tickets Android", row => row.tickets_android || 0], ["Tickets Android Points", row => row.tickets_android_points || 0],
+        ["Tickets Other", row => (row.tickets_unknown || 0) + (row.tickets_both || 0)], ["Tickets Other Points", row => row.tickets_other_points || 0],
+        ["PRs iOS", row => row.prs_ios || 0], ["PRs Android", row => row.prs_android || 0], ["PRs Mobile", row => row.prs_mobile || 0],
+      ];
+      const cell = value => String(value).replace(/[\t\r\n]+/g, " ");
+      const tsv = [columns.map(([header]) => header).join("\t"), ...rows.map(row => columns.map(([, getValue]) => cell(getValue(row))).join("\t"))].join("\n");
+      // Start copying before opening a tab, which can take focus away from this document.
+      fallback.value = tsv;
+      fallback.style.display = "block";
+      fallback.focus();
+      fallback.select();
+      status.textContent = "ข้อมูลพร้อมแล้ว กด Ctrl+C / ⌘C เพื่อ copy และวางที่ A1 ใน Google Sheets";
+      let copying;
+      try { copying = navigator.clipboard.writeText(tsv); }
+      catch (error) { copying = Promise.reject(error); }
+      // Open while the click still has user activation; clipboard may be denied in embedded browsers.
+      const sheetWindow = window.open("https://sheets.new", "_blank");
+      if (sheetWindow) sheetWindow.opener = null;
       try {
-        const responses = await Promise.all(months.filter(month => month.available).map(async month => {
-          const response = await fetch(`/data/${month.file}`, { cache: "no-store" });
-          return [month.number, response.ok ? await response.json() : null];
-        }));
-        const monthlyReports = Object.fromEntries(responses);
-        const boards = ["SC", "IMP", "LS", "EXP", "VAL"];
-        const sheets = [];
-        for (const platform of ["ios", "android"]) {
-          for (const board of boards) sheets.push(sheetTsv(platform.toUpperCase(), board, platform, months, monthlyReports));
-        }
-        const payload = sheets.join("\n\n================ NEXT SHEET ================\n\n");
-        await navigator.clipboard.writeText(payload);
-        window.open("https://sheets.new", "_blank", "noopener");
-        button.textContent = "สร้างข้อมูลแล้ว — paste แยกชีทตามหัวข้อ";
-        setTimeout(() => button.textContent = "Export velocity report", 4000);
+        await Promise.race([copying, new Promise((_, reject) => setTimeout(() => reject(new Error("Clipboard timed out")), 1500))]);
+        fallback.style.display = "none";
+        button.textContent = "Copied — paste in Google Sheets";
+        status.textContent = "Copy รายงานตามตัวกรองแล้ว วางที่เซลล์ A1 ใน Google Sheets";
       } catch (error) {
-        console.error(error);
-        button.textContent = "Export ไม่สำเร็จ";
-        setTimeout(() => button.textContent = "Export velocity report", 3000);
-      } finally {
-        button.disabled = false;
+        fallback.focus();
+        fallback.select();
+        status.textContent = "เบราว์เซอร์ไม่อนุญาต clipboard กด Ctrl+C / ⌘C เพื่อ copy ข้อมูลที่เลือกไว้ แล้ววางใน Google Sheets";
       }
+      if (!sheetWindow) {
+        const link = document.createElement("a");
+        link.href = "https://sheets.new"; link.target = "_blank"; link.rel = "noopener";
+        link.textContent = " เปิด Google Sheets"; status.appendChild(link);
+      }
+      setTimeout(() => button.textContent = "Copy to Google Sheets", 2500);
+    }
+
+    async function loadVelocityExport() {
+      const button = document.getElementById("export-velocity");
+      button.disabled = true;
+      try {
+        const response = await fetch("/data/velocity-export.json", { cache: "no-store" });
+        if (!response.ok || !response.headers.get("content-type")?.includes("application/json")) {
+          throw new Error("ยังไม่มี Google Sheet velocity report ที่เผยแพร่ไว้");
+        }
+        const exported = await response.json();
+        const year = Number(new Intl.DateTimeFormat("en", { year: "numeric", timeZone: "Asia/Bangkok" }).format(new Date()));
+        const url = new URL(exported.url);
+        if (exported.year !== year || url.origin !== "https://docs.google.com" || !url.pathname.startsWith("/spreadsheets/d/")) {
+          throw new Error(`ยังไม่มี Google Sheet velocity report ปี ${year}`);
+        }
+        button.onclick = () => {
+          const opened = window.open(url.href, "_blank");
+          if (opened) opened.opener = null;
+          const status = document.getElementById("export-status");
+          status.textContent = `Velocity ${year}: Jira points รายเดือน แท็บ iOS / Android · ข้อมูล ณ ${new Date(exported.generated_at).toLocaleString("th-TH", { timeZone: "Asia/Bangkok" })} `;
+          const link = document.createElement("a");
+          link.href = url.href; link.target = "_blank"; link.rel = "noopener";
+          link.textContent = "เปิด Google Sheet"; status.appendChild(link);
+        };
+      } catch (error) {
+        button.onclick = () => {
+          document.getElementById("export-status").textContent = error.message;
+          loadVelocityExport();
+        };
+      } finally { button.disabled = false; }
     }
 
     function formatPoints(value) {
@@ -455,6 +462,7 @@
       monthSelect.addEventListener("change", e => loadReport(e.target.value));
       document.getElementById("q").addEventListener("input", e => renderRows(e.target.value));
       document.getElementById("export-sheet").addEventListener("click", exportToGoogleSheets);
+      loadVelocityExport();
       document.querySelectorAll("#ios-filter, #android-filter").forEach(input => input.addEventListener("change", () => {
         renderRows(document.getElementById("q").value);
         updateColumnVisibility();
