@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ownership Report — Tickets & PRs</title>
+  <link rel="icon" href="./icon.svg" />
   <style>
     :root {
       --bg: #0f1419;
@@ -24,7 +25,9 @@
       min-height: 100vh;
     }
     main { max-width: 1200px; margin: 0 auto; padding: 28px 20px 64px; }
-    h1 { font-size: 1.6rem; margin: 0 0 6px; letter-spacing: -0.02em; }
+    .page-brand { display: flex; align-items: center; gap: 12px; margin: 0 0 6px; }
+    .page-brand img { border-radius: 10px; flex: 0 0 40px; }
+    h1 { font-size: 1.6rem; margin: 0; letter-spacing: -0.02em; }
     .sub { color: var(--muted); margin-bottom: 22px; font-size: 0.95rem; }
     .toolbar { margin-bottom: 18px; }
     .filter-line { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
@@ -121,7 +124,7 @@
     </div>
   </div>
   <main>
-    <h1>Ownership Report</h1>
+    <div class="page-brand"><img src="./icon.svg" width="40" height="40" alt="" aria-hidden="true" /><h1>Ownership Report</h1></div>
     <p class="sub">จำนวน ticket ที่ถือจริง (ไม่นับ QA) และ merged PR — บอร์ด SC / IMP / LS / EXP / VAL — แยก iOS / Android</p>
     <div class="toolbar">
       <div class="filter-line">
