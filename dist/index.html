@@ -332,6 +332,7 @@
       const status = document.getElementById("export-status");
       const fallback = document.getElementById("export-copy-fallback");
       if (!report) { status.textContent = "กรุณารอให้โหลดรายงานสำเร็จก่อน export"; return; }
+      if (button.disabled) return;
       const needle = document.getElementById("q").value.trim().toLowerCase();
       const platforms = [...document.querySelectorAll("#ios-filter:checked, #android-filter:checked")].map(input => input.value);
       const boards = [...document.querySelectorAll("#board-filters input:checked")].map(input => input.value);
@@ -353,6 +354,8 @@
       ];
       const cell = value => String(value).replace(/[\t\r\n]+/g, " ");
       const tsv = [columns.map(([header]) => header).join("\t"), ...rows.map(row => columns.map(([, getValue]) => cell(getValue(row))).join("\t"))].join("\n");
+      button.disabled = true;
+      button.textContent = "กำลัง copy…";
       fallback.value = tsv;
       fallback.style.display = "block";
       fallback.focus();
@@ -369,10 +372,13 @@
         button.textContent = "Copied — paste in Google Sheets";
         status.textContent = "Copy รายงานตามตัวกรองแล้ว วางที่เซลล์ A1 ใน Google Sheets";
       } catch (error) {
+        fallback.value = tsv;
+        fallback.style.display = "block";
         fallback.focus();
         fallback.select();
+        button.textContent = "Copy to Google Sheets";
         status.textContent = "เบราว์เซอร์ไม่อนุญาต clipboard กด Ctrl+C / ⌘C เพื่อ copy ข้อมูลที่เลือกไว้ แล้ววางใน Google Sheets";
-      }
+      } finally { button.disabled = false; }
       if (!sheetWindow) {
         const link = document.createElement("a");
         link.href = "https://sheets.new"; link.target = "_blank"; link.rel = "noopener";
