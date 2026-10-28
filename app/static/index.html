@@ -353,7 +353,6 @@
       ];
       const cell = value => String(value).replace(/[\t\r\n]+/g, " ");
       const tsv = [columns.map(([header]) => header).join("\t"), ...rows.map(row => columns.map(([, getValue]) => cell(getValue(row))).join("\t"))].join("\n");
-      // Start copying before opening a tab, which can take focus away from this document.
       fallback.value = tsv;
       fallback.style.display = "block";
       fallback.focus();
@@ -362,7 +361,6 @@
       let copying;
       try { copying = navigator.clipboard.writeText(tsv); }
       catch (error) { copying = Promise.reject(error); }
-      // Open while the click still has user activation; clipboard may be denied in embedded browsers.
       const sheetWindow = window.open("https://sheets.new", "_blank");
       if (sheetWindow) sheetWindow.opener = null;
       try {

@@ -27,7 +27,6 @@ POINT_FIELDS = (
 
 def load_reports(directory: Path, today: date) -> dict[int, dict]:
     reports = {}
-    # The month index points the latest month at report.json, not necessarily a dated file.
     for path in sorted(directory.glob(f"report-{today.year}-*.json")) + [directory / "report.json"]:
         if not path.exists():
             continue
@@ -53,11 +52,11 @@ def build_report(reports: dict[int, dict], today: date, excluded: set[str]) -> d
                         or ticket.get("platform") != platform or matches_name(owner, excluded)):
                     continue
                 key = (board, owner)
+                by_month = monthly[key]
                 if ticket.get("points") is None:
                     missing.add((key, month))
                 else:
-                    monthly[key][month] = monthly[key].get(month, 0) + float(ticket["points"])
-                monthly[key]  # Retain a name even when its points are unavailable.
+                    by_month[month] = by_month.get(month, 0) + float(ticket["points"])
         rows = []
         for board, person in sorted(monthly, key=lambda key: (BOARDS.index(key[0]), key[1].casefold())):
             values = [

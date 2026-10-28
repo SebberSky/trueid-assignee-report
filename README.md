@@ -43,7 +43,9 @@ If clipboard access is denied, the selected TSV remains visible for manual copy.
 
 The separate **Export velocity report** button opens the prepared native Google
 Sheet for the current year. It contains two tabs, **iOS** and **Android**, with
-people grouped by board, Jan–Dec Jira points, and formula-based Q1–Q4 averages.
+people under board section headings, Jan–Dec Jira points, and formula-based Q1–Q4
+averages placed immediately after Mar, Jun, Sep and Dec. Board is a section heading,
+not a repeated data column.
 Missing/future months remain blank and are omitted from averages. The current
 month uses the available report data. Excluded/QA owners follow the main report.
 The page displays the export snapshot date; clicking opens that prepared report.

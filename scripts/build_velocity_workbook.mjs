@@ -1,4 +1,3 @@
-// Run with the Codex bundled Node.js and @oai/artifact-tool dependency runtime.
 import fs from "node:fs/promises";
 import path from "node:path";
 import assert from "node:assert/strict";
@@ -9,57 +8,81 @@ if (!input || !outputDirectory) throw new Error("Usage: build_velocity_workbook.
 const data = JSON.parse(await fs.readFile(input, "utf8"));
 const workbook = Workbook.create();
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const quarterColumns = ["E", "I", "M", "Q"];
+const quarterRanges = [["B", "D"], ["F", "H"], ["J", "L"], ["N", "P"]];
+const boardLabels = { SC: "SC — Social Commerce", IMP: "IMP — TrueID HERO", LS: "LS — Watch", EXP: "EXP — Today", VAL: "VAL — DevEx" };
+const renderedRows = new Map();
 await fs.mkdir(outputDirectory, { recursive: true });
 
 for (const source of data.sheets) {
   const sheet = workbook.worksheets.add(source.name);
-  const last = source.rows.length + 3;
-  const area = sheet.getRange(`A1:R${last}`);
+  const rows = [];
+  const people = [];
+  const sectionRows = [];
+  let previousBoard;
+  for (const sourceRow of source.rows) {
+    const [board, person, ...points] = sourceRow;
+    if (board !== previousBoard) {
+      sectionRows.push(rows.length + 4);
+      rows.push([boardLabels[board] || board, ...Array(16).fill(null)]);
+      previousBoard = board;
+    }
+    const rowNumber = rows.length + 4;
+    const values = [person];
+    for (let quarter = 0; quarter < 4; quarter++) values.push(...points.slice(quarter * 3, quarter * 3 + 3), null);
+    rows.push(values);
+    people.push({ rowNumber, sourceRow });
+  }
+  renderedRows.set(source.name, people);
+  const last = rows.length + 3;
+  const area = sheet.getRange(`A1:Q${last}`);
   area.format.font = { name: "Arial", size: 11, color: "#202124" };
   area.format.rowHeight = 23;
   sheet.getRange("A1").values = [[`Velocity report ${data.year} ${source.name}`]];
   sheet.getRange("A1").format.font = { name: "Arial", size: 15, bold: true };
   sheet.getRange("A2").values = [[`Jira points. As of ${data.as_of}. Current month is partial. Blank = no data. Quarter average uses populated months.`]];
   sheet.getRange("A2").format.font = { name: "Arial", size: 10, color: "#5F6368" };
-  sheet.getRange("A3:R3").values = [["Board", "Person", ...months, "Q1 Average", "Q2 Average", "Q3 Average", "Q4 Average"]];
-  sheet.getRange("A3:R3").format = { fill: "#F1F3F4", font: { name: "Arial", size: 11, bold: true }, horizontalAlignment: "center" };
-  if (source.rows.length) {
-    sheet.getRange(`A4:N${last}`).values = source.rows;
-    const formulas = source.rows.map((_, index) => {
-      const row = index + 4;
-      return [["C", "E"], ["F", "H"], ["I", "K"], ["L", "N"]].map(([start, end]) =>
-        `=IF(COUNT(${start}${row}:${end}${row})=0,"",AVERAGE(${start}${row}:${end}${row}))`);
-    });
-    sheet.getRange(`O4:R${last}`).formulas = formulas;
-    sheet.getRange(`C4:N${last}`).setNumberFormat("0.0");
-    sheet.getRange(`O4:R${last}`).setNumberFormat("0.00");
-    sheet.getRange(`C4:R${last}`).format.horizontalAlignment = "right";
-  }
-  sheet.getRange(`A1:A${last}`).format.columnWidth = 10;
-  sheet.getRange(`B1:B${last}`).format.columnWidth = 43;
-  sheet.getRange(`C1:N${last}`).format.columnWidth = 9;
-  sheet.getRange(`O1:R${last}`).format.columnWidth = 14;
-  sheet.freezePanes.freezeRows(3);
-  sheet.freezePanes.freezeColumns(2);
-  for (let index = 0; index < source.rows.length; index++) {
-    if (index === 0 || source.rows[index][0] !== source.rows[index - 1][0]) {
-      sheet.getRange(`A${index + 4}:R${index + 4}`).format.borders = { top: { style: "thin", color: "#DADCE0" } };
+  const headers = ["Person"];
+  for (let quarter = 0; quarter < 4; quarter++) headers.push(...months.slice(quarter * 3, quarter * 3 + 3), `Q${quarter + 1} Average`);
+  sheet.getRange("A3:Q3").values = [headers];
+  sheet.getRange("A3:Q3").format = { fill: "#F1F3F4", font: { name: "Arial", size: 11, bold: true }, horizontalAlignment: "center" };
+  if (rows.length) {
+    sheet.getRange(`A4:Q${last}`).values = rows;
+    sheet.getRange(`B4:Q${last}`).setNumberFormat("0.0");
+    sheet.getRange(`B4:Q${last}`).format.horizontalAlignment = "right";
+    for (let quarter = 0; quarter < 4; quarter++) {
+      const [start, end] = quarterRanges[quarter];
+      const column = quarterColumns[quarter];
+      sheet.getRange(`${column}4:${column}${last}`).setNumberFormat("0.00");
+      for (const { rowNumber } of people) sheet.getRange(`${column}${rowNumber}`).formulas = [[
+        `=IF(COUNT(${start}${rowNumber}:${end}${rowNumber})=0,"",AVERAGE(${start}${rowNumber}:${end}${rowNumber}))`,
+      ]];
     }
+  }
+  sheet.getRange(`A1:A${last}`).format.columnWidth = 43;
+  sheet.getRange(`B1:Q${last}`).format.columnWidth = 9;
+  for (const column of quarterColumns) sheet.getRange(`${column}1:${column}${last}`).format.columnWidth = 14;
+  sheet.freezePanes.freezeRows(3);
+  sheet.freezePanes.freezeColumns(1);
+  for (const row of sectionRows) {
+    sheet.getRange(`A${row}:Q${row}`).format = {
+      fill: "#E8EAED", font: { name: "Arial", size: 11, bold: true }, horizontalAlignment: "left",
+    };
   }
 }
 
 workbook.recalculate();
 for (const source of data.sheets) {
   const sheet = workbook.worksheets.getItem(source.name);
-  const actual = sheet.getRange(`O4:R${source.rows.length + 3}`).values;
-  for (let row = 0; row < source.rows.length; row++) {
+  for (const { rowNumber, sourceRow } of renderedRows.get(source.name)) {
     for (let quarter = 0; quarter < 4; quarter++) {
-      const values = source.rows[row].slice(2 + quarter * 3, 5 + quarter * 3).filter(value => value !== null);
-      if (values.length) assert.ok(Math.abs(actual[row][quarter] - values.reduce((a, b) => a + b, 0) / values.length) < 1e-9);
-      else assert.ok(actual[row][quarter] === "" || actual[row][quarter] === null);
+      const actual = sheet.getRange(`${quarterColumns[quarter]}${rowNumber}`).values[0][0];
+      const values = sourceRow.slice(2 + quarter * 3, 5 + quarter * 3).filter(value => value !== null);
+      if (values.length) assert.ok(Math.abs(actual - values.reduce((a, b) => a + b, 0) / values.length) < 1e-9);
+      else assert.ok(actual === "" || actual === null);
     }
   }
-  const image = await workbook.render({ sheetName: source.name, range: "A1:R12", scale: 1, format: "png" });
+  const image = await workbook.render({ sheetName: source.name, range: "A1:Q12", scale: 1, format: "png" });
   await fs.writeFile(path.join(outputDirectory, `${source.name}.png`), new Uint8Array(await image.arrayBuffer()));
   console.log(`${source.name}: ${source.rows.length} rows, all quarterly averages verified`);
 }
